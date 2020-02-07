@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Resistenz" />
   <name value="MII_IC_Resistenz" />
-  <title value="HiGHmed- IC-Resistenzmechanismusprofile - Observation" />
+  <title value="HiGHmed- IC-Resistenzsprofile - Observation" />
   <status value="draft" />
   <experimental value="true" />
   <description value="Dieses Profil beschreibt die Laborergebnis für Resistenzmechanismus in HiGHmed Projekt, Infection Control Use Case" />
@@ -166,13 +166,19 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <short value="Resistenzmechanismus?" />
+      <short value="Resistenzmechanismus Bezeichnung" />
+      <definition value="Bezeichnung des Resistenzmechanismus." />
+      <comment value="Ein bestes Beispiel wäre, die Untersuchung eines „Staphylococcus aureus“ der hier die Bezeichnung des Keims ist." />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
         <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS exclude {CHALSKIN, H&amp;P.HX.LAB, H&amp;P.HX, NR STATS, PATH.PROTOCOLS.*}  } }" />
         <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
       </binding>
+    </element>
+    <element id="Observation.code.coding.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://loinc.org" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -199,8 +205,9 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
-      <short value="Resistenzmechanismus Bezeichnung" />
-      <definition value="Bezeichnung des Resistenzmechanismus.&#xD;&#xA;Comment: Ein bestes Beispiel wäre, die Untersuchung eines „Staphylococcus aureus“ der hier die Bezeichnung des Keims ist" />
+      <short value="Bezeichnung des Resistenzmechanismus." />
+      <definition value="Bezeichnung des Resistenzmechanismus." />
+      <comment value="Ein bestes Beispiel wäre, die Untersuchung eines „Staphylococcus aureus“ der hier die Bezeichnung des Keims ist." />
       <type>
         <code value="CodeableConcept" />
       </type>
@@ -247,10 +254,14 @@
     </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
-      <label value="Memebr of  Erreger" />
+      <label value="Member of Erreger" />
       <short value="Reference to Pathogen Observation (Erreger)" />
-      <definition value="Minimale Hemmkonzentration" />
+      <min value="1" />
       <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Erreger" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.component">

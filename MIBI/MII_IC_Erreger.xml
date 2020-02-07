@@ -162,13 +162,24 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <code>
+        <system value="http://loinc.org" />
+        <version value="2.67" />
+        <code value="LP37205-9" />
+        <display value="Bacteria identified" />
+      </code>
       <short value="Erreger Name?" />
+      <definition value="Bacteria identified" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
         <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS exclude {CHALSKIN, H&amp;P.HX.LAB, H&amp;P.HX, NR STATS, PATH.PROTOCOLS.*}  } }" />
         <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
       </binding>
+    </element>
+    <element id="Observation.code.coding.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://loinc.org" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -196,17 +207,24 @@
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
       <label value="Erregername" />
+      <code>
+        <system value="http://snomed.info/sct" />
+      </code>
       <short value="Erregername" />
       <type>
         <code value="CodeableConcept" />
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.value[x].coding.system">
+      <path value="Observation.value[x].coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
       <label value="Nachweis" />
       <short value="Erregernachweis" />
-      <definition value="Detected, Not detected" />
+      <definition value="Detected, Not detected (https://www.hl7.org/fhir/valueset-observation-interpretation.html)" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.note">

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Mikroscopie" />
-  <name value="MII_IC_Mikroscopie" />
-  <title value="HiGHmed- IC-Mikroskopieprofile - Observation" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Keimzahl" />
+  <name value="MII_IC_Keimzahl" />
+  <title value="HiGHmed- IC-Keimzahlsprofile - Observation" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="Dieses Profil beschreibt die Laborergebnis für Mikroskopie  in Mikrobiologischer Befund HiGHmed Projekt, Infection Control Use Case" />
-  <purpose value="Dieses Profil beschreibt die Laborergebnis für Mikroskopie  in Mikrobiologischer Befund HiGHmed Projekt, Infection Control Use Case" />
+  <description value="Dieses Profil beschreibt die Laborergebnis für Keimzahl  in Mikrobiologischer Befund HiGHmed Projekt, Infection Control Use Case" />
+  <purpose value="Dieses Profil beschreibt die Laborergebnis für Keimzahlin Mikrobiologischer Befund HiGHmed Projekt, Infection Control Use Case" />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
@@ -165,8 +165,12 @@
       <label value="Art des Präparats für Gram Stain Test" />
       <code>
         <system value="http://loinc.org" />
+        <version value="2.67" />
+        <code value="LP16817-6" />
+        <display value="Colony count" />
       </code>
-      <short value="Art des Präparats" />
+      <short value="Keimzahl  Units: KbE/ml" />
+      <definition value="Quantitative Angabe zur Keimzahl, z.B. bei Urinen " />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
@@ -203,17 +207,18 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
-      <short value="Gram Stain Test Result" />
+      <short value="Keimzahl in  Kbe/ml" />
+      <definition value="Colony Count in colony forming unit, CFU /ml" />
       <type>
-        <code value="boolean" />
+        <code value="Quantity" />
       </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
       <label value="Frequency" />
-      <short value="Gram positive, Gram negative" />
-      <min value="1" />
+      <short value="Häufigkeit" />
+      <definition value="(+)  [vereinzelt]&#xD;&#xA;+  [spärlich]&#xD;&#xA;++  [mäßig]&#xD;&#xA;+++  [reichlich]&#xD;&#xA;++++  [massenhaft]" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
@@ -276,7 +281,12 @@
       <label value="Memebr of  Pathogen Observation (Erreger)" />
       <short value="Reference to Pathogen detected  (Erreger)" />
       <definition value="This observation is related to the Pathogen  Observation (Erreger)" />
+      <min value="1" />
       <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Erreger" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.component">

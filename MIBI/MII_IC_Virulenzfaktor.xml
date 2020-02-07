@@ -162,13 +162,22 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <short value="Antibiotikum" />
+      <code>
+        <version value="2.67" />
+        <code value="45035-3" />
+        <display value="Bacterial virulence [Presence] in Unspecified specimen by Mouse bioassay" />
+      </code>
+      <short value="Virulenzfaktor" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
         <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS exclude {CHALSKIN, H&amp;P.HX.LAB, H&amp;P.HX, NR STATS, PATH.PROTOCOLS.*}  } }" />
         <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
       </binding>
+    </element>
+    <element id="Observation.code.coding.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://loinc.org" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -198,6 +207,9 @@
       <short value="Virulenzfaktor" />
       <definition value="Angabe zu untersuchten Virulenzeigenschaften oder -genen, z.B. PVL bei S. aureus oder EHEC bei E. coli." />
       <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
       <type>
         <code value="string" />
       </type>
@@ -271,6 +283,7 @@
       <label value="Memebr of  Pathogen Observation (Erreger)" />
       <short value="Reference to Pathogen detected  (Erreger)" />
       <definition value="This observation is related to the Pathogen  Observation (Erreger)" />
+      <min value="1" />
       <max value="1" />
       <type>
         <code value="Reference" />
