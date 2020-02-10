@@ -225,6 +225,8 @@
       <label value="Nachweis" />
       <short value="Erregernachweis" />
       <definition value="Detected, Not detected (https://www.hl7.org/fhir/valueset-observation-interpretation.html)" />
+      <min value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.note">

@@ -214,6 +214,8 @@
       <path value="Observation.interpretation" />
       <short value="Resistenz" />
       <definition value="Resistent (R),Intermediate (I),Susceptible (s)" />
+      <min value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.interpretation.coding.system">
