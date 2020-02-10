@@ -179,6 +179,14 @@
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="45035-3" />
+    </element>
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display" />
+      <fixedString value="Bacterial virulence [Presence] in Unspecified specimen by Mouse bioassay" />
+    </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
       <type>

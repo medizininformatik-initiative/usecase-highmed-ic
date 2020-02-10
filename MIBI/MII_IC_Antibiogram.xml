@@ -177,6 +177,15 @@
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="29576-6" />
+    </element>
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display" />
+      <short value="Antibiogram" />
+      <fixedString value="Bacterial susceptibility panel" />
+    </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
       <type>

@@ -181,6 +181,10 @@
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display" />
+      <fixedString value="Bacteria identified  " />
+    </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
       <type>
@@ -228,6 +232,19 @@
       <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
+    </element>
+    <element id="Observation.interpretation.coding.system">
+      <path value="Observation.interpretation.coding.system" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.interpretation.coding.code">
+      <path value="Observation.interpretation.coding.code" />
+      <fixedCode value="LP37205-9" />
+    </element>
+    <element id="Observation.interpretation.coding.display">
+      <path value="Observation.interpretation.coding.display" />
+      <short value="Erreger nachweis" />
+      <fixedString value="Bacteria identified  " />
     </element>
     <element id="Observation.note">
       <path value="Observation.note" />

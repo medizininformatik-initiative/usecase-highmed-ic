@@ -170,7 +170,7 @@
         <display value="Colony count" />
       </code>
       <short value="Keimzahl  Units: KbE/ml" />
-      <definition value="Quantitative Angabe zur Keimzahl, z.B. bei Urinen " />
+      <definition value="Quantitative Angabe zur Keimzahl, z.B. bei Urinen" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
@@ -181,6 +181,15 @@
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="LP16817-6" />
+    </element>
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display" />
+      <short value="Keimzahl" />
+      <fixedString value="Colony Count" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
