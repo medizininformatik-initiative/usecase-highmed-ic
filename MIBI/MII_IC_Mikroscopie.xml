@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Mikroskopie" />
   <name value="MII_IC_Mikroskopie" />
-  <title value="HiGHmed- IC-Antibiogramprofile - Observation" />
+  <title value="HiGHmed- IC-Mikroskopiesprofile - Observation" />
   <status value="draft" />
   <experimental value="true" />
   <description value="Dieses Profil beschreibt die Laborergebnis für Mikroskopie in HiGHmed Projekt, Infection Control Use Case" />
@@ -95,10 +95,6 @@
     <element id="Observation.identifier:analyseBefundCode.assigner">
       <path value="Observation.identifier.assigner" />
       <min value="1" />
-      <type>
-        <code value="Reference" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-      </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.status">
@@ -178,7 +174,6 @@
       <path value="Observation.subject" />
       <type>
         <code value="Reference" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
         <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Patient" />
       </type>
       <mustSupport value="true" />
