@@ -42,6 +42,7 @@
     <element id="Observation.identifier:analyseBefundCode">
       <path value="Observation.identifier" />
       <sliceName value="analyseBefundCode" />
+      <definition value="A unique identifier assigned to this observation" />
       <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
