@@ -89,6 +89,7 @@
     </element>
     <element id="Observation.identifier:analyseBefundCode.value">
       <path value="Observation.identifier.value" />
+      <definition value="The portion of the identifier typically relevant to the user and which is unique within the context of the system" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
