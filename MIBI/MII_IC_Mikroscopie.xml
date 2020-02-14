@@ -159,6 +159,7 @@
     <element id="Observation.code">
       <path value="Observation.code" />
       <short value="Art des Präparats" />
+      <definition value="Describes what was observed. Sometimes this is called the observation &quot;name&quot;" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
