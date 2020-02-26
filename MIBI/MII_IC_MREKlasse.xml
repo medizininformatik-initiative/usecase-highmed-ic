@@ -198,7 +198,6 @@
       <path value="Observation.value[x]" />
       <short value="MRE Klasse" />
       <definition value="MRSA  [Methicillin-resistenter Staphylococcus aureus (und CA- community-acquired, LA – lifestock acquired, HA – hospital acquired)]&#xD;&#xA;VRE  [Vancomycin-resistente Enterokokken]&#xD;&#xA;LVRE  [Linezolid-Vancomycin-resistenter Enterokokken]&#xD;&#xA;LRE  [Linezolid-resistente Enterokokken]&#xD;&#xA;2MRGN  [Multiresistente Gramnegative Bakterien (Resistenz gegen 2 der 4 Antibiotikagruppen)]&#xD;&#xA;3MRGN  [Multiresistente Gramnegative Bakterien (Resistenz gegen 3 der 4 Antibiotikagruppen)]&#xD;&#xA;4MRGN  [Multiresistente Gramnegative Bakterien (Resistenz gegen 4 der 4 Antibiotikagruppen)]" />
-      <min value="1" />
       <type>
         <code value="CodeableConcept" />
       </type>

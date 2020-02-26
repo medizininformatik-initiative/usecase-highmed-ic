@@ -44,7 +44,6 @@
       <path value="Specimen.identifier" />
       <label value="Externer Identifikator" />
       <definition value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
-      <max value="1" />
       <mapping>
         <identity value="v2" />
         <map value="OBR-2.1" />
@@ -109,6 +108,7 @@
       <path value="Specimen.parent" />
       <label value="Identifikator der Übergeordneten Probe" />
       <definition value="Eindeutige Kennung der verwandten Probe(n), bei der die Probe in Teilproben aufgeteilt ist." />
+      <max value="1" />
       <mapping>
         <identity value="v2" />
         <map value="OBR-29" />
@@ -204,6 +204,8 @@
     <element id="Specimen.note">
       <path value="Specimen.note" />
       <label value="Kommentar (auch des Probennehmers)" />
+      <short value="Kommentar des Probennehmers, Kommentar" />
+      <max value="2" />
       <mapping>
         <identity value="v2" />
         <map value="NTE" />

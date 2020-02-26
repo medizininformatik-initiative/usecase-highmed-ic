@@ -162,6 +162,7 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <label value="Bacterial strain [Type] in Isolate by Bacteria subtyping" />
       <code>
         <system value="http://loinc.org" />
         <version value="2.67" />
@@ -181,6 +182,10 @@
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="612-2" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />

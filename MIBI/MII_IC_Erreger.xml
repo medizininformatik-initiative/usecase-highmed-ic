@@ -125,6 +125,7 @@
     <element id="Observation.category.coding:loinc-observation">
       <path value="Observation.category.coding" />
       <sliceName value="loinc-observation" />
+      <short value="Bacteria Identification [Presence] in Isolate by Culture" />
       <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
@@ -138,7 +139,7 @@
     <element id="Observation.category.coding:loinc-observation.code">
       <path value="Observation.category.coding.code" />
       <min value="1" />
-      <fixedCode value="26436-6" />
+      <fixedCode value="45335-7" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.category.coding:observation-category">
@@ -168,7 +169,7 @@
         <code value="LP37205-9" />
         <display value="Bacteria identified" />
       </code>
-      <short value="Erreger Name?" />
+      <short value="Erreger Name" />
       <definition value="Bacteria identified" />
       <mustSupport value="true" />
       <binding>
@@ -181,9 +182,13 @@
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="LP37205-9" />
+    </element>
     <element id="Observation.code.coding.display">
       <path value="Observation.code.coding.display" />
-      <fixedString value="Bacteria identified  " />
+      <fixedString value="Bacteria identified" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -237,14 +242,10 @@
       <path value="Observation.interpretation.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
-    <element id="Observation.interpretation.coding.code">
-      <path value="Observation.interpretation.coding.code" />
-      <fixedCode value="LP37205-9" />
-    </element>
     <element id="Observation.interpretation.coding.display">
       <path value="Observation.interpretation.coding.display" />
       <short value="Erreger nachweis" />
-      <fixedString value="Bacteria identified  " />
+      <fixedString value="Bacteria identified" />
     </element>
     <element id="Observation.note">
       <path value="Observation.note" />

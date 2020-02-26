@@ -125,6 +125,8 @@
     <element id="Observation.category.coding:loinc-observation">
       <path value="Observation.category.coding" />
       <sliceName value="loinc-observation" />
+      <short value="Antibiogram" />
+      <definition value="Bacterial susceptibility panel" />
       <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
@@ -138,7 +140,7 @@
     <element id="Observation.category.coding:loinc-observation.code">
       <path value="Observation.category.coding.code" />
       <min value="1" />
-      <fixedCode value="26436-6" />
+      <fixedCode value="29576-6" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.category.coding:observation-category">
@@ -176,10 +178,6 @@
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.code.coding.code">
-      <path value="Observation.code.coding.code" />
-      <fixedCode value="29576-6" />
     </element>
     <element id="Observation.code.coding.display">
       <path value="Observation.code.coding.display" />
@@ -219,11 +217,14 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.value[x].unit">
+      <path value="Observation.value[x].unit" />
+      <short value="mg/mL" />
+    </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
       <short value="Resistenz" />
       <definition value="Resistent (R),Intermediate (I),Susceptible (s)" />
-      <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>

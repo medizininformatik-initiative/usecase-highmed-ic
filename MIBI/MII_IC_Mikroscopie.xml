@@ -160,6 +160,7 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <label value="Microscopic observation [Identifier] in Isolate by Gram stain" />
       <short value="Art des Präparats" />
       <definition value="Describes what was observed. Sometimes this is called the observation &quot;name&quot;" />
       <mustSupport value="true" />
@@ -172,6 +173,10 @@
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="87975-9" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -197,6 +202,16 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
+      <code>
+        <system value="http://snomed.info/sct" />
+        <code value="8745002" />
+        <display value="ram-positive bacterium (organism) " />
+      </code>
+      <code>
+        <system value="http://snomed.info/sct" />
+        <code value="81325006" />
+        <display value="Gram-negative bacterium (organism)" />
+      </code>
       <short value="Gram positive/negative" />
       <definition value="Gram positive/negative" />
       <min value="1" />
@@ -238,6 +253,7 @@
     <element id="Observation.note">
       <path value="Observation.note" />
       <short value="Kommentar" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.bodySite">

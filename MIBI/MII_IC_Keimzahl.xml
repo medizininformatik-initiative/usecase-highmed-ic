@@ -162,7 +162,7 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <label value="Art des Präparats für Gram Stain Test" />
+      <label value="Colony count" />
       <code>
         <system value="http://loinc.org" />
         <version value="2.67" />

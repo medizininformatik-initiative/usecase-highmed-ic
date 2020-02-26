@@ -214,7 +214,6 @@
       <path value="Observation.value[x]" />
       <short value="Virulenzfaktor" />
       <definition value="Angabe zu untersuchten Virulenzeigenschaften oder -genen, z.B. PVL bei S. aureus oder EHEC bei E. coli." />
-      <min value="1" />
       <type>
         <code value="CodeableConcept" />
       </type>
