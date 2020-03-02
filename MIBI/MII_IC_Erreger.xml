@@ -278,6 +278,16 @@
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
       <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_antibiogram" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Keimzahl" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Mikroskopie" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_MREKlasse" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Virulenzfaktor" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Resistenzmechanismus" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Keimsubtype" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.component">
