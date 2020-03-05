@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Keimzahl" />
-  <name value="MII_IC_Keimzahl" />
-  <title value="HiGHmed- IC-Keimzahlsprofile - Observation" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Antibiogramm" />
+  <version value="0.9" />
+  <name value="Antibiogramm" />
+  <title value="HiGHmed- Laborprofile - Antibiogramm" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="Dieses Profil beschreibt die Laborergebnis für Keimzahl  in Mikrobiologischer Befund HiGHmed Projekt, Infection Control Use Case" />
-  <purpose value="Dieses Profil beschreibt die Laborergebnis für Keimzahlin Mikrobiologischer Befund HiGHmed Projekt, Infection Control Use Case" />
+  <publisher value="https://www.Medizininformatik-Initiative.de" />
+  <description value="Dieses Profil beschreibt das Antibiogramm in HiGHmed Use Case Infection Control." />
+  <purpose value="Dieses Profil beschreibt das Antibiogramm in HiGHmed Use Case Infection Control." />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
@@ -49,6 +51,12 @@
     <element id="Observation.identifier:analyseBefundCode.type">
       <path value="Observation.identifier.type" />
       <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="OBI" />
+        </coding>
+      </patternCodeableConcept>
       <mustSupport value="true" />
     </element>
     <element id="Observation.identifier:analyseBefundCode.type.coding">
@@ -107,6 +115,7 @@
     </element>
     <element id="Observation.category">
       <path value="Observation.category" />
+      <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
@@ -138,8 +147,12 @@
     <element id="Observation.category.coding:loinc-observation.code">
       <path value="Observation.category.coding.code" />
       <min value="1" />
-      <fixedCode value="26436-6" />
+      <fixedCode value="50545-3" />
       <mustSupport value="true" />
+    </element>
+    <element id="Observation.category.coding:loinc-observation.display">
+      <path value="Observation.category.coding.display" />
+      <fixedString value="Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)" />
     </element>
     <element id="Observation.category.coding:observation-category">
       <path value="Observation.category.coding" />
@@ -162,15 +175,7 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <label value="Colony count" />
-      <code>
-        <system value="http://loinc.org" />
-        <version value="2.67" />
-        <code value="LP16817-6" />
-        <display value="Colony count" />
-      </code>
-      <short value="Keimzahl  Units: KbE/ml" />
-      <definition value="Quantitative Angabe zur Keimzahl, z.B. bei Urinen" />
+      <short value="Antibiotikum" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
@@ -180,19 +185,11 @@
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.code.coding.code">
-      <path value="Observation.code.coding.code" />
-      <fixedCode value="LP16817-6" />
-    </element>
-    <element id="Observation.code.coding.display">
-      <path value="Observation.code.coding.display" />
-      <short value="Keimzahl" />
-      <fixedString value="Colony Count" />
+      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
+      <min value="1" />
       <type>
         <code value="Reference" />
         <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
@@ -200,8 +197,17 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.encounter">
+      <path value="Observation.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Versorgungsfall" />
+      </type>
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.effective[x]">
       <path value="Observation.effective[x]" />
+      <min value="1" />
       <type>
         <code value="dateTime" />
       </type>
@@ -216,49 +222,64 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
-      <short value="Keimzahl in  Kbe/ml" />
-      <definition value="Colony Count in colony forming unit, CFU /ml" />
+      <min value="1" />
       <type>
         <code value="Quantity" />
       </type>
       <mustSupport value="true" />
     </element>
-    <element id="Observation.interpretation">
-      <path value="Observation.interpretation" />
-      <label value="Frequency" />
-      <short value="Häufigkeit" />
-      <definition value="(+)  [vereinzelt]&#xD;&#xA;+  [spärlich]&#xD;&#xA;++  [mäßig]&#xD;&#xA;+++  [reichlich]&#xD;&#xA;++++  [massenhaft]" />
-      <max value="1" />
+    <element id="Observation.value[x].value">
+      <path value="Observation.value[x].value" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.interpretation.coding.system">
-      <path value="Observation.interpretation.coding.system" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
-      </binding>
+    <element id="Observation.value[x].unit">
+      <path value="Observation.value[x].unit" />
+      <short value="mg/mL" />
+      <definition value="milligram per milliliter" />
+      <min value="1" />
+      <fixedString value="mg/mL" />
+      <mustSupport value="true" />
     </element>
-    <element id="Observation.interpretation.coding.code">
-      <path value="Observation.interpretation.coding.code" />
+    <element id="Observation.value[x].system">
+      <path value="Observation.value[x].system" />
+      <min value="1" />
+      <fixedUri value="http://unitsofmeasure.org" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.value[x].code">
+      <path value="Observation.value[x].code" />
+      <short value="mg/mL" />
+      <comment value="The mandatory system is UCUM." />
+      <min value="1" />
+      <fixedCode value="mg/mL" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.interpretation">
+      <path value="Observation.interpretation" />
       <code>
-        <system value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
+        <system value="http://www.eucast.org/newsiandr/" />
+        <version value="2019" />
+        <code value="S" />
+        <display value="Susceptible, standard dosing regimen" />
+      </code>
+      <code>
+        <system value="http://www.eucast.org/newsiandr/" />
+        <version value="2019" />
+        <code value="I" />
+        <display value="Susceptible, increased exposure" />
+      </code>
+      <code>
+        <system value="http://www.eucast.org/newsiandr/" />
+        <version value="2019" />
         <code value="R" />
         <display value="Resistant" />
       </code>
-      <code>
-        <system value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
-        <code value="I" />
-        <display value="Intermediate" />
-      </code>
-      <code>
-        <system value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
-        <code value="S" />
-        <display value="Susceptible" />
-      </code>
+      <short value="S,I,R" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.note">
       <path value="Observation.note" />
-      <short value="Kommentar" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.bodySite">
@@ -281,22 +302,25 @@
       <path value="Observation.specimen.identifier" />
       <mustSupport value="true" />
     </element>
+    <element id="Observation.device">
+      <path value="Observation.device" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.referenceRange">
       <path value="Observation.referenceRange" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
-      <label value="Memebr of  Pathogen Observation (Erreger)" />
-      <short value="Reference to Pathogen detected  (Erreger)" />
-      <definition value="This observation is related to the Pathogen  Observation (Erreger)" />
-      <min value="1" />
-      <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Erreger" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/BacteriaPresence" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/BacteriaName" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ColonyCount" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MREClass" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ResistanceMechanism" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/VirulenceFactor" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="Observation.component">
       <path value="Observation.component" />

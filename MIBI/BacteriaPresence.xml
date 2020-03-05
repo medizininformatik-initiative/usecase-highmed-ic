@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_MREKlasse" />
-  <name value="MII_IC_MREKlasse" />
-  <title value="HiGHmed- IC-MREKlasseprofile - Observation" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/BacteriaPresence" />
+  <version value="0.9" />
+  <name value="BacteriaPresence" />
+  <title value="HiGHmed- Laborprofile - Keim Nachweis" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="Dieses Profil beschreibt die Laborergebnis für die Erreger MRE Klasse in HiGHmed Projekt, Infection Control Use Case" />
-  <purpose value="Dieses Profil beschreibt die Laborergebnis für die Erreger MRE Klasse in HiGHmed Projekt, Infection Control Use Case" />
+  <publisher value="https://www.Medizininformatik-Initiative.de" />
+  <description value="Dieses Profil beschreibt den Keimnachweis in HiGHmed Use Case Infection Control." />
+  <purpose value="Dieses Profil beschreibt den Keimnachweis in HiGHmed Use Case Infection Control." />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
@@ -49,6 +51,12 @@
     <element id="Observation.identifier:analyseBefundCode.type">
       <path value="Observation.identifier.type" />
       <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="OBI" />
+        </coding>
+      </patternCodeableConcept>
       <mustSupport value="true" />
     </element>
     <element id="Observation.identifier:analyseBefundCode.type.coding">
@@ -107,6 +115,7 @@
     </element>
     <element id="Observation.category">
       <path value="Observation.category" />
+      <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
@@ -138,8 +147,12 @@
     <element id="Observation.category.coding:loinc-observation.code">
       <path value="Observation.category.coding.code" />
       <min value="1" />
-      <fixedCode value="26436-6" />
+      <fixedCode value="18725-2" />
       <mustSupport value="true" />
+    </element>
+    <element id="Observation.category.coding:loinc-observation.display">
+      <path value="Observation.category.coding.display" />
+      <fixedString value="MICROBIOLOGY STUDIES" />
     </element>
     <element id="Observation.category.coding:observation-category">
       <path value="Observation.category.coding" />
@@ -162,8 +175,7 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <short value="MRE Klasse" />
-      <definition value="Angabe zur MRE-Klassifikation des Erregers, z.B. 3MRGN oder 4MRGN. Bei VRE und MRSA kann es zu einer Redundanz zum Resistenzmechanismus &quot;Methicillin-resistenz&quot; kommen, dies ist aber problemlos." />
+      <short value="Identifizierung der Anwesenheit von Keimen" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
@@ -171,8 +183,21 @@
         <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
       </binding>
     </element>
+    <element id="Observation.code.coding.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="45335-7" />
+    </element>
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display" />
+      <fixedString value="Bacteria Identification [Presence] in Isolate by Culture" />
+    </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
+      <min value="1" />
       <type>
         <code value="Reference" />
         <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
@@ -180,8 +205,17 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.encounter">
+      <path value="Observation.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Versorgungsfall" />
+      </type>
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.effective[x]">
       <path value="Observation.effective[x]" />
+      <min value="1" />
       <type>
         <code value="dateTime" />
       </type>
@@ -196,51 +230,61 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
-      <short value="MRE Klasse" />
-      <definition value="MRSA  [Methicillin-resistenter Staphylococcus aureus (und CA- community-acquired, LA – lifestock acquired, HA – hospital acquired)]&#xD;&#xA;VRE  [Vancomycin-resistente Enterokokken]&#xD;&#xA;LVRE  [Linezolid-Vancomycin-resistenter Enterokokken]&#xD;&#xA;LRE  [Linezolid-resistente Enterokokken]&#xD;&#xA;2MRGN  [Multiresistente Gramnegative Bakterien (Resistenz gegen 2 der 4 Antibiotikagruppen)]&#xD;&#xA;3MRGN  [Multiresistente Gramnegative Bakterien (Resistenz gegen 3 der 4 Antibiotikagruppen)]&#xD;&#xA;4MRGN  [Multiresistente Gramnegative Bakterien (Resistenz gegen 4 der 4 Antibiotikagruppen)]" />
+      <max value="0" />
       <type>
-        <code value="CodeableConcept" />
+        <code value="Quantity" />
       </type>
       <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="Robert Koch Institut Klassifizierung multiresistenter gramnegativer Stäbchen auf Basis ihrer phänotypischen Resistenzeigenschaften" />
-        <valueSet value="https://www.rki.de/" />
-      </binding>
+    </element>
+    <element id="Observation.value[x].value">
+      <path value="Observation.value[x].value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.value[x].unit">
+      <path value="Observation.value[x].unit" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.value[x].system">
+      <path value="Observation.value[x].system" />
+      <min value="1" />
+      <fixedUri value="http://unitsofmeasure.org" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.value[x].code">
+      <path value="Observation.value[x].code" />
+      <comment value="The mandatory system is UCUM." />
+      <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
+      <short value="Nachweis/Kein Nachweis" />
+      <definition value="A categorical assessment of an observation value.  For example, high, low, normal.&#xD;&#xA;DET Detected&#xD;&#xA;ND Not detected" />
+      <min value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.interpretation.coding.system">
       <path value="Observation.interpretation.coding.system" />
       <fixedUri value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
-      </binding>
     </element>
     <element id="Observation.interpretation.coding.code">
       <path value="Observation.interpretation.coding.code" />
       <code>
         <system value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
-        <code value="R" />
-        <display value="Resistant" />
+        <code value="DET" />
+        <display value="Detected" />
       </code>
       <code>
         <system value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
-        <code value="I" />
-        <display value="Intermediate" />
-      </code>
-      <code>
-        <system value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
-        <code value="S" />
-        <display value="Susceptible" />
+        <code value="ND" />
+        <display value="Not detected" />
       </code>
     </element>
     <element id="Observation.note">
       <path value="Observation.note" />
-      <short value="Kommentar" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.bodySite">
@@ -263,22 +307,25 @@
       <path value="Observation.specimen.identifier" />
       <mustSupport value="true" />
     </element>
+    <element id="Observation.device">
+      <path value="Observation.device" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.referenceRange">
       <path value="Observation.referenceRange" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
-      <label value="Memebr of  Pathogen Observation (Erreger)" />
-      <short value="Reference to Pathogen detected  (Erreger)" />
-      <definition value="This observation is related to the Pathogen  Observation (Erreger)" />
-      <min value="1" />
-      <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Erreger" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/BacteriaName" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ColonyCount" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Antibiogram" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MREClass" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ResistanceMechanism" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/VirulenceFactor" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="Observation.component">
       <path value="Observation.component" />

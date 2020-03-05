@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Resistenzspezialisierung" />
-  <name value="MII_IC_Resistenzspezialisierung" />
-  <title value="HiGHmed- IC-Resistenzmechanismusspezialisierungsprofile - Observation" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MREClass" />
+  <version value="0.9" />
+  <name value="MREClass" />
+  <title value="HiGHmed- Laborprofile - MRE Klasse" />
   <status value="draft" />
   <experimental value="true" />
-  <description value="Dieses Profil beschreibt die Laborergebnis für Resistenzmechanismus  Spezialisierung  in HiGHmed Projekt, Infection Control Use Case" />
-  <purpose value="Dieses Profil beschreibt die Laborergebnis für Resistenzmechanismus Spezialisierung in HiGHmed Projekt, Infection Control Use Case" />
+  <publisher value="https://www.Medizininformatik-Initiative.de" />
+  <description value="Dieses Profil beschreibt die MRE Klasse (RKI) des Erregers in HiGHmed Use Case Infection Control." />
+  <purpose value="Dieses Profil beschreibt die MRE Klasse (RKI) des Erregers in HiGHmed Use Case Infection Control." />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
@@ -15,10 +17,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation">
-      <path value="Observation" />
-      <short value="Angabe der bei dem Erreger vorliegenden Resistenzmechanismen, z.B. ESBL oder Carbapenemase." />
-    </element>
     <element id="Observation.id">
       <path value="Observation.id" />
       <mustSupport value="true" />
@@ -53,6 +51,12 @@
     <element id="Observation.identifier:analyseBefundCode.type">
       <path value="Observation.identifier.type" />
       <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="OBI" />
+        </coding>
+      </patternCodeableConcept>
       <mustSupport value="true" />
     </element>
     <element id="Observation.identifier:analyseBefundCode.type.coding">
@@ -111,6 +115,7 @@
     </element>
     <element id="Observation.category">
       <path value="Observation.category" />
+      <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
@@ -142,8 +147,12 @@
     <element id="Observation.category.coding:loinc-observation.code">
       <path value="Observation.category.coding.code" />
       <min value="1" />
-      <fixedCode value="26436-6" />
+      <fixedCode value="18725-2" />
       <mustSupport value="true" />
+    </element>
+    <element id="Observation.category.coding:loinc-observation.display">
+      <path value="Observation.category.coding.display" />
+      <fixedString value="MICROBIOLOGY STUDIES" />
     </element>
     <element id="Observation.category.coding:observation-category">
       <path value="Observation.category.coding" />
@@ -166,9 +175,8 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <short value="Resistenzmechanismus Spezialisierung" />
-      <definition value="Weitere Angaben zum Resistenzmechanismus." />
-      <comment value="Ein bestes Beispiel wäre, die Untersuchung eines „Staphylococcus aureus“ der hier die Bezeichnung des Keims ist. Jedoch möchte man später nochmal die „Toxine“ des „Staphylococcus aureus“ untersuchen. Hier wären die „Toxine“ die Spezialisierung des untersuchten Keims.." />
+      <short value="MRE Klasse" />
+      <definition value="Klassifizierung multiresistenter gramnegativer Stäbchen auf Basisihrer phänotypischen Resistenzeigenschaften (Robert Koch Institut)" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
@@ -178,10 +186,11 @@
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
+      <fixedUri value="https://edoc.rki.de/bitstream/handle/176904/253/21obND4dxM.pdf" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
+      <min value="1" />
       <type>
         <code value="Reference" />
         <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
@@ -189,8 +198,17 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.encounter">
+      <path value="Observation.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Versorgungsfall" />
+      </type>
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.effective[x]">
       <path value="Observation.effective[x]" />
+      <min value="1" />
       <type>
         <code value="dateTime" />
       </type>
@@ -205,9 +223,39 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
-      <short value="Resistenzmechanismus Spezialisierung" />
-      <definition value="Weitere Angaben zum Resistenzmechanismus." />
-      <comment value="Ein bestes Beispiel wäre, die Untersuchung eines „Staphylococcus aureus“ der hier die Bezeichnung des Keims ist. Jedoch möchte man später nochmal die „Toxine“ des „Staphylococcus aureus“ untersuchen. Hier wären die „Toxine“ die Spezialisierung des untersuchten Keims." />
+      <code>
+        <system value="https://edoc.rki.de/bitstream/handle/176904/253/21obND4dxM.pdf" />
+        <code value="2MRGN" />
+      </code>
+      <code>
+        <system value="https://edoc.rki.de/bitstream/handle/176904/253/21obND4dxM.pdf" />
+        <code value="3MRGN" />
+      </code>
+      <code>
+        <system value="https://edoc.rki.de/bitstream/handle/176904/253/21obND4dxM.pdf" />
+        <code value="4MRGN" />
+      </code>
+      <code>
+        <system value="http://snomed.info/sct" />
+        <code value="314074007" />
+        <display value="MRSA" />
+      </code>
+      <code>
+        <system value="http://snomed.info/sct" />
+        <code value="113727004" />
+        <display value="VRE" />
+      </code>
+      <code>
+        <system value="http://snomed.info/sct" />
+        <version value="next" />
+        <display value="LVRE" />
+      </code>
+      <code>
+        <system value="http://snomed.info/sct" />
+        <version value="next" />
+        <display value="LRE" />
+      </code>
+      <min value="1" />
       <type>
         <code value="CodeableConcept" />
       </type>
@@ -222,10 +270,6 @@
     </element>
     <element id="Observation.note">
       <path value="Observation.note" />
-      <label value="Resistenzmechanismus Spezialisierung" />
-      <short value="Resistenzmechanismus Spezialisierung" />
-      <definition value="Weitere Angaben zum Resistenzmechanismus." />
-      <comment value="Ein bestes Beispiel wäre, die Untersuchung eines „Staphylococcus aureus“ der hier die Bezeichnung des Keims ist. Jedoch möchte man später nochmal die „Toxine“ des „Staphylococcus aureus“ untersuchen. Hier wären die „Toxine“ die Spezialisierung des untersuchten Keims." />
       <mustSupport value="true" />
     </element>
     <element id="Observation.bodySite">
@@ -248,21 +292,25 @@
       <path value="Observation.specimen.identifier" />
       <mustSupport value="true" />
     </element>
+    <element id="Observation.device">
+      <path value="Observation.device" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.referenceRange">
       <path value="Observation.referenceRange" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
-      <label value="Memebr of  MII_IC_Resistenz Observation" />
-      <short value="Reference to ResistanceMechanism Observation (Resistenzmechanismus)" />
-      <min value="1" />
-      <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_Resistenz" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/BacteriaPresence" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/BacteriaName" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ColonyCount" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Antibiogram" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ResistanceMechanism" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/VirulenceFactor" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="Observation.component">
       <path value="Observation.component" />
