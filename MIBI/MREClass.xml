@@ -7,7 +7,7 @@
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />
-  <description value="Dieses Profil beschreibt die MRE Klasse (RKI) des Erregers in HiGHmed Use Case Infection Control." />
+  <description value="Dieses Profil beschreibt die MRE Klasse (RKI) des Erregers in HiGHmed Use Case Infection Control" />
   <purpose value="Dieses Profil beschreibt die MRE Klasse (RKI) des Erregers in HiGHmed Use Case Infection Control." />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
