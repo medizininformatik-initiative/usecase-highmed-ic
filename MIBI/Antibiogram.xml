@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Antibiogramm" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Antibiogram" />
   <version value="0.9" />
-  <name value="Antibiogramm" />
+  <name value="Antibiogram" />
   <title value="HiGHmed- Laborprofile - Antibiogramm" />
   <status value="draft" />
   <experimental value="true" />
