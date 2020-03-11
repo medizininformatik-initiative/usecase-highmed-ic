@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ResistanceMechanism" />
   <version value="0.9" />
   <name value="ResistanceMechanism" />
-  <title value="HiGHmed- Laborprofile - Resistenzmechanismus" />
+  <title value="HiGHmed- Infection Control - Resistenzmechanismus" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />

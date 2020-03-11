@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Antibiogram" />
   <version value="0.9" />
   <name value="Antibiogram" />
-  <title value="HiGHmed- Laborprofile - Antibiogramm" />
+  <title value="HiGHmed- Infection Control - Antibiogramm" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />

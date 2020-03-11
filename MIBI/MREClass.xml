@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MREClass" />
   <version value="0.9" />
   <name value="MREClass" />
-  <title value="HiGHmed- Laborprofile - MRE Klasse" />
+  <title value="HiGHmed- Infection Control- MRE Klasse" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />

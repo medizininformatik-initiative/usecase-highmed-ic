@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/BacteriaPresence" />
   <version value="0.9" />
   <name value="BacteriaPresence" />
-  <title value="HiGHmed- Laborprofile - Keim Nachweis" />
+  <title value="HiGHmed- Infection Control - Keim Nachweis" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />

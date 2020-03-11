@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/BacteriaName" />
   <version value="0.9" />
   <name value="BacteriaName" />
-  <title value="HiGHmed- Laborprofile - Erregername" />
+  <title value="HiGHmed- Infection Control - Erregername" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />

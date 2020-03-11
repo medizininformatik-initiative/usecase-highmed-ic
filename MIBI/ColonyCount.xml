@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ColonyCount" />
   <version value="0.9" />
   <name value="ColonyCount" />
-  <title value="HiGHmed- Laborprofile - Keimzahl" />
+  <title value="HiGHmed- Infection Control- Keimzahl" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />

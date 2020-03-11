@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/VirulenceFactor" />
   <version value="0.9" />
   <name value="VirulenceFactor" />
-  <title value="HiGHmed- Laborprofile - Virulenzfaktor" />
+  <title value="HiGHmed- Infection Control - Virulenzfaktor" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />
