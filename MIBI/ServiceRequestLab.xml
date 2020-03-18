@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_ServiceRequest" />
+  <version value="0.9" />
+  <name value="MII_IC_ServiceRequest" />
+  <title value="MI-Initiative - Laborprofile - ServiceRequest" />
+  <status value="draft" />
+  <experimental value="true" />
+  <publisher value="https://www.Medizininformatik-Initiative.de" />
+  <description value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
+  <purpose value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
+  <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
+  <fhirVersion value="4.0.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="ServiceRequest" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ServiceRequest" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ServiceRequest.id">
+      <path value="ServiceRequest.id" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.meta.source">
+      <path value="ServiceRequest.meta.source" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.meta.profile">
+      <path value="ServiceRequest.meta.profile" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier">
+      <path value="ServiceRequest.identifier" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="type" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung">
+      <path value="ServiceRequest.identifier" />
+      <sliceName value="anforderung" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.type">
+      <path value="ServiceRequest.identifier.type" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="PLAC" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.type.coding">
+      <path value="ServiceRequest.identifier.type.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.type.coding:placerv2">
+      <path value="ServiceRequest.identifier.type.coding" />
+      <sliceName value="placerv2" />
+      <short value="Auftrags-ID des anfordernden/einsendenden Systems" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.type.coding:placerv2.system">
+      <path value="ServiceRequest.identifier.type.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.type.coding:placerv2.code">
+      <path value="ServiceRequest.identifier.type.coding.code" />
+      <min value="1" />
+      <fixedCode value="PLAC" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.type.coding:placerv2.display">
+      <path value="ServiceRequest.identifier.type.coding.display" />
+      <short value="Auftrags-ID des anfordernden system" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.system">
+      <path value="ServiceRequest.identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://www.medizininformatik-initiative.de/fhir/core/NamingSystem/anforderung-lab-identifier" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.value">
+      <path value="ServiceRequest.identifier.value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.assigner">
+      <path value="ServiceRequest.identifier.assigner" />
+      <short value="Einsenderstandort" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.assigner.reference">
+      <path value="ServiceRequest.identifier.assigner.reference" />
+      <short value="Reference to Organization" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung.assigner.type">
+      <path value="ServiceRequest.identifier.assigner.type" />
+      <short value="Organization" />
+    </element>
+    <element id="ServiceRequest.status">
+      <path value="ServiceRequest.status" />
+      <fixedCode value="completed" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.intent">
+      <path value="ServiceRequest.intent" />
+      <fixedCode value="order" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.category">
+      <path value="ServiceRequest.category" />
+      <code>
+        <system value="http://loinc.org" />
+      </code>
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.category.coding">
+      <path value="ServiceRequest.category.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.category.coding:laboratory">
+      <path value="ServiceRequest.category.coding" />
+      <sliceName value="laboratory" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.category.coding:laboratory.system">
+      <path value="ServiceRequest.category.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.category.coding:laboratory.code">
+      <path value="ServiceRequest.category.coding.code" />
+      <min value="1" />
+      <fixedCode value="laboratory" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.code">
+      <path value="ServiceRequest.code" />
+      <code>
+        <system value="http://loinc.org" />
+      </code>
+      <short value="Anforderung" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.code.coding.system">
+      <path value="ServiceRequest.code.coding.system" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="ServiceRequest.subject">
+      <path value="ServiceRequest.subject" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
+        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Patient" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.encounter">
+      <path value="ServiceRequest.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Versorgungsfall" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.authoredOn">
+      <path value="ServiceRequest.authoredOn" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.specimen">
+      <path value="ServiceRequest.specimen" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.specimen.reference">
+      <path value="ServiceRequest.specimen.reference" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.specimen.identifier">
+      <path value="ServiceRequest.specimen.identifier" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.bodySite">
+      <path value="ServiceRequest.bodySite" />
+      <max value="0" />
+    </element>
+    <element id="ServiceRequest.patientInstruction">
+      <path value="ServiceRequest.patientInstruction" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>
