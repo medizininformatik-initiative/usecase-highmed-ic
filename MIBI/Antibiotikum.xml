@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Antibiotikum" />
   <version value="0.9" />
   <name value="Antibiotikum" />
-  <title value="HiGHmed- Laborprofile - Antibiotikum" />
+  <title value="HiGHmed- Infection Control- Antibiotikum" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />

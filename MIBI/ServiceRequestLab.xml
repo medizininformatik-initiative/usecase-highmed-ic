@@ -2,8 +2,8 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ServiceRequestLab" />
   <version value="0.9" />
-  <name value="MII_IC_ServiceRequest" />
-  <title value="MI-Initiative - Laborprofile - ServiceRequest" />
+  <name value="ServiceRequestLab" />
+  <title value="HiGHmed- Infection Control - ServiceRequest" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />
