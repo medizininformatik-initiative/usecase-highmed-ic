@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_DiagnosticReport" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/DiagnosticReportLab" />
   <version value="0.9" />
   <name value="MII_IC_DiagnosticReport" />
-  <title value="MI-Initiative - Berichtprofile - DiagnosticReport" />
+  <title value="HiGHmed- Infection Control- DiagnosticReport" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />
