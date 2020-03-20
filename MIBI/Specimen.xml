@@ -5,8 +5,8 @@
     <versionId value="2" />
     <lastUpdated value="2020-01-15T14:18:06.021+00:00" />
   </meta>
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/IC_Specimen" />
-  <name value="ICSpecimen" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+  <name value="Specimen" />
   <title value="HiGHmed- Infection Control- Specimen" />
   <status value="draft" />
   <date value="2020-01-15T14:18:05.9183067Z" />
@@ -129,16 +129,6 @@
       <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
       <mustSupport value="true" />
-    </element>
-    <element id="Specimen.type.coding.version">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Specimen.type.coding.version" />
-      <fixedString value="http://snomed.info/sct/900000000000207008" />
     </element>
     <element id="Specimen.receivedTime">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
