@@ -1,64 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/DiagnosticReportLab" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
   <version value="0.9" />
-  <name value="MII_IC_DiagnosticReport" />
-  <title value="HiGHmed- Infection Control- DiagnosticReport" />
+  <name value="ObservationMIBI" />
+  <title value="HiGHmed- Infection Control - Erreger Kultur" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />
-  <description value="Dieses Profil beschreibt einen Laborbefund in Highmed Use Case Infection Control" />
-  <purpose value="Dieses Profil beschreibt einen Laborbefund in Highmed Use Case Infection Control" />
+  <description value="Dieses Profil beschreibt eine Mikrobiologie Befund ohne numerisches Ergebnis." />
+  <purpose value="Dieses Profil beschreibt eine Mikrobiologie Befund ohne numerisches Ergebnis." />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
   <abstract value="false" />
-  <type value="DiagnosticReport" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
-    <element id="DiagnosticReport.id">
-      <path value="DiagnosticReport.id" />
+    <element id="Observation.id">
+      <path value="Observation.id" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.meta">
+    <element id="Observation.meta.source">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.meta" />
-      <mustSupport value="false" />
-    </element>
-    <element id="DiagnosticReport.meta.source">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.meta.source" />
+      <path value="Observation.meta.source" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.meta.profile">
+    <element id="Observation.meta.profile">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.meta.profile" />
+      <path value="Observation.meta.profile" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier">
+    <element id="Observation.identifier">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier" />
+      <path value="Observation.identifier" />
       <slicing>
         <discriminator>
           <type value="pattern" />
@@ -69,43 +59,44 @@
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund">
+    <element id="Observation.identifier:analyseBefundCode">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier" />
-      <sliceName value="befund" />
+      <path value="Observation.identifier" />
+      <sliceName value="analyseBefundCode" />
       <min value="1" />
       <max value="1" />
+      <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.type">
+    <element id="Observation.identifier:analyseBefundCode.type">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier.type" />
+      <path value="Observation.identifier.type" />
       <min value="1" />
       <patternCodeableConcept>
         <coding>
           <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
-          <code value="FILL" />
+          <code value="OBI" />
         </coding>
       </patternCodeableConcept>
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.type.coding">
+    <element id="Observation.identifier:analyseBefundCode.type.coding">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier.type.coding" />
+      <path value="Observation.identifier.type.coding" />
       <slicing>
         <discriminator>
           <type value="value" />
@@ -116,87 +107,73 @@
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.type.coding:fillerV2">
+    <element id="Observation.identifier:analyseBefundCode.type.coding:observationInstanceV2">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier.type.coding" />
-      <sliceName value="fillerV2" />
+      <path value="Observation.identifier.type.coding" />
+      <sliceName value="observationInstanceV2" />
       <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.type.coding:fillerV2.system">
+    <element id="Observation.identifier:analyseBefundCode.type.coding:observationInstanceV2.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier.type.coding.system" />
+      <path value="Observation.identifier.type.coding.system" />
       <min value="1" />
       <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0203" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.type.coding:fillerV2.code">
+    <element id="Observation.identifier:analyseBefundCode.type.coding:observationInstanceV2.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier.type.coding.code" />
+      <path value="Observation.identifier.type.coding.code" />
       <min value="1" />
-      <fixedCode value="Auftrags-ID (Empfänger); Filler ID" />
+      <fixedCode value="OBI" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.type.coding:fillerV2.display">
+    <element id="Observation.identifier:analyseBefundCode.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
-      <path value="DiagnosticReport.identifier.type.coding.display" />
-      <fixedString value="Auftrags-ID (Empfänger)" />
-    </element>
-    <element id="DiagnosticReport.identifier:befund.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.identifier.system" />
+      <path value="Observation.identifier.system" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.value">
+    <element id="Observation.identifier:analyseBefundCode.value">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier.value" />
+      <path value="Observation.identifier.value" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.assigner">
+    <element id="Observation.identifier:analyseBefundCode.assigner">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier.assigner" />
-      <short value="Empfängerstandort" />
+      <path value="Observation.identifier.assigner" />
       <min value="1" />
       <type>
         <code value="Reference" />
@@ -204,62 +181,39 @@
       </type>
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.assigner.reference">
+    <element id="Observation.status">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.identifier.assigner.reference" />
-      <short value="Reference to Organization" />
-    </element>
-    <element id="DiagnosticReport.basedOn">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint">
+        <valueString value="default: final" />
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.basedOn" />
-      <min value="1" />
-      <type>
-        <code value="Reference" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_ServiceRequest" />
-      </type>
+      <path value="Observation.status" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.status">
+    <element id="Observation.category">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.status" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.category">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.category" />
+      <path value="Observation.category" />
       <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding">
+    <element id="Observation.category.coding">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.category.coding" />
+      <path value="Observation.category.coding" />
       <slicing>
         <discriminator>
           <type value="value" />
@@ -270,44 +224,44 @@
       <min value="2" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding:loinc-lab">
+    <element id="Observation.category.coding:loinc-observation">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.category.coding" />
-      <sliceName value="loinc-lab" />
+      <path value="Observation.category.coding" />
+      <sliceName value="loinc-observation" />
       <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding:loinc-lab.system">
+    <element id="Observation.category.coding:loinc-observation.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.category.coding.system" />
+      <path value="Observation.category.coding.system" />
       <min value="1" />
       <fixedUri value="http://loinc.org" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding:loinc-lab.code">
+    <element id="Observation.category.coding:loinc-observation.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.category.coding.code" />
+      <path value="Observation.category.coding.code" />
       <min value="1" />
       <fixedCode value="18725-2" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding:loinc-lab.display">
+    <element id="Observation.category.coding:loinc-observation.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -317,119 +271,79 @@
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true" />
       </extension>
-      <path value="DiagnosticReport.category.coding.display" />
-      <fixedString value="Microbiology Studies" />
+      <path value="Observation.category.coding.display" />
+      <fixedString value="Microbiology studies" />
     </element>
-    <element id="DiagnosticReport.category.coding:diagnostic-service-sections">
+    <element id="Observation.category.coding:observation-category">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.category.coding" />
-      <sliceName value="diagnostic-service-sections" />
+      <path value="Observation.category.coding" />
+      <sliceName value="observation-category" />
       <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding:diagnostic-service-sections.system">
+    <element id="Observation.category.coding:observation-category.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.category.coding.system" />
+      <path value="Observation.category.coding.system" />
       <min value="1" />
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0074" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.category.coding:diagnostic-service-sections.code">
+    <element id="Observation.category.coding:observation-category.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.category.coding.code" />
+      <path value="Observation.category.coding.code" />
       <min value="1" />
-      <fixedCode value="LAB" />
+      <fixedCode value="laboratory" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.code">
+    <element id="Observation.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.code" />
+      <path value="Observation.code" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="preferred" />
+        <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS in {MICRO}  } }" />
+        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
+      </binding>
     </element>
-    <element id="DiagnosticReport.code.coding">
+    <element id="Observation.code.coding.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.code.coding:loinc-labReport">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.code.coding" />
-      <sliceName value="loinc-labReport" />
-      <min value="1" />
-      <max value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.code.coding:loinc-labReport.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.code.coding.system" />
-      <min value="1" />
+      <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
-      <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.code.coding:loinc-labReport.code">
+    <element id="Observation.subject">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.code.coding.code" />
-      <min value="1" />
-      <fixedCode value="11502-2" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.subject">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.subject" />
+      <path value="Observation.subject" />
       <min value="1" />
       <type>
         <code value="Reference" />
@@ -438,133 +352,185 @@
       </type>
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.encounter">
+    <element id="Observation.encounter">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.encounter" />
+      <path value="Observation.encounter" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Versorgungsfall" />
       </type>
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.effective[x]">
+    <element id="Observation.effective[x]">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.effective[x]" />
-      <definition value="Zeitpunkt, zu dem die gemessene Eigenschaft im Probenmaterial (e.g. Analytkonzentration) mutmaßlich der Eigenschaft im Patienten entsprach. Wenn der Zeitpunkt der Probenentnahme angegeben ist, wird meist dieser Zeitpunkt verwendet. Andernfalls wird zumeist behelfsmäßig der Probeneingang im Labor gewählt. Dieses Element ist wichtig um verschiedene Analysen im Zeitverlauf sortieren zu können." />
+      <path value="Observation.effective[x]" />
       <min value="1" />
       <type>
         <code value="dateTime" />
       </type>
+      <constraint>
+        <key value="mii-lab-1" />
+        <severity value="error" />
+        <human value="Datetime must be at least to day" />
+        <expression value="($this as dateTime).toString().length() &gt;= 8" />
+        <source value="Observation" />
+      </constraint>
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.issued">
+    <element id="Observation.value[x]">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.issued" />
-      <min value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.performer">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.performer" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.performer.reference">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.performer.reference" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.performer.identifier">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.performer.identifier" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.specimen">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.specimen" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.specimen.reference">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.specimen.reference" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.specimen.identifier">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.specimen.identifier" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.result">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="DiagnosticReport.result" />
-      <min value="1" />
+      <path value="Observation.value[x]" />
+      <short value="SNOMED CT" />
       <type>
-        <code value="Reference" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIQn" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIPanel" />
+        <code value="CodeableConcept" />
+      </type>
+      <type>
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.conclusion">
+    <element id="Observation.interpretation">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-      <path value="DiagnosticReport.conclusion" />
+      <path value="Observation.interpretation" />
       <mustSupport value="true" />
+    </element>
+    <element id="Observation.interpretation.coding.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.interpretation.coding.system" />
+      <fixedUri value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
+    </element>
+    <element id="Observation.note">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.note" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.bodySite">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.bodySite" />
+      <max value="0" />
+    </element>
+    <element id="Observation.method">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.method" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.specimen">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.specimen" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.specimen.reference">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.specimen.reference" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.specimen.identifier">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.specimen.identifier" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.device">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.device" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.referenceRange">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.referenceRange" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.hasMember">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.hasMember" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIQn" />
+      </type>
+    </element>
+    <element id="Observation.component">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.component" />
+      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>
