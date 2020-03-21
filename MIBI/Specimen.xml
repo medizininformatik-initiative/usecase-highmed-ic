@@ -52,6 +52,7 @@
       <definition value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
       <min value="1" />
       <max value="1" />
+      <mustSupport value="true" />
       <mapping>
         <identity value="v2" />
         <map value="OBR-2.1" />
