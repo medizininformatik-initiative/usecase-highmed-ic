@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationSusceptibilityPanel" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIPanel" />
   <version value="0.9" />
   <name value="ObservationMIBIPanel" />
   <title value="HiGHmed- Infection Control - Antibiogramm" />
