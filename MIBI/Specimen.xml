@@ -159,6 +159,10 @@
       <label value="Identifikator der Übergeordneten Probe" />
       <definition value="Eindeutige Kennung der verwandten Probe(n), bei der die Probe in Teilproben aufgeteilt ist." />
       <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+      </type>
       <mustSupport value="true" />
       <mapping>
         <identity value="v2" />
@@ -332,7 +336,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Specimen.condition" />
-      <max value="0" />
+      <max value="1" />
     </element>
     <element id="Specimen.note">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
