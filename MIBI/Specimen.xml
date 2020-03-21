@@ -11,7 +11,7 @@
   <status value="draft" />
   <date value="2020-01-15T14:18:05.9183067Z" />
   <description value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />
-  <purpose value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case." />
+  <purpose value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <mapping>
