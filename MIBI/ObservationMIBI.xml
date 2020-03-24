@@ -3,7 +3,7 @@
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
   <version value="0.9" />
   <name value="ObservationMIBI" />
-  <title value="HiGHmed- Infection Control - Erreger Kultur" />
+  <title value="HiGHmed- Infection Control - Erreger Nachweis" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />
