@@ -382,6 +382,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="ServiceRequest.specimen" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="ServiceRequest.specimen.reference">

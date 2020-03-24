@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
   <version value="0.9" />
@@ -402,6 +403,10 @@
         <code value="string" />
       </type>
       <mustSupport value="true" />
+      <binding>
+        <strength value="preferred" />
+        <description value="http://snomed.info/sct" />
+      </binding>
     </element>
     <element id="Observation.interpretation">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -519,6 +524,7 @@
         <code value="Reference" />
         <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
         <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIQn" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIPanel" />
       </type>
     </element>
     <element id="Observation.component">
