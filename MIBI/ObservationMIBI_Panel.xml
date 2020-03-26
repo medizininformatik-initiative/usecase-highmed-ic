@@ -335,6 +335,29 @@
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
+    <element id="Observation.code.coding.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="50545-3" />
+    </element>
+    <element id="Observation.code.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Observation.code.coding.display" />
+      <fixedString value="Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)" />
+    </element>
     <element id="Observation.subject">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
