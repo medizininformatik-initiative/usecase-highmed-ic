@@ -466,6 +466,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.specimen" />
+      <min value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
