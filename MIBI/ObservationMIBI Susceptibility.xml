@@ -319,6 +319,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.code" />
+      <short value="Antibiotikum" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
