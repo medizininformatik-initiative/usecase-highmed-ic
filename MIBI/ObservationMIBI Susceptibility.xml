@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIPanel" />
+  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBISusceptibility" />
   <version value="0.9" />
-  <name value="ObservationMIBIPanel" />
-  <title value="HiGHmed- Infection Control - Antibiogramm" />
+  <name value="ObservationMIBISusceptibility" />
+  <title value="HiGHmed- Infection Control - Antibiotikum-Messungen" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />
-  <description value="Dieses Profil beschreibt ein Mikrobiologie Panel" />
-  <purpose value="Dieses Profil beschreibt ein Mikrobiologie Panel" />
+  <description value="Dieses Profil beschreibt die Antibiogramm-Messungen" />
+  <purpose value="Dieses Profil beschreibt die Antibiogramm-Messungen" />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
@@ -163,6 +163,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.identifier.value" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.identifier:analyseBefundCode.assigner">
@@ -394,7 +395,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.value[x]" />
-      <max value="0" />
+      <min value="1" />
       <type>
         <code value="Quantity" />
       </type>
@@ -497,6 +498,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.specimen" />
+      <min value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
@@ -542,21 +544,6 @@
       </extension>
       <path value="Observation.referenceRange" />
       <mustSupport value="true" />
-    </element>
-    <element id="Observation.hasMember">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.hasMember" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBISusceptibility" />
-      </type>
     </element>
     <element id="Observation.component">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
