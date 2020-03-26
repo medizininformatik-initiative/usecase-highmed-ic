@@ -322,8 +322,6 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS in {MICRO}  } }" />
-        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
@@ -334,7 +332,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
+      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element id="Observation.subject">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
