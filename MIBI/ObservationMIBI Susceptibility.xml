@@ -323,6 +323,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
+        <valueSet value="http://snomed.info/sct" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
