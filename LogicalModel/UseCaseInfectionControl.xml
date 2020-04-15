@@ -640,7 +640,6 @@
     </element>
     <element id="Use Case Infection Control.Bewegungsdaten">
       <path value="Use Case Infection Control.Bewegungsdaten" />
-      <short value="Bewegungsdaten" />
       <min value="0" />
       <max value="*" />
       <type>
