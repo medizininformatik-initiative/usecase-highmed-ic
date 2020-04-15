@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "profile": [
+      "http://apiframework.dedalus.eu/fhir/StructureDefinition/ValueSet-ForDefaultValueSets"
+    ],
+    "tag": [
+      {
+        "system": "http://apiframework.dedalus.eu/tag/createdBy",
+        "code": "TerminologyServer"
+      },
+      {
+        "system": "http://apiframework.dedalus.eu/tag/lastUpdatedBy",
+        "code": "TerminologyServer"
+      },
+      {
+        "system": "http://apiframework.dedalus.eu/fhir/CodeSystem/DFourTransaction-ForWorkflow",
+        "code": "TRM-006"
+      }
+    ]
+  },
+  "url": "http://d4solutions.dedalus.eu/fhir/ValueSet/ObservationCodes-COVID19",
+  "version": "1.0.0",
+  "name": "ObservationCodes-COVID19",
+  "status": "active",
+  "experimental": false,
+  "description": "'Entire Code System Value Set' for CodeSystem/ObservationCodes-COVID19",
+  "publisher": "Dedalus D4 Solutions",
+  "compose": {
+    "include": [
+      {
+        "system": "http://d4solutions.dedalus.eu/fhir/CodeSystem/ObservationCodes-COVID19",
+        "version": "1.0.0"
+      }
+    ]
+  }
+}

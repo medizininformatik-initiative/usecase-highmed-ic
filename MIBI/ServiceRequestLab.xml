@@ -18,6 +18,12 @@
   <derivation value="constraint" />
   <differential>
     <element id="ServiceRequest.id">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="ServiceRequest.id" />
       <mustSupport value="true" />
     </element>
@@ -323,6 +329,13 @@
       <short value="Anforderung" />
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ServiceRequestCode" />
+        </extension>
+        <strength value="example" />
+        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/IC-Anfordeungen" />
+      </binding>
     </element>
     <element id="ServiceRequest.code.coding.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
