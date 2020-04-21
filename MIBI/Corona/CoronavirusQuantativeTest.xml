@@ -329,7 +329,7 @@
       <binding>
         <strength value="example" />
         <description value="Loinc Codes identifying Tests for  SARS-CoV-2" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/SARS-CoV-2-Tests" />
+        <valueSet value="https://charite.infectioncontrol.de/fhir/core/ValueSet/SARS-CoV-2-Tests" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">

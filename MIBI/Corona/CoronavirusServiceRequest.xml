@@ -315,7 +315,7 @@
         </extension>
         <strength value="example" />
         <description value="Codes for  tests on SARS-CoV-2" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/SARS-CoV-2-Tests" />
+        <valueSet value="https://charite.infectioncontrol.de/fhir/core/ValueSet/SARS-CoV-2-Tests" />
       </binding>
     </element>
     <element id="ServiceRequest.code.coding.system">

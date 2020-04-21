@@ -328,7 +328,7 @@
       <binding>
         <strength value="example" />
         <description value="SARS-CoV-2  tests" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/SARS-CoV-2-Tests" />
+        <valueSet value="https://charite.infectioncontrol.de/fhir/core/ValueSet/SARS-CoV-2-Tests" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
