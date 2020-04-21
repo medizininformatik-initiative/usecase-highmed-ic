@@ -10,143 +10,170 @@
     <experimental value="false" />
     <date value="2020-03-20" />
     <publisher value="https://charite.infectioncontrol.de" />
-    <description value="Defines all LOINC codes for tests on SARS-CoV-2" />
+     <description value="Das ValueSet LaboratoryTestSARSCoV2 enthält die Codes für die SARS-CoV-2-Labortests." />
     <compose>
         <include>
-            <system value="http://loinc.org"/>
+            <system value="http://loinc.org" />
             <concept>
-                <code value="94558-4"/>
-                <display value="SARS coronavirus 2 Ag [Presence] in Respiratory specimen by Rapid immunoassay"/>
-            </concept>
-            <concept>
-                <code value="94559-2"/>
-                <display value="SARS coronavirus 2 ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection"/>
-            </concept>
-           <concept>
-                <code value="94316-7"/>
-                <display value="SARS coronavirus 2 N gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94500-6" />
+                <display value="SARS-CoV-2 RNA NAA+probe Ql (Resp)" />
             </concept>
             <concept>
-                <code value="94547-7"/>
-                <display value="SARS coronavirus 2 IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassa"/>
+                <code value="94660-8" />
+                <display value="SARS-CoV-2 RNA NAA+probe Ql" />
             </concept>
             <concept>
-                <code value="94532-9"/>
-                <display value="SARS coronavirus+SARS-like coronavirus+SARS coronavirus 2+MERS coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+                <code value="94309-2" />
+                <display value="SARS-CoV-2 RNA NAA+probe Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94533-7"/>
-                <display value="SARS coronavirus 2 N gene [Presence] in Respiratory specimen by NAA with probe detection"/>
+                <code value="94533-7" />
+                <display value="SARS-CoV-2 N gene NAA+probe Ql (Resp)" />
             </concept>
             <concept>
-                <code value="94534-5"/>
-                <display value="SARS coronavirus 2 RdRp gene [Presence] in Respiratory specimen by NAA with probe detection"/>
+                <code value="94316-7" />
+                <display value="SARS-CoV-2 N gene NAA+probe Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94499-1"/>
-                <display value="Respiratory viral pathogens DNA and RNA panel - Respiratory specimen Qualitative by NAA with probe detection"/>
+                <code value="94307-6" />
+                <display value="SARS-CoV-2 N gene NAA+probe primer-probe set N1 Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94500-6"/>
-                <display value="SARS coronavirus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+                <code value="94308-4" />
+                <display value="SARS-CoV-2 N gene NAA+probe primer-probe set N2 Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94501-4"/>
-                <display value="Middle East respiratory syndrome coronavirus (MERS-CoV) RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+                <code value="94510-5" />
+                <display value="SARS-CoV-2 N gene NAA+probe (Unsp spec) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94502-2"/>
-                <display value="SARS-related coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+                <code value="94311-8" />
+                <display value="SARS-CoV-2 N gene NAA+probe primer-probe set N1 (Unsp spec) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94503-0"/>
-                <display value="SARS coronavirus 2 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay"/>
+                <code value="94312-6" />
+                <display value="SARS-CoV-2 N gene NAA+probe primer-probe set N2 (Unsp spec) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94507-1"/>
-                <display value="SARS coronavirus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay"/>
+                <code value="94315-9" />
+                <display value="SARS-CoV-2 E gene NAA+probe Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94508-9"/>
-                <display value="SARS coronavirus 2 IgM Ab [Presence] in Serum or Plasma by Immunoassay"/>
+                <code value="94509-7" />
+                <display value="SARS-CoV-2 E gene NAA+probe (Unsp spec) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94307-6"/>
-                <display value="SARS coronavirus 2 N gene [Presence] in Unspecified specimen by Nucleic acid amplification using primer-probe set N1"/>
+                <code value="94534-5" />
+                <display value="SARS-CoV-2 RdRp gene NAA+probe Ql (Resp)" />
             </concept>
             <concept>
-                <code value="94308-4"/>
-                <display value="SARS coronavirus 2 N gene [Presence] in Unspecified specimen by Nucleic acid amplification using primer-probe set N2"/>
+                <code value="94646-7" />
+                <display value="SARS-CoV-2 RdRp gene NAA+probe (Resp) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94309-2"/>
-                <display value="SARS coronavirus 2 RNA [Presence] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94314-2" />
+                <display value="SARS-CoV-2 RdRp gene NAA+probe Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94310-0"/>
-                <display value="SARS-like coronavirus N gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94645-9" />
+                <display value="SARS-CoV-2 RdRp gene NAA+probe (Unsp spec) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94314-2"/>
-                <display value="SARS coronavirus 2 RdRp gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94559-2" />
+                <display value="SARS-CoV-2 ORF1ab region NAA+probe Ql (Resp)" />
             </concept>
             <concept>
-                <code value="94315-9"/>
-                <display value="SARS coronavirus 2 E gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94644-2" />
+                <display value="SARS-CoV-2 ORF1ab region NAA+probe (Resp) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94505-5"/>
-                <display value="SARS coronavirus 2 IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"/>
+                <code value="94639-2" />
+                <display value="SARS-CoV-2 ORF1ab region NAA+probe Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94506-3"/>
-                <display value="SARS coronavirus 2 IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"/>
+                <code value="94511-3" />
+                <display value="SARS-CoV-2 ORF1ab region NAA+probe (Unsp spec) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94504-8"/>
-                <display value="SARS coronavirus 2 IgG and IgM panel - Serum or Plasma by Immunoassay"/>
+                <code value="94640-0" />
+                <display value="SARS-CoV-2 S gene NAA+probe Ql (Resp)" />
             </concept>
             <concept>
-                <code value="94509-7"/>
-                <display value="SARS coronavirus 2 E gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94642-6" />
+                <display value="SARS-CoV-2 S gene NAA+probe (Resp) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94510-5"/>
-                <display value="SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94641-8" />
+                <display value="SARS-CoV-2 S gene NAA+probe Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94511-3"/>
-                <display value="SARS coronavirus 2 ORF1ab region [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94643-4" />
+                <display value="SARS-CoV-2 S gene NAA+probe (Unsp spec) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="94311-8"/>
-                <display value="SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N1"/>
+                <code value="94532-9" />
+                <display value="SARS-related CoV+MERS coronavirus RNA NAA+probe Ql (Resp)" />
             </concept>
             <concept>
-                <code value="94312-6"/>
-                <display value="SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N2"/>
+                <code value="94502-2" />
+                <display value="SARS-related CoV RNA NAA+probe Ql (Resp)" />
             </concept>
             <concept>
-                <code value="94313-4"/>
-                <display value="SARS-like coronavirus N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94647-5" />
+                <display value="SARS-related CoV RNA NAA+probe Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94531-1"/>
-                <display value="SSARS coronavirus 2 RNA panel - Respiratory specimen by NAA with probe detection"/>
+                <code value="94310-0" />
+                <display value="SARS-like CoV N gene NAA+probe Ql (Unsp spec)" />
             </concept>
             <concept>
-                <code value="94306-8"/>
-                <display value="SARS coronavirus 2 RNA panel - Unspecified specimen by NAA with probe detection"/>
+                <code value="94313-4" />
+                <display value="SARS-like CoV N gene NAA+probe (Unsp spec) [ThreshNum]" />
             </concept>
             <concept>
-                <code value="86316-7"/>
-                <display value="Human RNase P RNA [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94565-9" />
+                <display value="SARS-CoV-2 RNA NAA+non-probe Ql (Nph)" />
             </concept>
             <concept>
-                <code value="68993-5"/>
-                <display value="Human RNase P RNA [Presence] in Unspecified specimen by NAA with probe detection"/>
+                <code value="94558-4" />
+                <display value="SARS-CoV-2 Ag IA.rapid Ql (Resp)" />
             </concept>
-                     
+            <concept>
+                <code value="94507-1" />
+                <display value="SARS-CoV-2 IgG IA.rapid Ql" />
+            </concept>
+            <concept>
+                <code value="94508-9" />
+                <display value="SARS-CoV-2 IgM IA.rapid Ql" />
+            </concept>
+            <concept>
+                <code value="94562-6" />
+                <display value="SARS-CoV-2 IgA IA Ql" />
+            </concept>
+            <concept>
+                <code value="94563-4" />
+                <display value="SARS-CoV-2 IgG IA Ql" />
+            </concept>
+            <concept>
+                <code value="94505-5" />
+                <display value="SARS-CoV-2 IgG IA Qn" />
+            </concept>
+            <concept>
+                <code value="94564-2" />
+                <display value="SARS-CoV-2 IgM IA Ql" />
+            </concept>
+            <concept>
+                <code value="94506-3" />
+                <display value="SARS-CoV-2 IgM IA Qn" />
+            </concept>
+            <concept>
+                <code value="94547-7" />
+                <display value="SARS-CoV-2 IgG+IgM IA Ql" />
+            </concept>
+            <concept>
+                <code value="94661-6" />
+                <display value="SARS-CoV-2 Ab [Interp]" />
+            </concept>
         </include>
     </compose>
 </ValueSet>
