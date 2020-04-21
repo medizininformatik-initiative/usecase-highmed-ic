@@ -459,7 +459,7 @@
         </extension>
         <strength value="preferred" />
         <description value="Methods for SARSCoV2 observations" />
-        <valueSet value="https://covid19example.de/fhir/ValueSet/methodSARSCoV2" />
+        <valueSet value="https://charite.infectioncontrol.de/fhir/ValueSet/methodSARSCoV2" />
       </binding>
     </element>
     <element id="Observation.specimen">

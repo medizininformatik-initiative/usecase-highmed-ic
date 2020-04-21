@@ -1,0 +1,62 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="covid19example-de-vs-methodSARSCoV2" />
+    <url value="https://charite.infectioncontrol.de/fhir/ValueSet/methodSARSCoV2" />
+    <version value="0.1" />
+    <name value="MethodSARSCoV2" />
+    <title value="SARS-CoV-2-Methode" />
+    <status value="draft" />
+    <date value="2020-04-01" />
+    <description value="SARS-CoV-2-Methode" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <concept>
+                <code value="9718006" />
+                <display value="Polymerase chain reaction analysis (procedure)" />
+            </concept>
+            <concept>
+                <code value="398545005" />
+                <display value="Nucleic acid assay (procedure)" />
+            </concept>
+            <concept>
+                <code value="414464004" />
+                <display value="Immunoassay method (procedure)" />
+            </concept>
+            <concept>
+                <code value="76978006" />
+                <display value="Enzyme-linked immunosorbent assay (procedure)" />
+            </concept>
+            <concept>
+                <code value="30662005" />
+                <display value="Fluorescent immunoassay (procedure)" />
+            </concept>
+        </include>
+    </compose>
+    <expansion>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="9718006" />
+            <display value="Polymerase chain reaction analysis (procedure)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="398545005" />
+            <display value="Nucleic acid assay (procedure)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="414464004" />
+            <display value="Immunoassay method (procedure)" />
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="76978006" />
+                <display value="Enzyme-linked immunosorbent assay (procedure)" />
+            </contains>
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="30662005" />
+                <display value="Fluorescent immunoassay (procedure)" />
+            </contains>
+        </contains>
+    </expansion>
+</ValueSet>
