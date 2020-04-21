@@ -1,0 +1,35 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
+    <url value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/IC-Anfordeungen" />
+    <version value="0.9" />
+    <name value="Anforderungen" />
+    <title value="ValueSet Anforderungen" />
+    <status value="active" />
+    <experimental value="true" />
+    <date value="2020-03-20" />
+    <publisher value="https://www.medizininformatik-initiative.de" />
+    <description value="Defines codes to define laboratory requests." />
+    <compose>
+        <include>
+            <system value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/IC-Anfordeungen"/>
+           <concept>
+                <code value="MRSA"/>
+                <display value="MRSA"/>
+            </concept>
+            <concept>
+                <code value="VRE"/>
+                <display value="VRE"/>
+            </concept>
+                <code value="3MRGN"/>
+                <display value="3MRGN"/>
+            </concept>
+            <concept>
+                <code value="4MRGN"/>
+                <display value="4MRGN"/>
+            </concept>
+            
+        </include>
+    </compose>
+</ValueSet>
