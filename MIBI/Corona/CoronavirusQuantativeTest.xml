@@ -486,6 +486,14 @@
       </extension>
       <path value="Observation.method" />
       <mustSupport value="true" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ObservationMethod" />
+        </extension>
+        <strength value="example" />
+        <description value="Methods for SARSCoV2 observations." />
+        <valueSet value="https://charite.infectioncontrol.de/fhir/ValueSet/methodSARSCoV2" />
+      </binding>
     </element>
     <element id="Observation.specimen">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
