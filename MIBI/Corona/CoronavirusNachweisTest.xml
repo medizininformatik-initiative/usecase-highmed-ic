@@ -458,6 +458,7 @@
           <valueString value="ObservationMethod" />
         </extension>
         <strength value="preferred" />
+        <description value="Methods for SARSCoV2 observations" />
         <valueSet value="https://covid19example.de/fhir/ValueSet/methodSARSCoV2" />
       </binding>
     </element>
