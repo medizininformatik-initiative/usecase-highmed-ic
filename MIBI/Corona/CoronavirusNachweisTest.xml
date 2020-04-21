@@ -453,6 +453,13 @@
       </extension>
       <path value="Observation.method" />
       <mustSupport value="true" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ObservationMethod" />
+        </extension>
+        <strength value="preferred" />
+        <valueSet value="https://covid19example.de/fhir/ValueSet/methodSARSCoV2" />
+      </binding>
     </element>
     <element id="Observation.specimen">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
