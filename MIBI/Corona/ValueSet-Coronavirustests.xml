@@ -1,0 +1,152 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
+    <url value="https://charite.infectioncontrol.de/fhir/core/ValueSet/SARS-CoV-2-Tests" />
+    <version value="0.9" />
+    <name value="SARS-CoV-2-Tests" />
+    <title value="Defines all LOINC codes for tests on SARS-CoV-2" />
+    <status value="active" />
+    <experimental value="false" />
+    <date value="2020-03-20" />
+    <publisher value="https://charite.infectioncontrol.de" />
+    <description value="Defines all LOINC codes for tests on SARS-CoV-2" />
+    <compose>
+        <include>
+            <system value="http://loinc.org"/>
+            <concept>
+                <code value="94558-4"/>
+                <display value="SARS coronavirus 2 Ag [Presence] in Respiratory specimen by Rapid immunoassay"/>
+            </concept>
+            <concept>
+                <code value="94559-2"/>
+                <display value="SARS coronavirus 2 ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection"/>
+            </concept>
+           <concept>
+                <code value="94316-7"/>
+                <display value="SARS coronavirus 2 N gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94547-7"/>
+                <display value="SARS coronavirus 2 IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassa"/>
+            </concept>
+            <concept>
+                <code value="94532-9"/>
+                <display value="SARS coronavirus+SARS-like coronavirus+SARS coronavirus 2+MERS coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94533-7"/>
+                <display value="SARS coronavirus 2 N gene [Presence] in Respiratory specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94534-5"/>
+                <display value="SARS coronavirus 2 RdRp gene [Presence] in Respiratory specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94499-1"/>
+                <display value="Respiratory viral pathogens DNA and RNA panel - Respiratory specimen Qualitative by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94500-6"/>
+                <display value="SARS coronavirus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94501-4"/>
+                <display value="Middle East respiratory syndrome coronavirus (MERS-CoV) RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94502-2"/>
+                <display value="SARS-related coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94503-0"/>
+                <display value="SARS coronavirus 2 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay"/>
+            </concept>
+            <concept>
+                <code value="94507-1"/>
+                <display value="SARS coronavirus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay"/>
+            </concept>
+            <concept>
+                <code value="94508-9"/>
+                <display value="SARS coronavirus 2 IgM Ab [Presence] in Serum or Plasma by Immunoassay"/>
+            </concept>
+            <concept>
+                <code value="94307-6"/>
+                <display value="SARS coronavirus 2 N gene [Presence] in Unspecified specimen by Nucleic acid amplification using primer-probe set N1"/>
+            </concept>
+            <concept>
+                <code value="94308-4"/>
+                <display value="SARS coronavirus 2 N gene [Presence] in Unspecified specimen by Nucleic acid amplification using primer-probe set N2"/>
+            </concept>
+            <concept>
+                <code value="94309-2"/>
+                <display value="SARS coronavirus 2 RNA [Presence] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94310-0"/>
+                <display value="SARS-like coronavirus N gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94314-2"/>
+                <display value="SARS coronavirus 2 RdRp gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94315-9"/>
+                <display value="SARS coronavirus 2 E gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94505-5"/>
+                <display value="SARS coronavirus 2 IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"/>
+            </concept>
+            <concept>
+                <code value="94506-3"/>
+                <display value="SARS coronavirus 2 IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"/>
+            </concept>
+            <concept>
+                <code value="94504-8"/>
+                <display value="SARS coronavirus 2 IgG and IgM panel - Serum or Plasma by Immunoassay"/>
+            </concept>
+            <concept>
+                <code value="94509-7"/>
+                <display value="SARS coronavirus 2 E gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94510-5"/>
+                <display value="SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94511-3"/>
+                <display value="SARS coronavirus 2 ORF1ab region [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94311-8"/>
+                <display value="SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N1"/>
+            </concept>
+            <concept>
+                <code value="94312-6"/>
+                <display value="SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N2"/>
+            </concept>
+            <concept>
+                <code value="94313-4"/>
+                <display value="SARS-like coronavirus N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94531-1"/>
+                <display value="SSARS coronavirus 2 RNA panel - Respiratory specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="94306-8"/>
+                <display value="SARS coronavirus 2 RNA panel - Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="86316-7"/>
+                <display value="Human RNase P RNA [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+            <concept>
+                <code value="68993-5"/>
+                <display value="Human RNase P RNA [Presence] in Unspecified specimen by NAA with probe detection"/>
+            </concept>
+                     
+        </include>
+    </compose>
+</ValueSet>
