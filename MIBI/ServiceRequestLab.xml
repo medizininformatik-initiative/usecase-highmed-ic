@@ -333,8 +333,8 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="ServiceRequestCode" />
         </extension>
-        <strength value="example" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/IC-Anfordeungen" />
+        <strength value="preferred" />
+        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/IC-Anforderungen" />
       </binding>
     </element>
     <element id="ServiceRequest.code.coding.system">

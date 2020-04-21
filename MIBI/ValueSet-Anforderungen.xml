@@ -13,7 +13,7 @@
     <description value="Defines codes for laboratory requests." />
     <compose>
         <include>
-            <system value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/IC-Anfordeungen"/>
+            <system value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/IC-Anforderungen"/>
            <concept>
                 <code value="MRSA"/>
                 <display value="MRSA"/>
