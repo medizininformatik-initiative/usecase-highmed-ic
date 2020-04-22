@@ -10,19 +10,165 @@
     <experimental value="false" />
     <date value="2020-03-20" />
     <publisher value="https://charite.infectioncontrol.de" />
-    <description value="Defines code Specimen für SARS-CoV-2 tests" />
+  <description value="Das ValueSet Material enthält die Codes für die Materialien." />
     <compose>
         <include>
-            <system value="http://snomed.info/sct"/>
-           <concept>
-                <code value="258603007"/>
-                <display value="Respiratory sample (specimen)"/>
+            <system value="http://snomed.info/sct" />
+            <concept>
+                <code value="309164002" />
+                <display value="Upper respiratory swab sample (specimen)" />
             </concept>
             <concept>
-                <code value="430304001"/>
-                <display value="Specimen from unspecified body site (specimen)"/>
+                <code value="258500001" />
+                <display value="Nasopharyngeal swab (specimen)" />
             </concept>
-                     
+            <concept>
+                <code value="472901003" />
+                <display value="Swab from nasal sinus (specimen)" />
+            </concept>
+            <concept>
+                <code value="697989009" />
+                <display value="Anterior nares swab (specimen)" />
+            </concept>
+            <concept>
+                <code value="258412000" />
+                <display value="Oropharyngeal aspirate (specimen)" />
+            </concept>
+            <concept>
+                <code value="258411007" />
+                <display value="Nasopharyngeal aspirate (specimen)" />
+            </concept>
+            <concept>
+                <code value="258606004" />
+                <display value="Lower respiratory sample (specimen)" />
+            </concept>
+            <concept>
+                <code value="258607008" />
+                <display value="Bronchoalveolar lavage fluid sample (specimen)" />
+            </concept>
+            <concept>
+                <code value="119334006" />
+                <display value="Sputum specimen (specimen)" />
+            </concept>
+            <concept>
+                <code value="445447003" />
+                <display value="Specimen from trachea obtained by aspiration (specimen)" />
+            </concept>
+            <concept>
+                <code value="418564007" />
+                <display value="Pleural fluid specimen (specimen)" />
+            </concept>
+            <concept>
+                <code value="122610009" />
+                <display value="Specimen from lung obtained by biopsy (specimen)" />
+            </concept>
+            <concept>
+                <code value="119297000" />
+                <display value="Blood specimen (specimen)" />
+            </concept>
+            <concept>
+                <code value="788707000" />
+                <display value="Plasma specimen or serum specimen or whole blood specimen (specimen)" />
+            </concept>
+            <concept>
+                <code value="258580003" />
+                <display value="Whole blood sample (specimen)" />
+            </concept>
+            <concept>
+                <code value="119339001" />
+                <display value="Stool specimen (specimen)" />
+            </concept>
+            <concept>
+                <code value="122575003" />
+                <display value="Urine specimen (specimen)" />
+            </concept>
         </include>
     </compose>
+    <expansion>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="309164002" />
+            <display value="Upper respiratory swab sample (specimen)" />
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="258500001" />
+                <display value="Nasopharyngeal swab (specimen)" />
+            </contains>
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="472901003" />
+                <display value="Swab from nasal sinus (specimen)" />
+            </contains>
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="697989009" />
+                <display value="Anterior nares swab (specimen)" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="258412000" />
+            <display value="Oropharyngeal aspirate (specimen)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="258411007" />
+            <display value="Nasopharyngeal aspirate (specimen)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="258606004" />
+            <display value="Lower respiratory sample (specimen)" />
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="258607008" />
+                <display value="Bronchoalveolar lavage fluid sample (specimen)" />
+            </contains>
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="119334006" />
+                <display value="Sputum specimen (specimen)" />
+            </contains>
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="445447003" />
+                <display value="Specimen from trachea obtained by aspiration (specimen)" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="418564007" />
+            <display value="Pleural fluid specimen (specimen)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="122610009" />
+            <display value="Specimen from lung obtained by biopsy (specimen)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="119297000" />
+            <display value="Blood specimen (specimen)" />
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="788707000" />
+                <display value="Plasma specimen or serum specimen or whole blood specimen (specimen)" />
+            </contains>
+            <contains>
+                <system value="http://snomed.info/sct" />
+                <code value="258580003" />
+                <display value="Whole blood sample (specimen)" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="119339001" />
+            <display value="Stool specimen (specimen)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="122575003" />
+            <display value="Urine specimen (specimen)" />
+        </contains>
+    </expansion>
 </ValueSet>
