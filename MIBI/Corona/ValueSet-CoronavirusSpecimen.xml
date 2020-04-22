@@ -6,7 +6,7 @@
     <version value="0.9" />
     <name value="SARS-CoV-2-Specimen" />
     <title value="ValueSet SARS-CoV-2 Tests Specimen Type" />
-    <status value="active" />
+    <status value="draft" />
     <experimental value="false" />
     <date value="2020-03-20" />
     <publisher value="https://charite.infectioncontrol.de" />
