@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/CoronavirusServiceRequest" />
+  <url value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/CoronavirusServiceRequest" />
   <version value="0.9" />
   <name value="ServiceRequestLab" />
   <title value="SARS-CoV-2- ServiceRequest" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://charite.infectioncontrol.de" />
-  <description value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
-  <purpose value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
+  <description value="Dieses Profil beschreibt ein SARS-CoV-2  ServiceRequest" />
+  <purpose value="Dieses Profil beschreibt ein SARS-CoV-2  ServiceRequest" />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
