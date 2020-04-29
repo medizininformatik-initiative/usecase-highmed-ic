@@ -75,16 +75,6 @@
         <comment value="v 2.3" />
       </mapping>
     </element>
-    <element id="Specimen.status">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Specimen.status" />
-      <max value="0" />
-    </element>
     <element id="Specimen.type">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
@@ -101,6 +91,14 @@
       <comment value="Zum Beispiel: Venöses Blut, Bakterienkultur, Zytologie oder Prostatabiopsie. Nach Möglichkeit wird die Kodierung der Probenart mit einer Terminologie bevorzugt" />
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="SpecimenType" />
+        </extension>
+        <strength value="preferred" />
+        <description value="Use Case IC Probenart" />
+        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/ICProbenart" />
+      </binding>
       <mapping>
         <identity value="v2" />
         <map value="OBR-15" />
@@ -168,16 +166,6 @@
         <identity value="v2" />
         <map value="OBR-29" />
       </mapping>
-    </element>
-    <element id="Specimen.request">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Specimen.request" />
-      <max value="0" />
     </element>
     <element id="Specimen.collection.collector">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -306,26 +294,6 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Specimen.collection.fastingStatus[x]" />
-      <max value="0" />
-    </element>
-    <element id="Specimen.processing">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Specimen.processing" />
-      <max value="0" />
-    </element>
-    <element id="Specimen.container">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Specimen.container" />
       <max value="0" />
     </element>
     <element id="Specimen.condition">
