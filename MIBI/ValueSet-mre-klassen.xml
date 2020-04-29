@@ -6,7 +6,7 @@
     <version value="0.9" />
     <name value="mre-klassen" />
     <title value="ValueSet MRE Klassen" />
-    <status value="active" />
+    <status value="draft" />
     <experimental value="true" />
     <date value="2020-03-20" />
     <publisher value="https://www.medizininformatik-initiative.de" />
@@ -15,31 +15,31 @@
         <include>
             <system value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/mre-klassen"/>
            <concept>
-                <code value="MRSA"/>
+                <code value="01"/>
                 <display value="MRSA"/>
             </concept>
             <concept>
-                <code value="VRE"/>
+                <code value="02"/>
                 <display value="VRE"/>
             </concept>
             <concept>
-                <code value="LVRE"/>
+                <code value="03"/>
                 <display value="LVRE"/>
             </concept>
             <concept>
-                <code value="LRE"/>
+                <code value="04"/>
                 <display value="LRE"/>
             </concept>
             <concept>
-                <code value="2MRGN"/>
+                <code value="05"/>
                 <display value="2MRGN"/>
             </concept>
             <concept>
-                <code value="3MRGN"/>
+                <code value="06"/>
                 <display value="3MRGN"/>
             </concept>
             <concept>
-                <code value="4MRGN"/>
+                <code value="07"/>
                 <display value="4MRGN"/>
             </concept>
             
