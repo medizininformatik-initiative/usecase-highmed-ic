@@ -18,6 +18,12 @@
   <derivation value="constraint" />
   <differential>
     <element id="DiagnosticReport.id">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="DiagnosticReport.id" />
       <mustSupport value="true" />
     </element>
@@ -226,7 +232,7 @@
       <type>
         <code value="Reference" />
         <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MII_IC_ServiceRequest" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ServiceRequestLab" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -516,6 +522,10 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="DiagnosticReport.specimen" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.specimen.reference">
