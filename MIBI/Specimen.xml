@@ -202,26 +202,6 @@
         <comment value="v 2.3" />
       </mapping>
     </element>
-    <element id="Specimen.collection.duration">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Specimen.collection.duration" />
-      <max value="0" />
-    </element>
-    <element id="Specimen.collection.quantity">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Specimen.collection.quantity" />
-      <max value="0" />
-    </element>
     <element id="Specimen.collection.bodySite">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
@@ -285,16 +265,6 @@
       </extension>
       <path value="Specimen.collection.bodySite.coding.code" />
       <min value="1" />
-    </element>
-    <element id="Specimen.collection.fastingStatus[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Specimen.collection.fastingStatus[x]" />
-      <max value="0" />
     </element>
     <element id="Specimen.condition">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
