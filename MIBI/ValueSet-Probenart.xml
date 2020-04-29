@@ -15,23 +15,23 @@
         <include>
             <system value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/ICProbenart"/>
           <concept>
-                <code value="Blutkultur"/>
+                <code value="01"/>
                 <display value="Blutkultur"/>
             </concept>
             <concept>
-                <code value="Blutkultur aerob"/>
+                <code value="02"/>
                 <display value="Blutkultur aerob"/>
             </concept>
             <concept>
-                <code value="Blutkultur anaerob"/>
+                <code value="03"/>
                 <display value="Blutkultur anaerob"/>
             </concept>
             <concept>
-                <code value="Abstrich"/>
+                <code value="04"/>
                 <display value="Abstrich"/>
             </concept>
             <concept>
-                <code value="Sonstige"/>
+                <code value="05"/>
                 <display value="Sonstige"/>
             </concept>
             

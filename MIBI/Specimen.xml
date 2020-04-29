@@ -126,7 +126,7 @@
       </extension>
       <path value="Specimen.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://snomed.info/sct" />
+      <fixedUri value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/ICProbenart" />
       <mustSupport value="true" />
     </element>
     <element id="Specimen.receivedTime">
