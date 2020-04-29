@@ -329,20 +329,8 @@
       <definition value="Klassifizierung multiresistenter gramnegativer Stäbchen auf Basisihrer phänotypischen Resistenzeigenschaften (Robert Koch Institut)" />
       <mustSupport value="true" />
       <binding>
-        <strength value="required" />
-        <description value="MRE Klasse" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/mre-klassen" />
+        <strength value="example" />
       </binding>
-    </element>
-    <element id="Observation.code.coding.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.code.coding.system" />
-      <fixedUri value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/mre-klassen" />
     </element>
     <element id="Observation.code.coding.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -352,7 +340,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.code.coding.code" />
-      <fixedCode value="MRE KLasse" />
+      <fixedCode value="MRE Klasse" />
     </element>
     <element id="Observation.code.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
