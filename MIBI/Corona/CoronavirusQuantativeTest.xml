@@ -327,7 +327,7 @@
       </example>
       <mustSupport value="true" />
       <binding>
-        <strength value="example" />
+        <strength value="required" />
         <description value="Loinc Codes identifying Tests for  SARS-CoV-2" />
         <valueSet value="https://charite.infectioncontrol.de/fhir/core/ValueSet/SARS-CoV-2-Tests" />
       </binding>
@@ -467,16 +467,6 @@
       <path value="Observation.note" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.bodySite">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.bodySite" />
-      <max value="0" />
-    </element>
     <element id="Observation.method">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
@@ -548,16 +538,6 @@
       </extension>
       <path value="Observation.referenceRange" />
       <mustSupport value="true" />
-    </element>
-    <element id="Observation.component">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.component" />
-      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>
