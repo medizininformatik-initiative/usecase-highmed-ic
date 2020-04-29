@@ -331,7 +331,7 @@
       <binding>
         <strength value="required" />
         <description value="MRE Klasse" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/mre-klassen" />
+        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/mre-klassen" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
