@@ -18,6 +18,12 @@
   <derivation value="constraint" />
   <differential>
     <element id="Observation.id">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Observation.id" />
       <mustSupport value="true" />
     </element>
@@ -319,6 +325,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.code" />
+      <short value="Microbiology test" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
@@ -438,16 +445,6 @@
       <path value="Observation.note" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.bodySite">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.bodySite" />
-      <max value="0" />
-    </element>
     <element id="Observation.method">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
@@ -536,7 +533,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.component" />
-      <max value="0" />
+      <max value="1" />
     </element>
   </differential>
 </StructureDefinition>
