@@ -18,6 +18,12 @@
   <derivation value="constraint" />
   <differential>
     <element id="Observation.id">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Observation.id" />
       <mustSupport value="true" />
     </element>
@@ -395,6 +401,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.value[x]" />
+      <short value="Minimale Hemmkonzentration" />
       <min value="1" />
       <type>
         <code value="Quantity" />
@@ -423,7 +430,9 @@
         <valueBoolean value="true" />
       </extension>
       <path value="Observation.value[x].unit" />
+      <short value="mg/mL" />
       <min value="1" />
+      <fixedString value="mg/mL" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.value[x].system">
@@ -458,7 +467,19 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.interpretation" />
+      <short value="S,I,R" />
+      <definition value="S - Susceptible, standard dosing regimen: A microorganism is categorised as &quot;Susceptible, standard dosing regimen&quot;, when there is a high likelihood of therapeutic success using a standard dosing regimen of the agent.&#xD;&#xA;I – Susceptible, increased exposure*: A microorganism is categorised as &quot;Susceptible, Increased exposure*&quot; when there is a high likelihood of therapeutic success because exposure to the agent is increased by adjusting the dosing regimen or by its concentration at the site of infection.&#xD;&#xA;R - Resistant: A microorganism is categorised as &quot;Resistant&quot; when there is a high likelihood of therapeutic failure even when there is increased exposure.&#xD;&#xA;Terminology: eucast" />
       <mustSupport value="true" />
+    </element>
+    <element id="Observation.interpretation.coding.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.interpretation.coding.system" />
+      <fixedUri value="http://www.eucast.org/" />
     </element>
     <element id="Observation.note">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
