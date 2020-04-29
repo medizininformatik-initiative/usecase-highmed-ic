@@ -486,6 +486,13 @@
       </extension>
       <path value="Observation.method" />
       <mustSupport value="true" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ObservationMethod" />
+        </extension>
+        <strength value="example" />
+        <valueSet value="https://charite.infectioncontrol.de/fhir/ValueSet/methodSARSCoV2" />
+      </binding>
     </element>
     <element id="Observation.specimen">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -555,6 +562,7 @@
         <code value="Reference" />
         <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/CoronavirusNachweisTest" />
         <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/CorornavirusQuantitativeTest" />
+        <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/CoronavirusPanel" />
       </type>
     </element>
     <element id="Observation.component">
