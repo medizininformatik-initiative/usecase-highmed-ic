@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="demis-rki-de-sd-notificationLaboratorySARSCoV2" />
+  <id value="NotificationLaboratorySARSCoV2" />
   <url value="https://charite.infectioncontrol.de/fhir/StructureDefinition/NotificationLaboratorySARSCoV2" />
   <version value="0.1" />
   <name value="NotificationLaboratorySARSCoV2" />
