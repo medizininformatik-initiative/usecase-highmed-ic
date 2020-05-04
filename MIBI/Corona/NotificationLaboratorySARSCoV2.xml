@@ -93,5 +93,32 @@
         <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/CoronavirusNachweisTest" />
       </type>
     </element>
+    <element id="Composition.section:Patientenaufenthalt">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
+        <valueString value="Section" />
+      </extension>
+      <path value="Composition.section" />
+      <sliceName value="Patientenaufenthalt" />
+    </element>
+    <element id="Composition.section:Patientenaufenthalt.entry">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Composition.section.entry" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://charite.infectioncontrol.de/fhir/StructureDefinition/Versorgungsfall" />
+        <targetProfile value="http://charite.infectioncontrol.de/fhir/StructureDefinition/Abteilungsfall" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
