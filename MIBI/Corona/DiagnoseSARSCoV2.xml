@@ -64,5 +64,25 @@
         <valueSet value="https://charite.infectioncontrol.de/fhir/core/ValueSet/Covid-19Diagnose" />
       </binding>
     </element>
+    <element id="Condition.onset[x]">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Condition.onset[x]" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.abatement[x]">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Condition.abatement[x]" />
+      <mustSupport value="true" />
+    </element>
   </differential>
 </StructureDefinition>
