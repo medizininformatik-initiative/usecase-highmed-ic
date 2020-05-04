@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Notification" />
   <url value="https://charite.infectioncontrol.de/fhir/StructureDefinition/Notification" />
@@ -96,7 +97,6 @@
       <path value="Composition.subject" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://demis.rki.de/fhir/StructureDefinition/NotifiedPerson" />
         <versioning value="specific" />
       </type>
     </element>
@@ -109,10 +109,6 @@
       </extension>
       <path value="Composition.author" />
       <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://demis.rki.de/fhir/StructureDefinition/NotifierRole" />
-      </type>
     </element>
     <element id="Composition.confidentiality">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
