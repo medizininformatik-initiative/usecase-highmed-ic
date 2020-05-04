@@ -37,7 +37,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Composition" />
-  <baseDefinition value="https://charite.infection.de/fhir/StructureDefinition/NotificationLaboratory" />
+  <baseDefinition value="https://demis.rki.de/fhir/StructureDefinition/NotificationLaboratory" />
   <derivation value="constraint" />
   <differential>
     <element id="Composition.section:diagnose">
