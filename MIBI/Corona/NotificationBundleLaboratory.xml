@@ -28,7 +28,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Bundle" />
-  <baseDefinition value="https://demis.rki.de/fhir/StructureDefinition/NotificationBundle" />
+  <baseDefinition value="https://charite.infectioncontrol.de/fhir/StructureDefinition/NotificationBundle" />
   <derivation value="constraint" />
   <differential>
     <element id="Bundle.entry:notification">
