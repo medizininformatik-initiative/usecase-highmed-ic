@@ -395,14 +395,45 @@
       <type>
         <code value="CodeableConcept" />
       </type>
-      <type>
-        <code value="string" />
-      </type>
       <mustSupport value="true" />
       <binding>
-        <strength value="preferred" />
+        <strength value="required" />
         <description value="http://snomed.info/sct" />
       </binding>
+    </element>
+    <element id="Observation.value[x].coding.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.value[x].coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.value[x].coding.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Observation.value[x].coding.code" />
+      <fixedCode value="840533007" />
+    </element>
+    <element id="Observation.value[x].coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Observation.value[x].coding.display" />
+      <definition value="A representation of the meaning of the code in the system, following the rules of the system" />
+      <fixedString value="Severe acute respiratory syndrome coronavirus 2 (organism)" />
     </element>
     <element id="Observation.interpretation">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -433,16 +464,6 @@
       </extension>
       <path value="Observation.note" />
       <mustSupport value="true" />
-    </element>
-    <element id="Observation.bodySite">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.bodySite" />
-      <max value="0" />
     </element>
     <element id="Observation.method">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -530,16 +551,6 @@
         <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/CorornavirusQuantitativeTest" />
         <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/CoronavirusPanel" />
       </type>
-    </element>
-    <element id="Observation.component">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.component" />
-      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>
