@@ -150,7 +150,6 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Condition.code.coding.version" />
-      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Condition.code.coding:icd10-gm.code">
