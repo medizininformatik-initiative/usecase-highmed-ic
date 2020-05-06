@@ -40,25 +40,6 @@
   <baseDefinition value="https://charite.infectioncontrol.de/fhir/StructureDefinition/NotificationLaboratory" />
   <derivation value="constraint" />
   <differential>
-    <element id="Composition.section">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
-      <path value="Composition.section" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="resolve()" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-    </element>
     <element id="Composition.section:diagnose">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
