@@ -40,41 +40,6 @@
   <baseDefinition value="https://charite.infectioncontrol.de/fhir/StructureDefinition/NotificationLaboratory" />
   <derivation value="constraint" />
   <differential>
-    <element id="Composition.category">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Composition.category" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://loinc.org" />
-          <code value="11502-2" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.category.coding.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Composition.category.coding.system" />
-      <patternUri value="http://loinc.org" />
-    </element>
-    <element id="Composition.category.coding.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Composition.category.coding.code" />
-      <patternCode value="11502-2" />
-    </element>
     <element id="Composition.section:diagnose">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />

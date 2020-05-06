@@ -51,5 +51,63 @@
         <profile value="https://charite.infectioncontrol.de/fhir/StructureDefinition/NotificationLaboratorySARSCoV2" />
       </type>
     </element>
+    <element id="Bundle.entry:notification.resource.category">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Bundle.entry.resource.category" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Bundle.entry:notification.resource.category.coding">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Bundle.entry.resource.category.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Bundle.entry:notification.resource.category.coding.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Bundle.entry.resource.category.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Bundle.entry:notification.resource.category.coding.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Bundle.entry.resource.category.coding.code" />
+      <min value="1" />
+      <fixedCode value="11502-2" />
+    </element>
+    <element id="Bundle.entry:notification.resource.category.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Bundle.entry.resource.category.coding.display" />
+      <min value="1" />
+      <fixedString value="Laboratory report" />
+    </element>
   </differential>
 </StructureDefinition>
