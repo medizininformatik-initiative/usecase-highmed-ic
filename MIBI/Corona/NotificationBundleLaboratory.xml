@@ -71,5 +71,18 @@
       <path value="Bundle.entry.resource.category.coding.code" />
       <fixedCode value="11502-2" />
     </element>
+    <element id="Bundle.entry:notification.resource.category.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Bundle.entry.resource.category.coding.display" />
+      <fixedString value="Laboratory report" />
+    </element>
   </differential>
 </StructureDefinition>
