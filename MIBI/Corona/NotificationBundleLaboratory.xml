@@ -61,6 +61,12 @@
       <path value="Bundle.entry.resource.category" />
       <min value="1" />
       <max value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="11502-2" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Bundle.entry:notification.resource.category.coding">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
