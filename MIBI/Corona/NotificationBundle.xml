@@ -82,5 +82,20 @@
         <profile value="https://charite.infectioncontrol.de/fhir/StructureDefinition/Notification" />
       </type>
     </element>
+    <element id="Bundle.entry:notification.resource.category">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Bundle.entry.resource.category" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="11502-2" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
   </differential>
 </StructureDefinition>
