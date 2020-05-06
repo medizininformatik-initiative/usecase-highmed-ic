@@ -63,7 +63,7 @@
       <path value="Composition.section.entry" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Diagnose" />
+        <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/Diagnose" />
         <aggregation value="bundled" />
       </type>
     </element>

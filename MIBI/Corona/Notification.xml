@@ -253,7 +253,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://demis.rki.de/fhir/StructureDefinition/Diagnose" />
+        <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/Diagnose" />
       </type>
     </element>
     <element id="Composition.section:diagnose.entry.reference">

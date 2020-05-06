@@ -182,7 +182,7 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource" />
-        <targetProfile value="https://demis.rki.de/fhir/StructureDefinition/PathogenDetection" />
+        <targetProfile value="https://charite.infectioncontrol.de/fhir/core/StructureDefinition/CoronavirusNachweisTest" />
       </type>
     </element>
     <element id="Composition.section:pathogenDetection.entry.reference">
