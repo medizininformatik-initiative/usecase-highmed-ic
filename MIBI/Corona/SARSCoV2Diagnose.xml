@@ -126,7 +126,7 @@
       <max value="1" />
       <mustSupport value="true" />
       <binding>
-        <strength value="required" />
+        <strength value="example" />
         <valueSet value="http://fhir.de/ValueSet/dimdi/icd-10-gm" />
       </binding>
     </element>
