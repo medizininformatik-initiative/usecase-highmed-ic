@@ -238,6 +238,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
+        <description value="SNOMED CT" />
         <valueSet value="http://snomed.info/sct" />
       </binding>
     </element>
