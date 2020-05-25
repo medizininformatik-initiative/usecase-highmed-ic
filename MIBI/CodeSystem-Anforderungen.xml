@@ -12,15 +12,7 @@
     <hierarchyMeaning value="is-a" />
     <content value="complete" />
     <count value="7" />
-    <concept>
-        <code value="01" />
-        <display value="MRSA" />
-    </concept>
-    <concept>
-        <code value="02" />
-        <display value="VRE" />
-    </concept>
-    <concept>
+    
         <code value="03" />
         <display value="3MRGN" />
     </concept>
