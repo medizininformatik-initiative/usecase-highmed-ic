@@ -13,27 +13,20 @@
     <description value="Defines codes for test requsts in HiGHmed Use Case Infection Cntrol." />
     <compose>
         <include>
-            <system value="http://loinc.org" />
             <system value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/IC-Anforderungen"/>
            <concept>
-                
-                <code value="13317-3" />
-                <display value="Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture" />
-                
+                <code value="01"/>
+                <display value="MRSA"/>
             </concept>
             <concept>
-                 
-                <code value="13316-5" />
-                <display value="Vancomycin resistant enterococcus [Presence] in Unspecified specimen by Organism specific culture" />
-                
+                <code value="02"/>
+                <display value="VRE"/>
             </concept>
             <concept>
-                
                 <code value="03"/>
                 <display value="3MRGN"/>
             </concept>
             <concept>
-               
                 <code value="04"/>
                 <display value="4MRGN"/>
             </concept>
