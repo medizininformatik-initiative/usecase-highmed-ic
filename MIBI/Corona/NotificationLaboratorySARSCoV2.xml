@@ -40,6 +40,64 @@
   <baseDefinition value="https://charite.infectioncontrol.de/fhir/StructureDefinition/NotificationLaboratory" />
   <derivation value="constraint" />
   <differential>
+    <element id="Composition.category">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Composition.category" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Composition.category.coding">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Composition.category.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Composition.category.coding.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Composition.category.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Composition.category.coding.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Composition.category.coding.code" />
+      <min value="1" />
+      <fixedCode value="11502-2" />
+    </element>
+    <element id="Composition.category.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Composition.category.coding.display" />
+      <min value="1" />
+      <fixedString value="Laboratory report" />
+    </element>
     <element id="Composition.section:diagnose">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />

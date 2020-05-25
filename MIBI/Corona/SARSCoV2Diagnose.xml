@@ -398,11 +398,5 @@
       <path value="Condition.note" />
       <mustSupport value="true" />
     </element>
-    <element id="Condition.start">
-      <path value="Condition.start" />
-    </element>
-    <element id="Condition.end">
-      <path value="Condition.end" />
-    </element>
   </differential>
 </StructureDefinition>

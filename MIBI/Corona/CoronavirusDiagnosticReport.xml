@@ -153,19 +153,6 @@
       <fixedCode value="FILL" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.identifier:befund.type.coding:fillerV2.display">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
-      <path value="DiagnosticReport.identifier.type.coding.display" />
-      <fixedString value="Auftrags-ID (Empfänger)" />
-    </element>
     <element id="DiagnosticReport.identifier:befund.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
