@@ -1,0 +1,647 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
+    <url value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/Antibiotika" />
+    <version value="0.9" />
+    <name value="Antibiotics" />
+    <title value="Antibiotics" />
+    <status value="draft" />
+    <experimental value="false" />
+    <date value="2020-03-20" />
+    <publisher value="https://highmed.infectioncontrol.de" />
+     <description value="Das ValueSet  enthält die Antibiotika SNOMED codes." />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <concept>
+                <code value="387155003" />
+                <display value="Flucytosine (substance)" />
+            </concept>
+            <concept>
+                <code value="387266001" />
+                <display value="Amikacin (substance)" />
+            </concept>
+            <concept>
+                <code value="372687004" />
+                <display value="Amoxicillin (substance)" />
+            </concept>
+            <concept>
+                <code value="708558004" />
+                <display value="Amoxicillin and clavulanate (substance)" />
+            </concept>
+            <concept>
+                <code value="77703004" />
+                <display value="Amphotericin B (substance)" />
+            </concept>
+            <concept>
+                <code value="387170002" />
+                <display value="Ampicillin (substance)" />
+            </concept>
+            <concept>
+                <code value="703744001" />
+                <display value="Ampicillin and sulbactam (substance)" />
+            </concept>
+            <concept>
+                <code value="422157006" />
+                <display value="Anidulafungin (substance)" />
+            </concept>
+            <concept>
+                <code value="387531004" />
+                <display value="Azithromycin (substance)" />
+            </concept>
+            <concept>
+                <code value="387308000" />
+                <display value="Azlocillin (substance)" />
+            </concept>
+            <concept>
+                <code value="387386004" />
+                <display value="Aztreonam (substance)" />
+            </concept>
+            <concept>
+                <code value="5220000" />
+                <display value="Bacitracin (substance)" />
+            </concept>
+            <concept>
+                <code value="714086004" />
+                <display value="Bedaquiline (substance)" />
+            </concept>
+            <concept>
+                <code value="442870007" />
+                <display value="Besifloxacin (substance)" />
+            </concept>
+            <concept>
+                <code value="387081001" />
+                <display value="Capreomycin (substance)" />
+            </concept>
+            <concept>
+                <code value="372713001" />
+                <display value="Carbenicillin (substance)" />
+            </concept>
+            <concept>
+                <code value="413770001" />
+                <display value="Caspofungin (substance)" />
+            </concept>
+            <concept>
+                <code value="387270009" />
+                <display value="Cefaclor (substance)" />
+            </concept>
+            <concept>
+                <code value="372651006" />
+                <display value=" |Cefadroxil (substance)|" />
+            </concept>
+            <concept>
+                <code value="372801003" />
+                <display value="|Cefamandole (substance)|" />
+            </concept>
+            <concept>
+                <code value="387470007" />
+                <display value=" |Cefazolin (substance)|" />
+            </concept>
+            <concept>
+                <code value="108677001" />
+                <display value=" |Cefdinir (substance)|" />
+            </concept>
+            <concept>
+                <code value="708598002" />
+                <display value=" |Cefditoren (substance)|" />
+            </concept>
+            <concept>
+                <code value="96048006" />
+                <display value=" |Cefepime (substance)|" />
+            </concept>
+            <concept>
+                <code value="443045001" />
+                <display value="Cefetamet (substance)" />
+            </concept>
+            <concept>
+                <code value="387536009" />
+                <display value=" |Cefixime (substance)|" />
+            </concept>
+            <concept>
+                <code value="96059002" />
+                <display value="|Cefmetazole (substance)|" />
+            </concept>
+            <concept>
+                <code value="58343005" />
+                <display value="|Cefonicid (substance)|" />
+            </concept>
+            <concept>
+                <code value="372743004" />
+                <display value=" |Cefoperazone (substance)|" />
+            </concept>
+            <concept>
+                <code value="372704003" />
+                <display value="|Cefotaxime (substance)|" />
+            </concept>
+            <concept>
+                <code value="13585009" />
+                <display value="|Cefotetan (substance)|" />
+            </concept>
+            <concept>
+                <code value="421700007" />
+                <display value=" |Cefotiam (substance)|" />
+            </concept>
+            <concept>
+                <code value="372780005" />
+                <display value="|Cefoxitin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387533001" />
+                <display value="|Cefpirome (substance)|" />
+            </concept>
+            <concept>
+                <code value="387534007" />
+                <display value=" |Cefpodoxime (substance" />
+            </concept>
+            <concept>
+                <code value="387538005" />
+                <display value=" |Cefprozil (substance)|" />
+            </concept>
+            <concept>
+                <code value="387537000" />
+                <display value="|Cefsulodin (substance)|" />
+            </concept>
+            <concept>
+                <code value="702414006" />
+                <display value="|Ceftaroline (substance)|" />
+            </concept>
+            <concept>
+                <code value="387200005" />
+                <display value=" |Ceftazidime (substance)" />
+            </concept>
+            <concept>
+                <code value="724008004" />
+                <display value=" |Avibactam and ceftazidime (substance)|" />
+            </concept>
+             <concept>
+                <code value="387535008" />
+                <display value=" |Ceftibuten (substance)|" />
+            </concept>
+            <concept>
+                <code value="372770006" />
+                <display value=" |Ceftizoxime (substance)|" />
+            </concept>
+            <concept>
+                <code value="734512008" />
+                <display value=" |Ceftobiprole (substance)|" />
+            </concept>
+            <concept>
+                <code value="724009007" />
+                <display value=" |Ceftolozane and tazobactam (substance)|" />
+            </concept>
+            <concept>
+                <code value="372670001" />
+                <display value="  |Ceftriaxone (substance)|" />
+            </concept>
+            <concept>
+                <code value="372833007" />
+                <display value=" |Cefuroxime (substance)| " />
+            </concept>
+            <concept>
+                <code value="387304003" />
+                <display value="  |Cefalexin (substance)|" />
+            </concept>
+             <concept>
+                <code value="373485007" />
+                <display value=" |Cefalotin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372777009" />
+                <display value="  |Chloramphenicol (substance)|" />
+            </concept>
+            <concept>
+                <code value="387549004" />
+                <display value="  |Cinoxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372840008" />
+                <display value=" |Ciprofloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387487009" />
+                <display value="|Clarithromycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="96083005" />
+                <display value="  |Clinafloxacin (substance)| " />
+            </concept>
+            <concept>
+                <code value="372786004" />
+                <display value="  |Clindamycin (substance)|" />
+            </concept>
+             <concept>
+                <code value="387410004" />
+                <display value="  |Clofazimine (substance)|" />
+            </concept>
+            <concept>
+                <code value="387412007" />
+                <display value="  |Colistin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387282000" />
+                <display value=" |Cycloserine (substance)|" />
+            </concept>
+            <concept>
+                <code value="703917001" />
+                <display value=" |Dalbavancin (substance)|" />
+            </concept>
+            <concept>
+                <code value="406439009" />
+                <display value="  |Daptomycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387105006" />
+                <display value=" |Didanosine (substance)| " />
+            </concept>
+            <concept>
+                <code value="96035007" />
+                <display value=" |Dirithromycin (substance)|" />
+            </concept>
+             <concept>
+                <code value="428352004" />
+                <display value=" |Doripenem (substance)|" />
+            </concept>
+            <concept>
+                <code value="372478003" />
+                <display value="   |Doxycycline (substance)|" />
+            </concept>
+            <concept>
+                <code value="387550004" />
+                <display value="|Enoxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="396346003" />
+                <display value=" |Ertapenem (substance)|" />
+            </concept>
+            <concept>
+                <code value="372694001" />
+                <display value="|Erythromycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387129004" />
+                <display value=" |Ethambutol (substance)| " />
+            </concept>
+             <concept>
+                <code value="703664004" />
+                <display value=" |Fidaxomicin (substance)|" />
+            </concept>
+            <concept>
+                <code value="708794002" />
+                <display value="|Finafloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="96085003" />
+                <display value="|Fleroxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="427436003" />
+                <display value="  |Florfenicol (substance)|" />
+            </concept>
+            <concept>
+                <code value="387544009" />
+                <display value="|Flucloxacillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387174006" />
+                <display value=" |Fluconazole (substance)| " />
+            </concept>
+             <concept>
+                <code value="372902006" />
+                <display value="|Foscarnet (substance)|" />
+            </concept>
+            <concept>
+                <code value="372534005" />
+                <display value=" |Fosfomycin (substance)| " />
+            </concept>
+             <concept>
+                <code value="387530003" />
+                <display value="  |Fusidic acid (substance)|" />
+            </concept>
+            <concept>
+                <code value="116349004" />
+                <display value=" |Gatifloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="407086007" />
+                <display value="|Gemifloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387321007" />
+                <display value="|Gentamicin (substance)|" />
+            </concept>
+            <concept>
+                <code value="386892006" />
+                <display value="|Grepafloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="725576004" />
+                <display value=" |Iclaprim (substance)| " />
+            </concept>
+             <concept>
+                <code value="46558003" />
+                <display value="|Imipenem (substance)|" />
+            </concept>
+            <concept>
+                <code value="765386003" />
+                <display value="|Isavuconazole (substance)|" />
+            </concept>
+            <concept>
+                <code value="387472004" />
+                <display value="|Isoniazid (substance)|" />
+            </concept>
+            <concept>
+                <code value="387532006" />
+                <display value="|Itraconazole (substance)|" />
+            </concept>
+            <concept>
+                <code value="713477009" />
+                <display value=" |Josamycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387396008" />
+                <display value="|Kanamycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="386897000" />
+                <display value="|Lamivudine (substance)|" />
+            </concept>
+            <concept>
+                <code value="387552007" />
+                <display value="Levofloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372677003" />
+                <display value=" |Lincomycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387056004" />
+                <display value="|Linezolid (substance)|" />
+            </concept>
+            <concept>
+                <code value="387553002" />
+                <display value=" |Lomefloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="96061006" />
+                <display value=" |Loracarbef (substance)|" />
+            </concept>
+            <concept>
+                <code value="387541001" />
+                <display value="|Mecillinam (substance)|" />
+            </concept>
+            <concept>
+                <code value="387540000" />
+                <display value="|Meropenem (substance)|)" />
+            </concept>
+            <concept>
+                <code value="737670005" />
+                <display value="  |Meropenem and vaborbactam (substance)|" />
+            </concept>
+            <concept>
+                <code value="373515001" />
+                <display value="|Meticillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372602008" />
+                <display value=" |Metronidazole (substance)|" />
+            </concept>
+            <concept>
+                <code value="387446008" />
+                <display value=" |Mezlocillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="416127003" />
+                <display value=" |Micafungin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372653009" />
+                <display value="  |Minocycline (substance)|" />
+            </concept>
+            <concept>
+                <code value="387099009" />
+                <display value="|Latamoxef (substance)|" />
+            </concept>
+            <concept>
+                <code value="412439003" />
+                <display value=" |Moxifloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387397004" />
+                <display value="|Mupirocin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372898000" />
+                <display value="|Nafcillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387261006" />
+                <display value=" |Nalidixic acid (substance)|" />
+            </concept>
+            <concept>
+                <code value="373528008" />
+                <display value="|Neomycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387110005" />
+                <display value="|Netilmicin (substance)|" />
+            </concept>
+            <concept>
+                <code value="373543005" />
+                <display value=" |Nitrofurantoin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387271008" />
+                <display value="|Norfloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="90220005" />
+                <display value="|Novobiocin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387048002" />
+                <display value=" |Nystatin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387551000" />
+                <display value=" |Ofloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="781644002" />
+                <display value="|Omadacycline (substance)|" />
+            </concept>
+            <concept>
+                <code value="704655001" />
+                <display value=" |Oritavancin (substance)|" />
+            </concept>
+             <concept>
+                <code value="372868007" />
+                <display value="|Oxacillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="255666002" />
+                <display value="|Para-aminosalicylic acid (substance)|" />
+            </concept>
+            <concept>
+                <code value="764146007" />
+                <display value=" |Penicillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="323389000" />
+                <display value="|Benzylpenicillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372725003" />
+                <display value=" |Phenoxymethylpenicillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372836004" />
+                <display value=" |Piperacillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="703743007
+" />
+                <display value="|Piperacillin and tazobactam (substance)|" />
+            </concept>
+            <concept>
+                <code value="725719004" />
+                <display value="|Plazomicin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372824005" />
+                <display value="|Polymyxin B (substance)|" />
+            </concept>
+            <concept>
+                <code value="421747003" />
+                <display value="|Posaconazole (substance)|" />
+            </concept>
+            <concept>
+                <code value="703589003" />
+                <display value="|Protionamide (substance)|" />
+            </concept>
+            <concept>
+                <code value="387076005" />
+                <display value=" |Pyrazinamide (substance)|" />
+            </concept>
+            <concept>
+                <code value="725610006" />
+                <display value=" |Ramoplanin (substance)|" />
+            </concept>
+            <concept>
+                <code value="725611005" />
+                <display value="  |Razupenem (substance)|" />
+            </concept>
+            <concept>
+                <code value="386893001" />
+                <display value=" |Rifabutin (substance)|" />
+            </concept>
+            <concept>
+                <code value="96037004" />
+                <display value=" |Roxithromycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="96082000" />
+                <display value="|Sarafloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="725619007" />
+                <display value=" |Solithromycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372882007" />
+                <display value=" |Spectinomycin (substance)||" />
+            </concept>
+            <concept>
+                <code value="386895008" />
+                <display value=" |Stavudine (substance)|)" />
+            </concept>
+            <concept>
+                <code value="387223008" />
+                <display value="  |Streptomycin (substance)|" />
+            </concept>
+             <concept>
+                <code value="96008003" />
+                <display value=" |Sulbactam (substance)|" />
+            </concept>
+            <concept>
+                <code value="363528007" />
+                <display value=" |Sulfamethoxazole (substance)|" />
+            </concept>
+            <concept>
+                <code value="703745000" />
+                <display value=" |Sulfamethoxazole and trimethoprim (substance)|" />
+            </concept>
+            <concept>
+                <code value="372858002" />
+                <display value="  |Sulfafurazole (substance)|" />
+            </concept>
+            <concept>
+                <code value="387406002" />
+                <display value="||Sulfonamide (substance)|" />
+            </concept>
+            <concept>
+                <code value="725623004" />
+                <display value="  |Sulopenem (substance)|" />
+            </concept>
+            <concept>
+                <code value="387529008" />
+                <display value="  |Teicoplanin (substance)|" />
+            </concept>
+            <concept>
+                <code value="443553004" />
+                <display value=" |Telavancin (substance)|" />
+            </concept>
+            <concept>
+                <code value="410908003" />
+                <display value=" |Telithromycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387555009" />
+                <display value="  |Temafloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="387543003" />
+                <display value="|Temocillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372809001" />
+                <display value=" |Tetracycline (substance)|" />
+            </concept>
+            <concept>
+                <code value="372577006" />
+                <display value=" |Ticarcillin (substance)|" />
+            </concept>
+            <concept>
+                <code value="418313005" />
+                <display value=" |Tigecycline (substance)|" />
+            </concept>
+            <concept>
+                <code value="373548001" />
+                <display value=" |Tobramycin (substance)|" />
+                </concept>
+                <concept>
+                <code value="387179001" />
+                <display value=" |Trimethoprim (substance)|" />
+            </concept>
+            <concept>
+                <code value="96092008" />
+                <display value=" |Trovafloxacin (substance)|" />
+            </concept>
+            <concept>
+                <code value="372735009" />
+                <display value=" |Vancomycin (substance)|" />
+            </concept>
+            <concept>
+                <code value="385469007" />
+                <display value=" |Voriconazole (substance)|" />
+            </concept>
+            <concept>
+                <code value="387187000" />
+                <display value="  |Zalcitabine (substance)|" />
+            </concept>
+            <concept>
+                <code value="387151007" />
+                <display value=" |Zidovudine (substance)|" />
+        </include>
+    </compose>
+</ValueSet>
