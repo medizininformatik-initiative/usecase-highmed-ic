@@ -499,8 +499,7 @@
                 <display value=" |Piperacillin (substance)|" />
             </concept>
             <concept>
-                <code value="703743007
-" />
+                <code value="703743007" />
                 <display value="|Piperacillin and tazobactam (substance)|" />
             </concept>
             <concept>
@@ -642,6 +641,7 @@
             <concept>
                 <code value="387151007" />
                 <display value=" |Zidovudine (substance)|" />
+                 </concept>
         </include>
     </compose>
 </ValueSet>
