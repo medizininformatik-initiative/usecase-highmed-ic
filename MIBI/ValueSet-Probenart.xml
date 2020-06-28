@@ -13,28 +13,19 @@
     <description value="Defines codes for specimen for HiGHmed Use Case Infection Control." />
     <compose>
         <include>
-            <system value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/ICProbenart"/>
+            <system value="http://snomed.info/sct"/>
           <concept>
-                <code value="01"/>
-                <display value="Blutkultur"/>
+                <code value="446131002"/>
+                <display value=" Blood specimen obtained for blood culture (specimen)"/>
             </concept>
             <concept>
-                <code value="02"/>
-                <display value="Blutkultur aerob"/>
+                <code value="257261003"/>
+                <display value="Swab (specimen)"/>
             </concept>
             <concept>
-                <code value="03"/>
-                <display value="Blutkultur anaerob"/>
+                <code value="74964007"/>
+                <display value="Other (qualifier value)"/>
             </concept>
-            <concept>
-                <code value="04"/>
-                <display value="Abstrich"/>
-            </concept>
-            <concept>
-                <code value="05"/>
-                <display value="Sonstige"/>
-            </concept>
-            
-        </include>
+                    </include>
     </compose>
 </ValueSet>
