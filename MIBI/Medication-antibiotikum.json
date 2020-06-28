@@ -294,18 +294,22 @@
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept",
-        "path": "Medication.ingredient.item[x]",
+        "path": "Medication.ingredient.itemCodeableConcept",
         "sliceName": "itemCodeableConcept",
         "type": [
           {
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://highmed.infectioncontrol.de/fhir/core/ValueSet/Antibiotika"
+        }
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding",
-        "path": "Medication.ingredient.item[x].coding",
+        "path": "Medication.ingredient.itemCodeableConcept.coding",
         "slicing": {
           "discriminator": [
             {
@@ -324,7 +328,7 @@
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:ASK",
-        "path": "Medication.ingredient.item[x].coding",
+        "path": "Medication.ingredient.itemCodeableConcept.coding",
         "sliceName": "ASK",
         "short": "Arzneistoffkatalog(ASK)-Nummer",
         "patternCoding": {
@@ -338,19 +342,19 @@
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:ASK.system",
-        "path": "Medication.ingredient.item[x].coding.system",
+        "path": "Medication.ingredient.itemCodeableConcept.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:ASK.code",
-        "path": "Medication.ingredient.item[x].coding.code",
+        "path": "Medication.ingredient.itemCodeableConcept.coding.code",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:UNII",
-        "path": "Medication.ingredient.item[x].coding",
+        "path": "Medication.ingredient.itemCodeableConcept.coding",
         "sliceName": "UNII",
         "short": "Unique Ingredient Identifier",
         "patternCoding": {
@@ -360,19 +364,19 @@
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:UNII.system",
-        "path": "Medication.ingredient.item[x].coding.system",
+        "path": "Medication.ingredient.itemCodeableConcept.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:UNII.code",
-        "path": "Medication.ingredient.item[x].coding.code",
+        "path": "Medication.ingredient.itemCodeableConcept.coding.code",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:CAS",
-        "path": "Medication.ingredient.item[x].coding",
+        "path": "Medication.ingredient.itemCodeableConcept.coding",
         "sliceName": "CAS",
         "short": "Chemical abstract codes",
         "patternCoding": {
@@ -382,19 +386,19 @@
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:CAS.system",
-        "path": "Medication.ingredient.item[x].coding.system",
+        "path": "Medication.ingredient.itemCodeableConcept.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:CAS.code",
-        "path": "Medication.ingredient.item[x].coding.code",
+        "path": "Medication.ingredient.itemCodeableConcept.coding.code",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:SNOMED",
-        "path": "Medication.ingredient.item[x].coding",
+        "path": "Medication.ingredient.itemCodeableConcept.coding",
         "sliceName": "SNOMED",
         "patternCoding": {
           "system": "http://snomed.info/sct"
@@ -407,13 +411,13 @@
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:SNOMED.system",
-        "path": "Medication.ingredient.item[x].coding.system",
+        "path": "Medication.ingredient.itemCodeableConcept.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:SNOMED.code",
-        "path": "Medication.ingredient.item[x].coding.code",
+        "path": "Medication.ingredient.itemCodeableConcept.coding.code",
         "min": 1,
         "mustSupport": true,
         "binding": {
@@ -429,7 +433,7 @@
             "valueBoolean": true
           }
         ],
-        "path": "Medication.ingredient.item[x].text",
+        "path": "Medication.ingredient.itemCodeableConcept.text",
         "mustSupport": true
       },
       {
