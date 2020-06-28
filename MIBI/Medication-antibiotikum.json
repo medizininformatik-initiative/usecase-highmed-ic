@@ -4,7 +4,7 @@
   "version": "1.0",
   "name": "Medication",
   "title": "HiGHmed- Medikation - Antibiotika",
-  "status": "active",
+  "status": "draft",
   "contact": [
     {
       "telecom": [
