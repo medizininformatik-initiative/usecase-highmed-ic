@@ -316,7 +316,11 @@
           "rules": "open"
         },
         "min": 1,
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://highmed.infectioncontrol.de/fhir/core/ValueSet/Antibiotika"
+        }
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:ASK",
@@ -395,7 +399,11 @@
         "patternCoding": {
           "system": "http://snomed.info/sct"
         },
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://highmed.infectioncontrol.de/fhir/core/ValueSet/Antibiotika"
+        }
       },
       {
         "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:SNOMED.system",
