@@ -16,7 +16,7 @@
             <system value="http://www.loinc.org"/>
           <concept>
                 <code value="85421-6"/>
-                <display value="Bacterial identification & susceptibility panel"/>
+                <display value="Bacterial identification und susceptibility panel"/>
             </concept>
             <concept>
                 <code value="87927-0"/>
