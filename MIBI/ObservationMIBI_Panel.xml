@@ -193,7 +193,10 @@
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
-      <fixedCode value="50545-3" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/SusceptibilityPanels" />
+      </binding>
     </element>
     <element id="Observation.code.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
