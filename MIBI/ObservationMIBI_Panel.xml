@@ -184,7 +184,7 @@
       <binding>
         <strength value="preferred" />
         <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS in {MICRO}  } }" />
-        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
+        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/SusceptibilityPanels" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
