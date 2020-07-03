@@ -308,8 +308,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.FallIrelation">
-      <path value="Use Case Infection Control.Diagnose.FallIrelation" />
+    <element id="Use Case Infection Control.Diagnose.FalIrelation">
+      <path value="Use Case Infection Control.Diagnose.FalIrelation" />
       <short value="Zur Erfassung von Details zur Identifikation eines Falls im Gesundheitswesen." />
       <comment value="FHIR_mapping: Encounter (Reference)" />
       <min value="0" />
