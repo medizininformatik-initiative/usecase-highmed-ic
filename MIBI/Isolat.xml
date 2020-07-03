@@ -84,7 +84,7 @@
           <valueString value="SpecimenType" />
         </extension>
         <strength value="preferred" />
-        <description value="Use Case IC Probenart" />
+        <description value="Isolat" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -101,7 +101,19 @@
     <element id="Specimen.type.coding.system">
       <path value="Specimen.type.coding.system" />
       <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
       <mustSupport value="true" />
+    </element>
+    <element id="Specimen.type.coding.code">
+      <path value="Specimen.type.coding.code" />
+      <fixedCode value="429951000124103" />
+    </element>
+    <element id="Specimen.type.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Specimen.type.coding.display" />
+      <fixedString value="Bacterial isolate specimen (specimen)" />
     </element>
     <element id="Specimen.receivedTime">
       <path value="Specimen.receivedTime" />
