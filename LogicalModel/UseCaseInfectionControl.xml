@@ -899,8 +899,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt" />
       <short value="Zur Erfassung der administrativen Aufenthaltsdaten eines Patienten." />
       <min value="0" />
       <max value="*" />
@@ -908,8 +908,8 @@
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Beginn">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Beginn" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Beginn">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Beginn" />
       <short value="Zeitlicher Beginn des Aufenthaltes am beschriebenen Ort." />
       <min value="1" />
       <max value="1" />
@@ -918,8 +918,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Ende">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Ende" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Ende">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Ende" />
       <short value="Zeitliches Ende des Aufenthaltes am beschriebenen Ort." />
       <min value="0" />
       <max value="*" />
@@ -928,8 +928,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.GrunddesAufenthaltes">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.GrunddesAufenthaltes" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.GrunddesAufenthaltes">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.GrunddesAufenthaltes" />
       <short value="Grund des Aufenthaltes" />
       <min value="0" />
       <max value="*" />
@@ -938,8 +938,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort" />
       <short value="Der Standort umfasst sowohl zufällige Standorte (ein Ort, der ohne vorherige Bestimmung oder Freigabe für die Gesundheitsversorgung genutzt wird) als auch spezielle, formal zugeordnete Standorte. Die Standorte können privat, öffentlich, mobil oder feststehend sein." />
       <min value="0" />
       <max value="*" />
@@ -947,8 +947,8 @@
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Standorttyp">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Standorttyp" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Standorttyp">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Standorttyp" />
       <short value="Kategorisierung des Standorttyps, z.B. Fachabteilung, Klinik, zu Hause." />
       <min value="0" />
       <max value="*" />
@@ -957,8 +957,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Standortbeschreibung">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Standortbeschreibung" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Standortbeschreibung">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Standortbeschreibung" />
       <short value="Das Feld enthält die Freitextbeschreibung des Standorts, z.B. Throax-, Herz- und Gefäßchirurgie." />
       <min value="0" />
       <max value="*" />
@@ -968,8 +968,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Abteilungsschlüssel">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Abteilungsschlüssel" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Abteilungsschlüssel">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Abteilungsschlüssel" />
       <short value="Kodierung des Standortes, z.B. der Fachabteilungsschlüssel (z. B. 2000 Thoraxchirurgie)." />
       <min value="0" />
       <max value="*" />
@@ -979,8 +979,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Campus">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Campus" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Campus">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Campus" />
       <short value="Eine Gruppe von Gebäuden an anderen Orten, wie ein örtlich entfernter Campus, der außerhalb der Einrichtung liegt, aber zur Institution gehört." />
       <min value="0" />
       <max value="*" />
@@ -989,8 +989,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Gebäudegruppe">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Gebäudegruppe" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Gebäudegruppe">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Gebäudegruppe" />
       <short value="Ein Gebäude oder Bauwerk. Dazu können Räume, Flure, Flügel, etc. gehören. Es hat möglicherweise keine Wände oder ein Dach, wird aber dennoch als definierter/zugeordneter Raum angesehen." />
       <min value="0" />
       <max value="*" />
@@ -999,8 +999,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Ebene">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Ebene" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Ebene">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Ebene" />
       <short value="Die Ebene in einem mehrstöckigen Gebäude/Bauwerk." />
       <min value="0" />
       <max value="*" />
@@ -1009,8 +1009,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Stationkennung">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Stationkennung" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Stationkennung">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Stationkennung" />
       <short value="Die Station ist ein Bestandteil einer medizinischen Einrichtung, die Räume und andere Arten von Aufenthaltsorten umfasst, z. B. Station 12A. Auch als Raumgruppe erfassbar." />
       <min value="0" />
       <max value="*" />
@@ -1019,8 +1019,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Zimmerkennung">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Zimmerkennung" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Zimmerkennung">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Zimmerkennung" />
       <short value="Ein Ort, der als Zimmer deklariert wurde. Er kann durch Wände oder anderes abgegrenzt sein, muss es aber nicht." />
       <min value="0" />
       <max value="*" />
@@ -1029,8 +1029,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Bettplatzkennung">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.Bettplatzkennung" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Bettplatzkennung">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.Bettplatzkennung" />
       <short value="Beschreibung des Bettstellplatzes z.B. Bett stand neben dem Fenster oder neben der Tür." />
       <min value="0" />
       <max value="*" />
@@ -1039,8 +1039,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.DetailszumBett">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.DetailszumBett" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.DetailszumBett">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.DetailszumBett" />
       <short value="Ein Instrument, ein Gerät, ein Implantat, ein Material oder ähnliches, das für die Bereitstellung von Gesundheitsleistungen verwendet wird. In diesem Zusammenhang umfasst ein medizinisches Gerät eine breite Palette von Geräten, die auf verschiedene physikalische, mechanische, thermische oder ähnliche Weise wirken, schließt jedoch insbesondere Geräte aus, die auf medizinischem Wege wirken, wie zum Beispiel pharmakologische, metabolische oder immunologische Methoden. Der Geltungsbereich umfasst Einweggeräte sowie langlebige oder dauerhafte Geräte, die nachverfolgt, gewartet oder regelmäßig kalibriert werden müssen, wobei zu berücksichtigen ist, dass für jeden Gerätetyp bestimmte Datenaufzeichnungsanforderungen gelten." />
       <min value="0" />
       <max value="*" />
@@ -1048,8 +1048,8 @@
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.DetailszumBett.Gerätename">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.DetailszumBett.Gerätename" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.DetailszumBett.Gerätename">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.DetailszumBett.Gerätename" />
       <short value="Identifizierung des Medizingerätes, bevorzugt durch einen allgemein gebräuchlichen Namen, einer formellen und vollständig beschreibenden Bezeichnung oder falls notwendig anhand einer Klasse oder Kategorie des Gerätes." />
       <comment value="Dieses Datenelement erfasst den Begriff, die Phrase oder die Kategorie, die in der klinischen Praxis verwendet werden. Zum Beispiel: &lt;Markenname&gt; &lt;Maschine&gt; (XYZ-Audiometer); &lt;Markenname&gt; (14G Jelco IV-Katheter); oder &lt;Markenname / Typ&gt; &lt;Implantat&gt;. Die Codierung mit einer Terminologie ist nach Möglichkeit wünschenswert, auch wenn dies lokal sein kann und von den verfügbaren lokalen Lieferungen abhängt." />
       <min value="1" />
@@ -1059,8 +1059,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.DetailszumBett.Gerätetyp">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.DetailszumBett.Gerätetyp" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.DetailszumBett.Gerätetyp">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.DetailszumBett.Gerätetyp" />
       <short value="Die Kategorie des Medizingeräts." />
       <comment value="Nicht zutreffend, wenn eine Kategorie bereits unter &quot;Gerätename&quot; dokumentiert ist. Beispiel: Wenn das 'Gerät' als 'Harnkatheter' bezeichnet wird; der 'Typ' kann als 'Verweilkatheter' oder 'Kondom' aufgezeichnet werden. Die Codierung mit einer Terminologie ist wünschenswert, sofern dies möglich ist. Dies kann die Verwendung von GTIN- oder EAN-Nummern einschließen." />
       <min value="0" />
@@ -1070,8 +1070,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.DetailszumBett.EindeutigeIdentifikationsnummer">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Versorgungsort.DetailszumBett.EindeutigeIdentifikationsnummer" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.DetailszumBett.EindeutigeIdentifikationsnummer">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Versorgungsort.DetailszumBett.EindeutigeIdentifikationsnummer" />
       <short value="Eine numerische oder alphanumerische Zeichenfolge, die diesem Gerät in einem bestimmten System zugeordnet ist." />
       <comment value="Oft als Barcode am Gerät befestigt" />
       <min value="0" />
@@ -1081,8 +1081,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Kommentar">
-      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Versorgungsorte.Kommentar" />
+    <element id="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Kommentar">
+      <path value="Use Case Infection Control.Bewegungsdaten.Abteilungsfall.Patientenaufenthalt.Kommentar" />
       <short value="Zusätzliche Kommentare." />
       <min value="0" />
       <max value="*" />
