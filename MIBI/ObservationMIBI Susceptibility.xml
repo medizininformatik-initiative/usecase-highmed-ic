@@ -186,6 +186,7 @@
       <binding>
         <strength value="preferred" />
         <description value="Codes identifying Susceptobility tests" />
+        <valueSet value="http://highmed.infectioncontrol.de/fhir/core/ValueSet/susceptibilitytests" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
