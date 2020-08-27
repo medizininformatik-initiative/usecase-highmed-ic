@@ -19,6 +19,14 @@
                 <display value=" Blood specimen obtained for blood culture (specimen)"/>
             </concept>
             <concept>
+                <code value="866033003"/>
+                <display value=" Blood specimen in aerobic blood culture bottle (specimen)"/>
+            </concept>
+            <concept>
+                <code value="866032008"/>
+                <display value=" Blood specimen in anaerobic blood culture bottle (specimen)"/>
+            </concept>
+            <concept>
                 <code value="257261003"/>
                 <display value="Swab (specimen)"/>
             </concept>
