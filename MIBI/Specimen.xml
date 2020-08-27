@@ -41,12 +41,6 @@
       <alias value="Probe" />
     </element>
     <element id="Specimen.identifier">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.identifier" />
       <label value="Externer Identifikator" />
       <definition value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
@@ -60,12 +54,6 @@
       </mapping>
     </element>
     <element id="Specimen.accessionIdentifier">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.accessionIdentifier" />
       <label value="Laborprobenidentifikator" />
       <short value="Eine eindeutige Kennung der Probe, die normalerweise vom Labor vergeben wird." />
@@ -76,12 +64,6 @@
       </mapping>
     </element>
     <element id="Specimen.type">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.type" />
       <label value="Probenart" />
       <code>
@@ -106,36 +88,18 @@
       </mapping>
     </element>
     <element id="Specimen.type.coding">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.type.coding" />
       <fixedCoding>
         <system value="http://snomed.info/sct" />
       </fixedCoding>
     </element>
     <element id="Specimen.type.coding.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.type.coding.system" />
       <min value="1" />
       <fixedUri value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/ICProbenart" />
       <mustSupport value="true" />
     </element>
     <element id="Specimen.receivedTime">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.receivedTime" />
       <label value="Zeitpunkt des Probeneingangs" />
       <short value="Datum und Uhrzeit des Eingangs der Probe im Labor." />
@@ -147,12 +111,6 @@
       </mapping>
     </element>
     <element id="Specimen.parent">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.parent" />
       <label value="Identifikator der Übergeordneten Probe" />
       <definition value="Eindeutige Kennung der verwandten Probe(n), bei der die Probe in Teilproben aufgeteilt ist." />
@@ -168,12 +126,6 @@
       </mapping>
     </element>
     <element id="Specimen.collection.collector">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.collection.collector" />
       <label value="Identifikator des Probennehmers" />
       <short value="Die Person oder Organisation die für die Entnahme der Probe verantwortlich war." />
@@ -185,12 +137,6 @@
       </mapping>
     </element>
     <element id="Specimen.collection.collected[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.collection.collected[x]" />
       <label value="Zeitpunkt der Probenentnahme" />
       <definition value="Das Datum und die Uhrzeit, zu der die Probennahme angeordnet wurde oder stattfand." />
@@ -203,16 +149,10 @@
       </mapping>
     </element>
     <element id="Specimen.collection.bodySite">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.collection.bodySite" />
       <label value="Probenentnahmestelle" />
       <code>
-        <system value="http://snomed.info/sct" />
+        <system value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/ICLokalisation" />
       </code>
       <min value="1" />
       <mustSupport value="true" />
@@ -223,66 +163,30 @@
       </mapping>
     </element>
     <element id="Specimen.collection.bodySite.coding">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.collection.bodySite.coding" />
       <fixedCoding>
         <system value="http://snomed.info/sct" />
       </fixedCoding>
     </element>
     <element id="Specimen.collection.bodySite.coding.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.collection.bodySite.coding.system" />
       <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
       <mustSupport value="true" />
     </element>
     <element id="Specimen.collection.bodySite.coding.version">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.collection.bodySite.coding.version" />
       <fixedString value="http://snomed.info/sct/900000000000207008" />
     </element>
     <element id="Specimen.collection.bodySite.coding.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.collection.bodySite.coding.code" />
       <min value="1" />
     </element>
     <element id="Specimen.condition">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.condition" />
       <max value="1" />
     </element>
     <element id="Specimen.note">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Specimen.note" />
       <label value="Kommentar (auch des Probennehmers)" />
       <short value="Kommentar des Probennehmers, Kommentar" />
