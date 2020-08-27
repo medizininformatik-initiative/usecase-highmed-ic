@@ -235,7 +235,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://snomed.info/sct" />
+        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/Erreger" />
       </binding>
     </element>
     <element id="Observation.value[x].coding.system">
