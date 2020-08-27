@@ -182,6 +182,7 @@
     <element id="Observation.code">
       <path value="Observation.code" />
       <short value="Microbiology test" />
+      <definition value="Describes what was observed. Sometimes this is called the observation &quot;name&quot;. &#xD;&#xA;e.g. Bacteria presence detection" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
