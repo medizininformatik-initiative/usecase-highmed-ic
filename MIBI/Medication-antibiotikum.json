@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://highmed.infectioncontrolde/fhir/core/StructureDefinition/MedicationAntibiotika",
+  "url": "http://highmed.org/StructureDefinition/MedicationAntibiotika",
   "version": "1.0",
   "name": "Medication",
   "title": "HiGHmed- Medikation - Antibiotika",
@@ -304,7 +304,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://highmed.infectioncontrol.de/fhir/core/ValueSet/Antibiotika"
+          "valueSet": "http://highmed.org/ValueSet/antibiotika"
         }
       },
       {
@@ -323,7 +323,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://highmed.infectioncontrol.de/fhir/core/ValueSet/Antibiotika"
+          "valueSet": "http://highmed.org/ValueSet/antibiotika"
         }
       },
       {
@@ -406,7 +406,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://highmed.infectioncontrol.de/fhir/core/ValueSet/Antibiotika"
+          "valueSet": "http://highmed.org/ValueSet/antibiotika"
         }
       },
       {
@@ -422,7 +422,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://highmed.infectioncontrol.de/fhir/core/ValueSet/Antibiotika"
+          "valueSet": "http://highmed.org/ValueSet/antibiotika"
         }
       },
       {

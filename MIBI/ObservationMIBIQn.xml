@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIQn" />
+  <url value="http://highmed.org/StructureDefinition/ObservationMIBIQn" />
   <version value="0.9" />
   <name value="ObservationMIBIQn" />
   <title value="HiGHmed- Infection Control - Keimzahl" />
@@ -501,7 +501,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>

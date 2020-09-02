@@ -5,7 +5,7 @@
     <versionId value="2" />
     <lastUpdated value="2020-01-15T14:18:06.021+00:00" />
   </meta>
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Isolat" />
+  <url value="http://highmed.org/StructureDefinition/Isolat" />
   <name value="Isolat" />
   <title value="HiGHmed- Infection Control- Isolat" />
   <status value="draft" />
@@ -134,7 +134,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
       <mapping>

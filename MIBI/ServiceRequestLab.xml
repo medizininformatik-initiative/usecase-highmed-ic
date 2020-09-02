@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ServiceRequestLab" />
+  <url value="http://highmed.org/StructureDefinition/ServiceRequestLab" />
   <version value="0.9" />
   <name value="ServiceRequestLab" />
   <title value="HiGHmed- Infection Control - ServiceRequest" />
@@ -334,7 +334,7 @@
           <valueString value="ServiceRequestCode" />
         </extension>
         <strength value="preferred" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/IC-Anforderungen" />
+        <valueSet value="http://highmed.org/ValueSet/anforderungen" />
       </binding>
     </element>
     <element id="ServiceRequest.code.coding.system">
@@ -398,7 +398,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>

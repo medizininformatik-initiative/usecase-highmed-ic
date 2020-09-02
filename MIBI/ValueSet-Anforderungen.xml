@@ -2,7 +2,7 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
-    <url value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/IC-Anforderungen" />
+    <url value="http://highmed.org/ValueSet/anforderungen" />
     <version value="0.9" />
     <name value="UCIC-Anforderungen" />
     <title value="ValueSet UCIC Anforderungen" />
@@ -13,7 +13,7 @@
     <description value="Defines codes for test requsts in HiGHmed Use Case Infection Cntrol." />
     <compose>
         <include>
-            <system value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/IC-Anforderungen"/>
+            <system value="http://highmed.org/CodeSystem/anforderungen"/>
            <concept>
                 <code value="01"/>
                 <display value="MRSA"/>

@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://highmed.infectioncontrol.de/fhir/core/ValueSet/susceptibilitytests",
+  "url": "http://highmed.org/ValueSet/susceptibilitytests",
   "title": "Susceptiblity tests",
   "status": "draft",
   "contact": [

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Resistenzmechanismus" />
+  <url value="http://highmed.org/StructureDefinition/Resistenzmechanismus" />
   <version value="0.9" />
   <name value="Resistenzmechanismus" />
   <title value="HiGHmed- Infection Control- Resistenzmechanismus" />
@@ -248,7 +248,7 @@
       <binding>
         <strength value="required" />
         <description value="MRE Klasse" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/mre-klassen" />
+        <valueSet value="http://highmed.org/ValueSet/mre-klassen" />
       </binding>
     </element>
     <element id="Observation.interpretation">
@@ -267,7 +267,7 @@
       <path value="Observation.specimen" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>
