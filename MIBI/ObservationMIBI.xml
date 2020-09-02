@@ -28,10 +28,6 @@
       <path value="Observation.meta.profile" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.id">
-      <path value="Observation.id" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.identifier">
       <path value="Observation.identifier" />
       <slicing>
@@ -102,6 +98,10 @@
       <path value="Observation.identifier.value" />
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="ttp://highmed.org/ValueSet/erreger" />
+      </binding>
     </element>
     <element id="Observation.identifier:analyseBefundCode.assigner">
       <path value="Observation.identifier.assigner" />
@@ -309,6 +309,10 @@
     <element id="Observation.component">
       <path value="Observation.component" />
       <max value="0" />
+    </element>
+    <element id="Observation.id">
+      <path value="Observation.id" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
