@@ -20,18 +20,18 @@
         <code value="Element" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient">
-      <path value="Use Case Infection Control.Patient" />
+    <element id="Use Case Infection Control.Person">
+      <path value="Use Case Infection Control.Person" />
       <label value="KDS Basis Module" />
-      <short value="Patient" />
+      <short value="Person" />
       <min value="1" />
       <max value="1" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Geburtsdatum">
-      <path value="Use Case Infection Control.Patient.Geburtsdatum" />
+    <element id="Use Case Infection Control.Person.Geburtsdatum">
+      <path value="Use Case Infection Control.Person.Geburtsdatum" />
       <short value="Geburtsdatum des Patienten" />
       <comment value="FHIR_mapping: Patient.birthDate" />
       <min value="0" />
@@ -41,8 +41,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/date" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Geschlecht">
-      <path value="Use Case Infection Control.Patient.Geschlecht" />
+    <element id="Use Case Infection Control.Person.Geschlecht">
+      <path value="Use Case Infection Control.Person.Geschlecht" />
       <short value="Administratives Geschlecht der Person" />
       <comment value="FHIR_mapping: Patient.gender" />
       <min value="0" />
