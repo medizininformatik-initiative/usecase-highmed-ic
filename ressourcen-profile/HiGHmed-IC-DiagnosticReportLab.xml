@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/DiagnosticReportLab" />
+  <url value="http://highmed.org/fhir/StructureDefinition/DiagnosticReportLab" />
   <version value="0.9" />
   <name value="MII_IC_DiagnosticReport" />
   <title value="HiGHmed- Infection Control- DiagnosticReport" />
