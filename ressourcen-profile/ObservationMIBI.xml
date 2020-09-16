@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
+  <url value="http://highmed.org/StructureDefinition/ObservationMIBI" />
   <version value="0.9" />
   <name value="ObservationMIBI" />
   <title value="HiGHmed- Infection Control - Erreger Nachweis" />
@@ -26,10 +26,6 @@
     </element>
     <element id="Observation.meta.profile">
       <path value="Observation.meta.profile" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.id">
-      <path value="Observation.id" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.identifier">
@@ -102,6 +98,10 @@
       <path value="Observation.identifier.value" />
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="ttp://highmed.org/ValueSet/erreger" />
+      </binding>
     </element>
     <element id="Observation.identifier:analyseBefundCode.assigner">
       <path value="Observation.identifier.assigner" />
@@ -245,7 +245,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/Erreger" />
+        <valueSet value="http://highmed.org/ValueSet/erreger" />
       </binding>
     </element>
     <element id="Observation.value[x].coding.system">
@@ -276,7 +276,7 @@
       <path value="Observation.specimen" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -300,15 +300,19 @@
       <path value="Observation.hasMember" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIQn" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIPanel" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBI" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIQn" />
+        <targetProfile value="http://highmed.org/ObservationMIBIPanel" />
       </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.component">
       <path value="Observation.component" />
       <max value="0" />
+    </element>
+    <element id="Observation.id">
+      <path value="Observation.id" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>

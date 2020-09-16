@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/DiagnosticReportLab" />
+  <url value="http://highmed.org/DiagnosticReportLab" />
   <version value="0.9" />
   <name value="MII_IC_DiagnosticReport" />
   <title value="HiGHmed- Infection Control- DiagnosticReport" />
@@ -219,7 +219,7 @@
       <type>
         <code value="Reference" />
         <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ServiceRequestLab" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ServiceRequestLab" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -511,7 +511,7 @@
       <path value="DiagnosticReport.specimen" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -547,9 +547,9 @@
       <type>
         <code value="Reference" />
         <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBI" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIQn" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIPanel" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBI" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIQn" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIPanel" />
       </type>
       <mustSupport value="true" />
     </element>

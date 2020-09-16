@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/MREKlasse" />
+  <url value="http://highmed.org/StructureDefinition/MREKlasse" />
   <version value="0.9" />
   <name value="MREKlasse" />
   <title value="HiGHmed- Infection Control- MRE Klasse" />
@@ -241,12 +241,12 @@
       <binding>
         <strength value="required" />
         <description value="MRE Klasse" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/mre-klassen" />
+        <valueSet value="http://highmed.org/ValueSet/mre-klassen" />
       </binding>
     </element>
     <element id="Observation.value[x].coding.system">
       <path value="Observation.value[x].coding.system" />
-      <fixedUri value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/mre-klassen" />
+      <fixedUri value="http://highmed.org/mre-klassen" />
     </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
@@ -264,7 +264,7 @@
       <path value="Observation.specimen" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="https://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>

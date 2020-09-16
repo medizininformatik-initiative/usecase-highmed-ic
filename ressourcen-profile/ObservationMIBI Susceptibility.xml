@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBISusceptibility" />
+  <url value="http://highmed.org/StructureDefinition/AntibiotikaSusceptibility" />
   <version value="0.9" />
   <name value="ObservationMIBISusceptibility" />
   <title value="HiGHmed- Infection Control - Antibiotikum-Messungen" />
@@ -186,7 +186,7 @@
       <binding>
         <strength value="preferred" />
         <description value="Codes identifying Susceptobility tests" />
-        <valueSet value="http://highmed.infectioncontrol.de/fhir/core/ValueSet/susceptibilitytests" />
+        <valueSet value="http://highmed.org/ValueSet/susceptibilitytests" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
@@ -211,7 +211,7 @@
       <path value="Observation.focus" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrolde/fhir/core/StructureDefinition/MedicationAntibiotika" />
+        <targetProfile value="http://highmed.org/StructureDefinition/MedicationAntibiotika" />
       </type>
     </element>
     <element id="Observation.encounter">
@@ -300,7 +300,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org//StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>

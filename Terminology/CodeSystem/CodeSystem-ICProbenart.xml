@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="UCIC Probenart" />
-    <url value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/ICProbenart" />
+    <url value="https://highmed.org/CodeSystem/probenart" />
     <version value="0.1" />
     <name value="Use Case Infection Control Probenart" />
     <title value="Use Case Infection Control Probenart" />
@@ -8,7 +8,7 @@
     <date value="2020-04-27" />
     <description value="Das CodeSystem enthält die Use Case Infection Control Probenart" />
     <caseSensitive value="false" />
-    <valueSet value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/ICProbenart" />
+    <valueSet value="https://highmed.org/CodeSystem/probenart" />
     <hierarchyMeaning value="is-a" />
     <content value="complete" />
     <count value="5" />

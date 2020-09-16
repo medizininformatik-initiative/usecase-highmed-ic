@@ -1,6 +1,6 @@
 {
   "resourceType": "ConceptMap",
-  "title": "SusceptibilitytestsOrganisms",
+  "title": "SusceptibilityTestsOrganisms",
   "status": "draft",
   "contact": [
     {
@@ -4476,9 +4476,9 @@
   "url": "https://highmed.org/ValueSets/LOINCtestsSNOMEDAntibiotics",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SusceptibilitytestsOrganisms</h2><tt>https://highmed.org/ValueSets/LOINCtestsSNOMEDAntibiotics</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SusceptibilitytestsOrganisms</h2><tt>http://highmed.org/ValueSet/tests-antibiotika</tt></div>"
   },
-  "sourceCanonical": "https://highmed.org/ValueSets/Susceptibilitytests",
-  "targetCanonical": "https://highmed.org/ValueSets/Antibiotika",
-  "name": "SusceptibilitytestsOrganisms"
+  "sourceCanonical": "http://highmed.org/ValueSet/susceptibilitytests",
+  "targetCanonical": "http://highmed.org/ValueSet/antibiotika",
+  "name": "SusceptibilityTestsOrganisms"
 }

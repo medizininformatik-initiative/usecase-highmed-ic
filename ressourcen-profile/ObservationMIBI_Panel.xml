@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBIPanel" />
+  <url value="http://highmed.org/StructureDefinition/ObservationMIBIPanel" />
   <version value="0.9" />
   <name value="ObservationMIBIPanel" />
   <title value="HiGHmed- Infection Control - Antibiogramm" />
@@ -184,7 +184,7 @@
       <binding>
         <strength value="preferred" />
         <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS in {MICRO}  } }" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/SusceptibilityPanels" />
+        <valueSet value="http://highmed.org/ValueSet/susceptibilitypanels" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
@@ -195,7 +195,7 @@
       <path value="Observation.code.coding.code" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/SusceptibilityPanels" />
+        <valueSet value="http://highmed.org/ValueSet/susceptibilitypanels" />
       </binding>
     </element>
     <element id="Observation.code.coding.display">
@@ -291,7 +291,7 @@
       <path value="Observation.specimen" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -317,7 +317,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/ObservationMIBISusceptibility" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBISusceptibility" />
       </type>
       <mustSupport value="true" />
     </element>

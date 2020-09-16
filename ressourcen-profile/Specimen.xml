@@ -5,7 +5,7 @@
     <versionId value="2" />
     <lastUpdated value="2020-01-15T14:18:06.021+00:00" />
   </meta>
-  <url value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+  <url value="http://highmed.org/StructureDefinition/Specimen" />
   <name value="Specimen" />
   <title value="HiGHmed- Infection Control- Specimen" />
   <status value="draft" />
@@ -79,7 +79,7 @@
         </extension>
         <strength value="preferred" />
         <description value="Use Case IC Probenart" />
-        <valueSet value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/ICProbenart" />
+        <valueSet value="http://highmed.org/ValueSet/probenart" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -96,7 +96,7 @@
     <element id="Specimen.type.coding.system">
       <path value="Specimen.type.coding.system" />
       <min value="1" />
-      <fixedUri value="https://highmed.infectioncontrol.de/fhir/core/CodeSystem/ICProbenart" />
+      <fixedUri value="http://highmed.org/CodeSystem/probenart" />
       <mustSupport value="true" />
     </element>
     <element id="Specimen.receivedTime">
@@ -117,7 +117,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.infectioncontrol.de/fhir/core/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
       <mapping>
@@ -152,7 +152,7 @@
       <path value="Specimen.collection.bodySite" />
       <label value="Probenentnahmestelle" />
       <code>
-        <system value="https://highmed.infectioncontrol.de/fhir/core/ValueSet/ICLokalisation" />
+        <system value="http://highmed.org/ValueSet/lokalisation" />
       </code>
       <min value="1" />
       <mustSupport value="true" />
