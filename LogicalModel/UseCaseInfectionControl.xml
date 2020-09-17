@@ -20,18 +20,45 @@
         <code value="Element" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient">
-      <path value="Use Case Infection Control.Patient" />
+    <element id="Use Case Infection Control.Personendaten">
+      <path value="Use Case Infection Control.Personendaten" />
       <label value="KDS Basis Module" />
-      <short value="Patient" />
+      <short value="Person" />
       <min value="1" />
       <max value="1" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Geburtsdatum">
-      <path value="Use Case Infection Control.Patient.Geburtsdatum" />
+    <element id="Use Case Infection Control.Personendaten.Personen ID">
+      <path value="Use Case Infection Control.Personendaten.Personen ID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="id" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/id" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Vorname">
+      <path value="Use Case Infection Control.Personendaten.Vorname" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Nachname">
+      <path value="Use Case Infection Control.Personendaten.Nachname" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Geburtsdatum">
+      <path value="Use Case Infection Control.Personendaten.Geburtsdatum" />
       <short value="Geburtsdatum des Patienten" />
       <comment value="FHIR_mapping: Patient.birthDate" />
       <min value="0" />
@@ -41,10 +68,78 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/date" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Geschlecht">
-      <path value="Use Case Infection Control.Patient.Geschlecht" />
-      <short value="Administratives Geschlecht der Person" />
-      <comment value="FHIR_mapping: Patient.gender" />
+    <element id="Use Case Infection Control.Personendaten.Adresse">
+      <path value="Use Case Infection Control.Personendaten.Adresse" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Adresse.Zeile">
+      <path value="Use Case Infection Control.Personendaten.Adresse.Zeile" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Adresse.Stadt">
+      <path value="Use Case Infection Control.Personendaten.Adresse.Stadt" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Adresse.Postleitzahl">
+      <path value="Use Case Infection Control.Personendaten.Adresse.Postleitzahl" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Telefonummer">
+      <path value="Use Case Infection Control.Personendaten.Telefonummer" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten. Beschäftigung">
+      <path value="Use Case Infection Control.Personendaten. Beschäftigung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten. Beschäftigung.Berufsbezeichnung/Rolle">
+      <path value="Use Case Infection Control.Personendaten. Beschäftigung.Berufsbezeichnung/Rolle" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten. Beschäftigung.Kommentar">
+      <path value="Use Case Infection Control.Personendaten. Beschäftigung.Kommentar" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Art der Person">
+      <path value="Use Case Infection Control.Personendaten.Art der Person" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -62,29 +157,8 @@
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.DiagnoseKodiert">
-      <path value="Use Case Infection Control.Diagnose.DiagnoseKodiert" />
-      <short value="Im Bereich der administrativen und statistischen Auswertung wird die Diagnose mit Hilfe von Codiersystemen verschlüsselt. So wird z.B. bei der Abrechnung nach §301 und §295 SGB V die Codierung von Diagnosen mittels ICD-10 GM gesetzlich vorgeschrieben. Weitere Codiersysteme sind z.B. die &quot;Alpha-ID&quot;, SNOMED CT und ID MACS." />
-      <comment value="FHIR_mapping: Condition.code" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.DiagnoseKodiert.Diagnosecode">
-      <path value="Use Case Infection Control.Diagnose.DiagnoseKodiert.Diagnosecode" />
-      <short value="Diagnosecode" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.DiagnoseKodiert.Codesystem">
-      <path value="Use Case Infection Control.Diagnose.DiagnoseKodiert.Codesystem" />
-      <short value="Codesystem für den Diagnosecode, in Deutschland vorrangig ICD-10-GM, aber auch weitere Codesysteme wie Orphanet sollten möglich sein." />
+    <element id="Use Case Infection Control.Diagnose.Bericht ID">
+      <path value="Use Case Infection Control.Diagnose.Bericht ID" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -92,14 +166,22 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.DiagnoseKodiert.KatalogtextDiagnosecode">
-      <path value="Use Case Infection Control.Diagnose.DiagnoseKodiert.KatalogtextDiagnosecode" />
-      <short value="Zum Diagnosecode kann der assoziierte Text im Codiersystem (Klassentext, Displaytext/-name, Preferred Name, etc.) angegeben werden. Dieser Text entspricht nicht (unbedingt) der freitextlichen Beschreibung einer Diagnose und kann automatisch von einem System anhand des Codes angegeben werden." />
+    <element id="Use Case Infection Control.Diagnose.Fall-Kennung">
+      <path value="Use Case Infection Control.Diagnose.Fall-Kennung" />
+      <comment value="FHIR_mapping: Encounter (Reference)" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="Reference" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Diagnose.kodierte Diagnose">
+      <path value="Use Case Infection Control.Diagnose.kodierte Diagnose" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
     <element id="Use Case Infection Control.Diagnose.Freitextbeschreibung">
@@ -114,42 +196,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Lokalisation">
-      <path value="Use Case Infection Control.Diagnose.Lokalisation" />
-      <short value="Eine physische Stelle am oder innerhalb des menschlichen Körper" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.Lokalisation.NamederKörperstelle">
-      <path value="Use Case Infection Control.Diagnose.Lokalisation.NamederKörperstelle" />
-      <short value="Identifikation einer einzelnen physischen Stelle entweder am oder innerhalb des menschlichen Körpers." />
-      <comment value="FHIR_mapping: Condition.bodySite" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.Lokalisation.Lateralität">
-      <path value="Use Case Infection Control.Diagnose.Lokalisation.Lateralität" />
-      <short value="Die Seite des Körpers, an der sich die identifizierte Körperstelle befindet." />
-      <definition value="Links  [Die linke Körperseite.]&#xD;&#xA;Rechts  [Die rechte Körperseite.]&#xD;&#xA;Links und Rechts  [Beide Körperseiten.]" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.DatumErstdiagnose">
-      <path value="Use Case Infection Control.Diagnose.DatumErstdiagnose" />
-      <short value="Datum des Auftretens/der Erstdiagnose" />
-      <definition value="Geschätzte oder exakte Zeit (bzw. Datum), zu der die Krankheitsanzeichen oder Symptome zum ersten mal beobachtet wurden." />
-      <comment value="FHIR_mapping: Condition.onset" />
+    <element id="Use Case Infection Control.Diagnose.Klinisch relevanter Zeitraum (Zeitpunkt des Auftretenst">
+      <path value="Use Case Infection Control.Diagnose.Klinisch relevanter Zeitraum (Zeitpunkt des Auftretenst" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -168,102 +216,53 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Schweregrad">
-      <path value="Use Case Infection Control.Diagnose.Schweregrad" />
-      <short value="Eine Gesamtbeurteilung des Schweregrades des Problems oder der Diagnose." />
-      <definition value="Leicht  [Das Problem oder die Diagnose beeinträchtigt die normale Aktivität nicht, bzw. verursacht nicht bleibende gesundheitliche Schäden, falls es nicht behandelt wird.]&#xD;&#xA;Mäßig  [Das Problem oder die Diagnose beeinträchtigt die normale Aktivität oder verursacht bleibende gesundheitliche Schäden, falls es nicht behandelt wird.]&#xD;&#xA;Schwer  [Das Problem oder die Diagnose verhindert die normale Aktivität oder verursacht schwerwiegende gesundheitliche Schäden, falls es nicht behandelt wird.]" />
-      <comment value="FHIR_mapping: Condition.stage" />
+    <element id="Use Case Infection Control.Diagnose.Klinischer Status">
+      <path value="Use Case Infection Control.Diagnose.Klinischer Status" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Diagnosedetails">
-      <path value="Use Case Infection Control.Diagnose.Diagnosedetails" />
-      <short value="Diagnosebezogene Informationen" />
+    <element id="Use Case Infection Control.Diagnose.Körperstelle">
+      <path value="Use Case Infection Control.Diagnose.Körperstelle" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackboneElement" />
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Diagnosedetails.BegründungvonAusnahmen">
-      <path value="Use Case Infection Control.Diagnose.Diagnosedetails.BegründungvonAusnahmen" />
-      <short value="Das Auftreten einer Diagnose muss in manchen Fällen zu Abrechnungszwecken begründet werden, z.B. für geschlechtsspezifische Plausibilitätsprüfungen" />
+    <element id="Use Case Infection Control.Diagnose.Seitenlokalisation">
+      <path value="Use Case Infection Control.Diagnose.Seitenlokalisation" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Diagnosedetails.Diagnosetyp">
-      <path value="Use Case Infection Control.Diagnose.Diagnosedetails.Diagnosetyp" />
-      <short value="Art der Diagnose. Bei der Angabe des Diagnosetyps ist darauf zu achten, dass dieser auch im richtigen Kontext verwendet wird. Zum Beispiel wird es bei der Beschreibung einer Diagnose im Rahmen einer Überweisung nicht den Diagnosetyp &quot;Entlassdiagnose&quot; geben." />
-      <definition value="Aufnahmediagnose&#xD;&#xA;Operationsdiagnose&#xD;&#xA;Entlassdiagnose&#xD;&#xA;Todesursache&#xD;&#xA;Versorgungsfallhauptdiagnose&#xD;&#xA;Abteilungsfallhauptdiagnose&#xD;&#xA;Sonstige&#xD;&#xA;Versorgungsfallnebendiagnose&#xD;&#xA;Abteilungsfallnebendiagnose" />
-      <comment value="FHIR_mapping: Condition.category" />
+    <element id="Use Case Infection Control.Diagnose.Lebensphase Beginn">
+      <path value="Use Case Infection Control.Diagnose.Lebensphase Beginn" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+        <code value="dateTime" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Diagnosedetails.VorhandenbeiAufnahme">
-      <path value="Use Case Infection Control.Diagnose.Diagnosedetails.VorhandenbeiAufnahme" />
-      <short value="Ist die Diagnose bei der Aufnahme in die Gesundheiteinrichtung vorhanden?" />
+    <element id="Use Case Infection Control.Diagnose.Lebensphase Ende">
+      <path value="Use Case Infection Control.Diagnose.Lebensphase Ende" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="boolean" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/boolean" />
+        <code value="dateTime" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Diagnosedetails.VorhandenbeiEntlassung">
-      <path value="Use Case Infection Control.Diagnose.Diagnosedetails.VorhandenbeiEntlassung" />
-      <short value="Ist die Diagnose bei Entlassung aus der Gesundheiteinrichtung vorhanden?" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="boolean" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/boolean" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.Ätiopathogenese">
-      <path value="Use Case Infection Control.Diagnose.Ätiopathogenese" />
-      <short value="Die Ursachen, Gründe oder Erklärung für das Entstehen eines bestimmten Problems/einer Diagnose, dessen/deren auslösenden Faktoren und Entwicklung." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.Ätiopathogenese.ÄtiologiederKrankheit">
-      <path value="Use Case Infection Control.Diagnose.Ätiopathogenese.ÄtiologiederKrankheit" />
-      <short value="Identifizierung der Ursache der Krankheit oder des abnormalen Zustands" />
-      <definition value="Arbeitsrisikofaktoren  [z.B. Asbestexposition]&#xD;&#xA;Biologisch  [z.B. Alter, Geschlecht]&#xD;&#xA;Chemische Verletzung  [z. B. Gift, Medikament]&#xD;&#xA;Ernährungsrelevante Faktoren  [z. B. Eisenmangel, kohlenhydratreiche Ernährung]&#xD;&#xA;Genetische Herkunft  [z. B Sichelzellenanämie]&#xD;&#xA;Immunologische Herkunft  [z.B. systemische Lupus erythematodes, AIDS (als Grundursache für Kaposis Sarkom)]&#xD;&#xA;Infektion  [z.B. Hepatitis C]&#xD;&#xA;Körperliche Verletzung  [z.B. Kopftrauma, Hitzeerschöpfung, Verletzung durch Strahlenbelastung]&#xD;&#xA;Lebenswandel-bezogene Faktoren  [z. B. Rauchen, Alkoholismus]&#xD;&#xA;Metabolisch-endokriner Herkunft  [z. B. Akromegalie, Diabetes]&#xD;&#xA;Neuropsychiatrische Herkunft  [z. B. Alzheimer-Krankheit, Depression]&#xD;&#xA;Umweltexposition  [z.B. UV-Strahlung aussetzen, Feinstaub Aussetzung]&#xD;&#xA;Sonstiges  [Sonstige Ursachen, die mit vorgegebenen Werten nicht dargestellt werden können]" />
-      <min value="1" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.Ätiopathogenese.BeschreibungdesEntstehens">
-      <path value="Use Case Infection Control.Diagnose.Ätiopathogenese.BeschreibungdesEntstehens" />
-      <short value="Weitere Beschreibung der Ursachen oder Gründe für das Entstehen (Ätiologie) eines spezifischen Problems/einer Diagnose." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.DatumZeitpunktderGenesung">
-      <path value="Use Case Infection Control.Diagnose.DatumZeitpunktderGenesung" />
-      <short value="Geschätzte oder exakte Zeit (bzw. Datum), zu der von einer medizinischen Fachkraft die Genesung oder die Remission des Problems oder der Diagnose festgestellt wurde" />
+    <element id="Use Case Infection Control.Diagnose.Klinisch relevanter Zeitraum DatumZeitpunktderGenesung">
+      <path value="Use Case Infection Control.Diagnose.Klinisch relevanter Zeitraum DatumZeitpunktderGenesung" />
       <comment value="Unvollständige Datumsangaben sind zulässig. Wenn der Patient unter einem Jahr alt ist, dann ist das vollständige Datum oder ein Minimum von Monat und Jahr notwendig, um genaue Altersberechnungen zu ermöglichen - z.B. wenn es zur Entscheidungsunterstützung verwendet wird. Datumswerte, die als &quot;Alter zum Zeitpunkt der Genesung&quot; erfasst/importiert werden, sollten anhand des Geburtsdatums der Person in ein Datum umgewandelt werden" />
       <min value="0" />
       <max value="*" />
@@ -301,16 +300,6 @@
       <type>
         <code value="dateTime" />
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Diagnose.Fallrelation">
-      <path value="Use Case Infection Control.Diagnose.Fallrelation" />
-      <short value="Zur Erfassung von Details zur Identifikation eines Falls im Gesundheitswesen." />
-      <comment value="FHIR_mapping: Encounter (Reference)" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Reference" />
       </type>
     </element>
     <element id="Use Case Infection Control.Mikrobiologischerbefund">
@@ -1105,48 +1094,21 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Prozedur.Falllrelation">
-      <path value="Use Case Infection Control.Prozedur.Falllrelation" />
-      <short value="Zur Erfassung von Details zur Identifikation eines Falls im Gesundheitswesen." />
-      <min value="1" />
-      <max value="1" />
+    <element id="Use Case Infection Control.Prozedur.Fall-Kennung">
+      <path value="Use Case Infection Control.Prozedur.Fall-Kennung" />
+      <min value="0" />
+      <max value="*" />
       <type>
         <code value="Reference" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Prozedur.ProzedurKodiert">
-      <path value="Use Case Infection Control.Prozedur.ProzedurKodiert" />
+    <element id="Use Case Infection Control.Prozedur.Name der Prozedur">
+      <path value="Use Case Infection Control.Prozedur.Name der Prozedur" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Prozedur.ProzedurKodiert.KatalogtextProzedurencode">
-      <path value="Use Case Infection Control.Prozedur.ProzedurKodiert.KatalogtextProzedurencode" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Prozedur.ProzedurKodiert.Codesystem">
-      <path value="Use Case Infection Control.Prozedur.ProzedurKodiert.Codesystem" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Prozedur.ProzedurKodiert.Prozedurencode">
-      <path value="Use Case Infection Control.Prozedur.ProzedurKodiert.Prozedurencode" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
     <element id="Use Case Infection Control.Prozedur.Freitextbeschreibung">
@@ -1160,57 +1122,32 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Prozedur.Lokalisation">
-      <path value="Use Case Infection Control.Prozedur.Lokalisation" />
-      <short value="Anatomische Lokalisation, an der die Prozedur durchgeführt wird." />
-      <min value="1" />
-      <max value="1" />
+    <element id="Use Case Infection Control.Prozedur.Name der Körperstelle">
+      <path value="Use Case Infection Control.Prozedur.Name der Körperstelle" />
+      <min value="0" />
+      <max value="*" />
       <type>
         <code value="CodeableConcept" />
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Prozedur.AnatomischeLinie">
-      <path value="Use Case Infection Control.Prozedur.AnatomischeLinie" />
-      <short value="Zusätzliches Detail unter Verwendung theoretischer Linien, die durch anatomische Strukturen erweitert werden können, um einen einheitlichen Bezugspunkt auf dem menschlichen Körper zu erhalten." />
-      <definition value="Mittellinie  [Vertikal verlaufende Linie, die den Körper in eine linke und rechte Seite teilt und durch den Kopf, das Rückenmark und den Nabel verläuft. Alternativ kann es sich auf eine Linie beziehen, die ein Körperteil in zwei gleiche Teile teilt, zum Beispiel einen Zeh/Finger.]&#xD;&#xA;mittlere Axillarlinie  [Linie, die senkrecht zur Körperoberfläche verläuft und durch den Scheitelpunkt der Achselhöhle geht.]&#xD;&#xA;vordere Axillarlinie  [Die Linie verläuft senkrecht über die Körperoberfläche und verläuft durch die vordere Hautfalte der Achselhöhle.]&#xD;&#xA;hintere Axillarlinie  [Linie, die senkrecht über die Körperoberfläche verläuft und durch die hintere Achselhaut führt.]&#xD;&#xA;Medioklavikularlinie  [Linie, die senkrecht über die Körperoberfläche verläuft, parallel zur Mittellinie und durch den Mittelpunkt der Klavikula führt.]&#xD;&#xA;Mittelere Pupillarlinie  [Die Linie verläuft vertikal durch den Mittelpunkt der Pupille, wenn man direkt nach vorne schaut.]&#xD;&#xA;Mittlere Skapularlinie  [Die Linie verläuft senkrecht über die hintere Körperoberfläche, parallel zur Mittellinie und verläuft durch den unteren Punkt des Schulterblattes.]" />
+    <element id="Use Case Infection Control.Prozedur.Lateralität">
+      <path value="Use Case Infection Control.Prozedur.Lateralität" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Prozedur.Prozedurentyp">
-      <path value="Use Case Infection Control.Prozedur.Prozedurentyp" />
-      <short value="Die Art der Prozedur." />
-      <definition value="Ambulant&#xD;&#xA;Stationär" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Prozedur.Grund">
-      <path value="Use Case Infection Control.Prozedur.Grund" />
-      <short value="Grund, warum die angegebene Aktivität für diese Prozedur durchgeführt wurde." />
+    <element id="Use Case Infection Control.Prozedur.Durchführungsabsicht">
+      <path value="Use Case Infection Control.Prozedur.Durchführungsabsicht" />
       <definition value="Diagnostisch&#xD;&#xA;Therapeutisch&#xD;&#xA;Theragnostisch&#xD;&#xA;Andere&#xD;&#xA;[...]" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Prozedur.BegründungvonAusnahmen">
-      <path value="Use Case Infection Control.Prozedur.BegründungvonAusnahmen" />
-      <short value="Zusätzliche Beschreibung der Aktivität oder der &quot;Pathway&quot;-Verlaufsschritte, die in anderen Bereichen nicht erfasst wurden" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
   </differential>
