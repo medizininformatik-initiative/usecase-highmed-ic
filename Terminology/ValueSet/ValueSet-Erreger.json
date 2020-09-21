@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "https://highmed.infectioncontrol.de/fhir/core/ValueSet/Erreger",
+  "url": "http://highmed.org/ValueSet/erreger",
   "title": "Erreger",
   "status": "draft",
   "contact": [
@@ -2819,7 +2819,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Erreger</h2><tt>https://highmed.infectioncontrol.de/fhir/core/ValueSet/Erreger</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Erreger</h2><tt>http://highmed.org/ValueSet/erreger</tt></div>"
   },
   "name": "Erreger"
 }
