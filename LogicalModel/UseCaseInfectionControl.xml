@@ -112,16 +112,18 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Personendaten. Beschäftigung">
-      <path value="Use Case Infection Control.Personendaten. Beschäftigung" />
+    <element id="Use Case Infection Control.Personendaten.Beschäftigung">
+      <path value="Use Case Infection Control.Personendaten.Beschäftigung" />
+      <short value="Beschäftigung" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Personendaten. Beschäftigung.Berufsbezeichnung/Rolle">
-      <path value="Use Case Infection Control.Personendaten. Beschäftigung.Berufsbezeichnung/Rolle" />
+    <element id="Use Case Infection Control.Personendaten.Beschäftigung.BerufsbezeichnungRolle">
+      <path value="Use Case Infection Control.Personendaten.Beschäftigung.BerufsbezeichnungRolle" />
+      <short value="Berufsbezeichnung/Rolle" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -129,8 +131,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Personendaten. Beschäftigung.Kommentar">
-      <path value="Use Case Infection Control.Personendaten. Beschäftigung.Kommentar" />
+    <element id="Use Case Infection Control.Personendaten.Beschäftigung.Kommentar">
+      <path value="Use Case Infection Control.Personendaten.Beschäftigung.Kommentar" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -138,14 +140,15 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Personendaten.Art der Person">
-      <path value="Use Case Infection Control.Personendaten.Art der Person" />
+    <element id="Use Case Infection Control.Personendaten.ArtderPerson">
+      <path value="Use Case Infection Control.Personendaten.ArtderPerson" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="code" />
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
+      <fixedCode value="Art der Person" />
     </element>
     <element id="Use Case Infection Control.Diagnose">
       <path value="Use Case Infection Control.Diagnose" />
@@ -157,8 +160,9 @@
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Bericht ID">
-      <path value="Use Case Infection Control.Diagnose.Bericht ID" />
+    <element id="Use Case Infection Control.Diagnose.BerichtID">
+      <path value="Use Case Infection Control.Diagnose.BerichtID" />
+      <short value="BerichtID" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -175,8 +179,9 @@
         <code value="Reference" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.kodierte Diagnose">
-      <path value="Use Case Infection Control.Diagnose.kodierte Diagnose" />
+    <element id="Use Case Infection Control.Diagnose.kodierteDiagnose">
+      <path value="Use Case Infection Control.Diagnose.kodierteDiagnose" />
+      <short value="kodierte Diagnose" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -196,8 +201,9 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Klinisch relevanter Zeitraum (Zeitpunkt des Auftretenst">
-      <path value="Use Case Infection Control.Diagnose.Klinisch relevanter Zeitraum (Zeitpunkt des Auftretenst" />
+    <element id="Use Case Infection Control.Diagnose.KlinischrelevanterZeitraum">
+      <path value="Use Case Infection Control.Diagnose.KlinischrelevanterZeitraum" />
+      <short value="Klinisch relevanter Zeitraum (Zeitpunkt des Auftretenst" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -216,8 +222,9 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Klinischer Status">
-      <path value="Use Case Infection Control.Diagnose.Klinischer Status" />
+    <element id="Use Case Infection Control.Diagnose.KlinischerStatus">
+      <path value="Use Case Infection Control.Diagnose.KlinischerStatus" />
+      <short value="Klinischer Status" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -243,8 +250,9 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Lebensphase Beginn">
-      <path value="Use Case Infection Control.Diagnose.Lebensphase Beginn" />
+    <element id="Use Case Infection Control.Diagnose.LebensphaseBeginn">
+      <path value="Use Case Infection Control.Diagnose.LebensphaseBeginn" />
+      <short value="Lebensphase Beginn" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -252,8 +260,9 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Lebensphase Ende">
-      <path value="Use Case Infection Control.Diagnose.Lebensphase Ende" />
+    <element id="Use Case Infection Control.Diagnose.LebensphaseEnde">
+      <path value="Use Case Infection Control.Diagnose.LebensphaseEnde" />
+      <short value="Lebensphase Ende" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -261,8 +270,9 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.Klinisch relevanter Zeitraum DatumZeitpunktderGenesung">
-      <path value="Use Case Infection Control.Diagnose.Klinisch relevanter Zeitraum DatumZeitpunktderGenesung" />
+    <element id="Use Case Infection Control.Diagnose.ZeitpunktderGenesung">
+      <path value="Use Case Infection Control.Diagnose.ZeitpunktderGenesung" />
+      <short value="Klinisch relevanter Zeitraum Datum (Zeitpunkt der Genesung)" />
       <comment value="Unvollständige Datumsangaben sind zulässig. Wenn der Patient unter einem Jahr alt ist, dann ist das vollständige Datum oder ein Minimum von Monat und Jahr notwendig, um genaue Altersberechnungen zu ermöglichen - z.B. wenn es zur Entscheidungsunterstützung verwendet wird. Datumswerte, die als &quot;Alter zum Zeitpunkt der Genesung&quot; erfasst/importiert werden, sollten anhand des Geburtsdatums der Person in ein Datum umgewandelt werden" />
       <min value="0" />
       <max value="*" />
@@ -1102,8 +1112,9 @@
         <code value="Reference" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Prozedur.Name der Prozedur">
-      <path value="Use Case Infection Control.Prozedur.Name der Prozedur" />
+    <element id="Use Case Infection Control.Prozedur.NameProzedur">
+      <path value="Use Case Infection Control.Prozedur.NameProzedur" />
+      <short value="Name der Prozedur" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1122,8 +1133,9 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Prozedur.Name der Körperstelle">
-      <path value="Use Case Infection Control.Prozedur.Name der Körperstelle" />
+    <element id="Use Case Infection Control.Prozedur.NameKörperstelle">
+      <path value="Use Case Infection Control.Prozedur.NameKörperstelle" />
+      <short value="Name der Körperstelle" />
       <min value="0" />
       <max value="*" />
       <type>
