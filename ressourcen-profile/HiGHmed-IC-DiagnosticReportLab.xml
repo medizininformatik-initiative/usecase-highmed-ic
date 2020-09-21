@@ -27,5 +27,9 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="DiagnosticReport.specimen">
+      <path value="DiagnosticReport.specimen" />
+      <min value="1" />
+    </element>
   </differential>
 </StructureDefinition>
