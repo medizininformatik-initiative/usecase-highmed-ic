@@ -16,16 +16,47 @@
   <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ServiceRequestLab" />
   <derivation value="constraint" />
   <differential>
-    <element id="ServiceRequest.id">
-      <path value="ServiceRequest.id" />
+    <element id="ServiceRequest.identifier">
+      <path value="ServiceRequest.identifier" />
+      <min value="2" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger">
+      <path value="ServiceRequest.identifier" />
+      <sliceName value="anforderung-empfaenger" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.type">
+      <path value="ServiceRequest.identifier.type" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="FILL" />
+        </coding>
+      </patternCodeableConcept>
       <mustSupport value="true" />
     </element>
-    <element id="ServiceRequest.meta.source">
-      <path value="ServiceRequest.meta.source" />
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.system">
+      <path value="ServiceRequest.identifier.system" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="ServiceRequest.meta.profile">
-      <path value="ServiceRequest.meta.profile" />
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.value">
+      <path value="ServiceRequest.identifier.value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.assigner">
+      <path value="ServiceRequest.identifier.assigner" />
+      <min value="1" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.assigner.reference">
+      <path value="ServiceRequest.identifier.assigner.reference" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.assigner.identifier">
+      <path value="ServiceRequest.identifier.assigner.identifier" />
       <mustSupport value="true" />
     </element>
   </differential>
