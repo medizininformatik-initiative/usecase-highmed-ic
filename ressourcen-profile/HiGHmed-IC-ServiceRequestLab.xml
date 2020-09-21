@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://highmed.org/StructureDefinition/ServiceRequestLab" />
+  <version value="0.9" />
+  <name value="HiGHmed_IC_ServiceRequest" />
+  <title value="HiGHmed - Infection Control - ServiceRequest" />
+  <status value="draft" />
+  <experimental value="true" />
+  <publisher value="https://highmed.org/" />
+  <description value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
+  <purpose value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="ServiceRequest" />
+  <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ServiceRequestLab" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ServiceRequest.id">
+      <path value="ServiceRequest.id" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.meta.source">
+      <path value="ServiceRequest.meta.source" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.meta.profile">
+      <path value="ServiceRequest.meta.profile" />
+      <mustSupport value="true" />
+    </element>
+  </differential>
+</StructureDefinition>
