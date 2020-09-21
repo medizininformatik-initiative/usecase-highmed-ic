@@ -147,6 +147,24 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
+    <element id="Use Case Infection Control.Personendaten.Berufsbezeichnung/Rolle">
+      <path value="Use Case Infection Control.Personendaten.Berufsbezeichnung/Rolle" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Personendaten.Art der Person">
+      <path value="Use Case Infection Control.Personendaten.Art der Person" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
     <element id="Use Case Infection Control.Diagnose">
       <path value="Use Case Infection Control.Diagnose" />
       <short value="Problemliste Diagnosen" />
