@@ -20,8 +20,13 @@
         <code value="Element" />
       </type>
     </element>
+<<<<<<< HEAD
     <element id="Use Case Infection Control.Personendaten">
       <path value="Use Case Infection Control.Personendaten" />
+=======
+    <element id="Use Case Infection Control.Person">
+      <path value="Use Case Infection Control.Person" />
+>>>>>>> 60599baa7d1d8fbdebde3ebebc97d3ed50abc42b
       <label value="KDS Basis Module" />
       <short value="Person" />
       <min value="1" />
@@ -30,8 +35,15 @@
         <code value="BackboneElement" />
       </type>
     </element>
+<<<<<<< HEAD
     <element id="Use Case Infection Control.Personendaten.PersonenID">
       <path value="Use Case Infection Control.Personendaten.PersonenID" />
+=======
+    <element id="Use Case Infection Control.Person.Geburtsdatum">
+      <path value="Use Case Infection Control.Person.Geburtsdatum" />
+      <short value="Geburtsdatum des Patienten" />
+      <comment value="FHIR_mapping: Patient.birthDate" />
+>>>>>>> 60599baa7d1d8fbdebde3ebebc97d3ed50abc42b
       <min value="0" />
       <max value="*" />
       <type>
@@ -39,8 +51,15 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/id" />
       </type>
     </element>
+<<<<<<< HEAD
     <element id="Use Case Infection Control.Personendaten.Vorname">
       <path value="Use Case Infection Control.Personendaten.Vorname" />
+=======
+    <element id="Use Case Infection Control.Person.Geschlecht">
+      <path value="Use Case Infection Control.Person.Geschlecht" />
+      <short value="Administratives Geschlecht der Person" />
+      <comment value="FHIR_mapping: Patient.gender" />
+>>>>>>> 60599baa7d1d8fbdebde3ebebc97d3ed50abc42b
       <min value="0" />
       <max value="*" />
       <type>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://highmed.org/StructureDefinition/ServiceRequestLab" />
+  <version value="0.9" />
+  <name value="HiGHmed_IC_ServiceRequest" />
+  <title value="HiGHmed - Infection Control - ServiceRequest" />
+  <status value="draft" />
+  <experimental value="true" />
+  <publisher value="https://highmed.org/" />
+  <description value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
+  <purpose value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="ServiceRequest" />
+  <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ServiceRequestLab" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ServiceRequest.identifier">
+      <path value="ServiceRequest.identifier" />
+      <min value="2" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger">
+      <path value="ServiceRequest.identifier" />
+      <sliceName value="anforderung-empfaenger" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.type">
+      <path value="ServiceRequest.identifier.type" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="FILL" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.system">
+      <path value="ServiceRequest.identifier.system" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.value">
+      <path value="ServiceRequest.identifier.value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.assigner">
+      <path value="ServiceRequest.identifier.assigner" />
+      <min value="1" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.assigner.reference">
+      <path value="ServiceRequest.identifier.assigner.reference" />
+      <mustSupport value="true" />
+    </element>
+    <element id="ServiceRequest.identifier:anforderung-empfaenger.assigner.identifier">
+      <path value="ServiceRequest.identifier.assigner.identifier" />
+      <mustSupport value="true" />
+    </element>
+  </differential>
+</StructureDefinition>
