@@ -30,8 +30,8 @@
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Personendaten.Personen ID">
-      <path value="Use Case Infection Control.Personendaten.Personen ID" />
+    <element id="Use Case Infection Control.Personendaten.PersonenID">
+      <path value="Use Case Infection Control.Personendaten.PersonenID" />
       <min value="0" />
       <max value="*" />
       <type>
