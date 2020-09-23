@@ -396,17 +396,6 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Dokumentationsdatum">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Dokumentationsdatum" />
-      <short value="Status des gesamten Ergebnisberichts. Hinweis: Dies ist nicht der Status einzelner Berichtskomponenten." />
-      <comment value="Zwischenbefund&#xD;&#xA;Endbefund&#xD;&#xA;&#xD;&#xA;FHIR_mapping: DiagnosticReport.status" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
     <element id="Use Case Infection Control.Mikrobiologischerbefund.Status">
       <path value="Use Case Infection Control.Mikrobiologischerbefund.Status" />
       <min value="0" />
@@ -432,39 +421,6 @@
       <type>
         <code value="CodeableConcept" />
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Anforderung">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Anforderung" />
-      <short value="Name der Laboruntersuchung, die an der/den Probe(n) durchgeführt wurde." />
-      <comment value="Comment: Ein Laborergebnis kann sich auf ein einzelnes Analyt oder eine Analytgruppe beziehen. Dazu zählen auch komplette Panel an Parametern. Es wird dringend empfohlen, die &quot;Labortest-Bezeichnung&quot; anhand einer Terminologie zu kodiereren, wie zum Beispiel LOINC oder SNOMED CT. Beispiel: &quot;Glukose&quot;, &quot;Harnstoff&quot;, &quot;Abstrich&quot;, &quot;Cortisol&quot;, &quot;Leberbiopsie&quot;. Der Name kann u.U. auch das Probenmaterial oder den Patientenstatus (z.B. &quot;Blutzuckerspiegel nüchtern&quot;) oder andere Informationen beinhalten wie &quot;Kalium (Blutgas)&quot;.&#xD;&#xA;FHIR_mapping: ServiceRequest.code" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.EinsendendeSystemeID">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.EinsendendeSystemeID" />
-      <short value="Lokale Auftrags-ID des anfordernden/einsendenden Systems." />
-      <comment value="Comment: Äquivalent zur &quot;HL7 Placer Order Identifier&quot;.&#xD;&#xA;FHIR_mapping: ServiceRequest.identifier" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.EmpfängerID">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.EmpfängerID" />
-      <short value="Lokale Auftrags-ID, die vom auftragsempfangendem System, gewöhnlich dem Laborinformationssystem (LIS) zugewiesen wird." />
-      <comment value="Comment: Die Vergabe einer solchen ID ermöglicht das Nachverfolgen des Auftragsstatus und das Verlinken der Ergebnisse zum Auftrag. Es erlaubt auch das Verwalten von weiteren Erkundigungen und Nachfragen und ist äquivalent zum &quot;HL7 Filler Order Identifier&quot;&#xD;&#xA;FHIR_mapping: DiagnosticReport.identifier" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails">
