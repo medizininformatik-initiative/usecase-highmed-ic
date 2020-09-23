@@ -28,10 +28,6 @@
       <path value="Observation.meta.profile" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.id">
-      <path value="Observation.id" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.identifier">
       <path value="Observation.identifier" />
       <slicing>
@@ -188,7 +184,7 @@
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
-      <fixedUri value="www.loinc.org" />
+      <fixedUri value="http://loinc.org" />
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
@@ -317,6 +313,10 @@
     <element id="Observation.component">
       <path value="Observation.component" />
       <max value="0" />
+    </element>
+    <element id="Observation.id">
+      <path value="Observation.id" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
