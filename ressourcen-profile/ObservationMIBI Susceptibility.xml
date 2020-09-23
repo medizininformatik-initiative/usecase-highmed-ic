@@ -189,6 +189,10 @@
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
       <definition value="LOINC codes odes for  antibiotiic susceptibility testing" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/susceptibilitytests" />
+      </binding>
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
