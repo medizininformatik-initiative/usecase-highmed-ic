@@ -194,14 +194,9 @@
       <min value="2" />
       <max value="2" />
     </element>
-    <element id="Observation.code.coding.system">
-      <path value="Observation.code.coding.system" />
-      <max value="0" />
-    </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
       <definition value="LOINC codes odes for  antibiotiic susceptibility testing" />
-      <max value="0" />
     </element>
     <element id="Observation.code.coding:loinc-susceptibility-codes">
       <path value="Observation.code.coding" />
