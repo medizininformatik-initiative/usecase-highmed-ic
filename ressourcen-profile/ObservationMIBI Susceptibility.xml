@@ -201,6 +201,7 @@
     <element id="Observation.code.coding:loinc-susceptibility-codes">
       <path value="Observation.code.coding" />
       <sliceName value="loinc-susceptibility-codes" />
+      <max value="1" />
     </element>
     <element id="Observation.code.coding:loinc-susceptibility-codes.system">
       <path value="Observation.code.coding.system" />
@@ -216,6 +217,7 @@
     <element id="Observation.code.coding:SNOMED-CT-antinfektiva">
       <path value="Observation.code.coding" />
       <sliceName value="SNOMED-CT-antinfektiva" />
+      <max value="1" />
     </element>
     <element id="Observation.code.coding:SNOMED-CT-antinfektiva.system">
       <path value="Observation.code.coding.system" />
