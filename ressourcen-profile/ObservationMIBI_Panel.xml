@@ -28,10 +28,6 @@
       <path value="Observation.meta.profile" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.id">
-      <path value="Observation.id" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.identifier">
       <path value="Observation.identifier" />
       <slicing>
@@ -304,13 +300,17 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBISusceptibility" />
+        <targetProfile value="http://highmed.org/StructureDefinition/AntibiotikaSusceptibility" />
       </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.component">
       <path value="Observation.component" />
       <max value="0" />
+    </element>
+    <element id="Observation.id">
+      <path value="Observation.id" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
