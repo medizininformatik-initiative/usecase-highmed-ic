@@ -192,15 +192,11 @@
         <rules value="open" />
       </slicing>
       <min value="2" />
-      <max value="2" />
-    </element>
-    <element id="Observation.code.coding.code">
-      <path value="Observation.code.coding.code" />
-      <definition value="LOINC codes odes for  antibiotiic susceptibility testing" />
     </element>
     <element id="Observation.code.coding:loinc-susceptibility-codes">
       <path value="Observation.code.coding" />
       <sliceName value="loinc-susceptibility-codes" />
+      <min value="1" />
       <max value="1" />
     </element>
     <element id="Observation.code.coding:loinc-susceptibility-codes.system">
@@ -239,13 +235,6 @@
         <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Patient" />
       </type>
       <mustSupport value="true" />
-    </element>
-    <element id="Observation.focus">
-      <path value="Observation.focus" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/MedicationAntibiotika" />
-      </type>
     </element>
     <element id="Observation.encounter">
       <path value="Observation.encounter" />
