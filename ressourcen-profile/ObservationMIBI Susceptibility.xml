@@ -192,11 +192,11 @@
         <rules value="open" />
       </slicing>
       <min value="2" />
+      <max value="2" />
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
       <max value="0" />
-      <fixedUri value="http://loinc.org" />
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
