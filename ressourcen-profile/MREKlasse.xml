@@ -180,9 +180,10 @@
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
+      <fixedUri value="http://highmed.org/CodeSystem/mre-klassen" />
       <binding>
         <strength value="required" />
-        <valueSet value="https://simplifier.net/medizininformatikinitiative-highmed-ic/mre-klassen-duplicate-3" />
+        <valueSet value="http://highmed.org/CodeSystem/mre-klassen" />
       </binding>
     </element>
     <element id="Observation.code.coding.code">
@@ -190,7 +191,7 @@
       <fixedCode value="MRE Klasse" />
       <binding>
         <strength value="required" />
-        <valueSet value="https://simplifier.net/medizininformatikinitiative-highmed-ic/mre-klassen-duplicate-4" />
+        <valueSet value="http://highmed.org/ValueSet/mre-klassen" />
       </binding>
     </element>
     <element id="Observation.code.coding.display">
