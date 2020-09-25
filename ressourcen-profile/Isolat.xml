@@ -44,7 +44,7 @@
       <path value="Specimen.identifier" />
       <definition value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
       <max value="1" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
       <mapping>
         <identity value="v2" />
         <map value="OBR-2.1" />
@@ -56,6 +56,7 @@
       <label value="Reihenfolge aller Analyseergebnisse" />
       <short value="Reihenfolge aller Analyseergebnisse (1,2,3,4...)" />
       <min value="1" />
+      <mustSupport value="true" />
       <mapping>
         <identity value="v2" />
         <map value="OBR-3.1" />

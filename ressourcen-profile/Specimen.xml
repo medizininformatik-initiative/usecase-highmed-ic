@@ -57,6 +57,7 @@
       <label value="Laborprobenidentifikator" />
       <short value="Eine eindeutige Kennung der Probe, die normalerweise vom Labor vergeben wird." />
       <min value="1" />
+      <mustSupport value="true" />
       <mapping>
         <identity value="v2" />
         <map value="OBR-3.1" />
