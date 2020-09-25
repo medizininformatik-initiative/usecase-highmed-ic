@@ -44,7 +44,6 @@
       <path value="Specimen.identifier" />
       <label value="Externer Identifikator" />
       <definition value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
-      <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
       <mapping>
@@ -57,6 +56,7 @@
       <path value="Specimen.accessionIdentifier" />
       <label value="Laborprobenidentifikator" />
       <short value="Eine eindeutige Kennung der Probe, die normalerweise vom Labor vergeben wird." />
+      <min value="1" />
       <mapping>
         <identity value="v2" />
         <map value="OBR-3.1" />
@@ -74,9 +74,6 @@
       <min value="1" />
       <mustSupport value="true" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="SpecimenType" />
-        </extension>
         <strength value="preferred" />
         <description value="Use Case IC Probenart" />
         <valueSet value="http://highmed.org/ValueSet/probenart" />
@@ -92,12 +89,23 @@
       <fixedCoding>
         <system value="http://snomed.info/sct" />
       </fixedCoding>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/CodeSystem/probenart" />
+      </binding>
     </element>
     <element id="Specimen.type.coding.system">
       <path value="Specimen.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://highmed.org/CodeSystem/probenart" />
+      <fixedUri value="http://snomed.info/sct" />
       <mustSupport value="true" />
+    </element>
+    <element id="Specimen.type.coding.code">
+      <path value="Specimen.type.coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/CodeSystem/probenart" />
+      </binding>
     </element>
     <element id="Specimen.receivedTime">
       <path value="Specimen.receivedTime" />

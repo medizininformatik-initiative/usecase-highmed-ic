@@ -272,9 +272,10 @@
     </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
+      <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
       </type>
       <mustSupport value="true" />
     </element>

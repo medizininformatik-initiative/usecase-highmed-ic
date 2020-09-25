@@ -43,7 +43,6 @@
     <element id="Specimen.identifier">
       <path value="Specimen.identifier" />
       <definition value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
-      <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
       <mapping>
@@ -56,6 +55,7 @@
       <path value="Specimen.accessionIdentifier" />
       <label value="Reihenfolge aller Analyseergebnisse" />
       <short value="Reihenfolge aller Analyseergebnisse (1,2,3,4...)" />
+      <min value="1" />
       <mapping>
         <identity value="v2" />
         <map value="OBR-3.1" />
@@ -80,9 +80,6 @@
       </fixedCodeableConcept>
       <mustSupport value="true" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="SpecimenType" />
-        </extension>
         <strength value="example" />
         <description value="Isolat" />
         <valueSet value="http://snomed.info/sct" />
@@ -110,9 +107,6 @@
       <fixedCode value="429951000124103" />
     </element>
     <element id="Specimen.type.coding.display">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
       <path value="Specimen.type.coding.display" />
       <fixedString value="Bacterial isolate specimen (specimen)" />
     </element>

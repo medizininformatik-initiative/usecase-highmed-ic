@@ -17,9 +17,8 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.id">
-      <path value="Observation.id" />
-      <mustSupport value="true" />
+    <element id="Observation.meta">
+      <path value="Observation.meta" />
     </element>
     <element id="Observation.meta.source">
       <path value="Observation.meta.source" />
@@ -27,6 +26,10 @@
     </element>
     <element id="Observation.meta.profile">
       <path value="Observation.meta.profile" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.id">
+      <path value="Observation.id" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.identifier">
@@ -110,9 +113,6 @@
       <mustSupport value="true" />
     </element>
     <element id="Observation.status">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint">
-        <valueString value="default: final" />
-      </extension>
       <path value="Observation.status" />
       <mustSupport value="true" />
     </element>
@@ -154,9 +154,6 @@
       <mustSupport value="true" />
     </element>
     <element id="Observation.category.coding:loinc-observation.display">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
       <path value="Observation.category.coding.display" />
       <fixedString value="MICROBIOLOGY STUDIES" />
     </element>
@@ -184,18 +181,12 @@
       <short value="MRE Klasse" />
       <definition value="Klassifizierung multiresistenter gramnegativer Stäbchen auf Basisihrer phänotypischen Resistenzeigenschaften (Robert Koch Institut)" />
       <mustSupport value="true" />
-      <binding>
-        <strength value="example" />
-      </binding>
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
       <fixedCode value="MRE Klasse" />
     </element>
     <element id="Observation.code.coding.display">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
       <path value="Observation.code.coding.display" />
       <fixedString value="MRE Klasse" />
     </element>
@@ -262,9 +253,10 @@
     </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
+      <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://highmed.org/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
       </type>
       <mustSupport value="true" />
     </element>
