@@ -244,7 +244,14 @@
     </element>
     <element id="Observation.value[x].coding.system">
       <path value="Observation.value[x].coding.system" />
-      <fixedUri value="http://highmed.org/mre-klassen" />
+      <fixedUri value="http://highmed.org/CodeSystem/mre-klassen" />
+    </element>
+    <element id="Observation.value[x].coding.code">
+      <path value="Observation.value[x].coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/mre-klassen" />
+      </binding>
     </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />

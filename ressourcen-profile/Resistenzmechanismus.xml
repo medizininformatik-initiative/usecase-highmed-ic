@@ -220,11 +220,6 @@
         <code value="string" />
       </type>
       <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="MRE Klasse" />
-        <valueSet value="http://highmed.org/ValueSet/mre-klassen" />
-      </binding>
     </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
