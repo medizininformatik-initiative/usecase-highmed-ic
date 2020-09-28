@@ -25,8 +25,8 @@
         <code value="Element" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient">
-      <path value="Use Case Infection Control.Patient" />
+    <element id="Use Case Infection Control.Person">
+      <path value="Use Case Infection Control.Person" />
       <label value="KDS Basis Module" />
       <short value="Patient" />
       <min value="1" />
@@ -35,8 +35,8 @@
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.PersonenID">
-      <path value="Use Case Infection Control.Patient.PersonenID" />
+    <element id="Use Case Infection Control.Person.PersonenID">
+      <path value="Use Case Infection Control.Person.PersonenID" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -44,8 +44,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/id" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.ArtderPerson">
-      <path value="Use Case Infection Control.Patient.ArtderPerson" />
+    <element id="Use Case Infection Control.Person.ArtderPerson">
+      <path value="Use Case Infection Control.Person.ArtderPerson" />
       <short value="Art der Person" />
       <min value="0" />
       <max value="*" />
@@ -54,8 +54,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Titel">
-      <path value="Use Case Infection Control.Patient.Titel" />
+    <element id="Use Case Infection Control.Person.Titel">
+      <path value="Use Case Infection Control.Person.Titel" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -63,8 +63,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Vorname">
-      <path value="Use Case Infection Control.Patient.Vorname" />
+    <element id="Use Case Infection Control.Person.Vorname">
+      <path value="Use Case Infection Control.Person.Vorname" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -72,8 +72,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.WeitererVorname">
-      <path value="Use Case Infection Control.Patient.WeitererVorname" />
+    <element id="Use Case Infection Control.Person.WeitererVorname">
+      <path value="Use Case Infection Control.Person.WeitererVorname" />
       <short value="Weiterer Vorname" />
       <min value="0" />
       <max value="*" />
@@ -82,8 +82,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Nachname">
-      <path value="Use Case Infection Control.Patient.Nachname" />
+    <element id="Use Case Infection Control.Person.Nachname">
+      <path value="Use Case Infection Control.Person.Nachname" />
       <short value="Nachname" />
       <min value="0" />
       <max value="*" />
@@ -92,8 +92,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Suffix">
-      <path value="Use Case Infection Control.Patient.Suffix" />
+    <element id="Use Case Infection Control.Person.Suffix">
+      <path value="Use Case Infection Control.Person.Suffix" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -101,8 +101,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Geburtsdatum">
-      <path value="Use Case Infection Control.Patient.Geburtsdatum" />
+    <element id="Use Case Infection Control.Person.Geburtsdatum">
+      <path value="Use Case Infection Control.Person.Geburtsdatum" />
       <short value="Geburtsdatum des Patienten" />
       <comment value="FHIR_mapping: Patient.birthDate" />
       <min value="0" />
@@ -112,16 +112,16 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/date" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Adresse">
-      <path value="Use Case Infection Control.Patient.Adresse" />
+    <element id="Use Case Infection Control.Person.Adresse">
+      <path value="Use Case Infection Control.Person.Adresse" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Adresse.Zeile">
-      <path value="Use Case Infection Control.Patient.Adresse.Zeile" />
+    <element id="Use Case Infection Control.Person.Adresse.Zeile">
+      <path value="Use Case Infection Control.Person.Adresse.Zeile" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -129,8 +129,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Adresse.Stadt">
-      <path value="Use Case Infection Control.Patient.Adresse.Stadt" />
+    <element id="Use Case Infection Control.Person.Adresse.Stadt">
+      <path value="Use Case Infection Control.Person.Adresse.Stadt" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -138,8 +138,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Adresse.Postleitzahl">
-      <path value="Use Case Infection Control.Patient.Adresse.Postleitzahl" />
+    <element id="Use Case Infection Control.Person.Adresse.Postleitzahl">
+      <path value="Use Case Infection Control.Person.Adresse.Postleitzahl" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -147,8 +147,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.Telefonnummer">
-      <path value="Use Case Infection Control.Patient.Telefonnummer" />
+    <element id="Use Case Infection Control.Person.Telefonnummer">
+      <path value="Use Case Infection Control.Person.Telefonnummer" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -156,16 +156,16 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler">
-      <path value="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler" />
+    <element id="Use Case Infection Control.Person.PersönlicheDatenHeilberufler">
+      <path value="Use Case Infection Control.Person.PersönlicheDatenHeilberufler" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Fachbezeichnung">
-      <path value="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Fachbezeichnung" />
+    <element id="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Fachbezeichnung">
+      <path value="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Fachbezeichnung" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -173,16 +173,16 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Adresse">
-      <path value="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Adresse" />
+    <element id="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Adresse">
+      <path value="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Adresse" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Adresse.Zeile">
-      <path value="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Adresse.Zeile" />
+    <element id="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Adresse.Zeile">
+      <path value="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Adresse.Zeile" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -190,8 +190,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Adresse.Stadt">
-      <path value="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Adresse.Stadt" />
+    <element id="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Adresse.Stadt">
+      <path value="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Adresse.Stadt" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -199,8 +199,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Adresse.Pstleitzahl">
-      <path value="Use Case Infection Control.Patient.PersönlicheDatenHeilberufler.Adresse.Pstleitzahl" />
+    <element id="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Adresse.Pstleitzahl">
+      <path value="Use Case Infection Control.Person.PersönlicheDatenHeilberufler.Adresse.Pstleitzahl" />
       <min value="0" />
       <max value="*" />
       <type>
