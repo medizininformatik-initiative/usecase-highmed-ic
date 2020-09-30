@@ -388,7 +388,7 @@
     <element id="Use Case Infection Control.Mikrobiologischerbefund.BerichtID">
       <path value="Use Case Infection Control.Mikrobiologischerbefund.BerichtID" />
       <short value="Eindeutige Identifikation des Berichts." />
-      <comment value="FHIR_mapping:DiagnosticReport.identifier" />
+      <comment value="FHIR_mapping:DiagnosticReport.identifier." />
       <min value="0" />
       <max value="*" />
       <type>
