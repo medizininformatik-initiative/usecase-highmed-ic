@@ -388,7 +388,7 @@
     <element id="Use Case Infection Control.Mikrobiologischerbefund.BerichtID">
       <path value="Use Case Infection Control.Mikrobiologischerbefund.BerichtID" />
       <short value="Eindeutige Identifikation des Berichts." />
-      <comment value="FHIR_mapping:DiagnosticReport.identifier" />
+      <comment value="FHIR_mapping:DiagnosticReport.identifier." />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1274,8 +1274,8 @@
     </element>
     <element id="Use Case Infection Control.Prozedur.Lateralität">
       <path value="Use Case Infection Control.Prozedur.Lateralität" />
-      <short value="Zusätzliches Detail unter Verwendung theoretischer Linien, die durch anatomische Strukturen erweitert werden können, um einen einheitlichen Bezugspunkt auf dem menschlichen Körper zu erhalten." />
-      <definition value="Mittellinie  [Vertikal verlaufende Linie, die den Körper in eine linke und rechte Seite teilt und durch den Kopf, das Rückenmark und den Nabel verläuft. Alternativ kann es sich auf eine Linie beziehen, die ein Körperteil in zwei gleiche Teile teilt, zum Beispiel einen Zeh/Finger.]&#xD;&#xA;mittlere Axillarlinie  [Linie, die senkrecht zur Körperoberfläche verläuft und durch den Scheitelpunkt der Achselhöhle geht.]&#xD;&#xA;vordere Axillarlinie  [Die Linie verläuft senkrecht über die Körperoberfläche und verläuft durch die vordere Hautfalte der Achselhöhle.]&#xD;&#xA;hintere Axillarlinie  [Linie, die senkrecht über die Körperoberfläche verläuft und durch die hintere Achselhaut führt.]&#xD;&#xA;Medioklavikularlinie  [Linie, die senkrecht über die Körperoberfläche verläuft, parallel zur Mittellinie und durch den Mittelpunkt der Klavikula führt.]&#xD;&#xA;Mittelere Pupillarlinie  [Die Linie verläuft vertikal durch den Mittelpunkt der Pupille, wenn man direkt nach vorne schaut.]&#xD;&#xA;Mittlere Skapularlinie  [Die Linie verläuft senkrecht über die hintere Körperoberfläche, parallel zur Mittellinie und verläuft durch den unteren Punkt des Schulterblattes.]" />
+      <short value="Die Seite des Körpers, an der sich die identifizierte Körperstelle befindet." />
+      <definition value="Links  [Die linke Körperseite.]&#xD;&#xA;Rechts  [Die rechte Körperseite.]" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1285,6 +1285,7 @@
     </element>
     <element id="Use Case Infection Control.Prozedur.Durchführungsabsicht">
       <path value="Use Case Infection Control.Prozedur.Durchführungsabsicht" />
+      <short value="Grund, warum die angegebene Aktivität für diese Prozedur durchgeführt wurde." />
       <min value="0" />
       <max value="*" />
       <type>
