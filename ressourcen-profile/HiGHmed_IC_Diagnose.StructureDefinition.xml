@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/fhir/StructureDefinition/HiGHmed_IC_Diagnose" />
+  <url value="http://highmed.org/fhir/StructureDefinition/Condition" />
   <name value="HiGHmed_IC_Diagnose" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
