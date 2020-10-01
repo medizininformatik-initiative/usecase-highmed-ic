@@ -323,18 +323,6 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Diagnose.DatumErstdiagnose">
-      <path value="Use Case Infection Control.Diagnose.DatumErstdiagnose" />
-      <short value="Datum des Auftretens/der Erstdiagnose" />
-      <definition value="Geschätzte oder exakte Zeit (bzw. Datum), zu der die Krankheitsanzeichen oder Symptome zum ersten mal beobachtet wurden." />
-      <comment value="FHIR_mapping: Condition.onset" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="dateTime" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
-      </type>
-    </element>
     <element id="Use Case Infection Control.Diagnose.ZeitpunktderGenesung">
       <path value="Use Case Infection Control.Diagnose.ZeitpunktderGenesung" />
       <short value="Geschätzte oder exakte Zeit (bzw. Datum), zu der von einer medizinischen Fachkraft die Genesung oder die Remission des Problems oder der Diagnose festgestellt wurde" />
