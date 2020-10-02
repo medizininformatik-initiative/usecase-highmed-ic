@@ -453,6 +453,34 @@
       <min value="1" />
       <mustSupport value="true" />
     </element>
+    <element id="Practitioner.gender">
+      <path value="Practitioner.gender" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Practitioner.gender.extension">
+      <path value="Practitioner.gender.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+      </slicing>
+    </element>
+    <element id="Practitioner.gender.extension:other-amtlich">
+      <path value="Practitioner.gender.extension" />
+      <sliceName value="other-amtlich" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/gender-amtlich-de" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Practitioner.gender.extension:other-amtlich.value[x]">
+      <path value="Practitioner.gender.extension.value[x]" />
+      <mustSupport value="true" />
+    </element>
     <element id="Practitioner.birthDate">
       <path value="Practitioner.birthDate" />
       <min value="1" />
