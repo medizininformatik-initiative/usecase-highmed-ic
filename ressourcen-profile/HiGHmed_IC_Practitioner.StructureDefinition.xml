@@ -464,6 +464,7 @@
           <type value="value" />
           <path value="url" />
         </discriminator>
+        <rules value="open" />
       </slicing>
     </element>
     <element id="Practitioner.gender.extension:other-amtlich">
