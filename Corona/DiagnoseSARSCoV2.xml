@@ -2,7 +2,7 @@
   <url value="https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/diagnosis-covid-19" />
   <version value="0.9" />
   <name value="DiagnosisCovid19" />
-  <title value="Diagnosis Covid-19" />
+  <title value="Diagnosis  Covid-19" />
   <status value="active" />
   <date value="2020-10-29" />
   <publisher value="Charité" />
