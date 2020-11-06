@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Covid-19Diagnose" />
-  <url value="https://charite.infectioncontrol.de/fhir/core/Covid-19Diagnose" />
-  <name value="Covid19Diagnose" />
-  <title value="SARS-CoV-2 Diagnose" />
-  <status value="draft" />
-  <date value="2020-04-29" />
-  <description value="Covid-19 Diagnose" />
-  <fhirVersion value="4.0.0" />
+  <url value="https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/diagnosis-covid-19" />
+  <version value="0.9" />
+  <name value="DiagnosisCovid19" />
+  <title value="Diagnosis Covid-19" />
+  <status value="active" />
+  <date value="2020-10-29" />
+  <publisher value="Charité" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="https://www.bihealth.org/en/research/core-facilities/interoperability/" />
+    </telecom>
+  </contact>
+  <description value="Profile to capture the diagnosis of disease caused by 2019 novel coronavirus. Includes the stage at diagnosis." />
+  <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="workflow" />
     <uri value="http://hl7.org/fhir/workflow" />
@@ -41,47 +47,102 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Condition" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition" />
+  <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose" />
   <derivation value="constraint" />
   <differential>
-    <element id="Condition.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Condition.code" />
-      <short value="COVID-19 Diagnose" />
+    <element id="Condition.verificationStatus">
+      <path value="Condition.verificationStatus" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.category">
+      <path value="Condition.category" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.code.coding:sct">
+      <path value="Condition.code.coding" />
+      <sliceName value="sct" />
+      <min value="1" />
+      <patternCoding>
+        <code value="840539006" />
+      </patternCoding>
+    </element>
+    <element id="Condition.stage">
+      <path value="Condition.stage" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.stage.summary">
+      <path value="Condition.stage.summary" />
       <min value="1" />
       <mustSupport value="true" />
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="ConditionKind" />
-        </extension>
-        <strength value="required" />
-        <description value="COVID-19 Diagnose" />
-        <valueSet value="https://charite.infectioncontrol.de/fhir/core/ValueSet/Covid-19Diagnose" />
-      </binding>
     </element>
-    <element id="Condition.onset[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Condition.onset[x]" />
+    <element id="Condition.stage.summary.coding">
+      <path value="Condition.stage.summary.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <mustSupport value="true" />
     </element>
-    <element id="Condition.abatement[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Condition.abatement[x]" />
+    <element id="Condition.stage.summary.coding:snomed">
+      <path value="Condition.stage.summary.coding" />
+      <sliceName value="snomed" />
+      <max value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/stage-at-diagnosis" />
+      </binding>
+    </element>
+    <element id="Condition.stage.summary.coding:snomed.system">
+      <path value="Condition.stage.summary.coding.system" />
+      <min value="1" />
+      <patternUri value="http://snomed.info/sct" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.stage.summary.coding:snomed.code">
+      <path value="Condition.stage.summary.coding.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.stage.type">
+      <path value="Condition.stage.type" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.stage.type.coding">
+      <path value="Condition.stage.type.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.stage.type.coding:loinc">
+      <path value="Condition.stage.type.coding" />
+      <sliceName value="loinc" />
+      <max value="1" />
+      <patternCoding>
+        <system value="http://loinc.org" />
+        <code value="88859-4" />
+      </patternCoding>
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.stage.type.coding:loinc.system">
+      <path value="Condition.stage.type.coding.system" />
+      <min value="1" />
+      <patternUri value="http://loinc.org" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.stage.type.coding:loinc.code">
+      <path value="Condition.stage.type.coding.code" />
+      <min value="1" />
+      <patternCode value="88859-4" />
       <mustSupport value="true" />
     </element>
   </differential>
