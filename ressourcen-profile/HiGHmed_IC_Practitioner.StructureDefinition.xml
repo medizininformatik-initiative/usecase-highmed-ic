@@ -75,17 +75,6 @@
       </patternIdentifier>
       <mustSupport value="true" />
     </element>
-    <element id="Practitioner.identifier:ANR.type.coding">
-      <path value="Practitioner.identifier.type.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
     <element id="Practitioner.name">
       <path value="Practitioner.name" />
       <slicing>
@@ -453,9 +442,38 @@
       <min value="1" />
       <mustSupport value="true" />
     </element>
+    <element id="Practitioner.gender">
+      <path value="Practitioner.gender" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Practitioner.gender.extension">
+      <path value="Practitioner.gender.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Practitioner.gender.extension:other-amtlich">
+      <path value="Practitioner.gender.extension" />
+      <sliceName value="other-amtlich" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/gender-amtlich-de" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Practitioner.gender.extension:other-amtlich.value[x]">
+      <path value="Practitioner.gender.extension.value[x]" />
+      <mustSupport value="true" />
+    </element>
     <element id="Practitioner.birthDate">
       <path value="Practitioner.birthDate" />
       <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Practitioner.birthDate.extension">
       <path value="Practitioner.birthDate.extension" />
@@ -470,8 +488,6 @@
     <element id="Practitioner.birthDate.extension:data-absent-reason">
       <path value="Practitioner.birthDate.extension" />
       <sliceName value="data-absent-reason" />
-      <min value="0" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/data-absent-reason" />
