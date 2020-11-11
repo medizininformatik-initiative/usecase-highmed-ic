@@ -4,7 +4,7 @@
     </meta>
     <url value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
     <version value="0.9" />
-    <name value="mre-klassen" />
+    <name value="MRE Klassen" />
     <title value="ValueSet MRE Klassen" />
     <status value="draft" />
     <experimental value="true" />
