@@ -2,7 +2,7 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
-    <url value="http://highmed.org/ValueSet/mre-klassen" />
+    <url value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
     <version value="0.9" />
     <name value="mre-klassen" />
     <title value="ValueSet MRE Klassen" />
@@ -13,7 +13,7 @@
     <description value="Defines codes to differentiate between types of resistant organisms." />
     <compose>
         <include>
-            <system value="http://highmed.org/CodeSystem/mre-klassen"/>
+            <system value="http://highmed.org/CodeSystem/mre-klassen-lokal"/>
            <concept>
                 <code value="01"/>
                 <display value="MRSA"/>

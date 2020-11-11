@@ -1,0 +1,32 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
+    <url value="http://highmed.org/ValueSet/resistenzklassen-antiinfektiva-eucast" />
+    <version value="0.9" />
+    <name value="Resistance" />
+    <title value="ValueSet Resistance" />
+    <status value="draft" />
+    <experimental value="true" />
+    <date value="2020-03-20" />
+    <publisher value="https://www.medizininformatik-initiative.de" />
+    <description value="EUCAST codes for susceptibility testing categories" />
+    <compose>
+        <include>
+            <system value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast"/>
+          <concept>
+                <code value="S"/>
+                <display value="Susceptible, standard dosing regimen"/>
+            </concept>
+            <concept>
+                <code value="I"/>
+                <display value="Susceptible, increased exposure"/>
+            </concept>
+            <concept>
+                <code value="R"/>
+                <display value="Resistant"/>
+            </concept>
+           
+                    </include>
+    </compose>
+</ValueSet>
