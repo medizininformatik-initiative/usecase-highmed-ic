@@ -39,7 +39,7 @@
                 <display value="Arterial structure (body structure)"/>
             </concept>
             <concept>
-                <code value="<91723000"/>
+                <code value="91723000"/>
                 <display value="Other"/>
             </concept>
                     </include>
