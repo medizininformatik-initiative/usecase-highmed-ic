@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc",
-  "title": "general tests antibiogram",
+  "title": "Susceptibility tests",
   "status": "draft",
   "contact": [
     {
