@@ -2,8 +2,8 @@
     <id value="mre-klasse" />
     <url value="http://highmed.de/CodeSystem/testanforderungen-mikrobiologischer-befund" />
     <version value="0.1" />
-    <name value="Use Case Infection Control Anforderungen" />
-    <title value="Use Case Infection Control Anforderungen" />
+    <name value="Anforderungen" />
+    <title value="Anforderungen" />
     <status value="draft" />
     <date value="2020-04-27" />
     <description value="Das CodeSystem enthält LOINC codes und lokal codes für die Use Case Infection Control Anforderungen. " />
