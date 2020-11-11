@@ -4,7 +4,7 @@
     </meta>
     <url value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
     <version value="0.9" />
-    <name value="UCIC Probenart" />
+    <name value="Probenart" />
     <title value="ValueSet UCIC Probenart" />
     <status value="draft" />
     <experimental value="true" />

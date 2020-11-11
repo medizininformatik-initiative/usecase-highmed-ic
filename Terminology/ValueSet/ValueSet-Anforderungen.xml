@@ -4,7 +4,7 @@
     </meta>
     <url value="http://highmed.de/ValueSet/testanforderungen-mikrobiologischer-befund-loinc" />
     <version value="0.9" />
-    <name value="UCIC-Anforderungen" />
+    <name value="Anforderungen" />
     <title value="ValueSet UCIC Anforderungen" />
     <status value="draft" />
     <experimental value="true" />

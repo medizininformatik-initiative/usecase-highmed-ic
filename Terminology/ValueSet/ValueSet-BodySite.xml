@@ -4,7 +4,7 @@
     </meta>
     <url value="http://highmed.org/ValueSet/probenentnahmestelle-anatomische-lokalisation-snomedct" />
     <version value="0.9" />
-    <name value="UCIC Body site" />
+    <name value="Körperstelle" />
     <title value="ValueSet UCIC Lokalisation" />
     <status value="draft" />
     <experimental value="true" />
