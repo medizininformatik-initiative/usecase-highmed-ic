@@ -245,16 +245,27 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://highmed.org/ValueSet/erreger" />
+        <valueSet value="http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit" />
       </binding>
     </element>
     <element id="Observation.value[x].coding.system">
       <path value="Observation.value[x].coding.system" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
+    <element id="Observation.value[x].coding.code">
+      <path value="Observation.value[x].coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit" />
+      </binding>
+    </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/resistenzklassen-antiinfektiva-eucast" />
+      </binding>
     </element>
     <element id="Observation.interpretation.coding.system">
       <path value="Observation.interpretation.coding.system" />
