@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/AntibiotikaSusceptibility" />
+  <url value="http://highmed.org/StructureDefinition/ObservationMIBI" />
   <version value="0.9" />
-  <name value="ObservationMIBISusceptibility" />
-  <title value="HiGHmed- Infection Control - Antibiotikum-Messungen" />
+  <name value="ObservationMIBI" />
+  <title value="HiGHmed- Infection Control - Erreger Nachweis" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://www.Medizininformatik-Initiative.de" />
-  <description value="Dieses Profil beschreibt die Antibiogramm-Messungen" />
-  <purpose value="Dieses Profil beschreibt die Antibiogramm-Messungen" />
+  <description value="Dieses Profil beschreibt eine Mikrobiologie Befund ohne numerisches Ergebnis." />
+  <purpose value="Dieses Profil beschreibt eine Mikrobiologie Befund ohne numerisches Ergebnis." />
   <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
   <fhirVersion value="4.0.0" />
   <kind value="resource" />
@@ -98,6 +98,10 @@
       <path value="Observation.identifier.value" />
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit" />
+      </binding>
     </element>
     <element id="Observation.identifier:analyseBefundCode.assigner">
       <path value="Observation.identifier.assigner" />
@@ -174,57 +178,30 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <short value="Antibiotikum" />
+      <short value="Microbiology test" />
+      <definition value="Describes what was observed. Sometimes this is called the observation &quot;name&quot;. \ne.g. Bacteria presence detection" />
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <description value="Codes identifying Susceptobility tests" />
-        <valueSet value="http://highmed.org/ValueSet/susceptibilitytests" />
+        <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS in {MICRO}  } }" />
+        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
       </binding>
     </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="2" />
-    </element>
-    <element id="Observation.code.coding:loinc-susceptibility-codes">
-      <path value="Observation.code.coding" />
-      <sliceName value="loinc-susceptibility-codes" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="Observation.code.coding:loinc-susceptibility-codes.system">
+    <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
-    <element id="Observation.code.coding:loinc-susceptibility-codes.code">
+    <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc" />
-      </binding>
+      <fixedCode value="43409-2" />
     </element>
-    <element id="Observation.code.coding:SNOMED-CT-antinfektiva">
-      <path value="Observation.code.coding" />
-      <sliceName value="SNOMED-CT-antinfektiva" />
-      <max value="1" />
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display" />
+      <fixedString value="Bacteria identified in Isolate by Culture" />
     </element>
-    <element id="Observation.code.coding:SNOMED-CT-antinfektiva.system">
-      <path value="Observation.code.coding.system" />
-      <fixedUri value="http://snomed.info/sct" />
-    </element>
-    <element id="Observation.code.coding:SNOMED-CT-antinfektiva.code">
-      <path value="Observation.code.coding.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/antibiotika" />
-      </binding>
+    <element id="Observation.code.text">
+      <path value="Observation.code.text" />
+      <fixedString value="Kulturergebnis" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -246,7 +223,6 @@
     </element>
     <element id="Observation.effective[x]">
       <path value="Observation.effective[x]" />
-      <min value="1" />
       <type>
         <code value="dateTime" />
       </type>
@@ -261,57 +237,28 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
-      <short value="Minimale Hemmkonzentration" />
+      <short value="SNOMED CT" />
       <min value="1" />
       <type>
-        <code value="Quantity" />
+        <code value="CodeableConcept" />
       </type>
       <mustSupport value="true" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://highmed.org/ValueSet/erreger" />
+      </binding>
     </element>
-    <element id="Observation.value[x].value">
-      <path value="Observation.value[x].value" />
-      <min value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.value[x].unit">
-      <path value="Observation.value[x].unit" />
-      <short value="mg/mL" />
-      <min value="1" />
-      <fixedString value="ug/mL" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.value[x].system">
-      <path value="Observation.value[x].system" />
-      <min value="1" />
-      <fixedUri value="http://unitsofmeasure.org" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.value[x].code">
-      <path value="Observation.value[x].code" />
-      <comment value="The mandatory system is UCUM." />
-      <min value="1" />
-      <mustSupport value="true" />
+    <element id="Observation.value[x].coding.system">
+      <path value="Observation.value[x].coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
-      <short value="S,I,R" />
-      <definition value="S - Susceptible, standard dosing regimen: A microorganism is categorised as &quot;Susceptible, standard dosing regimen&quot;, when there is a high likelihood of therapeutic success using a standard dosing regimen of the agent.&#xD;&#xA;I – Susceptible, increased exposure*: A microorganism is categorised as &quot;Susceptible, Increased exposure*&quot; when there is a high likelihood of therapeutic success because exposure to the agent is increased by adjusting the dosing regimen or by its concentration at the site of infection.&#xD;&#xA;R - Resistant: A microorganism is categorised as &quot;Resistant&quot; when there is a high likelihood of therapeutic failure even when there is increased exposure.&#xD;&#xA;Terminology: eucast" />
       <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast" />
-      </binding>
     </element>
     <element id="Observation.interpretation.coding.system">
       <path value="Observation.interpretation.coding.system" />
-      <fixedUri value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
-    </element>
-    <element id="Observation.interpretation.coding.code">
-      <path value="Observation.interpretation.coding.code" />
-      <binding>
-        <strength value="required" />
-        <description value="http://highmed.org/ValueSet/resistenzklassen-antiinfektiva-eucast" />
-      </binding>
+      <fixedUri value="http://hl7.org/fhir/valueset-observation-interpretation.html" />
     </element>
     <element id="Observation.note">
       <path value="Observation.note" />
@@ -327,7 +274,6 @@
     </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
-      <min value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
@@ -348,6 +294,16 @@
     </element>
     <element id="Observation.referenceRange">
       <path value="Observation.referenceRange" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.hasMember">
+      <path value="Observation.hasMember" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBI" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIQn" />
+        <targetProfile value="http://highmed.org/ObservationMIBIPanel" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.component">

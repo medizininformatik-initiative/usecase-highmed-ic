@@ -104,8 +104,8 @@
     <element id="Specimen.type.coding.code">
       <path value="Specimen.type.coding.code" />
       <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/probenart" />
+        <strength value="preferred" />
+        <valueSet value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
       </binding>
     </element>
     <element id="Specimen.receivedTime">
@@ -190,6 +190,10 @@
     <element id="Specimen.collection.bodySite.coding.code">
       <path value="Specimen.collection.bodySite.coding.code" />
       <min value="1" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://highmed.org/ValueSet/probenentnahmestelle-anatomische-lokalisation-snomedct" />
+      </binding>
     </element>
     <element id="Specimen.condition">
       <path value="Specimen.condition" />
