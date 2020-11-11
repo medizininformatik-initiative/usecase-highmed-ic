@@ -31,8 +31,8 @@
                 <display value="Swab (specimen)"/>
             </concept>
             <concept>
-                <code value="74964007"/>
-                <display value="Other (qualifier value)"/>
+                <code value="<123038009"/>
+                <display value="Other"/>
             </concept>
                     </include>
     </compose>
