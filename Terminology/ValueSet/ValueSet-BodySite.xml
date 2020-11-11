@@ -38,10 +38,7 @@
                 <code value="51114001"/>
                 <display value="Arterial structure (body structure)"/>
             </concept>
-            <concept>
-                <code value="91723000"/>
-                <display value="Other"/>
-            </concept>
+            
                     </include>
     </compose>
 </ValueSet>

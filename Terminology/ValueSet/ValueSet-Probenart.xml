@@ -30,10 +30,7 @@
                 <code value="257261003"/>
                 <display value="Swab (specimen)"/>
             </concept>
-            <concept>
-                <code value="<123038009"/>
-                <display value="Other"/>
-            </concept>
+            
                     </include>
     </compose>
 </ValueSet>
