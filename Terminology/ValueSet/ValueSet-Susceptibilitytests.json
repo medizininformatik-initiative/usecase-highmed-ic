@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://highmed.org/ValueSet/susceptibilitytests",
-  "title": "Susceptiblity tests",
+  "url": "http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc",
+  "title": "general tests antibiogram",
   "status": "draft",
   "contact": [
     {
@@ -15,175 +15,107 @@
   "compose": {
     "include": [
       {
-        "system": "http://loinc.org",
+        "system": "http://snomed.info/sct",
         "concept": [
           {
             "code": "18855-7",
             "display": "5-Fluorocytosine [Susceptibility]"
           },
           {
-            "code": "253-5",
-            "display": "5-Fluorocytosine [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "18859-9",
+            "display": "Amdinocillin [Susceptibility]"
           },
           {
             "code": "18860-7",
             "display": "Amikacin [Susceptibility]"
           },
           {
-            "code": "12-5",
-            "display": "Amikacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18861-5",
             "display": "Amoxicillin [Susceptibility]"
-          },
-          {
-            "code": "16-6",
-            "display": "Amoxicillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18862-3",
             "display": "Amoxicillin+Clavulanate [Susceptibility]"
           },
           {
-            "code": "20-8",
-            "display": "Amoxicillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "55614-2",
+            "display": "Amoxicillin+Sulbactam [Susceptibility]"
           },
           {
             "code": "18863-1",
             "display": "Amphotericin B [Susceptibility]"
           },
           {
-            "code": "24-0",
-            "display": "Amphotericin B [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18864-9",
             "display": "Ampicillin [Susceptibility]"
-          },
-          {
-            "code": "28-1",
-            "display": "Ampicillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18865-6",
             "display": "Ampicillin+Sulbactam [Susceptibility]"
           },
           {
-            "code": "32-3",
-            "display": "Ampicillin+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "57095-2",
             "display": "Anidulafungin [Susceptibility]"
-          },
-          {
-            "code": "55343-8",
-            "display": "Anidulafungin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18866-4",
             "display": "Azithromycin [Susceptibility]"
           },
           {
-            "code": "36-4",
-            "display": "Azithromycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18867-2",
             "display": "Azlocillin [Susceptibility]"
-          },
-          {
-            "code": "40-6",
-            "display": "Azlocillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18868-0",
             "display": "Aztreonam [Susceptibility]"
           },
           {
-            "code": "44-8",
-            "display": "Aztreonam [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18870-6",
             "display": "Bacitracin [Susceptibility]"
-          },
-          {
-            "code": "6827-0",
-            "display": "Bacitracin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "94274-8",
             "display": "Bedaquiline [Susceptibility]"
           },
           {
-            "code": "88703-4",
-            "display": "Bedaquiline [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73606-6",
             "display": "Besifloxacin [Susceptibility]"
           },
           {
-            "code": "73628-0",
-            "display": "Besifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "6984-9",
+            "display": "Beta lactamase.extended spectrum [Susceptibility]"
+          },
+          {
+            "code": "6985-6",
+            "display": "Beta lactamase.usual [Susceptibility]"
           },
           {
             "code": "18872-2",
             "display": "Capreomycin [Susceptibility]"
           },
           {
-            "code": "56-2",
-            "display": "Capreomycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18873-0",
             "display": "Carbenicillin [Susceptibility]"
           },
           {
-            "code": "60-4",
-            "display": "Carbenicillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "54185-4",
-            "display": "Caspofungin [Susceptibility] by Gradient strip"
-          },
-          {
-            "code": "54176-3",
-            "display": "Caspofungin [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "32378-2",
+            "display": "Caspofungin [Susceptibility]"
           },
           {
             "code": "18874-8",
             "display": "Cefaclor [Susceptibility]"
           },
           {
-            "code": "84-4",
-            "display": "Cefaclor [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18875-5",
             "display": "Cefadroxil [Susceptibility]"
-          },
-          {
-            "code": "64-6",
-            "display": "Cefadroxil [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18876-3",
             "display": "Cefamandole [Susceptibility]"
           },
           {
-            "code": "68-7",
-            "display": "Cefamandole [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18878-9",
             "display": "Cefazolin [Susceptibility]"
-          },
-          {
-            "code": "76-0",
-            "display": "ceFAZolin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "76143-7",
@@ -194,184 +126,92 @@
             "display": "Cefdinir [Susceptibility]"
           },
           {
-            "code": "23637-2",
-            "display": "Cefdinir [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "35762-4",
             "display": "Cefditoren [Susceptibility]"
-          },
-          {
-            "code": "35761-6",
-            "display": "Cefditoren [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18879-7",
             "display": "Cefepime [Susceptibility]"
           },
           {
-            "code": "31142-3",
-            "display": "Cefepime [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "32377-4",
             "display": "Cefetamet [Susceptibility]"
-          },
-          {
-            "code": "35765-7",
-            "display": "Cefetamet [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18880-5",
             "display": "Cefixime [Susceptibility]"
           },
           {
-            "code": "80-2",
-            "display": "Cefixime [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18881-3",
             "display": "Cefmetazole [Susceptibility]"
-          },
-          {
-            "code": "88-5",
-            "display": "Cefmetazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18883-9",
             "display": "Cefonicid [Susceptibility]"
           },
           {
-            "code": "96-8",
-            "display": "Cefonicid [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18884-7",
             "display": "Cefoperazone [Susceptibility]"
-          },
-          {
-            "code": "100-8",
-            "display": "Cefoperazone [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "54166-4",
             "display": "Cefoperazone+Sulbactam [Susceptibility"
           },
           {
-            "code": "54167-2",
-            "display": "Cefoperazone+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18886-2",
             "display": "Cefotaxime [Susceptibility]"
-          },
-          {
-            "code": "108-1",
-            "display": "Cefotaxime [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "35771-5",
             "display": "Cefotaxime+Clavulanate [Susceptibility]"
           },
           {
-            "code": "35770-7",
-            "display": "Cefotaxime+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18887-0",
             "display": "Cefotetan [Susceptibility]"
-          },
-          {
-            "code": "112-3",
-            "display": "cefoTEtan [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "32374-1",
             "display": "Cefotiam [Susceptibility]"
           },
           {
-            "code": "35773-1",
-            "display": "Cefotiam [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18888-8",
             "display": "Cefoxitin [Susceptibility]"
-          },
-          {
-            "code": "116-4",
-            "display": "cefOXitin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18889-6",
             "display": "Cefpirome [Susceptibility]"
           },
           {
-            "code": "8275-0",
-            "display": "Cefpirome [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18890-4",
             "display": "Cefpodoxime [Susceptibility]"
-          },
-          {
-            "code": "120-6",
-            "display": "Cefpodoxime [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18891-2",
             "display": "Cefprozil [Susceptibility]"
           },
           {
-            "code": "124-8",
-            "display": "Cefprozil [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18892-0",
             "display": "Cefsulodin [Susceptibility]"
-          },
-          {
-            "code": "128-9",
-            "display": "Cefsulodin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "73605-8",
             "display": "Ceftaroline [Susceptibility]"
           },
           {
-            "code": "73627-2",
-            "display": "Ceftaroline [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73604-1",
             "display": "Ceftaroline+Avibactam [Susceptibility]"
-          },
-          {
-            "code": "73626-4",
-            "display": "Ceftaroline+Avibactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18893-8",
             "display": "Ceftazidime [Susceptibility]"
           },
           {
-            "code": "133-9",
-            "display": "cefTAZidime [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73603-3",
             "display": "Ceftazidime+Avibactam [Susceptibility]"
           },
           {
-            "code": "73625-6",
-            "display": "cefTAZidime+Avibactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "35776-4",
             "display": "Ceftazidime+Clavulanate [Susceptibility]"
-          },
-          {
-            "code": "35775-6",
-            "display": "cefTAZidime+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "76144-5",
@@ -382,160 +222,80 @@
             "display": "Ceftibuten [Susceptibility]"
           },
           {
-            "code": "35778-0",
-            "display": "Ceftibuten [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18894-6",
             "display": "Ceftizoxime [Susceptibility]"
-          },
-          {
-            "code": "137-0",
-            "display": "Ceftizoxime [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "43272-4",
             "display": "Ceftobiprole [Susceptibility]"
           },
           {
-            "code": "43271-6",
-            "display": "Ceftobiprole [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73602-5",
             "display": "Ceftolozane+Tazobactam [Susceptibility]"
-          },
-          {
-            "code": "73624-9",
-            "display": "Ceftolozane+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18895-3",
             "display": "Ceftriaxone [Susceptibility]"
           },
           {
-            "code": "141-2",
-            "display": "cefTRIAXone [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "51724-3",
             "display": "Cefuroxime [Susceptibility]"
-          },
-          {
-            "code": "51774-8",
-            "display": "Cefuroxime [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18897-9",
             "display": "Cephalexin [Susceptibility]"
           },
           {
-            "code": "149-5",
-            "display": "Cephalexin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18900-1",
             "display": "Cephalothin [Susceptibility]"
-          },
-          {
-            "code": "161-0",
-            "display": "Cephalothin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18903-5",
             "display": "Chloramphenicol [Susceptibility]"
           },
           {
-            "code": "173-5",
-            "display": "Chloramphenicol [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18905-0",
             "display": "Cinoxacin [Susceptibility]"
-          },
-          {
-            "code": "181-8",
-            "display": "Cinoxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18906-8",
             "display": "Ciprofloxacin [Susceptibility]"
           },
           {
-            "code": "185-9",
-            "display": "Ciprofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18907-6",
             "display": "Clarithromycin [Susceptibility]"
-          },
-          {
-            "code": "189-1",
-            "display": "Clarithromycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "32376-6",
             "display": "Clinafloxacin [Susceptibility]"
           },
           {
-            "code": "35786-3",
-            "display": "Clinafloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18908-4",
             "display": "Clindamycin [Susceptibility]"
-          },
-          {
-            "code": "193-3",
-            "display": "Clindamycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "23627-3",
             "display": "Clofazimine [Susceptibility]"
           },
           {
-            "code": "16623-1",
-            "display": "Clofazimine [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18912-6",
             "display": "Colistin [Susceptibility]"
-          },
-          {
-            "code": "205-5",
-            "display": "Colistin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18914-2",
             "display": "Cycloserine [Susceptibility]"
           },
           {
-            "code": "213-9",
-            "display": "cycloSERINE [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "41734-5",
             "display": "Dalbavancin [Susceptibility]"
-          },
-          {
-            "code": "41689-1",
-            "display": "Dalbavancin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "73601-7",
             "display": "Danofloxacin [Susceptibility]"
           },
           {
-            "code": "73623-1",
-            "display": "Danofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "35789-7",
             "display": "Daptomycin [Susceptibility]"
-          },
-          {
-            "code": "35788-9",
-            "display": "DAPTOmycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "30300-8",
@@ -546,124 +306,60 @@
             "display": "Difloxacin [Susceptibility]"
           },
           {
-            "code": "35791-3",
-            "display": "Difloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "35795-4",
             "display": "Dirithromycin [Susceptibility]"
-          },
-          {
-            "code": "35794-7",
-            "display": "Dirithromycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "60535-2",
             "display": "Doripenem [Susceptibility]"
           },
           {
-            "code": "56031-8",
-            "display": "Doripenem [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18917-5",
             "display": "Doxycycline [Susceptibility]"
-          },
-          {
-            "code": "225-3",
-            "display": "Doxycycline [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18918-3",
             "display": "Enoxacin [Susceptibility]"
           },
           {
-            "code": "229-5",
-            "display": "Enoxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "35802-8",
             "display": "Ertapenem [Susceptibility]"
-          },
-          {
-            "code": "35801-0",
-            "display": "Ertapenem [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18919-1",
             "display": "Erythromycin [Susceptibility]"
           },
           {
-            "code": "233-7",
-            "display": "Erythromycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "6984-9",
-            "display": "Beta lactamase.extended spectrum [Susceptibility]"
-          },
-          {
             "code": "18921-7",
             "display": "Ethambutol [Susceptibility]"
-          },
-          {
-            "code": "241-0",
-            "display": "Ethambutol [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "73600-9",
             "display": "Faropenem [Susceptibility]"
           },
           {
-            "code": "73622-3",
-            "display": "Faropenem [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73599-3",
             "display": "Fidaxomicin [Susceptibility]"
-          },
-          {
-            "code": "73621-5",
-            "display": "Fidaxomicin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "73598-5",
             "display": "Finafloxacin [Susceptibility]"
           },
           {
-            "code": "73620-7",
-            "display": "Finafloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "32372-5",
             "display": "Fleroxacin [Susceptibility]"
-          },
-          {
-            "code": "25411-0",
-            "display": "Fleroxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "23740-4",
             "display": "Florfenicol [Susceptibility]"
           },
           {
-            "code": "35808-5",
-            "display": "Florfenicol [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18923-3",
             "display": "Floxacillin [Susceptibility]"
           },
           {
-            "code": "245-1",
-            "display": "Floxacillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18924-1",
             "display": "Fluconazole [Susceptibility]"
-          },
-          {
-            "code": "249-3",
-            "display": "Fluconazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "256-8",
@@ -674,128 +370,64 @@
             "display": "Fosfomycin [Susceptibility]"
           },
           {
-            "code": "25653-7",
-            "display": "Fosfomycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18927-4",
             "display": "Fusidate [Susceptibility]"
-          },
-          {
-            "code": "262-6",
-            "display": "Fusidate [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "35813-5",
             "display": "Garenoxacin [Susceptibility]"
           },
           {
-            "code": "35812-7",
-            "display": "Garenoxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "31038-3",
             "display": "Gatifloxacin [Susceptibility]"
-          },
-          {
-            "code": "31036-7",
-            "display": "Gatifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "35816-8",
             "display": "Gemifloxacin [Susceptibility]"
           },
           {
-            "code": "35815-0",
-            "display": "Gemifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "18929-0",
+            "display": "Gentamicin.high potency [Susceptibility]"
           },
           {
             "code": "18928-2",
             "display": "Gentamicin [Susceptibility]"
           },
           {
-            "code": "267-5",
-            "display": "Gentamicin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "18929-0",
-            "display": "Gentamicin.high potency [Susceptibility]"
-          },
-          {
-            "code": "7018-5",
-            "display": "Gentamicin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "23638-0",
             "display": "Grepafloxacin [Susceptibility]"
-          },
-          {
-            "code": "23639-8",
-            "display": "Grepafloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "73597-7",
             "display": "Iclaprim [Susceptibility]"
           },
           {
-            "code": "73619-9",
-            "display": "Iclaprim [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18932-4",
             "display": "Imipenem [Susceptibility]"
-          },
-          {
-            "code": "279-0",
-            "display": "Imipenem [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "88887-5",
             "display": "Isavuconazole [Susceptibility]"
           },
           {
-            "code": "85381-2",
-            "display": "Isavuconazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18934-0",
             "display": "Isoniazid [Susceptibility]"
-          },
-          {
-            "code": "287-3",
-            "display": "Isoniazid [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "32603-3",
             "display": "Itraconazole [Susceptibility]"
           },
           {
-            "code": "25452-4",
-            "display": "Itraconazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "25597-6",
             "display": "Josamycine [Susceptibility]"
-          },
-          {
-            "code": "25702-2",
-            "display": "Josamycine [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "18935-7",
-            "display": "Kanamycin [Susceptibility]"
-          },
-          {
-            "code": "291-5",
-            "display": "Kanamycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18936-5",
             "display": "Kanamycin.high potency [Susceptibility]"
           },
           {
-            "code": "7024-3",
-            "display": "Kanamycin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "18935-7",
+            "display": "Kanamycin [Susceptibility]"
           },
           {
             "code": "30298-4",
@@ -806,324 +438,155 @@
             "display": "Levofloxacin [Susceptibility]"
           },
           {
-            "code": "20396-8",
-            "display": "Levofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18938-1",
             "display": "Lincomycin [Susceptibility]"
-          },
-          {
-            "code": "299-8",
-            "display": "Lincomycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "29258-1",
             "display": "Linezolid [Susceptibility]"
           },
           {
-            "code": "29254-0",
-            "display": "Linezolid [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18939-9",
             "display": "Lomefloxacin [Susceptibility]"
-          },
-          {
-            "code": "303-8",
-            "display": "Lomefloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18940-7",
             "display": "Loracarbef [Susceptibility]"
           },
           {
-            "code": "307-9",
-            "display": "Loracarbef [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "18859-9",
-            "display": "Amdinocillin [Susceptibility]"
-          },
-          {
-            "code": "8-3",
-            "display": "Amdinocillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18943-1",
             "display": "Meropenem [Susceptibility]"
-          },
-          {
-            "code": "6652-2",
-            "display": "Meropenem [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "88892-5",
             "display": "Meropenem+Vaborbactam [Susceptibility]"
           },
           {
-            "code": "85427-3",
-            "display": "Meropenem+Vaborbactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18945-6",
             "display": "Methicillin [Susceptibility]"
-          },
-          {
-            "code": "323-6",
-            "display": "Methicillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18946-4",
             "display": "Metronidazole [Susceptibility]"
           },
           {
-            "code": "327-7",
-            "display": "Metronidazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18947-2",
             "display": "Mezlocillin [Susceptibility]"
           },
           {
-            "code": "18947-2",
-            "display": "Mezlocillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "85048-7",
-            "display": "Micafungin [Susceptibility] by Gradient strip"
-          },
-          {
-            "code": "53812-4",
-            "display": "Micafungin [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "65340-2"
           },
           {
             "code": "18948-0",
             "display": "Minocycline [Susceptibility]"
           },
           {
-            "code": "335-0",
-            "display": "Minocycline [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18950-6",
             "display": "Moxalactam [Susceptibility]"
-          },
-          {
-            "code": "343-4",
-            "display": "Moxalactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "31039-1",
             "display": "Moxifloxacin [Susceptibility]"
           },
           {
-            "code": "31037-5",
-            "display": "Moxifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "20389-3",
             "display": "Mupirocin [Susceptibility]"
-          },
-          {
-            "code": "35823-4",
-            "display": "Mupirocin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18951-4",
             "display": "Nafcillin [Susceptibility]"
           },
           {
-            "code": "347-5",
-            "display": "Nafcillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18952-2",
             "display": "Nalidixate [Susceptibility]"
-          },
-          {
-            "code": "351-7",
-            "display": "Nalidixate [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18953-0",
             "display": "Neomycin [Susceptibility]"
           },
           {
-            "code": "355-8",
-            "display": "Neomycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18954-8",
             "display": "Netilmicin [Susceptibility]"
-          },
-          {
-            "code": "359-0",
-            "display": "Netilmicin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "6985-6",
-            "display": "Beta lactamase.usual [Susceptibility]"
           },
           {
             "code": "18955-5",
             "display": "Nitrofurantoin [Susceptibility]"
           },
           {
-            "code": "363-2",
-            "display": "Nitrofurantoin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18956-3",
             "display": "Norfloxacin [Susceptibility]"
-          },
-          {
-            "code": "367-3",
-            "display": "Norfloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18957-1",
             "display": "Novobiocin [Susceptibility]"
           },
           {
-            "code": "371-5",
-            "display": "Novobiocin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18958-9",
             "display": "Nystatin [Susceptibility]"
-          },
-          {
-            "code": "10697-1",
-            "display": "Nystatin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18959-7",
             "display": "Ofloxacin [Susceptibility]"
           },
           {
-            "code": "375-6",
-            "display": "Ofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73594-4",
             "display": "Omadacycline [Susceptibility]"
-          },
-          {
-            "code": "73616-5",
-            "display": "Omadacycline [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "41736-0",
             "display": "Oritavancin [Susceptibility]"
           },
           {
-            "code": "41708-9",
-            "display": "Oritavancin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18961-3",
             "display": "Oxacillin [Susceptibility]"
-          },
-          {
-            "code": "383-0",
-            "display": "Oxacillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "23629-9",
             "display": "Para aminosalicylate [Susceptibility]"
           },
           {
-            "code": "14332-1",
-            "display": "Para aminosalicylate [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "18964-7",
-            "display": "Penicillin [Susceptibility]"
-          },
-          {
-            "code": "6932-8",
-            "display": "Penicillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18965-4",
             "display": "Penicillin G [Susceptibility]"
-          },
-          {
-            "code": "392-1",
-            "display": "Penicillin G [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18966-2",
             "display": "Penicillin V [Susceptibility]"
           },
           {
-            "code": "396-2",
-            "display": "Penicillin V [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "18964-7",
+            "display": "Penicillin [Susceptibility]"
           },
           {
             "code": "18969-6",
             "display": "Piperacillin [Susceptibility]"
           },
           {
-            "code": "408-5",
-            "display": "Piperacillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "54197-9",
             "display": "Piperacillin+Sulbactam [Susceptibility]"
-          },
-          {
-            "code": "54198-7",
-            "display": "Piperacillin+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18970-4",
             "display": "Piperacillin+Tazobactam [Susceptibility]"
           },
           {
-            "code": "412-7",
-            "display": "Piperacillin+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73592-8",
             "display": "Plazomicin [Susceptibility]"
           },
           {
-            "code": "73614-0",
-            "display": "Plazomicin [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "18972-0",
+            "display": "Polymyxin B [Susceptibility]"
           },
           {
-            "code": "421-8",
-            "display": "Polymyxin B [Susceptibility] by Disk diffusion (KB)"
-          },
-          {
-            "code": "420-0",
-            "display": "Polymyxin B [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "54186-2",
-            "display": "Posaconazole [Susceptibility] by Gradient strip"
-          },
-          {
-            "code": "54187-0",
-            "display": "Posaconazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "54188-8",
+            "display": "Posaconazole [Susceptibility]"
           },
           {
             "code": "73591-0",
             "display": "Premafloxacin [Susceptibility]"
           },
           {
-            "code": "73613-2",
-            "display": "Premafloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "32383-2",
             "display": "Pristinamycin [Susceptibility]"
-          },
-          {
-            "code": "35834-1",
-            "display": "Pristinamycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "63565-6",
@@ -1134,232 +597,112 @@
             "display": "Pyrazinamide [Susceptibility]"
           },
           {
-            "code": "424-2",
-            "display": "Pyrazinamide [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "23640-6",
             "display": "Quinupristin+Dalfopristin [Susceptibility]"
-          },
-          {
-            "code": "23641-4",
-            "display": "Quinupristin+Dalfopristin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "41737-8",
             "display": "Ramoplanin [Susceptibility]"
           },
           {
-            "code": "41710-5",
-            "display": "Ramoplanin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73590-2",
             "display": "Razupenem [Susceptibility]"
-          },
-          {
-            "code": "73612-4",
-            "display": "Razupenem [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "19149-4",
             "display": "Rifabutin [Susceptibility]"
           },
           {
-            "code": "16100-0",
-            "display": "Rifabutin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18974-6",
             "display": "Rifampin [Susceptibility]"
-          },
-          {
-            "code": "428-3",
-            "display": "Rifampin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18978-7",
             "display": "Roxithromycin [Susceptibility]"
           },
           {
-            "code": "444-0",
-            "display": "Roxithromycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "73588-6",
             "display": "Sarafloxacin [Susceptibility]"
-          },
-          {
-            "code": "73610-8",
-            "display": "Sarafloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "73587-8",
             "display": "Solithromycin [Susceptibility]"
           },
           {
-            "code": "73609-0",
-            "display": "Solithromycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "23628-1",
             "display": "Sparfloxacin [Susceptibility]"
-          },
-          {
-            "code": "20397-6",
-            "display": "Sparfloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18980-3",
             "display": "Spectinomycin [Susceptibility]"
           },
           {
-            "code": "452-3",
-            "display": "Spectinomycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "30302-4",
             "display": "Stavudine [Susceptibility]"
-          },
-          {
-            "code": "18982-9",
-            "display": "Streptomycin [Susceptibility]"
-          },
-          {
-            "code": "460-6",
-            "display": "Streptomycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18983-7",
             "display": "Streptomycin.high potency [Susceptibility]"
           },
           {
-            "code": "6933-6",
-            "display": "Streptomycin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "55614-2",
-            "display": "Amoxicillin+Sulbactam [Susceptibility]"
+            "code": "18982-9",
+            "display": "Streptomycin [Susceptibility]"
           },
           {
             "code": "18985-2",
             "display": "Sulfamethoxazole [Susceptibility]"
           },
           {
-            "code": "468-9",
-            "display": "Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
-            "code": "18998-5",
-            "display": "Trimethoprim+Sulfamethoxazole [Susceptibility]"
-          },
-          {
-            "code": "516-5",
-            "display": "Trimethoprim+Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18986-0",
             "display": "Sulfisoxazole [Susceptibility]"
-          },
-          {
-            "code": "472-1",
-            "display": "Sulfisoxazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18987-8",
             "display": "Sulfonamide [Susceptibility]"
           },
           {
-            "code": "476-2",
-            "display": "Sulfonamide [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "55289-3",
             "display": "Sulopenem [Susceptibility]"
-          },
-          {
-            "code": "55290-1",
-            "display": "Sulopenem [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18989-4",
             "display": "Teicoplanin [Susceptibility]"
           },
           {
-            "code": "484-6",
-            "display": "Teicoplanin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "88886-7",
             "display": "Telavancin [Susceptibility]"
-          },
-          {
-            "code": "72894-9",
-            "display": "Telavancin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "35845-7",
             "display": "Telithromycin [Susceptibility]"
           },
           {
-            "code": "35844-0",
-            "display": "Telithromycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18990-2",
             "display": "Temafloxacin [Susceptibility]"
-          },
-          {
-            "code": "488-7",
-            "display": "Temafloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18991-0",
             "display": "Temocillin [Susceptibility]"
           },
           {
-            "code": "492-9",
-            "display": "Temocillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18993-6",
             "display": "Tetracycline [Susceptibility]"
-          },
-          {
-            "code": "496-0",
-            "display": "Tetracycline [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "18994-4",
             "display": "Ticarcillin [Susceptibility]"
           },
           {
-            "code": "500-9",
-            "display": "Ticarcillin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18995-1",
             "display": "Ticarcillin+Clavulanate [Susceptibility]"
-          },
-          {
-            "code": "504-1",
-            "display": "Ticarcillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "42357-4",
             "display": "Tigecycline [Susceptibility]"
           },
           {
-            "code": "42355-8",
-            "display": "Tigecycline [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "18996-9",
             "display": "Tobramycin [Susceptibility]"
-          },
-          {
-            "code": "508-2",
-            "display": "Tobramycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "76146-0",
@@ -1370,32 +713,20 @@
             "display": "Trimethoprim [Susceptibility]"
           },
           {
-            "code": "512-4",
-            "display": "Trimethoprim [Susceptibility] by Minimum inhibitory concentration (MIC)"
+            "code": "18998-5",
+            "display": "Trimethoprim+Sulfamethoxazole [Susceptibility]"
           },
           {
             "code": "23642-2",
             "display": "Trovafloxacin [Susceptibility]"
           },
           {
-            "code": "23643-0",
-            "display": "Trovafloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "19000-9",
             "display": "Vancomycin [Susceptibility]"
           },
           {
-            "code": "524-9",
-            "display": "Vancomycin [Susceptibility] by Minimum inhibitory concentration (MIC)"
-          },
-          {
             "code": "32379-0",
             "display": "Voriconazole [Susceptibility]"
-          },
-          {
-            "code": "35863-0",
-            "display": "Voriconazole [Susceptibility] by Minimum inhibitory concentration (MIC)"
           },
           {
             "code": "30301-6",
@@ -1405,14 +736,13 @@
             "code": "531-4",
             "display": "Zidovudine [Susceptibility]"
           }
-        ],
-        "version": "2.67"
+        ]
       }
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Susceptiblity tests</h2><tt>http://highmed.org/ValueSets/susceptibilitytests</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LOINC Susceptibility tests</h2><tt>http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc</tt></div>"
   },
-  "name": "Susceptibilitytests"
+  "name": "General_tests_antibiogram"
 }

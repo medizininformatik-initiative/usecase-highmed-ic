@@ -2,7 +2,7 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
-    <url value="http://highmed.org/ValueSet/probenart" />
+    <url value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
     <version value="0.9" />
     <name value="UCIC Probenart" />
     <title value="ValueSet UCIC Probenart" />

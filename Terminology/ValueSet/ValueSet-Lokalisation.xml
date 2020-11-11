@@ -2,7 +2,7 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
-    <url value="http://highmed.org/ValueSet/lokalisation" />
+    <url value="http://highmed.org/ValueSet/probenentnahmestelle-anatomische-lokalisation-snomedct" />
     <version value="0.9" />
     <name value="UCIC Body site" />
     <title value="ValueSet UCIC Lokalisation" />
@@ -39,8 +39,8 @@
                 <display value="Arterial structure (body structure)"/>
             </concept>
             <concept>
-                <code value="74964007"/>
-                <display value="Other (qualifier value)"/>
+                <code value="<91723000"/>
+                <display value="Other"/>
             </concept>
                     </include>
     </compose>
