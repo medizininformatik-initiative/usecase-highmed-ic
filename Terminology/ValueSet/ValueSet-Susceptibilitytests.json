@@ -744,5 +744,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LOINC Susceptibility tests</h2><tt>http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc</tt></div>"
   },
-  "name": "General_tests_antibiogram"
+  "name": "Susceptibility tests"
 }
