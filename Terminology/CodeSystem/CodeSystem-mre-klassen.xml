@@ -11,7 +11,7 @@
     <valueSet value="http://highmed.org/ValueSet/mre-klassen-lokal" />
     <hierarchyMeaning value="is-a" />
     <content value="complete" />
-    <count value="5" />
+    <count value="7" />
     <concept>
         <code value="01" />
         <display value="MRSA" />
