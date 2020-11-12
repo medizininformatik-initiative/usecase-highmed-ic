@@ -161,13 +161,14 @@
       <path value="Specimen.collection.bodySite" />
       <label value="Probenentnahmestelle" />
       <code>
-        <system value="http://highmed.org/ValueSet/probenentnahmestelle-anatomische-lokalisation-snomedct" />
-      </code>
-      <code>
         <system value="http://hl7.org/fhir/sid/icd-10" />
       </code>
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="example" />
+        <valueSet value="http://highmed.org/ValueSet/probenentnahmestelle-anatomische-lokalisation-snomedct" />
+      </binding>
       <mapping>
         <identity value="v2" />
         <map value="OBR-15.4,OBR-15.5" />
