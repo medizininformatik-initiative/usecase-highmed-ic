@@ -2,7 +2,7 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
-    <url value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
+    <url value="http://highmed.org/ValueSet/mre-klassen-lokal" />
     <version value="0.9" />
     <name value="MRE Klassen" />
     <title value="ValueSet MRE Klassen" />
