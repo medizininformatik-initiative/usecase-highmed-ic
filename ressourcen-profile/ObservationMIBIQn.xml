@@ -40,10 +40,6 @@
       <path value="Observation.meta.profile" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.id">
-      <path value="Observation.id" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.identifier">
       <path value="Observation.identifier" />
       <slicing>
@@ -250,11 +246,16 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+        </coding>
+      </fixedCodeableConcept>
       <mustSupport value="true" />
       <binding>
-        <strength value="preferred" />
+        <strength value="extensible" />
         <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS in {MICRO}  } }" />
-        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
+        <valueSet value="http://highmed.org/ValueSet/keimzahl-loinc" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
@@ -266,6 +267,13 @@
       </extension>
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="http://highmed.org/ValueSet/keimzahl-loinc" />
+      </binding>
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -410,6 +418,10 @@
     <element id="Observation.component">
       <path value="Observation.component" />
       <max value="0" />
+    </element>
+    <element id="Observation.id">
+      <path value="Observation.id" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>

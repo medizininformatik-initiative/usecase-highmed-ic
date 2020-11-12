@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://highmed.org/ValueSet/keimzahl-loinc",
+  "title": "Colony count tests",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "49223-1",
+            "display": "Colony count [#/volume] in Unspecified specimen by Visual count"
+          },
+          {
+            "code": "19101-5",
+            "display": "Fungus colony count [#/volume] in Unspecified specimen by Culture]"
+          },
+          {
+            "code": "20774-6",
+            "display": "Colony count [Units/volume] in Unspecified specimen by Visual count"
+          }
+          
+        ]
+      }
+    ]
+  },
+ 
+  "name": "Colony count tests"
+}
