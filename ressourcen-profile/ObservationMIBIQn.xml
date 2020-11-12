@@ -253,7 +253,7 @@
       </fixedCodeableConcept>
       <mustSupport value="true" />
       <binding>
-        <strength value="extensible" />
+        <strength value="example" />
         <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS in {MICRO}  } }" />
         <valueSet value="http://highmed.org/ValueSet/keimzahl-loinc" />
       </binding>
@@ -271,7 +271,7 @@
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
       <binding>
-        <strength value="extensible" />
+        <strength value="example" />
         <valueSet value="http://highmed.org/ValueSet/keimzahl-loinc" />
       </binding>
     </element>
