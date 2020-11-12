@@ -188,9 +188,8 @@
       </fixedCodeableConcept>
       <mustSupport value="true" />
       <binding>
-        <strength value="preferred" />
+        <strength value="example" />
         <description value="Intensional Value Set Definition: LOINC {  {    STATUS in {ACTIVE}    CLASSTYPE in {1}    CLASS in {MICRO}  } }" />
-        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
       </binding>
     </element>
     <element id="Observation.code.coding.system">
