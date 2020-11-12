@@ -179,7 +179,7 @@
       <binding>
         <strength value="preferred" />
         <description value="Codes identifying Susceptobility tests" />
-        <valueSet value="http://highmed.org/ValueSet/susceptibilitytests" />
+        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc" />
       </binding>
     </element>
     <element id="Observation.code.coding">

@@ -474,7 +474,8 @@
             "display": "Mezlocillin [Susceptibility]"
           },
           {
-            "code": "65340-2"
+            "code": "65340-2",
+            "display": "Micafungin [Susceptibility]"
           },
           {
             "code": "18948-0",
