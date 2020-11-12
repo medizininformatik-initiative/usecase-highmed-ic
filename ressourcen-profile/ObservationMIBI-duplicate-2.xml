@@ -180,6 +180,12 @@
       <path value="Observation.code" />
       <short value="Microbiology test" />
       <definition value="Describes what was observed. Sometimes this is called the observation &quot;name&quot;. \ne.g. Bacteria presence detection" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="43409-2" />
+        </coding>
+      </fixedCodeableConcept>
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
@@ -197,6 +203,7 @@
     </element>
     <element id="Observation.code.coding.display">
       <path value="Observation.code.coding.display" />
+      <label value="Bacteria identified in Isolate by Culture" />
       <fixedString value="Bacteria identified in Isolate by Culture" />
     </element>
     <element id="Observation.code.text">
