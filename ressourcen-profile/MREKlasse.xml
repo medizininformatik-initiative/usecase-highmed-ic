@@ -180,10 +180,10 @@
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
-      <fixedUri value="http://highmed.org/CodeSystem/mre-klassen" />
+      <fixedUri value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/mre-klassen" />
+        <valueSet value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
       </binding>
     </element>
     <element id="Observation.code.coding.code">
@@ -191,7 +191,7 @@
       <fixedCode value="MRE Klasse" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/mre-klassen" />
+        <valueSet value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
       </binding>
     </element>
     <element id="Observation.code.coding.display">
