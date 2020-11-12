@@ -2,7 +2,7 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
-    <url value="http://highmed.de/ValueSet/testanforderungen-mikrobiologischer-befund-loinc" />
+    <url value="http://highmed.org/ValueSet/testanforderungen-mikrobiologischer-befund-loinc" />
     <version value="0.9" />
     <name value="Anforderungen" />
     <title value="ValueSet UCIC Anforderungen" />
@@ -13,7 +13,7 @@
     <description value="Defines codes for laboratory requests in HiGHmed Use Case Infection Cntrol." />
     <compose>
         <include>
-            <system value="http://highmed.de/ValueSet/testanforderungen-mikrobiologischer-befund"/>
+            <system value="http://highmed.org/ValueSet/testanforderungen-mikrobiologischer-befund"/>
            <concept>
                 <code value="13317-3"/>
                 <display value="Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture"/>
