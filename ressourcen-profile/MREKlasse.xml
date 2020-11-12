@@ -176,19 +176,23 @@
       <path value="Observation.code" />
       <short value="MRE Klasse" />
       <definition value="Klassifizierung multiresistenter gramnegativer Stäbchen auf Basisihrer phänotypischen Resistenzeigenschaften (Robert Koch Institut)" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://highmed.org/CodeSystem/rki" />
+          <code value="MRE Klasse" />
+        </coding>
+      </fixedCodeableConcept>
       <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/mre-klassen-lokal" />
-      </binding>
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <fixedCoding>
+        <code value="MRE Klasse" />
+      </fixedCoding>
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
-      <fixedUri value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
-      </binding>
+      <fixedUri value="http://highmed.org/CodeSystem/rki" />
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
