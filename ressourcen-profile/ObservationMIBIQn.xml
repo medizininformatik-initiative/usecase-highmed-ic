@@ -371,6 +371,25 @@
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/keimzahl-haeufigkeit" />
+      </binding>
+    </element>
+    <element id="Observation.interpretation.coding.system">
+      <path value="Observation.interpretation.coding.system" />
+      <fixedUri value="http://highmed.org/CodeSystem/keimzahl-haeufigkeit" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/keimzahl-haeufigkeit" />
+      </binding>
+    </element>
+    <element id="Observation.interpretation.coding.code">
+      <path value="Observation.interpretation.coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/keimzahl-haeufigkeit" />
+      </binding>
     </element>
     <element id="Observation.note">
       <path value="Observation.note" />
