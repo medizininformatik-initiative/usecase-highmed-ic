@@ -4,8 +4,8 @@
     </meta>
     <url value="http://highmed.org/ValueSet/resistenzklassen-antiinfektiva-eucast" />
     <version value="0.9" />
-    <name value="Resistance" />
-    <title value="ValueSet Resistance" />
+    <name value="Resistenz" />
+    <title value="ValueSet Resistence" />
     <status value="draft" />
     <experimental value="true" />
     <date value="2020-03-20" />
