@@ -26,10 +26,7 @@
                 <code value="372687004" />
                 <display value="Amoxicillin (substance)" />
             </concept>
-            <concept>
-                <code value="708558004" />
-                <display value="Amoxicillin and clavulanate (substance)" />
-            </concept>
+           
             <concept>
                 <code value="77703004" />
                 <display value="Amphotericin B (substance)" />
@@ -38,13 +35,14 @@
                 <code value="387170002" />
                 <display value="Ampicillin (substance)" />
             </concept>
-            <concept>
-                <code value="703744001" />
-                <display value="Ampicillin and sulbactam (substance)" />
-            </concept>
+            
             <concept>
                 <code value="422157006" />
                 <display value="Anidulafungin (substance)" />
+            </concept>
+            <concept>
+                <code value="715180004" />
+                <display value=" Avibactam (substance)" />
             </concept>
             <concept>
                 <code value="387531004" />
@@ -170,10 +168,7 @@
                 <code value="387200005" />
                 <display value=" |Ceftazidime (substance)" />
             </concept>
-            <concept>
-                <code value="724008004" />
-                <display value=" |Avibactam and ceftazidime (substance)|" />
-            </concept>
+            
              <concept>
                 <code value="387535008" />
                 <display value=" |Ceftibuten (substance)|" />
@@ -187,8 +182,8 @@
                 <display value=" |Ceftobiprole (substance)|" />
             </concept>
             <concept>
-                <code value="724009007" />
-                <display value=" |Ceftolozane and tazobactam (substance)|" />
+                <code value="708792003" />
+                <display value=" Ceftolozane (substance)" />
             </concept>
             <concept>
                 <code value="372670001" />
@@ -221,6 +216,10 @@
             <concept>
                 <code value="387487009" />
                 <display value="|Clarithromycin (substance)|" />
+            </concept>
+             <concept>
+                <code value="395939008" />
+                <display value="Clavulanic acid (substance)" />
             </concept>
             <concept>
                 <code value="96083005" />
@@ -394,10 +393,7 @@
                 <code value="387540000" />
                 <display value="|Meropenem (substance)|)" />
             </concept>
-            <concept>
-                <code value="737670005" />
-                <display value="  |Meropenem and vaborbactam (substance)|" />
-            </concept>
+           
             <concept>
                 <code value="373515001" />
                 <display value="|Meticillin (substance)|" />
@@ -498,10 +494,7 @@
                 <code value="372836004" />
                 <display value=" |Piperacillin (substance)|" />
             </concept>
-            <concept>
-                <code value="703743007" />
-                <display value="|Piperacillin and tazobactam (substance)|" />
-            </concept>
+           
             <concept>
                 <code value="725719004" />
                 <display value="|Plazomicin (substance)|" />
@@ -566,10 +559,7 @@
                 <code value="363528007" />
                 <display value=" |Sulfamethoxazole (substance)|" />
             </concept>
-            <concept>
-                <code value="703745000" />
-                <display value=" |Sulfamethoxazole and trimethoprim (substance)|" />
-            </concept>
+           
             <concept>
                 <code value="372858002" />
                 <display value="  |Sulfafurazole (substance)|" />
@@ -581,6 +571,10 @@
             <concept>
                 <code value="725623004" />
                 <display value="  |Sulopenem (substance)|" />
+            </concept>
+            <concept>
+                <code value="96007008" />
+                <display value=" Tazobactam (substance)" />
             </concept>
             <concept>
                 <code value="387529008" />
@@ -626,10 +620,15 @@
                 <code value="96092008" />
                 <display value=" |Trovafloxacin (substance)|" />
             </concept>
+             <concept>
+                <code value="737669009 " />
+                <display value="Vaborbactam (substance)" />
+            </concept>
             <concept>
                 <code value="372735009" />
                 <display value=" |Vancomycin (substance)|" />
             </concept>
+            
             <concept>
                 <code value="385469007" />
                 <display value=" |Voriconazole (substance)|" />
