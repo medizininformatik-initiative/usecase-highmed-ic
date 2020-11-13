@@ -213,7 +213,7 @@
     <element id="Observation.code.coding:SNOMED-CT-antinfektiva">
       <path value="Observation.code.coding" />
       <sliceName value="SNOMED-CT-antinfektiva" />
-      <max value="1" />
+      <max value="2" />
     </element>
     <element id="Observation.code.coding:SNOMED-CT-antinfektiva.system">
       <path value="Observation.code.coding.system" />
