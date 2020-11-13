@@ -2,7 +2,7 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
-    <url value="http://highmed.org/ValueSet/antiinfektiva" />
+    <url value="http://highmed.org/ValueSet/antiinfektiva-snomed" />
     <version value="0.9" />
     <name value="Antiinfektiva" />
     <title value="Antiinfektiva" />
