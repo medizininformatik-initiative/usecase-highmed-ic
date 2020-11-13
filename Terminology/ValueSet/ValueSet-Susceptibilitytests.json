@@ -289,10 +289,7 @@
             "code": "41734-5",
             "display": "Dalbavancin [Susceptibility]"
           },
-          {
-            "code": "73601-7",
-            "display": "Danofloxacin [Susceptibility]"
-          },
+          
           {
             "code": "35789-7",
             "display": "Daptomycin [Susceptibility]"
@@ -301,10 +298,7 @@
             "code": "30300-8",
             "display": "Didanosine [Susceptibility]"
           },
-          {
-            "code": "35792-1",
-            "display": "Difloxacin [Susceptibility]"
-          },
+         
           {
             "code": "35795-4",
             "display": "Dirithromycin [Susceptibility]"
