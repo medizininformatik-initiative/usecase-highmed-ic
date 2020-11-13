@@ -13,7 +13,7 @@
     <description value="Defines codes for laboratory requests in HiGHmed Use Case Infection Cntrol." />
     <compose>
         <include>
-            <system value="http://highmed.org/ValueSet/testanforderungen-mikrobiologischer-befund"/>
+            <system value="http://loinc.org"/>
            <concept>
                 <code value="13317-3"/>
                 <display value="Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture"/>
@@ -30,15 +30,7 @@
                 <code value="580-1"/>
                 <display value="Fungus identified in Unspecified specimen by Culture"/>
             </concept>
-            <concept>
-                <code value="01"/>
-                <display value="3MRGN"/>
-            </concept>
-            <concept>
-                <code value="02"/>
-                <display value="4MRGN"/>
-            </concept>
-            
+                        
         </include>
     </compose>
 </ValueSet>
