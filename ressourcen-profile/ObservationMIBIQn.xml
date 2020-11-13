@@ -270,10 +270,7 @@
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
-      <binding>
-        <strength value="example" />
-        <valueSet value="http://highmed.org/ValueSet/keimzahl-loinc" />
-      </binding>
+      <fixedCode value="49223-1" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
