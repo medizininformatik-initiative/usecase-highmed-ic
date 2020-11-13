@@ -210,20 +210,20 @@
         <valueSet value="http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc" />
       </binding>
     </element>
-    <element id="Observation.code.coding:SNOMED-CT-antinfektiva">
+    <element id="Observation.code.coding:SNOMED-CT-antiinfektiva">
       <path value="Observation.code.coding" />
-      <sliceName value="SNOMED-CT-antinfektiva" />
+      <sliceName value="SNOMED-CT-antiinfektiva" />
       <max value="2" />
     </element>
-    <element id="Observation.code.coding:SNOMED-CT-antinfektiva.system">
+    <element id="Observation.code.coding:SNOMED-CT-antiinfektiva.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
-    <element id="Observation.code.coding:SNOMED-CT-antinfektiva.code">
+    <element id="Observation.code.coding:SNOMED-CT-antiinfektiva.code">
       <path value="Observation.code.coding.code" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/antibiotika-snomed" />
+        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-snomed" />
       </binding>
     </element>
     <element id="Observation.subject">
