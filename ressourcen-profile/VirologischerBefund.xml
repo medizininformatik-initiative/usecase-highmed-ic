@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://highmed.org/StructureDefinition/VirologischerBefund" />
+  <name value="VirologischerBefund" />
+  <status value="draft" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.status">
+      <path value="Observation.status" />
+      <definition value="Ergebnis-Status" />
+    </element>
+    <element id="Observation.category.coding:snomedct-subcategory">
+      <path value="Observation.category.coding" />
+      <sliceName value="snomedct-subcategory" />
+      <min value="1" />
+      <max value="1" />
+      <fixedCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="122442008" />
+        <display value="Detection of virus (procedure)" />
+      </fixedCoding>
+    </element>
+    <element id="Observation.category.coding:snomedct-subcategory.system">
+      <path value="Observation.category.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.category.coding:snomedct-subcategory.code">
+      <path value="Observation.category.coding.code" />
+      <fixedCode value="122442008" />
+    </element>
+    <element id="Observation.code.coding.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://loinc.org" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/sarscov2detectiontests-loinc" />
+      </binding>
+    </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <binding>
+        <strength value="example" />
+        <description value="Nachweis test" />
+        <valueSet value="http://highmed.org/ValueSet/sarscov2detectiontests-loinc" />
+      </binding>
+    </element>
+    <element id="Observation.encounter">
+      <path value="Observation.encounter" />
+      <short value="Fall-Kennung" />
+      <min value="1" />
+    </element>
+    <element id="Observation.effective[x]">
+      <path value="Observation.effective[x]" />
+      <short value="Zeitpunkt der Validierung" />
+    </element>
+    <element id="Observation.issued">
+      <path value="Observation.issued" />
+      <short value="Zeitpunkt Ergebnis-Status" />
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept">
+      <path value="Observation.value[x]" />
+      <sliceName value="valueCodeableConcept" />
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept.coding.system">
+      <path value="Observation.value[x].coding.system" />
+      <fixedUri value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept.coding.code">
+      <path value="Observation.value[x].coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
+      </binding>
+    </element>
+    <element id="Observation.method">
+      <path value="Observation.method" />
+      <short value="Testmethode" />
+    </element>
+    <element id="Observation.specimen">
+      <path value="Observation.specimen" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>
