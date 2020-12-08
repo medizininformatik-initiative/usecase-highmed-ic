@@ -69,6 +69,17 @@
         <strength value="required" />
       </binding>
     </element>
+    <element id="Observation.code.coding:snomedct-organism.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.code.coding:snomedct-organism.code">
+      <path value="Observation.code.coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-snomedct" />
+      </binding>
+    </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
