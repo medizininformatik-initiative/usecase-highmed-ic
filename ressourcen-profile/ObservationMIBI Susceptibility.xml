@@ -26,58 +26,17 @@
       <path value="Observation.category.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
+      <min value="1" />
       <fixedUri value="http://loinc.org" />
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
+      <min value="1" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc" />
-      </binding>
-    </element>
-    <element id="Observation.code.coding:loinc-test">
-      <path value="Observation.code.coding" />
-      <sliceName value="loinc-test" />
-    </element>
-    <element id="Observation.code.coding:loinc-test.system">
-      <path value="Observation.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.code.coding:loinc-test.code">
-      <path value="Observation.code.coding.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc" />
-      </binding>
-    </element>
-    <element id="Observation.code.coding:snomedct-organism">
-      <path value="Observation.code.coding" />
-      <sliceName value="snomedct-organism" />
-      <binding>
-        <strength value="required" />
-      </binding>
-    </element>
-    <element id="Observation.code.coding:snomedct-organism.system">
-      <path value="Observation.code.coding.system" />
-      <fixedUri value="http://snomed.info/sct" />
-    </element>
-    <element id="Observation.code.coding:snomedct-organism.code">
-      <path value="Observation.code.coding.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-snomedct" />
       </binding>
     </element>
     <element id="Observation.value[x]:valueQuantity">
