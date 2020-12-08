@@ -26,6 +26,10 @@
       <path value="Observation.category.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <min value="1" />
+    </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
       <min value="1" />
