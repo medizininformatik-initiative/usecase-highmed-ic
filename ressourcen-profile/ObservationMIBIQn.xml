@@ -43,8 +43,13 @@
         <valueSet value="http://highmed.org/ValueSet/keimzahl-loinc" />
       </binding>
     </element>
+    <element id="Observation.value[x]:valueQuantity">
+      <path value="Observation.valueQuantity" />
+      <sliceName value="valueQuantity" />
+      <min value="1" />
+    </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.valueCodeableConcept" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueCodeableConcept" />
       <max value="0" />
     </element>
