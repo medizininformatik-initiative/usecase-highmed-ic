@@ -2,6 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://highmed.org/StructureDefinition/VirologischerBefund" />
   <name value="VirologischerBefund" />
+  <title value="HiGHmed- Infection Control- Virologischer Befund" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
@@ -35,14 +36,16 @@
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
+      <min value="1" />
       <fixedUri value="http://loinc.org" />
       <binding>
-        <strength value="required" />
+        <strength value="example" />
         <valueSet value="http://highmed.org/ValueSet/sarscov2detectiontests-loinc" />
       </binding>
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
+      <min value="1" />
       <binding>
         <strength value="example" />
         <description value="Nachweis test" />
