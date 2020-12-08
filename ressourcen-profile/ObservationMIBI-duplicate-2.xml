@@ -26,14 +26,28 @@
       <path value="Observation.category.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="43409-2" />
+          <display value="Bacteria identified in Isolate by Culture" />
+        </coding>
+      </fixedCodeableConcept>
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <fixedCoding>
+        <system value="http://loinc.org" />
+      </fixedCoding>
+    </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
-      <min value="1" />
       <fixedUri value="http://loinc.org" />
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
-      <min value="1" />
       <fixedCode value="43409-2" />
     </element>
     <element id="Observation.code.coding.display">
@@ -79,7 +93,6 @@
       <path value="Observation.hasMember" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBI" />
         <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIQn" />
         <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIPanel" />
       </type>
