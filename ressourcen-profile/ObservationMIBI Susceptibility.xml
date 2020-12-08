@@ -97,5 +97,9 @@
         <valueSet value="http://highmed.org/ValueSet/resistenzklassen-antibiogramm-eucast" />
       </binding>
     </element>
+    <element id="Observation.specimen">
+      <path value="Observation.specimen" />
+      <min value="1" />
+    </element>
   </differential>
 </StructureDefinition>
