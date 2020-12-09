@@ -11,6 +11,10 @@
   <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab" />
   <derivation value="constraint" />
   <differential>
+    <element id="Observation.category.coding">
+      <path value="Observation.category.coding" />
+      <min value="3" />
+    </element>
     <element id="Observation.category.coding:loinc-subcategory">
       <path value="Observation.category.coding" />
       <sliceName value="loinc-subcategory" />
@@ -44,23 +48,23 @@
       </binding>
     </element>
     <element id="Observation.value[x]:valueQuantity">
-      <path value="Observation.valueQuantity" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
     </element>
     <element id="Observation.value[x]:valueQuantity.unit">
-      <path value="Observation.valueQuantity.unit" />
+      <path value="Observation.value[x].unit" />
       <fixedString value="µg/mL" />
     </element>
     <element id="Observation.value[x]:valueQuantity.code">
-      <path value="Observation.valueQuantity.code" />
+      <path value="Observation.value[x].code" />
       <fixedCode value="µg/mL" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.valueCodeableConcept" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueCodeableConcept" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept.coding.code">
-      <path value="Observation.valueCodeableConcept.coding.code" />
+      <path value="Observation.value[x].coding.code" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast" />

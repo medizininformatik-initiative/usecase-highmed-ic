@@ -143,7 +143,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="2" />
+      <min value="3" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.category.coding:loinc-observation">
