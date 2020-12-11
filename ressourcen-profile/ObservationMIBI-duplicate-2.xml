@@ -35,8 +35,8 @@
       <fixedCodeableConcept>
         <coding>
           <system value="http://loinc.org" />
-          <code value="43409-2" />
-          <display value="Bacteria identified in Isolate by Culture" />
+          <code value="11475-1" />
+          <display value="Microorganism identified in Unspecified specimen by Culture" />
         </coding>
       </fixedCodeableConcept>
     </element>
