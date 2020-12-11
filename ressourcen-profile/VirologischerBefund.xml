@@ -69,10 +69,6 @@
         <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
       </binding>
     </element>
-    <element id="Observation.value[x]:valueCodeableConcept.coding.system">
-      <path value="Observation.valueCodeableConcept.coding.system" />
-      <fixedUri value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
-    </element>
     <element id="Observation.method">
       <path value="Observation.method" />
       <short value="Testmethode" />
