@@ -57,6 +57,10 @@
       <sliceName value="valueCodeableConcept" />
       <max value="0" />
     </element>
+    <element id="Observation.interpretation.coding.system">
+      <path value="Observation.interpretation.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
     <element id="Observation.interpretation.coding.code">
       <path value="Observation.interpretation.coding.code" />
       <binding>
