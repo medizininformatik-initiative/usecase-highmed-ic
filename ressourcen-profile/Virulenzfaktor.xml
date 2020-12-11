@@ -221,21 +221,21 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.code.coding:loinc">
       <path value="Observation.code.coding" />
       <sliceName value="loinc" />
-      <min value="1" />
       <max value="1" />
+    </element>
+    <element id="Observation.code.coding:loinc.system">
+      <path value="Observation.code.coding.system" />
+      <min value="1" />
     </element>
     <element id="Observation.code.coding:loinc.code">
       <path value="Observation.code.coding.code" />
-      <binding>
-        <strength value="example" />
-        <valueSet value="http://highmed.org/ValueSet/susceptibilitypanels" />
-      </binding>
+      <min value="1" />
     </element>
     <element id="Observation.code.text">
       <path value="Observation.code.text" />
