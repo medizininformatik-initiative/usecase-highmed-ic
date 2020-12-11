@@ -38,16 +38,12 @@
       <path value="Observation.code.coding.system" />
       <min value="1" />
       <fixedUri value="http://loinc.org" />
-      <binding>
-        <strength value="example" />
-        <valueSet value="http://highmed.org/ValueSet/sarscov2detectiontests-loinc" />
-      </binding>
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
       <min value="1" />
       <binding>
-        <strength value="example" />
+        <strength value="required" />
         <description value="Nachweis test" />
         <valueSet value="http://highmed.org/ValueSet/sarscov2detectiontests-loinc" />
       </binding>
