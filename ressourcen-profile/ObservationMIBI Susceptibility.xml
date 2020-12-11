@@ -84,6 +84,11 @@
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>
