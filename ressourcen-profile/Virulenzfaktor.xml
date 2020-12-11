@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://highmed.org/StructureDefinition/Virulenzfaktor" />
-  <version value="0.9" />
   <name value="Virulenzfaktor" />
-  <title value="HiGHmed- Infection Control- Virulenzfaktor" />
   <status value="draft" />
-  <experimental value="true" />
-  <publisher value="https://www.Medizininformatik-Initiative.de" />
-  <description value="Dieses Profil beschreibt den Virulenzfaktor des Erregers in HiGHmed Use Case Infection Control" />
-  <purpose value="Dieses Profil beschreibt den Virulenzfaktor des Erregers in HiGHmed Use Case Infection Control." />
-  <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="sct-concept" />
+    <uri value="http://snomed.info/conceptdomain" />
+    <name value="SNOMED CT Concept Domain Binding" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="sct-attr" />
+    <uri value="http://snomed.org/attributebinding" />
+    <name value="SNOMED CT Attribute Binding" />
+  </mapping>
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.meta">
-      <path value="Observation.meta" />
-    </element>
-    <element id="Observation.meta.source">
-      <path value="Observation.meta.source" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.meta.profile">
-      <path value="Observation.meta.profile" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.identifier">
       <path value="Observation.identifier" />
       <slicing>
@@ -104,7 +116,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
+        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -122,19 +134,22 @@
       <path value="Observation.category.coding" />
       <slicing>
         <discriminator>
-          <type value="value" />
+          <type value="pattern" />
           <path value="system" />
+        </discriminator>
+        <discriminator>
+          <type value="pattern" />
+          <path value="code" />
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="2" />
+      <min value="3" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.category.coding:loinc-observation">
       <path value="Observation.category.coding" />
       <sliceName value="loinc-observation" />
       <min value="1" />
-      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.category.coding:loinc-observation.system">
@@ -146,12 +161,8 @@
     <element id="Observation.category.coding:loinc-observation.code">
       <path value="Observation.category.coding.code" />
       <min value="1" />
-      <fixedCode value="18725-2" />
+      <fixedCode value="26436-6" />
       <mustSupport value="true" />
-    </element>
-    <element id="Observation.category.coding:loinc-observation.display">
-      <path value="Observation.category.coding.display" />
-      <fixedString value="MICROBIOLOGY STUDIES" />
     </element>
     <element id="Observation.category.coding:observation-category">
       <path value="Observation.category.coding" />
@@ -172,10 +183,58 @@
       <fixedCode value="laboratory" />
       <mustSupport value="true" />
     </element>
+    <element id="Observation.category.coding:loinc-subcategory">
+      <path value="Observation.category.coding" />
+      <sliceName value="loinc-subcategory" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Observation.category.coding:loinc-subcategory.system">
+      <path value="Observation.category.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.category.coding:loinc-subcategory.code">
+      <path value="Observation.category.coding.code" />
+      <min value="1" />
+      <fixedCode value="18725-2" />
+    </element>
+    <element id="Observation.category.coding:loinc-subcategory.display">
+      <path value="Observation.category.coding.display" />
+      <fixedString value="Microbiology studies" />
+    </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <short value="Virulenzfaktor" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
+      </binding>
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.code.coding:loinc">
+      <path value="Observation.code.coding" />
+      <sliceName value="loinc" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Observation.code.coding:loinc.code">
+      <path value="Observation.code.coding.code" />
+      <binding>
+        <strength value="example" />
+        <valueSet value="http://highmed.org/ValueSet/susceptibilitypanels" />
+      </binding>
     </element>
     <element id="Observation.code.text">
       <path value="Observation.code.text" />
@@ -186,17 +245,16 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Patient" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location" />
+        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
       </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.encounter">
       <path value="Observation.encounter" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Versorgungsfall" />
-      </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.effective[x]">
@@ -205,13 +263,10 @@
       <type>
         <code value="dateTime" />
       </type>
-      <constraint>
-        <key value="mii-lab-1" />
-        <severity value="error" />
-        <human value="Datetime must be at least to day" />
-        <expression value="($this as dateTime).toString().length() &gt;= 8" />
-        <source value="Observation" />
-      </constraint>
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.issued">
+      <path value="Observation.issued" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.value[x]">
@@ -219,7 +274,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
@@ -229,6 +283,10 @@
       <path value="Observation.note" />
       <mustSupport value="true" />
     </element>
+    <element id="Observation.bodySite">
+      <path value="Observation.bodySite" />
+      <max value="0" />
+    </element>
     <element id="Observation.method">
       <path value="Observation.method" />
       <mustSupport value="true" />
@@ -236,18 +294,6 @@
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <min value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.specimen.reference">
-      <path value="Observation.specimen.reference" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.specimen.identifier">
-      <path value="Observation.specimen.identifier" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.device">
@@ -258,12 +304,8 @@
       <path value="Observation.referenceRange" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.component">
-      <path value="Observation.component" />
-      <max value="1" />
-    </element>
-    <element id="Observation.id">
-      <path value="Observation.id" />
+    <element id="Observation.hasMember">
+      <path value="Observation.hasMember" />
       <mustSupport value="true" />
     </element>
   </differential>
