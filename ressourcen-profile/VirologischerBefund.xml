@@ -43,7 +43,7 @@
       <path value="Observation.code.coding.code" />
       <min value="1" />
       <binding>
-        <strength value="required" />
+        <strength value="example" />
         <description value="Nachweis test" />
         <valueSet value="http://highmed.org/ValueSet/sarscov2detectiontests-loinc" />
       </binding>
@@ -62,7 +62,7 @@
       <short value="Zeitpunkt Ergebnis-Status" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.valueCodeableConcept" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueCodeableConcept" />
       <binding>
         <strength value="required" />
