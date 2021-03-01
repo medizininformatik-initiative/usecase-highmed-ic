@@ -15,6 +15,10 @@
       <path value="Observation.status" />
       <definition value="Ergebnis-Status" />
     </element>
+    <element id="Observation.category.coding">
+      <path value="Observation.category.coding" />
+      <min value="3" />
+    </element>
     <element id="Observation.category.coding:snomedct-subcategory">
       <path value="Observation.category.coding" />
       <sliceName value="snomedct-subcategory" />
@@ -28,10 +32,12 @@
     </element>
     <element id="Observation.category.coding:snomedct-subcategory.system">
       <path value="Observation.category.coding.system" />
+      <min value="1" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
     <element id="Observation.category.coding:snomedct-subcategory.code">
       <path value="Observation.category.coding.code" />
+      <min value="1" />
       <fixedCode value="122442008" />
     </element>
     <element id="Observation.code.coding.system">
@@ -68,6 +74,18 @@
         <strength value="required" />
         <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
       </binding>
+    </element>
+    <element id="Observation.interpretation">
+      <path value="Observation.interpretation" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
+      </binding>
+    </element>
+    <element id="Observation.interpretation.coding.system">
+      <path value="Observation.interpretation.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element id="Observation.method">
       <path value="Observation.method" />

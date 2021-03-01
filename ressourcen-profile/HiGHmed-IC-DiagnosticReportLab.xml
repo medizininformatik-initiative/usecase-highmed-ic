@@ -18,36 +18,15 @@
   <differential>
     <element id="DiagnosticReport.basedOn">
       <path value="DiagnosticReport.basedOn" />
-      <min value="1" />
       <max value="1" />
       <type>
         <code value="Reference" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
         <targetProfile value="http://highmed.org/StructureDefinition/ServiceRequestLab" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.category.coding">
       <path value="DiagnosticReport.category.coding" />
       <min value="3" />
-    </element>
-    <element id="DiagnosticReport.category.coding:loinc-microbiology">
-      <path value="DiagnosticReport.category.coding" />
-      <sliceName value="loinc-microbiology" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="DiagnosticReport.category.coding:loinc-microbiology.system">
-      <path value="DiagnosticReport.category.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://loinc.org" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.category.coding:loinc-microbiology.code">
-      <path value="DiagnosticReport.category.coding.code" />
-      <min value="1" />
-      <fixedCode value="18725-2" />
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.specimen">
       <path value="DiagnosticReport.specimen" />

@@ -38,6 +38,40 @@
                 <code value="51114001"/>
                 <display value="Arterial structure (body structure)"/>
             </concept>
+            
+                 <concept>
+                <code value="367592002"/>
+                <display value="Structure of posterior nasopharynx (body structure)"/>
+            </concept>
+
+              <concept>
+                <code value="12999009"/>
+                <display value="Structure of posterior wall of oropharynx (body structure)"/>
+            </concept>
+            <concept>
+                <code value="700016008 "/>
+                <display value="Structure of internal part of mouth (body structure)"/>
+            </concept>
+            <concept>
+                <code value="44567001"/>
+                <display value="Tracheal structure (body structure)|"/>
+            </concept>
+            <concept>
+                <code value="82094008"/>
+                <display value="Lower respiratory tract structure (body structure)"/>
+            </concept>
+            <concept>
+                <code value="91724006"/>
+                <display value="Tracheobronchial structure (body structure)"/>
+            </concept>
+            <concept>
+                <code value="955009"/>
+                <display value="Bronchial structure (body structure)"/>
+            </concept>
+             <concept>
+                <code value="113253006"/>
+                <display value="Pulmonary alveolar structure (body structure)"/>
+            </concept>
             <concept>
                 <code value="<91723000"/>
                 <display value="Other"/>

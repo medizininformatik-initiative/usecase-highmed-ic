@@ -75,7 +75,7 @@
       <min value="1" />
       <mustSupport value="true" />
       <binding>
-        <strength value="preferred" />
+        <strength value="extensible" />
         <description value="Use Case IC Probenart" />
         <valueSet value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
       </binding>
@@ -103,6 +103,8 @@
     </element>
     <element id="Specimen.type.coding.code">
       <path value="Specimen.type.coding.code" />
+      <min value="1" />
+      <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
         <valueSet value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
@@ -166,7 +168,7 @@
       <min value="1" />
       <mustSupport value="true" />
       <binding>
-        <strength value="example" />
+        <strength value="extensible" />
         <valueSet value="http://highmed.org/ValueSet/probenentnahmestelle-anatomische-lokalisation-snomedct" />
       </binding>
       <mapping>

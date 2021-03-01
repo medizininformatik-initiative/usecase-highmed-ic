@@ -57,17 +57,6 @@
       <sliceName value="valueCodeableConcept" />
       <max value="0" />
     </element>
-    <element id="Observation.interpretation.coding.system">
-      <path value="Observation.interpretation.coding.system" />
-      <fixedUri value="http://snomed.info/sct" />
-    </element>
-    <element id="Observation.interpretation.coding.code">
-      <path value="Observation.interpretation.coding.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/Laborergebnis-semiquantitativ" />
-      </binding>
-    </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <min value="1" />
@@ -76,6 +65,17 @@
         <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
         <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
       </type>
+    </element>
+    <element id="Observation.component.code">
+      <path value="Observation.component.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/Laborergebnis-semiquantitativ" />
+      </binding>
+    </element>
+    <element id="Observation.component.code.coding.system">
+      <path value="Observation.component.code.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
     </element>
   </differential>
 </StructureDefinition>

@@ -31,6 +31,26 @@
                 <display value="Swab (specimen)"/>
             </concept>
             
+            <concept>
+                <code value="257261003"/>
+                <display value="Swab (specimen)"/>
+            </concept>
+            <concept>
+                <code value="119334006"/>
+                <display value="Sputum specimen (specimen)"/>
+            </concept>
+            <concept>
+                <code value="119342007"/>
+                <display value="Saliva specimen (specimen)"/>
+            </concept>
+            <concept>
+                <code value="410580001"/>
+                <display value="Respiratory fluid specimen (specimen)"/>
+            </concept>
+            <concept>
+                <code value="258607008"/>
+                <display value="Bronchoalveolar lavage fluid sample (specimen)"/>
+            </concept>
                     </include>
     </compose>
 </ValueSet>
