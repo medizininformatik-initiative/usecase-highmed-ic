@@ -57,6 +57,13 @@
       <short value="Robert Koch Institut Classification" />
       <fixedString value="MRE Klasse" />
     </element>
+    <element id="Observation.value[x]">
+      <path value="Observation.value[x]" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
+      </binding>
+    </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.valueQuantity" />
       <sliceName value="valueQuantity" />
