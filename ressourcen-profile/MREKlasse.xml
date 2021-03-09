@@ -35,16 +35,41 @@
       <path value="Observation.category.coding.display" />
       <fixedString value="Microbiology studies" />
     </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <fixedCodeableConcept>
+        <text value="MRE Klasse" />
+      </fixedCodeableConcept>
+    </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://highmed.org/CodeSystem/rki" />
+      <max value="0" />
     </element>
     <element id="Observation.code.coding.code">
       <path value="Observation.code.coding.code" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/ValueSet/mre-klassen-lokal" />
+      </binding>
+    </element>
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display" />
+      <short value="Robert Koch Institut Classification" />
+      <fixedString value="MRE Klasse" />
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept">
+      <path value="Observation.value[x]" />
+      <sliceName value="valueCodeableConcept" />
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept.coding.system">
+      <path value="Observation.value[x].coding.system" />
+      <fixedUri value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept.coding.code">
+      <path value="Observation.value[x].coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
       </binding>
     </element>
   </differential>

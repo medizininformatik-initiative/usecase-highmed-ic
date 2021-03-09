@@ -1,0 +1,658 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-02-18T12:17:42.938+00:00"
+  },
+  "url": "http://highmed.org/ValueSet/antiinfektiva-substanzen-snomedct",
+  "version": "1.0",
+  "title": "HiGHmed Antiinfektiva-Substanzen [SNOMED CT]",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "387155003",
+            "display": "Flucytosine"
+          },
+          {
+            "code": "387541001",
+            "display": "Amdinocillin"
+          },
+          {
+            "code": "387266001",
+            "display": "Amikacin"
+          },
+          {
+            "code": "372687004",
+            "display": "Amoxicillin"
+          },
+          {
+            "code": "96008003",
+            "display": "Sulbactam"
+          },
+          {
+            "code": "77703004",
+            "display": "Amphotericin B"
+          },
+          {
+            "code": "387170002",
+            "display": "Ampicillin"
+          },
+          {
+            "code": "422157006",
+            "display": "Anidulafungin"
+          },
+          {
+            "code": "387531004",
+            "display": "Azithromycin"
+          },
+          {
+            "code": "387308000",
+            "display": "Azlocillin"
+          },
+          {
+            "code": "387386004",
+            "display": "Aztreonam"
+          },
+          {
+            "code": "5220000",
+            "display": "Bacitracin"
+          },
+          {
+            "code": "714086004",
+            "display": "Bedaquiline"
+          },
+          {
+            "code": "442870007",
+            "display": "Besifloxacin"
+          },
+          {
+            "code": "387081001",
+            "display": "Capreomycin"
+          },
+          {
+            "code": "372713001",
+            "display": "Carbenicillin"
+          },
+          {
+            "code": "387270009",
+            "display": "Cefaclor"
+          },
+          {
+            "code": "372651006",
+            "display": "Cefadroxil"
+          },
+          {
+            "code": "372801003",
+            "display": "Cefamandole"
+          },
+          {
+            "code": "387470007",
+            "display": "Cefazolin"
+          },
+          {
+            "code": "108677001",
+            "display": "Cefdinir"
+          },
+          {
+            "code": "708598002",
+            "display": "Cefditoren"
+          },
+          {
+            "code": "96048006",
+            "display": "Cefepime"
+          },
+          {
+            "code": "443045001",
+            "display": "Cefetamet"
+          },
+          {
+            "code": "387536009",
+            "display": "Cefixime"
+          },
+          {
+            "code": "96059002",
+            "display": "Cefmetazole"
+          },
+          {
+            "code": "58343005",
+            "display": "Cefonicid"
+          },
+          {
+            "code": "372743004",
+            "display": "Cefoperazone"
+          },
+          {
+            "code": "372704003",
+            "display": "Cefotaxime"
+          },
+          {
+            "code": "13585009",
+            "display": "Cefotetan"
+          },
+          {
+            "code": "421700007",
+            "display": "Cefotiam"
+          },
+          {
+            "code": "372780005",
+            "display": "Cefoxitin"
+          },
+          {
+            "code": "387533001",
+            "display": "Cefpirome"
+          },
+          {
+            "code": "387534007",
+            "display": "Cefpodoxime"
+          },
+          {
+            "code": "387538005",
+            "display": "Cefprozil"
+          },
+          {
+            "code": "387537000",
+            "display": "Cefsulodin"
+          },
+          {
+            "code": "702414006",
+            "display": "Ceftaroline"
+          },
+          {
+            "code": "387200005",
+            "display": "Ceftazidime"
+          },
+          {
+            "code": "387535008",
+            "display": "Ceftibuten"
+          },
+          {
+            "code": "372770006",
+            "display": "Ceftizoxime"
+          },
+          {
+            "code": "734512008",
+            "display": "Ceftobiprole"
+          },
+          {
+            "code": "372670001",
+            "display": "Ceftriaxone"
+          },
+          {
+            "code": "372833007",
+            "display": "Cefuroxime"
+          },
+          {
+            "code": "387304003",
+            "display": "Cephalexin"
+          },
+          {
+            "code": "373485007",
+            "display": "Cephalothin"
+          },
+          {
+            "code": "372777009",
+            "display": "Chloramphenicol"
+          },
+          {
+            "code": "387549004",
+            "display": "Cinoxacin"
+          },
+          {
+            "code": "372840008",
+            "display": "Ciprofloxacin"
+          },
+          {
+            "code": "387487009",
+            "display": "Clarithromycin"
+          },
+          {
+            "code": "96083005",
+            "display": "Clinafloxacin"
+          },
+          {
+            "code": "372786004",
+            "display": "Clindamycin"
+          },
+          {
+            "code": "387410004",
+            "display": "Clofazimine"
+          },
+          {
+            "code": "387412007",
+            "display": "Colistin"
+          },
+          {
+            "code": "387282000",
+            "display": "Cycloserine"
+          },
+          {
+            "code": "703917001",
+            "display": "Dalbavancin"
+          },
+          {
+            "code": "406439009",
+            "display": "Daptomycin"
+          },
+          {
+            "code": "387105006",
+            "display": "Didanosine"
+          },
+          {
+            "code": "96035007",
+            "display": "Dirithromycin"
+          },
+          {
+            "code": "428352004",
+            "display": "Doripenem"
+          },
+          {
+            "code": "372478003",
+            "display": "Doxycycline"
+          },
+          {
+            "code": "387550004",
+            "display": "Enoxacin"
+          },
+          {
+            "code": "396346003",
+            "display": "Ertapenem"
+          },
+          {
+            "code": "372694001",
+            "display": "Erythromycin"
+          },
+          {
+            "code": "387129004",
+            "display": "Ethambutol"
+          },
+          {
+            "code": "703664004",
+            "display": "Fidaxomicin"
+          },
+          {
+            "code": "708794002",
+            "display": "Finafloxacin"
+          },
+          {
+            "code": "96085003",
+            "display": "Fleroxacin"
+          },
+          {
+            "code": "427436003",
+            "display": "Florfenicol"
+          },
+          {
+            "code": "387544009",
+            "display": "Floxacillin"
+          },
+          {
+            "code": "387174006",
+            "display": "Fluconazole"
+          },
+          {
+            "code": "372902006",
+            "display": "Foscarnet"
+          },
+          {
+            "code": "372534005",
+            "display": "Fosfomycin"
+          },
+          {
+            "code": "387530003",
+            "display": "Fusidic acid"
+          },
+          {
+            "code": "116349004",
+            "display": "Gatifloxacin"
+          },
+          {
+            "code": "407086007",
+            "display": "Gemifloxacin"
+          },
+          {
+            "code": "387321007",
+            "display": "Gentamicin"
+          },
+          {
+            "code": "386892006",
+            "display": "Grepafloxacin"
+          },
+          {
+            "code": "725576004",
+            "display": "Iclaprim"
+          },
+          {
+            "code": "46558003",
+            "display": "Imipenem"
+          },
+          {
+            "code": "765386003",
+            "display": "Isavuconazole"
+          },
+          {
+            "code": "387472004",
+            "display": "Isoniazid"
+          },
+          {
+            "code": "387532006",
+            "display": "Itraconazole"
+          },
+          {
+            "code": "713477009",
+            "display": "Josamycin"
+          },
+          {
+            "code": "387396008",
+            "display": "Kanamycin"
+          },
+          {
+            "code": "387552007",
+            "display": "Levofloxacin"
+          },
+          {
+            "code": "372677003",
+            "display": "Lincomycin"
+          },
+          {
+            "code": "387056004",
+            "display": "Linezolid"
+          },
+          {
+            "code": "387553002",
+            "display": "Lomefloxacin"
+          },
+          {
+            "code": "96061006",
+            "display": "Loracarbef"
+          },
+          {
+            "code": "387540000",
+            "display": "Meropenem"
+          },
+          {
+            "code": "373515001",
+            "display": "Methicillin"
+          },
+          {
+            "code": "372602008",
+            "display": "Metronidazole"
+          },
+          {
+            "code": "387446008",
+            "display": "Mezlocillin"
+          },
+          {
+            "code": "372653009",
+            "display": "Minocycline"
+          },
+          {
+            "code": "387099009",
+            "display": "Moxalactam"
+          },
+          {
+            "code": "412439003",
+            "display": "Moxifloxacin"
+          },
+          {
+            "code": "387397004",
+            "display": "Mupirocin"
+          },
+          {
+            "code": "372898000",
+            "display": "Nafcillin"
+          },
+          {
+            "code": "387261006",
+            "display": "Nalidixic acid"
+          },
+          {
+            "code": "373528008",
+            "display": "Neomycin"
+          },
+          {
+            "code": "387110005",
+            "display": "Netilmicin"
+          },
+          {
+            "code": "373543005",
+            "display": "Nitrofurantoin"
+          },
+          {
+            "code": "387271008",
+            "display": "Norfloxacin"
+          },
+          {
+            "code": "90220005",
+            "display": "Novobiocin"
+          },
+          {
+            "code": "387048002",
+            "display": "Nystatin"
+          },
+          {
+            "code": "387551000",
+            "display": "Ofloxacin"
+          },
+          {
+            "code": "781644002",
+            "display": "Omadacycline"
+          },
+          {
+            "code": "704655001",
+            "display": "Oritavancin"
+          },
+          {
+            "code": "372868007",
+            "display": "Oxacillin"
+          },
+          {
+            "code": "255666002",
+            "display": "Para-aminosalicylic acid"
+          },
+          {
+            "code": "323389000",
+            "display": "Penicillin G"
+          },
+          {
+            "code": "372725003",
+            "display": "Penicillin V"
+          },
+          {
+            "code": "764146007",
+            "display": "Penicillin"
+          },
+          {
+            "code": "372836004",
+            "display": "Piperacillin"
+          },
+          {
+            "code": "725719004",
+            "display": "Plazomicin"
+          },
+          {
+            "code": "725722002",
+            "display": "Premafloxacin"
+          },
+          {
+            "code": "703589003",
+            "display": "Protionamide"
+          },
+          {
+            "code": "387076005",
+            "display": "Pyrazinamide"
+          },
+          {
+            "code": "725610006",
+            "display": "Ramoplanin"
+          },
+          {
+            "code": "725611005",
+            "display": "Razupenem"
+          },
+          {
+            "code": "386893001",
+            "display": "Rifabutin"
+          },
+          {
+            "code": "387159009",
+            "display": "Rifampin"
+          },
+          {
+            "code": "96037004",
+            "display": "Roxithromycin"
+          },
+          {
+            "code": "96082000",
+            "display": "Sarafloxacin"
+          },
+          {
+            "code": "725619007",
+            "display": "Solithromycin"
+          },
+          {
+            "code": "387554008",
+            "display": "Sparfloxacin"
+          },
+          {
+            "code": "372882007",
+            "display": "Spectinomycin"
+          },
+          {
+            "code": "387223008",
+            "display": "Streptomycin"
+          },
+          {
+            "code": "363528007",
+            "display": "Sulfamethoxazole"
+          },
+          {
+            "code": "372858002",
+            "display": "Sulfisoxazole"
+          },
+          {
+            "code": "387406002",
+            "display": "Sulfonamide"
+          },
+          {
+            "code": "725623004",
+            "display": "Sulopenem"
+          },
+          {
+            "code": "387529008",
+            "display": "Teicoplanin"
+          },
+          {
+            "code": "443553004",
+            "display": "Telavancin"
+          },
+          {
+            "code": "410908003",
+            "display": "Telithromycin"
+          },
+          {
+            "code": "387555009",
+            "display": "Temafloxacin"
+          },
+          {
+            "code": "387543003",
+            "display": "Temocillin"
+          },
+          {
+            "code": "372809001",
+            "display": "Tetracycline"
+          },
+          {
+            "code": "372577006",
+            "display": "Ticarcillin"
+          },
+          {
+            "code": "418313005",
+            "display": "Tigecycline"
+          },
+          {
+            "code": "373548001",
+            "display": "Tobramycin"
+          },
+          {
+            "code": "387179001",
+            "display": "Trimethoprim"
+          },
+          {
+            "code": "96092008",
+            "display": "Trovafloxacin"
+          },
+          {
+            "code": "372735009",
+            "display": "Vancomycin"
+          },
+          {
+            "code": "385469007",
+            "display": "Voriconazole"
+          },
+          {
+            "code": "387187000",
+            "display": "Zalcitabine"
+          },
+          {
+            "code": "395939008",
+            "display": "Clavulanic acid"
+          },
+          {
+            "code": "715180004",
+            "display": "Avibactam"
+          },
+          {
+            "code": "708792003",
+            "display": "Ceftolozane"
+          },
+          {
+            "code": "96007008",
+            "display": "Tazobactam"
+          },
+          {
+            "code": "737669009",
+            "display": "Vaborbactam"
+          },
+          {
+            "code": "416127003",
+            "display": "Micafungin"
+          },
+          {
+            "code": "372824005",
+            "display": "Polymyxin B"
+          },
+          {
+            "code": "421747003",
+            "display": "Posaconazole"
+          },
+          {
+            "code": "387015002",
+            "display": "Quinupristin"
+          },
+          {
+            "code": "387016001",
+            "display": "Dalfopristin"
+          },
+          {
+            "code": "413770001",
+            "display": "Caspofungin"
+          }
+        ],
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed Antiinfektiva-Substanzen [SNOMED CT]</h2><tt>http://highmed.org/ValueSet/antiinfektiva-substanzen-snomedct</tt><p>Abgestimmtes ValueSet der SNOMED CT-kodierten Substanzen, die bei der Resistenzbestimmung im Antibiogramm des mikrobiologischen Befundes zum Einsatz kommen.</p></div>"
+  },
+  "name": "HighmedAntiinfektivaSubstanzenSnomedct",
+  "publisher": "http://highmed.org",
+  "description": "Abgestimmtes ValueSet der SNOMED CT-kodierten Substanzen, die bei der Resistenzbestimmung im Antibiogramm des mikrobiologischen Befundes zum Einsatz kommen.",
+  "id": "antiinfektiva-substanzen-snomedct",
+  "date": "2021-02-18T00:00:00.000Z"
+}
