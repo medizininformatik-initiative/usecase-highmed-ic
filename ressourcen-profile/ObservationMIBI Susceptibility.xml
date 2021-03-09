@@ -91,7 +91,6 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
     </element>
   </differential>

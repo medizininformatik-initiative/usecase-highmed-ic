@@ -65,24 +65,31 @@
       </binding>
     </element>
     <element id="Observation.value[x]:valueQuantity">
-      <path value="Observation.valueQuantity" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
       <max value="0" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.valueCodeableConcept" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueCodeableConcept" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept.coding.system">
-      <path value="Observation.valueCodeableConcept.coding.system" />
+      <path value="Observation.value[x].coding.system" />
       <fixedUri value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept.coding.code">
-      <path value="Observation.valueCodeableConcept.coding.code" />
+      <path value="Observation.value[x].coding.code" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
       </binding>
+    </element>
+    <element id="Observation.specimen">
+      <path value="Observation.specimen" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>
