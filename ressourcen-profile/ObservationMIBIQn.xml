@@ -71,9 +71,28 @@
       <min value="1" />
       <max value="1" />
     </element>
+    <element id="Observation.component.code">
+      <path value="Observation.component.code" />
+      <fixedCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="565-2" />
+          <display value="Colony count [#] in Specimen Qualitative by Visual count" />
+        </coding>
+        <text value="Colony count [#] in Specimen Qualitative by Visual count" />
+      </fixedCodeableConcept>
+    </element>
     <element id="Observation.component.code.coding.system">
       <path value="Observation.component.code.coding.system" />
-      <fixedUri value="http://snomed.info/sct" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.component.code.coding.code">
+      <path value="Observation.component.code.coding.code" />
+      <fixedCode value="565-2" />
+    </element>
+    <element id="Observation.component.code.coding.display">
+      <path value="Observation.component.code.coding.display" />
+      <fixedString value="Colony count [#] in Specimen Qualitative by Visual count" />
     </element>
     <element id="Observation.component.value[x]">
       <path value="Observation.component.value[x]" />
