@@ -1,26 +1,19 @@
 {
   "resourceType": "ValueSet",
+  "id": "mikrobiologische-erreger-bakterien-pilze-snomedct-explizit",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed Mikrobiologische Erreger (Bakterien, Pilze) [SNOMED CT explizit]</h2><tt>http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit</tt><p>Das ValueSet enthält eine explizite Auflistung der SNOMED CT Concepts, die die im UC IC abgestimmten mikrobiologischen Erreger umfasst; allerdings ausschließlich Bakterien und Pilze (für kulturelle Befunde).\n\nVersion 2.0: Beantragte SNOMED CT Concepts aus 20210131 ergänzt.</p></div>"
+  },
   "url": "http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit",
-  "title": "Erreger",
-  "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+  "name": "HighmedMikrobiologischeErregerBakterienPilzeSnomedctExplizit",
+  "title": "HiGHmed Mikrobiologische Erreger (Bakterien, Pilze) [SNOMED CT explizit]",
+  "status": "active",
   "compose": {
     "include": [
       {
         "system": "http://snomed.info/sct",
         "concept": [
-          {
-            "code": "113714003",
-            "display": "Abiotrophia defectiva (organism)"
-          },
           {
             "code": "413414001",
             "display": "Achromobacter denitrificans (organism)"
@@ -52,10 +45,6 @@
           {
             "code": "423897003",
             "display": "Achromobacter xylosoxidans xylosoxidans (organism)"
-          },
-          {
-            "code": "413414001",
-            "display": "Achromobacter denitrificans (organism)"
           },
           {
             "code": "91288006",
@@ -124,10 +113,6 @@
           {
             "code": "83088009",
             "display": "Acinetobacter lwoffi (organism)"
-          },
-          {
-            "code": "708859003",
-            "display": "Acinetobacter nosocomialis (organism)"
           },
           {
             "code": "698244000",
@@ -254,10 +239,6 @@
             "display": "Aeromonas popoffii (organism)"
           },
           {
-            "code": "115036005",
-            "display": "Aeromonas caviae (organism)"
-          },
-          {
             "code": "62520007",
             "display": "Aeromonas salmonicida ss. salmonicida (organism)"
           },
@@ -286,10 +267,6 @@
             "display": "Aggregatibacter actinomycetemcomitans (organism)"
           },
           {
-            "code": "413414001",
-            "display": "Achromobacter denitrificans (organism)"
-          },
-          {
             "code": "25223004",
             "display": "Alcaligenes faecalis (organism)"
           },
@@ -300,10 +277,6 @@
           {
             "code": "68571003",
             "display": "Genus Alcaligenes (organism)"
-          },
-          {
-            "code": "413424009",
-            "display": "Achromobacter xylosoxidans (organism)"
           },
           {
             "code": "243386003",
@@ -382,10 +355,6 @@
             "display": "Aspergillus (organism)"
           },
           {
-            "code": "719029007",
-            "display": "Aspergillus fumigatus species complex (organism)"
-          },
-          {
             "code": "413584009",
             "display": "Aspergillus species not Aspergillus fumigatus (organism)"
           },
@@ -444,10 +413,6 @@
           {
             "code": "113479004",
             "display": "Bacillus simplex (organism)"
-          },
-          {
-            "code": "44762009",
-            "display": "Genus Bacillus (organism)"
           },
           {
             "code": "83512007",
@@ -564,10 +529,6 @@
           {
             "code": "131281002",
             "display": "Burkholderia cepacia complex (organism)"
-          },
-          {
-            "code": "416941006",
-            "display": "Burkholderia cenocepacia (organism)"
           },
           {
             "code": "431173006",
@@ -758,20 +719,8 @@
             "display": "Citrobacter braakii (organism)"
           },
           {
-            "code": "114262000",
-            "display": "Citrobacter braakii (organism)"
-          },
-          {
-            "code": "114262000",
-            "display": "Citrobacter braakii (organism)"
-          },
-          {
-            "code": "114262000",
-            "display": "Citrobacter braakii (organism)"
-          },
-          {
             "code": "114264004",
-            "display": "Citrobacter koseri"
+            "display": "Citrobacter koseri (organism)"
           },
           {
             "code": "114263005",
@@ -782,44 +731,12 @@
             "display": "Citrobacter freundii (organism)"
           },
           {
-            "code": "6265002",
-            "display": "Citrobacter freundii (organism)"
-          },
-          {
-            "code": "6265002",
-            "display": "Citrobacter freundii (organism)"
-          },
-          {
-            "code": "6265002",
-            "display": "Citrobacter freundii (organism)"
-          },
-          {
-            "code": "782522004",
-            "display": "Citrobacter freundii complex (organism)"
-          },
-          {
-            "code": "782522004",
-            "display": "Citrobacter freundii complex (organism)"
-          },
-          {
-            "code": "782522004",
-            "display": "Citrobacter freundii complex (organism)"
-          },
-          {
-            "code": "782522004",
-            "display": "Citrobacter freundii complex (organism)"
-          },
-          {
             "code": "782522004",
             "display": "Citrobacter freundii complex (organism)"
           },
           {
             "code": "416990006",
             "display": "Citrobacter gillenii"
-          },
-          {
-            "code": "114264004",
-            "display": "Citrobacter koseri (organism)"
           },
           {
             "code": "417581000",
@@ -974,20 +891,12 @@
             "display": "Eikenella corrodens (organism)"
           },
           {
-            "code": "425774009",
-            "display": "Elizabethkingia meningoseptica (organism)"
-          },
-          {
             "code": "444815005",
             "display": "Elizabethkingia miricola (organism)"
           },
           {
             "code": "62592009",
             "display": "Klebsiella aerogenes (organism)"
-          },
-          {
-            "code": "115015008",
-            "display": "Pantoea agglomerans"
           },
           {
             "code": "84221003",
@@ -1006,52 +915,12 @@
             "display": "Enterobacter asburiae (organism)"
           },
           {
-            "code": "33115003",
-            "display": "Enterobacter asburiae (organism)"
-          },
-          {
-            "code": "33115003",
-            "display": "Enterobacter asburiae (organism)"
-          },
-          {
-            "code": "33115003",
-            "display": "Enterobacter asburiae (organism)"
-          },
-          {
             "code": "114451003",
             "display": "Enterobacter cancerogenus"
           },
           {
             "code": "14385002",
             "display": "Enterobacter cloacae (organism)"
-          },
-          {
-            "code": "14385002",
-            "display": "Enterobacter cloacae (organism)"
-          },
-          {
-            "code": "14385002",
-            "display": "Enterobacter cloacae (organism)"
-          },
-          {
-            "code": "14385002",
-            "display": "Enterobacter cloacae (organism)"
-          },
-          {
-            "code": "414102007",
-            "display": "Enterobacter cloacae complex (organism)"
-          },
-          {
-            "code": "414102007",
-            "display": "Enterobacter cloacae complex (organism)"
-          },
-          {
-            "code": "414102007",
-            "display": "Enterobacter cloacae complex (organism)"
-          },
-          {
-            "code": "414102007",
-            "display": "Enterobacter cloacae complex (organism)"
           },
           {
             "code": "414102007",
@@ -1078,48 +947,12 @@
             "display": "Enterobacter hormaechei (organism)"
           },
           {
-            "code": "114454006",
-            "display": "Enterobacter hormaechei (organism)"
-          },
-          {
-            "code": "114454006",
-            "display": "Enterobacter hormaechei (organism)"
-          },
-          {
-            "code": "114454006",
-            "display": "Enterobacter hormaechei (organism)"
-          },
-          {
             "code": "431977008",
             "display": "Kluyvera intermedia"
           },
           {
             "code": "114456008",
             "display": "Enterobacter kobei (organism)"
-          },
-          {
-            "code": "114456008",
-            "display": "Enterobacter kobei (organism)"
-          },
-          {
-            "code": "114456008",
-            "display": "Enterobacter kobei (organism)"
-          },
-          {
-            "code": "114456008",
-            "display": "Enterobacter kobei (organism)"
-          },
-          {
-            "code": "432763001",
-            "display": "Enterobacter ludwigii"
-          },
-          {
-            "code": "432763001",
-            "display": "Enterobacter ludwigii (organism)"
-          },
-          {
-            "code": "432763001",
-            "display": "Enterobacter ludwigii (organism)"
           },
           {
             "code": "432763001",
@@ -1158,14 +991,6 @@
             "display": "Enterococcus faecalis (organism)"
           },
           {
-            "code": "78065002",
-            "display": "Enterococcus faecalis (organism)"
-          },
-          {
-            "code": "90272000",
-            "display": "Enterococcus faecium (organism)"
-          },
-          {
             "code": "90272000",
             "display": "Enterococcus faecium (organism)"
           },
@@ -1188,18 +1013,6 @@
           {
             "code": "116395006",
             "display": "Enterohemorrhagic Escherichia coli (organism)"
-          },
-          {
-            "code": "112283007",
-            "display": "Escherichia coli (organism)"
-          },
-          {
-            "code": "112283007",
-            "display": "Escherichia coli (organism)"
-          },
-          {
-            "code": "112283007",
-            "display": "Escherichia coli (organism)"
           },
           {
             "code": "112283007",
@@ -1262,10 +1075,6 @@
             "display": "Gram-negative bacillus (organism)"
           },
           {
-            "code": "87172008",
-            "display": "Gram-negative bacillus (organism)"
-          },
-          {
             "code": "59206002",
             "display": "Gram-positive coccus (organism)"
           },
@@ -1318,28 +1127,8 @@
             "display": "Yeast (organism)"
           },
           {
-            "code": "62093005",
-            "display": "Yeast (organism)"
-          },
-          {
             "code": "427977006",
             "display": "Inquilinus limosus (organism)"
-          },
-          {
-            "code": "440662009",
-            "display": "Interferon gamma assay positive (finding)"
-          },
-          {
-            "code": "40886007",
-            "display": "Klebsiella oxytoca (organism)"
-          },
-          {
-            "code": "40886007",
-            "display": "Klebsiella oxytoca (organism)"
-          },
-          {
-            "code": "40886007",
-            "display": "Klebsiella oxytoca (organism)"
           },
           {
             "code": "40886007",
@@ -1348,18 +1137,6 @@
           {
             "code": "65186004",
             "display": "Klebsiella pneumoniae ss. ozaenae (organism)"
-          },
-          {
-            "code": "56415008",
-            "display": "Klebsiella pneumoniae (organism)"
-          },
-          {
-            "code": "56415008",
-            "display": "Klebsiella pneumoniae (organism)"
-          },
-          {
-            "code": "56415008",
-            "display": "Klebsiella pneumoniae (organism)"
           },
           {
             "code": "56415008",
@@ -1387,7 +1164,7 @@
           },
           {
             "code": "116197008",
-            "display": "Staphylococcus"
+            "display": "Staphylococcus, coagulase negative (organism)"
           },
           {
             "code": "113772007",
@@ -1432,10 +1209,6 @@
           {
             "code": "38518005",
             "display": "Lactococcus lactis subspecies lactis (organism)"
-          },
-          {
-            "code": "113798001",
-            "display": "Lactobacillus rhamnosus (organism)"
           },
           {
             "code": "57459006",
@@ -1556,10 +1329,6 @@
           {
             "code": "131326007",
             "display": "Legionella pneumophilia serogroup 14 (organism)"
-          },
-          {
-            "code": "103464004",
-            "display": "Legionella pneumophila serogroup 2 (organism)"
           },
           {
             "code": "103465003",
@@ -1724,10 +1493,6 @@
           {
             "code": "113861009",
             "display": "Mycobacterium tuberculosis (organism)"
-          },
-          {
-            "code": "113858008",
-            "display": "Mycobacterium tuberculosis complex (organism)"
           },
           {
             "code": "78981005",
@@ -1938,18 +1703,6 @@
             "display": "Proteus mirabilis (organism)"
           },
           {
-            "code": "73457008",
-            "display": "Proteus mirabilis (organism)"
-          },
-          {
-            "code": "73457008",
-            "display": "Proteus mirabilis (organism)"
-          },
-          {
-            "code": "73457008",
-            "display": "Proteus mirabilis (organism)"
-          },
-          {
             "code": "86145008",
             "display": "Proteus myxofaciens (organism)"
           },
@@ -2030,10 +1783,6 @@
             "display": "Pseudomonas mendocina (organism)"
           },
           {
-            "code": "113931000",
-            "display": "Flavimonas oryzihabitans (organism)"
-          },
-          {
             "code": "68608003",
             "display": "Pseudomonas putida (organism)"
           },
@@ -2062,10 +1811,6 @@
             "display": "Genus Raoultella (organism)"
           },
           {
-            "code": "416096003",
-            "display": "Raoultella terrigena (organism)"
-          },
-          {
             "code": "438107000",
             "display": "Rhizobium radiobacter (organism)"
           },
@@ -2080,10 +1825,6 @@
           {
             "code": "35379007",
             "display": "Rothia dentocariosa (organism)"
-          },
-          {
-            "code": "416544005",
-            "display": "Rothia mucilaginosa (organism)"
           },
           {
             "code": "90163001",
@@ -2159,15 +1900,15 @@
           },
           {
             "code": "116048001",
-            "display": "Salmonella"
+            "display": "Salmonella, serogroup C (organism)"
           },
           {
             "code": "115408009",
-            "display": "Salmonella"
+            "display": "Salmonella, serogroup D (organism)"
           },
           {
             "code": "115409001",
-            "display": "Salmonella"
+            "display": "Salmonella, serogroup E (organism)"
           },
           {
             "code": "404294002",
@@ -2192,10 +1933,6 @@
           {
             "code": "398428002",
             "display": "Salmonella enterica subspecies diarizonae"
-          },
-          {
-            "code": "398508004",
-            "display": "Salmonella enterica subsp. enterica"
           },
           {
             "code": "73525009",
@@ -2366,10 +2103,6 @@
             "display": "Salmonella Stanleyville"
           },
           {
-            "code": "397502001",
-            "display": "Salmonella enterica subsp. arizonae (organism)"
-          },
-          {
             "code": "398508004",
             "display": "Salmonella enterica subsp. enterica (organism)"
           },
@@ -2388,10 +2121,6 @@
           {
             "code": "50136005",
             "display": "Salmonella Typhimurium (organism)"
-          },
-          {
-            "code": "50136005",
-            "display": "Salmonella Typhimurium"
           },
           {
             "code": "370578006",
@@ -2436,18 +2165,6 @@
           {
             "code": "722258003",
             "display": "Serratia liquefaciens complex (organism)"
-          },
-          {
-            "code": "33522002",
-            "display": "Serratia marcescens (organism)"
-          },
-          {
-            "code": "33522002",
-            "display": "Serratia marcescens (organism)"
-          },
-          {
-            "code": "33522002",
-            "display": "Serratia marcescens (organism)"
           },
           {
             "code": "33522002",
@@ -2514,16 +2231,8 @@
             "display": "Sphingobacterium multivorum (organism)"
           },
           {
-            "code": "62093005",
-            "display": "Yeast (organism)"
-          },
-          {
             "code": "782316009",
             "display": "Staphylococcus argenteus (organism)"
-          },
-          {
-            "code": "3092008",
-            "display": "Staphylococcus aureus (organism)"
           },
           {
             "code": "40347003",
@@ -2588,10 +2297,6 @@
           {
             "code": "32737005",
             "display": "Staphylococcus xylosus (organism)"
-          },
-          {
-            "code": "116197008",
-            "display": "Staphylococcus"
           },
           {
             "code": "415583001",
@@ -2719,11 +2424,7 @@
           },
           {
             "code": "413643004",
-            "display": "Beta-hemolytic Streptococcus"
-          },
-          {
-            "code": "43492007",
-            "display": "Streptococcus agalactiae (organism)"
+            "display": "Beta-hemolytic Streptococcus, group A (organism)"
           },
           {
             "code": "58800005",
@@ -2758,14 +2459,6 @@
             "display": "Vagococcus fluvialis (organism)"
           },
           {
-            "code": "2785000",
-            "display": "Genus Enterococcus (organism)"
-          },
-          {
-            "code": "712665004",
-            "display": "Enterococcus faecium (organism)"
-          },
-          {
             "code": "90435009",
             "display": "Veillonella parvula (organism)"
           },
@@ -2775,7 +2468,7 @@
           },
           {
             "code": "31703004",
-            "display": "Streptococcus"
+            "display": "Streptococcus, viridans group (organism)"
           },
           {
             "code": "83326004",
@@ -2812,14 +2505,34 @@
           {
             "code": "736051005",
             "display": "Non-Toxigenic Clostridium difficile (organism)"
+          },
+          {
+            "code": "113714003",
+            "display": "Abiotrophia defectiva (organism)"
+          },
+          {
+            "code": "1003634005",
+            "display": "Burkholderia pseudomultivorans"
+          },
+          {
+            "code": "1113401000112105",
+            "display": "Klebsiella pneumoniae complex"
+          },
+          {
+            "code": "1003646009",
+            "display": "Legionella pneumophila serogroup, not serogroup 1"
           }
-        ]
+        ],
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131"
       }
     ]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Erreger</h2><tt>http://highmed.org/ValueSet/erreger</tt></div>"
-  },
-  "name": "Erreger"
+  "description": "Das ValueSet enthält eine explizite Auflistung der SNOMED CT Concepts, die die im UC IC abgestimmten mikrobiologischen Erreger umfasst; allerdings ausschließlich Bakterien und Pilze (für kulturelle Befunde).\n\nVersion 2.0: Beantragte SNOMED CT Concepts aus 20210131 ergänzt.",
+  "version": "2.0",
+  "date": "2021-02-18T00:00:00.000Z",
+  "publisher": "http://highmed.org",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-02-18T12:20:04.817+00:00"
+  }
 }

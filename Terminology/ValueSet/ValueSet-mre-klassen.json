@@ -1,0 +1,61 @@
+{
+  "resourceType": "CodeSystem",
+  "title": "HiGHmed MRE-Klassen [lokal]",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-02-18T12:25:49.807+00:00"
+  },
+  "url": "http://highmed.org/CodeSystem/mre-klassen-lokal",
+  "version": "1.0",
+  "status": "active",
+  "description": "Das CodeSystem enthält die lokalen (deutschen) Bezeichnungen für Klassen von MultiResistenten Erregern (MRE).",
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "MRSA",
+      "definition": "Methicillin-resistenter Staphylococcus aureus"
+    },
+    {
+      "code": "02",
+      "display": "VRE",
+      "definition": "Vancomycin-resistente Enterokokken"
+    },
+    {
+      "code": "03",
+      "display": "LVRE",
+      "definition": "Linezolid+Vancomycin-resistente Enterokokken"
+    },
+    {
+      "code": "04",
+      "display": "LRE",
+      "definition": "Linezolid-resistente Enterokokken"
+    },
+    {
+      "code": "05",
+      "display": "2MRGN",
+      "definition": "Gegenüber 2 der 4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
+    },
+    {
+      "code": "06",
+      "display": "3MRGN",
+      "definition": "Gegenüber 3 der 4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
+    },
+    {
+      "code": "07",
+      "display": "4MRGN",
+      "definition": "Gegenüber 4 der  4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed MRE-Klassen [lokal]</h2><tt>http://highmed.org/CodeSystem/mre-klassen-lokal</tt><p>Das CodeSystem enthält die lokalen (deutschen) Bezeichnungen für Klassen von MultiResistenten Erregern (MRE).</p></div>"
+  },
+  "valueSet": "http://highmed.org/ValueSet/mre-klassen-lokal",
+  "name": "HighmedMreKlassenLokal",
+  "id": "mre-klassen-lokal",
+  "date": "2021-02-18T00:00:00.000Z",
+  "publisher": "http://highmed.org",
+  "count": 7
+}

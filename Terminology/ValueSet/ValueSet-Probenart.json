@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-02-18T12:05:11.127+00:00"
+  },
+  "url": "http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct",
+  "version": "1.0",
+  "title": "HiGHmed Probenart im Mikrobiologischen Befund [SNOMED CT]",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "866033003",
+            "display": "Blood specimen in aerobic blood culture bottle"
+          },
+          {
+            "code": "866032008",
+            "display": "Blood specimen in anaerobic blood culture bottle"
+          },
+          {
+            "code": "257261003",
+            "display": "Swab"
+          },
+          {
+            "code": "878861003",
+            "display": "Blood specimen in blood culture bottle"
+          }
+        ],
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131"
+      }
+    ]
+  },
+  "description": "Das ValueSet aus SNOMED CT Concepts, die zur Kodierung der Probenart im mikrobiologischen Befund des UC Infection Control verwendet werden.",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed Probenart im Mikrobiologischen Befund [SNOMED CT]</h2><tt>http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct</tt><p>Das ValueSet aus SNOMED CT Concepts, die zur Kodierung der Probenart im mikrobiologischen Befund des UC Infection Control verwendet werden.</p></div>"
+  },
+  "name": "HighmedProbenartMikrobiologischerBefundSnomedct",
+  "id": "probenart-mikrobiologischer-befund-snomedct",
+  "publisher": "http://highmed.org",
+  "date": "2021-02-18T00:00:00.000Z"
+}

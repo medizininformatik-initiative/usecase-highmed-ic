@@ -66,16 +66,21 @@
         <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
       </type>
     </element>
-    <element id="Observation.component.code">
-      <path value="Observation.component.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/Laborergebnis-semiquantitativ" />
-      </binding>
+    <element id="Observation.component">
+      <path value="Observation.component" />
+      <min value="1" />
+      <max value="1" />
     </element>
     <element id="Observation.component.code.coding.system">
       <path value="Observation.component.code.coding.system" />
       <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.component.value[x]">
+      <path value="Observation.component.value[x]" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/Laborergebnis-semiquantitativ" />
+      </binding>
     </element>
   </differential>
 </StructureDefinition>

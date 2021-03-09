@@ -1,21 +1,17 @@
 {
   "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-02-18T12:12:35.001+00:00"
+  },
   "url": "http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc",
-  "title": "Susceptibility tests",
-  "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+  "version": "1.0",
+  "title": "HiGHmed Antiinfektiva-Resistenzbestimmung [LOINC]",
+  "status": "active",
   "compose": {
     "include": [
       {
-        "system": "http://snomed.info/sct",
+        "system": "http://loinc.org",
         "concept": [
           {
             "code": "18855-7",
@@ -289,7 +285,6 @@
             "code": "41734-5",
             "display": "Dalbavancin [Susceptibility]"
           },
-          
           {
             "code": "35789-7",
             "display": "Daptomycin [Susceptibility]"
@@ -298,7 +293,6 @@
             "code": "30300-8",
             "display": "Didanosine [Susceptibility]"
           },
-         
           {
             "code": "35795-4",
             "display": "Dirithromycin [Susceptibility]"
@@ -422,10 +416,6 @@
           {
             "code": "18935-7",
             "display": "Kanamycin [Susceptibility]"
-          },
-          {
-            "code": "30298-4",
-            "display": "Lamivudine [Susceptibility]"
           },
           {
             "code": "20629-2",
@@ -632,10 +622,6 @@
             "display": "Spectinomycin [Susceptibility]"
           },
           {
-            "code": "30302-4",
-            "display": "Stavudine [Susceptibility]"
-          },
-          {
             "code": "18983-7",
             "display": "Streptomycin.high potency [Susceptibility]"
           },
@@ -726,10 +712,6 @@
           {
             "code": "30301-6",
             "display": "Zalcitabine [Susceptibility]"
-          },
-          {
-            "code": "531-4",
-            "display": "Zidovudine [Susceptibility]"
           }
         ]
       }
@@ -737,7 +719,11 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LOINC Susceptibility tests</h2><tt>http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed Antiinfektiva-Resistenzbestimmung [LOINC]</h2><tt>http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc</tt><p>Das ValueSet umfasst alle LOINC Terms, die im UC Infection Control für die Testung der Resistenz von Antiinfektiva (Antibiotika, Antimykotika, ...) verwendet werden.</p></div>"
   },
-  "name": "Susceptibility tests"
+  "id": "antiinfektiva-resistenzbestimmung-loinc",
+  "name": "HighmedAntiinfektivaResistenzbestimmungLoinc",
+  "description": "Das ValueSet umfasst alle LOINC Terms, die im UC Infection Control für die Testung der Resistenz von Antiinfektiva (Antibiotika, Antimykotika, ...) verwendet werden.",
+  "publisher": "http://highmed.org",
+  "date": "2021-02-18T00:00:00.000Z"
 }
