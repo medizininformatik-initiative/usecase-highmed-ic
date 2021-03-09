@@ -60,11 +60,15 @@
       <fixedCode value="µg/mL" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.value[x]" />
+      <path value="Observation.valueCodeableConcept" />
       <sliceName value="valueCodeableConcept" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast" />
+      </binding>
     </element>
     <element id="Observation.value[x]:valueCodeableConcept.coding.code">
-      <path value="Observation.value[x].coding.code" />
+      <path value="Observation.valueCodeableConcept.coding.code" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast" />
