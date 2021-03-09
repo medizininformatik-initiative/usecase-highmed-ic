@@ -169,7 +169,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
-        <valueSet value="http://highmed.org/ValueSet/probenentnahmestelle-anatomische-lokalisation-snomedct" />
+        <valueSet value="http://highmed.org/ValueSet/probenentnahmestelle-mikrobiologischer-befund-snomedct" />
       </binding>
       <mapping>
         <identity value="v2" />
