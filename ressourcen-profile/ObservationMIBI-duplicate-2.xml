@@ -86,9 +86,16 @@
         <valueSet value="http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit" />
       </binding>
     </element>
+    <element id="Observation.interpretation">
+      <path value="Observation.interpretation" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
+      </binding>
+    </element>
     <element id="Observation.interpretation.coding.system">
       <path value="Observation.interpretation.coding.system" />
-      <fixedUri value="http://snomed.info/sct" />
+      <fixedUri value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
     </element>
     <element id="Observation.interpretation.coding.code">
       <path value="Observation.interpretation.coding.code" />
