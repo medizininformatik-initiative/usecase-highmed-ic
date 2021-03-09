@@ -1,41 +1,58 @@
 {
-  "resourceType": "CodeSystem",
-  "title": "HiGHmed Resistenzklassen Antibiogramm nach EUCAST",
+  "resourceType": "ValueSet",
   "meta": {
     "versionId": "2",
-    "lastUpdated": "2021-02-18T12:09:50.236+00:00"
+    "lastUpdated": "2021-02-18T12:15:44.858+00:00"
   },
-  "url": "http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast",
-  "version": "1.0",
+  "url": "http://highmed.org/ValueSet/probenentnahmestelle-mikrobiologischer-befund-snomedct",
+  "version": "1.1",
+  "title": "HiGHmed Probenentnahmestelle im Mikrobiologischen Befund [SNOMED CT]",
   "status": "active",
-  "description": "CodeSystem für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.",
-  "compositional": false,
-  "content": "complete",
-  "concept": [
-    {
-      "code": "S",
-      "display": "Susceptible, standard dosing regimen",
-      "definition": "A microorganism is categorised as \"Susceptible, standard dosing regimen\", when there is a high likelihood of therapeutic success using a standard dosing regimen of the agent."
-    },
-    {
-      "code": "I",
-      "display": "Susceptible, increased exposure",
-      "definition": "A microorganism is categorised as \"Susceptible, Increased exposure\" when there is a high likelihood of therapeutic success because exposure to the agent is increased by adjusting the dosing regimen or by its concentration at the site of infection."
-    },
-    {
-      "code": "R",
-      "display": "Resistant",
-      "definition": "A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure."
-    }
-  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "53505006",
+            "display": "Anal structure (body structure)"
+          },
+          {
+            "code": "45206002",
+            "display": "Nasal structure (body structure)"
+          },
+          {
+            "code": "400112001",
+            "display": "Nose and nasopharynx structure (body structure)"
+          },
+          {
+            "code": "54066008",
+            "display": "Pharyngeal structure (body structure)"
+          },
+          {
+            "code": "34402009",
+            "display": "Rectum structure (body structure)"
+          },
+          {
+            "code": "51114001",
+            "display": "Arterial structure (body structure)"
+          },
+          {
+            "code": "29092000",
+            "display": "Venous structure (body structure)"
+          }
+        ],
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131"
+      }
+    ]
+  },
+  "description": "Das ValueSet der SNOMED CT Concepts, die die anatomischen Lokalisationen für eine Probenentnahme (für den UC Infection Control) umfassen.",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed Resistenzklassen Antibiogramm nach EUCAST</h2><tt>http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast</tt><p>CodeSystem für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed Probenentnahmestelle im Mikrobiologischen Befund [SNOMED CT]</h2><tt>http://highmed.org/ValueSet/probenentnahmestelle-mikrobiologischer-befund-snomedct</tt><p>Das ValueSet der SNOMED CT Concepts, die die anatomischen Lokalisationen für eine Probenentnahme (für den UC Infection Control) umfassen.</p></div>"
   },
-  "valueSet": "http://highmed.org/ValueSet/resistenzklassen-antibiogramm-eucast",
-  "name": "HighmedResistenzklassenAntibiogrammEucast",
-  "id": "resistenzklassen-antibiogramm-eucast",
-  "publisher": "http://highmed.org",
+  "name": "HighmedProbenentnahmestelleMikrobiologischerBefundSnomedct",
+  "id": "probenentnahmestelle-mikrobiologischer-befund-snomedct",
   "date": "2021-02-18T00:00:00.000Z",
-  "count": 3
+  "publisher": "http://highmed.org"
 }
