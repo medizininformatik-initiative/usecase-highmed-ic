@@ -59,5 +59,12 @@
       <path value="ServiceRequest.identifier.assigner.identifier" />
       <mustSupport value="true" />
     </element>
+    <element id="ServiceRequest.code">
+      <path value="ServiceRequest.code" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="http://highmed.org/ValueSet/testanforderungen-mikrobiologischer-befund-loinc" />
+      </binding>
+    </element>
   </differential>
 </StructureDefinition>
