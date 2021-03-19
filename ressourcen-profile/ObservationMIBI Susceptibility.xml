@@ -30,6 +30,13 @@
       <path value="Observation.category.coding.system" />
       <fixedUri value="http://loinc.org" />
     </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc" />
+      </binding>
+    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <min value="1" />
@@ -60,7 +67,7 @@
       <fixedCode value="µg/mL" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.valueCodeableConcept" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueCodeableConcept" />
       <binding>
         <strength value="required" />
@@ -68,7 +75,7 @@
       </binding>
     </element>
     <element id="Observation.value[x]:valueCodeableConcept.coding.code">
-      <path value="Observation.valueCodeableConcept.coding.code" />
+      <path value="Observation.value[x].coding.code" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast" />
