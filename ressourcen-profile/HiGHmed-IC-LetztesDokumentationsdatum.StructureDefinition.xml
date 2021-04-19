@@ -40,7 +40,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/Condition" />
       </type>
       <mustSupport value="true" />
     </element>
