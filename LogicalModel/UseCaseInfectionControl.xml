@@ -484,7 +484,6 @@
       <type>
         <code value="string" />
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
     <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.NamederKörperstelle">
