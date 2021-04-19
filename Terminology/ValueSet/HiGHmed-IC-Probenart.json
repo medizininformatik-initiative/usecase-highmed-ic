@@ -24,6 +24,10 @@
           {
             "code": "878861003",
             "display": "Blood specimen in blood culture bottle"
+          },
+          {
+            "code": "429951000124103",
+            "display": "Bacterial isolate specimen (specimen)"
           }
         ]
       }

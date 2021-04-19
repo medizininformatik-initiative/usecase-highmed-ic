@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/Specimen" />
-  <name value="HiGHmed-IC-Specimen" />
+  <url value="http://highmed.org/fhir/StructureDefinition/Specimen" />
+  <name value="HiGHmed_IC_Specimen" />
   <title value="HiGHmed - Infection Control - Specimen" />
   <status value="draft" />
   <description value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />
@@ -37,7 +37,6 @@
       <path value="Specimen.identifier" />
       <label value="Externer Identifikator" />
       <definition value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
-      <max value="1" />
       <mustSupport value="true" />
       <mapping>
         <identity value="v2" />
@@ -103,6 +102,11 @@
         <valueSet value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
       </binding>
     </element>
+    <element id="Specimen.subject">
+      <path value="Specimen.subject" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
     <element id="Specimen.receivedTime">
       <path value="Specimen.receivedTime" />
       <label value="Zeitpunkt des Probeneingangs" />
@@ -128,6 +132,10 @@
         <identity value="v2" />
         <map value="OBR-29" />
       </mapping>
+    </element>
+    <element id="Specimen.collection">
+      <path value="Specimen.collection" />
+      <mustSupport value="true" />
     </element>
     <element id="Specimen.collection.collector">
       <path value="Specimen.collection.collector" />
@@ -203,10 +211,15 @@
       <label value="Kommentar (auch des Probennehmers)" />
       <short value="Kommentar des Probennehmers, Kommentar" />
       <max value="2" />
+      <mustSupport value="true" />
       <mapping>
         <identity value="v2" />
         <map value="NTE" />
       </mapping>
+    </element>
+    <element id="Specimen.note.text">
+      <path value="Specimen.note.text" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
