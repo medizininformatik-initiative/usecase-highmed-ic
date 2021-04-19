@@ -28,6 +28,16 @@
       <path value="DiagnosticReport.category.coding" />
       <min value="3" />
     </element>
+    <element id="DiagnosticReport.code.coding:loinc-microbiology">
+      <path value="DiagnosticReport.code.coding" />
+      <sliceName value="loinc-microbiology" />
+      <min value="1" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/MicrobiologyDiagnosticReport" />
+      </binding>
+    </element>
     <element id="DiagnosticReport.specimen">
       <path value="DiagnosticReport.specimen" />
       <min value="1" />
