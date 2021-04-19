@@ -48,6 +48,10 @@
         <valueSet value="http://highmed.org/fhir/ValueSet/MicrobiologyDiagnosticReport" />
       </binding>
     </element>
+    <element id="DiagnosticReport.resultsInterpreter">
+      <path value="DiagnosticReport.resultsInterpreter" />
+      <mustSupport value="true" />
+    </element>
     <element id="DiagnosticReport.specimen">
       <path value="DiagnosticReport.specimen" />
       <min value="1" />
