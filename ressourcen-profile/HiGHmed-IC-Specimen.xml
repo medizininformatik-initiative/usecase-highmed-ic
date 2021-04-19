@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/Specimen" />
+  <url value="http://highmed.org/fhir/StructureDefinition/Specimen" />
   <name value="HiGHmed_IC_Specimen" />
   <title value="HiGHmed - Infection Control - Specimen" />
   <status value="draft" />
