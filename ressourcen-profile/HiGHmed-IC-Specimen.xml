@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/fhir/StructureDefinition/Specimen" />
+  <url value="http://highmed.org/StructureDefinition/Specimen" />
   <name value="HiGHmed_IC_Specimen" />
   <title value="HiGHmed - Infection Control - Specimen" />
   <status value="draft" />
@@ -59,12 +59,15 @@
     <element id="Specimen.type">
       <path value="Specimen.type" />
       <label value="Probenart" />
-      <code>
-        <system value="http://snomed.info/sct" />
-      </code>
       <short value="Die Art der Probe" />
       <comment value="Zum Beispiel: Venöses Blut, Bakterienkultur, Zytologie oder Prostatabiopsie. Nach Möglichkeit wird die Kodierung der Probenart mit einer Terminologie bevorzugt" />
       <min value="1" />
+      <constraint>
+        <key value="Highmed-IC-Specimen-1" />
+        <severity value="error" />
+        <human value="Falls ein Isolat kodiert wird, muss die Probe auch angeben werden" />
+        <expression value="$this.coding.where(code = '429951000124103' and system = 'http://snomed.info/sct').exists() implies %resource.parent.exists()" />
+      </constraint>
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
