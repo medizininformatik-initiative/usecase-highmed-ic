@@ -1,11 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "mikrobiologische-erreger-bakterien-pilze-snomedct-explizit",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed Mikrobiologische Erreger (Bakterien, Pilze) [SNOMED CT explizit]</h2><tt>http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit</tt><p>Das ValueSet enthält eine explizite Auflistung der SNOMED CT Concepts, die die im UC IC abgestimmten mikrobiologischen Erreger umfasst; allerdings ausschließlich Bakterien und Pilze (für kulturelle Befunde).\n\nVersion 2.0: Beantragte SNOMED CT Concepts aus 20210131 ergänzt.</p></div>"
-  },
-  "url": "http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit",
+  "url": "http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit",
   "name": "HighmedMikrobiologischeErregerBakterienPilzeSnomedctExplizit",
   "title": "HiGHmed Mikrobiologische Erreger (Bakterien, Pilze) [SNOMED CT explizit]",
   "status": "active",
@@ -2522,8 +2518,7 @@
             "code": "1003646009",
             "display": "Legionella pneumophila serogroup, not serogroup 1"
           }
-        ],
-        "version": "http://snomed.info/sct/900000000000207008/version/20210131"
+        ]
       }
     ]
   },
@@ -2531,8 +2526,4 @@
   "version": "2.0",
   "date": "2021-02-18T00:00:00.000Z",
   "publisher": "http://highmed.org",
-  "meta": {
-    "versionId": "2",
-    "lastUpdated": "2021-02-18T12:20:04.817+00:00"
-  }
 }
