@@ -29,13 +29,7 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://loinc.org" />
-          <code value="11475-1" />
-          <display value="Microorganism identified in Unspecified specimen by Culture" />
-        </coding>
-      </fixedCodeableConcept>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
