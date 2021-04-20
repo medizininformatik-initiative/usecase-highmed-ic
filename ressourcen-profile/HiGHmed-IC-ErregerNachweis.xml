@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/ObservationMIBI" />
-  <name value="MikrologischerBefund" />
-  <title value="HiGHmed- Infection Control - Erreger Nachweis" />
+  <id value="ProfileHiGHmedInfectionControlErregerNachweis" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/ErregerNachweis" />
+  <version value="1.0" />
+  <name value="ProfileHiGHmedInfectionControlErregerNachweis" />
+  <title value="Profile - HiGHmed - Infection Control - Erreger Nachweis" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
