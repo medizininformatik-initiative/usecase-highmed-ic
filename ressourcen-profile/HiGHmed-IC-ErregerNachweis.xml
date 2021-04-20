@@ -91,7 +91,6 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIQn" />
-        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIPanel" />
       </type>
     </element>
   </differential>
