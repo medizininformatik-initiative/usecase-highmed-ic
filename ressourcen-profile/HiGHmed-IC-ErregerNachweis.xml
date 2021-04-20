@@ -78,23 +78,11 @@
         <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
       </binding>
     </element>
-    <element id="Observation.interpretation.coding.system">
-      <path value="Observation.interpretation.coding.system" />
-      <fixedUri value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
-    </element>
-    <element id="Observation.interpretation.coding.code">
-      <path value="Observation.interpretation.coding.code" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
-      </binding>
-    </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
         <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
     </element>
