@@ -7,7 +7,6 @@
   <title value="Profile - HiGHmed - Infection Control - Specimen" />
   <status value="draft" />
   <description value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />
-  <purpose value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="rim" />

@@ -9,7 +9,6 @@
   <experimental value="true" />
   <publisher value="https://highmed.org/" />
   <description value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
-  <purpose value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

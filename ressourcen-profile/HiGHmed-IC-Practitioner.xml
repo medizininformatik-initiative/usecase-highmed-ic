@@ -6,6 +6,7 @@
   <name value="ProfileHiGHmedInfectionControlPractitioner" />
   <title value="Profile - HiGHmed - Infection Control - Practitioner" />
   <status value="draft" />
+  <description value="Dieses Profil beschreibt einen Heilberufler im HiGHmed Use Case Infection Control" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="v2" />

@@ -6,6 +6,7 @@
   <name value="ProfileHiGHmedInfectionControlLetztesDokumentationsdatum" />
   <title value="Profile - HiGHmed - Infection Control - LetztesDokumentationsdatum" />
   <status value="draft" />
+  <description value="Dieses Profil beschreibt das Letzte Dokumentationsdatum einer Diagnose im HiGHmed Use Case Infection Control" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="workflow" />

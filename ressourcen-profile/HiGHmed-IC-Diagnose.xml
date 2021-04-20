@@ -6,6 +6,7 @@
   <name value="ProfileHiGHmedInfectionControlDiagnose " />
   <title value="Profile - HiGHmed - InfectionControl - Diagnose " />
   <status value="draft" />
+  <description value="Dieses Profil beschreibt eine Diagnose im HiGHmed Use Case Infection Control" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="workflow" />
