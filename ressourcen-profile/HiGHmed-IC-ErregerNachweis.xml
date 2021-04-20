@@ -37,10 +37,6 @@
         <rules value="open" />
       </slicing>
       <min value="1" />
-      <fixedCoding>
-        <system value="http://loinc.org" />
-        <code value="11475-1" />
-      </fixedCoding>
       <mustSupport value="true" />
     </element>
     <element id="Observation.code.coding:loinc-microorganism">
