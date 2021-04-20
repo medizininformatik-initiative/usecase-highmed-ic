@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/fhir/StructureDefinition/Condition" />
-  <name value="HiGHmed-IC-Diagnose " />
+  <id value="ProfileHiGHmedInfectionControlDiagnose" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/Condition" />
+  <version value="1.0" />
+  <name value="ProfileHiGHmedInfectionControlDiagnose " />
+  <title value="Profile - HiGHmed - InfectionControl - Diagnose " />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <mapping>

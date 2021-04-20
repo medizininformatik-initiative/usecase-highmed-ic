@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ProfileHiGHmedInfectionControlSpecimen" />
   <url value="http://highmed.org/fhir/StructureDefinition/Specimen" />
-  <name value="HiGHmed_IC_Specimen" />
-  <title value="HiGHmed - Infection Control - Specimen" />
+  <version value="1.0" />
+  <name value="ProfileHiGHmedInfectionControlSpecimen" />
+  <title value="Profile - HiGHmed - Infection Control - Specimen" />
   <status value="draft" />
   <description value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />
   <purpose value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />

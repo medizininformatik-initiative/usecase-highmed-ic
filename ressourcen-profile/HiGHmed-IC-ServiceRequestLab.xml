@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ProfileHiGHmedInfectionControlServiceRequestLab" />
   <url value="http://highmed.org/StructureDefinition/ServiceRequestLab" />
-  <version value="0.9" />
-  <name value="HiGHmed_IC_ServiceRequest" />
-  <title value="HiGHmed - Infection Control - ServiceRequest" />
+  <version value="1.0" />
+  <name value="ProfileHiGHmedInfectionControlServiceRequestLab" />
+  <title value="Profile - HiGHmed - Infection Control - ServiceRequest" />
   <status value="draft" />
   <experimental value="true" />
   <publisher value="https://highmed.org/" />
