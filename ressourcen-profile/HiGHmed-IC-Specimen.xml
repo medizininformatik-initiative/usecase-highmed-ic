@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="b8ad98a9-4efd-4cae-b5d3-7b4f154acdc8" />
-  <meta>
-    <versionId value="2" />
-    <lastUpdated value="2020-01-15T14:18:06.021+00:00" />
-  </meta>
-  <url value="http://highmed.org/StructureDefinition/Specimen" />
-  <name value="Specimen" />
-  <title value="HiGHmed- Infection Control- Specimen" />
+  <url value="http://highmed.org/fhir/StructureDefinition/Specimen" />
+  <name value="HiGHmed_IC_Specimen" />
+  <title value="HiGHmed - Infection Control - Specimen" />
   <status value="draft" />
-  <date value="2020-01-15T14:18:05.9183067Z" />
   <description value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />
   <purpose value="Dieses Profil beschreibt die Probe in HiGHmed Projekt, Infection Control Use Case" />
-  <copyright value="CC-BY (https://creativecommons.org/licenses/by/2.0/de/)" />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="rim" />
     <uri value="http://hl7.org/v3" />
@@ -44,7 +37,6 @@
       <path value="Specimen.identifier" />
       <label value="Externer Identifikator" />
       <definition value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
-      <max value="1" />
       <mustSupport value="true" />
       <mapping>
         <identity value="v2" />
@@ -67,17 +59,20 @@
     <element id="Specimen.type">
       <path value="Specimen.type" />
       <label value="Probenart" />
-      <code>
-        <system value="http://snomed.info/sct" />
-      </code>
       <short value="Die Art der Probe" />
       <comment value="Zum Beispiel: Venöses Blut, Bakterienkultur, Zytologie oder Prostatabiopsie. Nach Möglichkeit wird die Kodierung der Probenart mit einer Terminologie bevorzugt" />
       <min value="1" />
+      <constraint>
+        <key value="Highmed-IC-Specimen-1" />
+        <severity value="error" />
+        <human value="Falls ein Isolat kodiert wird, muss die Probe auch angeben werden" />
+        <expression value="$this.coding.where(code = '429951000124103' and system = 'http://snomed.info/sct').exists() implies %resource.parent.exists()" />
+      </constraint>
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
         <description value="Use Case IC Probenart" />
-        <valueSet value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/probenart" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -110,6 +105,11 @@
         <valueSet value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
       </binding>
     </element>
+    <element id="Specimen.subject">
+      <path value="Specimen.subject" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
     <element id="Specimen.receivedTime">
       <path value="Specimen.receivedTime" />
       <label value="Zeitpunkt des Probeneingangs" />
@@ -135,6 +135,10 @@
         <identity value="v2" />
         <map value="OBR-29" />
       </mapping>
+    </element>
+    <element id="Specimen.collection">
+      <path value="Specimen.collection" />
+      <mustSupport value="true" />
     </element>
     <element id="Specimen.collection.collector">
       <path value="Specimen.collection.collector" />
@@ -210,10 +214,15 @@
       <label value="Kommentar (auch des Probennehmers)" />
       <short value="Kommentar des Probennehmers, Kommentar" />
       <max value="2" />
+      <mustSupport value="true" />
       <mapping>
         <identity value="v2" />
         <map value="NTE" />
       </mapping>
+    </element>
+    <element id="Specimen.note.text">
+      <path value="Specimen.note.text" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
