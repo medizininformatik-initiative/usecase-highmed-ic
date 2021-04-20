@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="8502ab36-90ac-4e49-9e02-0d7e8af9b25c" />
-  <meta>
-    <lastUpdated value="2020-01-31T11:05:01.794+00:00" />
-  </meta>
-  <url value="http://highmed.org/UCIC/fhir/StructureDefinition/UseCaseInfectionControl" />
-  <name value="UseCaseInfectionControl" />
+  <id value="LogicalModelUseCaseInfectionControl" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/LogicalModelUseCaseInfectionControl" />
+  <version value="1.0" />
+  <name value="LogicalModelUseCaseInfectionControl" />
+  <title value="Logical Model - UseCase InfectionControl" />
   <status value="draft" />
-  <date value="2020-01-31T11:05:01.5482866+00:00" />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <kind value="logical" />
   <abstract value="false" />
-  <type value="http://example/UCIC/fhir/StructureDefinition/Use Case Infection Control" />
+  <type value="http://highmed.org/fhir/StructureDefinition/ic/UseCaseInfectionControl" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element" />
   <derivation value="specialization" />
   <differential>
