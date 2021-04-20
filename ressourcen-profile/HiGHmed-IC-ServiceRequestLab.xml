@@ -66,5 +66,9 @@
         <valueSet value="http://highmed.org/ValueSet/testanforderungen-mikrobiologischer-befund-loinc" />
       </binding>
     </element>
+    <element id="ServiceRequest.requester">
+      <path value="ServiceRequest.requester" />
+      <mustSupport value="true" />
+    </element>
   </differential>
 </StructureDefinition>
