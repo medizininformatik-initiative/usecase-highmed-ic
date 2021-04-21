@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/ObservationMIBIQn" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/Keimzahl" />
   <name value="Keimzahl" />
   <title value="HiGHmed- Infection Control - Keimzahl" />
   <status value="draft" />
