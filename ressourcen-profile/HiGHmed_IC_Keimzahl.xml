@@ -20,28 +20,29 @@
       <sliceName value="loinc-subcategory" />
       <min value="1" />
       <max value="1" />
-      <fixedCoding>
+      <patternCoding>
         <system value="http://loinc.org" />
-        <code value="Microbiology Studies" />
-        <display value="18725-2" />
-      </fixedCoding>
+        <code value="18725-2" />
+      </patternCoding>
     </element>
-    <element id="Observation.category.coding:loinc-subcategory.system">
-      <path value="Observation.category.coding.system" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.category.coding:loinc-subcategory.code">
-      <path value="Observation.category.coding.code" />
-      <fixedCode value="18725-2" />
-    </element>
-    <element id="Observation.code.coding.system">
-      <path value="Observation.code.coding.system" />
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <min value="1" />
-      <fixedUri value="http://loinc.org" />
+      <mustSupport value="true" />
     </element>
-    <element id="Observation.code.coding.code">
-      <path value="Observation.code.coding.code" />
+    <element id="Observation.code.coding:keimzahl-loinc">
+      <path value="Observation.code.coding" />
+      <sliceName value="keimzahl-loinc" />
       <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/ValueSet/keimzahl-loinc" />
@@ -51,6 +52,14 @@
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
       <min value="1" />
+    </element>
+    <element id="Observation.value[x]:valueQuantity.unit">
+      <path value="Observation.value[x].unit" />
+      <fixedString value="{CFU}/mL" />
+    </element>
+    <element id="Observation.value[x]:valueQuantity.code">
+      <path value="Observation.value[x].code" />
+      <fixedCode value="{CFU}/mL" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
       <path value="Observation.value[x]" />
@@ -62,36 +71,33 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/Specimen" />
       </type>
     </element>
     <element id="Observation.component">
       <path value="Observation.component" />
       <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component.code.coding">
+      <path value="Observation.component.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.component.code.coding:keimzahl-loinc-semiqualitativ">
+      <path value="Observation.component.code.coding" />
+      <sliceName value="keimzahl-loinc-semiqualitativ" />
+      <min value="1" />
       <max value="1" />
-    </element>
-    <element id="Observation.component.code">
-      <path value="Observation.component.code" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://loinc.org" />
-          <code value="565-2" />
-          <display value="Colony count [#] in Specimen Qualitative by Visual count" />
-        </coding>
-        <text value="Colony count [#] in Specimen Qualitative by Visual count" />
-      </fixedCodeableConcept>
-    </element>
-    <element id="Observation.component.code.coding.system">
-      <path value="Observation.component.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.component.code.coding.code">
-      <path value="Observation.component.code.coding.code" />
-      <fixedCode value="565-2" />
-    </element>
-    <element id="Observation.component.code.coding.display">
-      <path value="Observation.component.code.coding.display" />
-      <fixedString value="Colony count [#] in Specimen Qualitative by Visual count" />
+      <patternCoding>
+        <system value="http://loinc.org" />
+        <code value="565-2" />
+      </patternCoding>
     </element>
     <element id="Observation.component.value[x]">
       <path value="Observation.component.value[x]" />
