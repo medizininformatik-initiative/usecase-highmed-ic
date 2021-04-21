@@ -724,13 +724,13 @@
     </element>
     <element id="UseCaseInfectionControl.Empfängerstandort.Name">
       <path value="UseCaseInfectionControl.Empfängerstandort.Name" />
+      <short value="Bezeichnung für die Organisationseinheit" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="string" />
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
-      <fixedString value="Bezeichnung für die Organisationseinheit" />
     </element>
     <element id="UseCaseInfectionControl.Empfängerstandort.Organisationsschlüssel">
       <path value="UseCaseInfectionControl.Empfängerstandort.Organisationsschlüssel" />
