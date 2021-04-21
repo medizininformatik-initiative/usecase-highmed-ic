@@ -27,7 +27,7 @@
       <path value="UseCaseInfectionControl.Person" />
       <label value="KDS Basis Module" />
       <short value="Patient" />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="BackboneElement" />
@@ -522,6 +522,9 @@
         <code value="CodeableConcept" />
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
+      <fixedCodeableConcept>
+        <text value="Microbiology studies" />
+      </fixedCodeableConcept>
     </element>
     <element id="UseCaseInfectionControl.Mikrobiologischerbefund.Testmethode">
       <path value="UseCaseInfectionControl.Mikrobiologischerbefund.Testmethode" />
@@ -777,6 +780,7 @@
       <type>
         <code value="CodeableConcept" />
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.DetailsderTestanforderung.Auftrags-IDdesanforderndenSystems">
@@ -915,6 +919,7 @@
         <code value="Identifier" />
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.FachlicheOrganisationseinheit">
@@ -944,8 +949,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.FachlicheOrganisationseinheit.Name">
@@ -954,8 +959,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.FachlicheOrganisationseinheit.Aktiv-Inaktiv">
@@ -1013,8 +1018,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.Aufnahmedaten.DatumUhrzeitderAufnahme">
@@ -1117,8 +1122,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.Organisationsschlüssel">
@@ -1290,8 +1295,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.Entlassungsdaten.ZugewiesenerStandortbeiEntlassung.ZugewieseneverantwortlicheOrganisationseinheitbeiEntlassung.Organisationsschlüssel">
@@ -1299,8 +1304,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.Entlassungsdaten.ZugewiesenerStandortbeiEntlassung.ZugewieseneverantwortlicheOrganisationseinheitbeiEntlassung.Name">
@@ -1344,8 +1349,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.Patientenaufenthalt.ZugehörigerAbteilungsfallKennung">
@@ -1354,8 +1359,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.Patientenaufenthalt.ZugehörigerVersorgungsstellenkontaktKennung">
@@ -1364,8 +1369,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.Patientenaufenthalt.Versorgungsaufenthalt">
@@ -1401,8 +1406,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.Patientenaufenthalt.Versorgungsaufenthalt.Standort">
@@ -1529,8 +1534,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.Patientenaufenthalt.Versorgungsaufenthalt.FachlicheOrganisationseinheit.Fachabteilungsschlüssel">
@@ -1593,8 +1598,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.SonstigerVersorgungsfall.Fallklasse">
@@ -1603,8 +1608,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.SonstigerVersorgungsfall.Fallstatus">
@@ -1613,8 +1618,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.SonstigerVersorgungsfall.Fall-Kennung">
@@ -1623,8 +1628,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.SonstigerVersorgungsfall.ÜbergeordneterFall">
@@ -1633,8 +1638,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.SonstigerVersorgungsfall.FachlicheOrganisationseinheit">
@@ -1651,8 +1656,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Bewegungsdaten.SonstigerVersorgungsfall.FachlicheOrganisationseinheit.Organisationsschlüssel">
@@ -1726,8 +1731,8 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
     <element id="UseCaseInfectionControl.Prozedur">
@@ -1874,6 +1879,7 @@
     </element>
     <element id="UseCaseInfectionControl.Virologischerbefund.Analyseergebnis-Reihenfolge">
       <path value="UseCaseInfectionControl.Virologischerbefund.Analyseergebnis-Reihenfolge" />
+      <definition value="Die beabsichtigte Position dieses Analyseergebnisses in der Reihenfolge aller Analyseergebnisse.&#xD;&#xA;Comment: z.B. '1', '2', '3'. Werden mehrere Analysenergebnisse berichtet, gibt die Analyseergebnis-Reihenfolge explizit die Reihenfolge der Analyseergebnisse an." />
       <min value="0" />
       <max value="*" />
       <type>
