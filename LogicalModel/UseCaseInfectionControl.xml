@@ -363,6 +363,118 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
+    <element id="Use Case Infection Control.Probendetails">
+      <path value="Use Case Infection Control.Probendetails" />
+      <short value="Eine physikalische Probe zur Erforschung, Untersuchung oder Analyse, die von einer Person entnommen wurde oder die sich auf die Person bezieht." />
+      <comment value="Zum Beispiel: Gewebe, Körperflüssigkeit oder Lebensmittel." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.Probenart">
+      <path value="Use Case Infection Control.Probendetails.Probenart" />
+      <short value="Die Art der Probe" />
+      <comment value="Zum Beispiel: Venöses Blut, Bakterienkultur, Zytologie oder Prostatabiopsie. Nach Möglichkeit wird die Kodierung der Probenart mit einer Terminologie bevorzugt.&#xD;&#xA;FHIR_mapping: Specimen.type" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.LaborprobenIdentifikator">
+      <path value="Use Case Infection Control.Probendetails.LaborprobenIdentifikator" />
+      <short value="Eine eindeutige Kennung der Probe, die normalerweise vom Labor vergeben wird." />
+      <comment value="Wird manchmal als &quot;Accession Identifier&quot; bezeichnet.&#xD;&#xA;FHIR_mapping: Specimen.accession.identifier" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.ExternerIdentifikator">
+      <path value="Use Case Infection Control.Probendetails.ExternerIdentifikator" />
+      <short value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
+      <comment value="FHIR_mapping: Specimen.identifier" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.ZeitpunktdesProbeneingangs">
+      <path value="Use Case Infection Control.Probendetails.ZeitpunktdesProbeneingangs" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="dateTime" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.KommentardesProbennehmers">
+      <path value="Use Case Infection Control.Probendetails.KommentardesProbennehmers" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.NamederKörperstelle">
+      <path value="Use Case Infection Control.Probendetails.NamederKörperstelle" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.ZeitpunktderProbenentnahme">
+      <path value="Use Case Infection Control.Probendetails.ZeitpunktderProbenentnahme" />
+      <short value="Das Datum und die Uhrzeit, zu der die Probennahme angeordnet wurde oder stattfand." />
+      <comment value="FHIR_mapping: Specimen.collection.collected.collectedDateTime" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="dateTime" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.IdentifikatordesProbennehmers">
+      <path value="Use Case Infection Control.Probendetails.IdentifikatordesProbennehmers" />
+      <short value="Die Person oder Organisation die für die Entnahme der Probe verantwortlich war." />
+      <comment value="Dieses Element soll verwendet werden, wenn die Probe bereits abgenommen wurde und der tatsächliche Probennehmer bekannt ist.&#xD;&#xA;FHIR_mapping: Specimen.collection.collector" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.IdentifikatorderübergeordnetenProbe">
+      <path value="Use Case Infection Control.Probendetails.IdentifikatorderübergeordnetenProbe" />
+      <short value="Eindeutige Kennung der verwandten Probe(n), bei der die Probe in Teilproben aufgeteilt ist." />
+      <comment value="Zum Beispiel: eine bestimmte Probe eines Objektträgers für die Histologie würde einen bestimmten Paraffinwachsblock als Ausgangsprobe haben.&#xD;&#xA;FHIR_mapping: Specimen.parent" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Probendetails.Kommentar">
+      <path value="Use Case Infection Control.Probendetails.Kommentar" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
     <element id="Use Case Infection Control.Mikrobiologischerbefund">
       <path value="Use Case Infection Control.Mikrobiologischerbefund" />
       <min value="0" />
@@ -407,141 +519,6 @@
       <type>
         <code value="CodeableConcept" />
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails" />
-      <short value="Eine physikalische Probe zur Erforschung, Untersuchung oder Analyse, die von einer Person entnommen wurde oder die sich auf die Person bezieht." />
-      <comment value="Zum Beispiel: Gewebe, Körperflüssigkeit oder Lebensmittel." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.Probenart">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.Probenart" />
-      <short value="Die Art der Probe" />
-      <comment value="Zum Beispiel: Venöses Blut, Bakterienkultur, Zytologie oder Prostatabiopsie. Nach Möglichkeit wird die Kodierung der Probenart mit einer Terminologie bevorzugt.&#xD;&#xA;FHIR_mapping: Specimen.type" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.LaborprobenIdentifikator">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.LaborprobenIdentifikator" />
-      <short value="Eine eindeutige Kennung der Probe, die normalerweise vom Labor vergeben wird." />
-      <comment value="Wird manchmal als &quot;Accession Identifier&quot; bezeichnet.&#xD;&#xA;FHIR_mapping: Specimen.accession.identifier" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.ExternerIdentifikator">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.ExternerIdentifikator" />
-      <short value="Eine eindeutige Kennung der Probe, die von einer Organisation außerhalb des Labors wie dem Auftraggeber zugeordnet wurde." />
-      <comment value="FHIR_mapping: Specimen.identifier" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.ZeitpunktdesProbeneingangs">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.ZeitpunktdesProbeneingangs" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="dateTime" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.KommentardesProbennehmers">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.KommentardesProbennehmers" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.Probenentnahmestelle">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.Probenentnahmestelle" />
-      <code>
-        <system value="http://snomed.info/sct" />
-      </code>
-      <short value="Identifizierung der Entnahmestelle, an der die Probe entnommen wurde." />
-      <comment value="FHIR_mapping: Specimen.collection.bodySite" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.NamederKörperstelle">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.NamederKörperstelle" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.Auftreten">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.Auftreten" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.ZeitpunktderProbenentnahme">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.ZeitpunktderProbenentnahme" />
-      <short value="Das Datum und die Uhrzeit, zu der die Probennahme angeordnet wurde oder stattfand." />
-      <comment value="FHIR_mapping: Specimen.collection.collected.collectedDateTime" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="dateTime" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.IdentifikatordesProbennehmers">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.IdentifikatordesProbennehmers" />
-      <short value="Die Person oder Organisation die für die Entnahme der Probe verantwortlich war." />
-      <comment value="Dieses Element soll verwendet werden, wenn die Probe bereits abgenommen wurde und der tatsächliche Probennehmer bekannt ist.&#xD;&#xA;FHIR_mapping: Specimen.collection.collector" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.IdentifikatorderübergeordnetenProbe">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.IdentifikatorderübergeordnetenProbe" />
-      <short value="Eindeutige Kennung der verwandten Probe(n), bei der die Probe in Teilproben aufgeteilt ist." />
-      <comment value="Zum Beispiel: eine bestimmte Probe eines Objektträgers für die Histologie würde einen bestimmten Paraffinwachsblock als Ausgangsprobe haben.&#xD;&#xA;FHIR_mapping: Specimen.parent" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.Kommentar">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Probendetails.Kommentar" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
     <element id="Use Case Infection Control.Mikrobiologischerbefund.Kultur">
@@ -713,16 +690,16 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Empfängerstandort">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Empfängerstandort" />
+    <element id="Use Case Infection Control.Empfängerstandort">
+      <path value="Use Case Infection Control.Empfängerstandort" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Empfängerstandort.Standorttyp">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Empfängerstandort.Standorttyp" />
+    <element id="Use Case Infection Control.Empfängerstandort.Typ">
+      <path value="Use Case Infection Control.Empfängerstandort.Typ" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -730,8 +707,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Empfängerstandort.Standortbeschreibung">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Empfängerstandort.Standortbeschreibung" />
+    <element id="Use Case Infection Control.Empfängerstandort.Name">
+      <path value="Use Case Infection Control.Empfängerstandort.Name" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -739,69 +716,27 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.Empfängerstandort.Standortschlüssel">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.Empfängerstandort.Standortschlüssel" />
+    <element id="Use Case Infection Control.Empfängerstandort.Organisationsschlüssel">
+      <path value="Use Case Infection Control.Empfängerstandort.Organisationsschlüssel" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="code" />
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Anforderung">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Anforderung" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Auftrags-IDdesanforderndenSystems">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Auftrags-IDdesanforderndenSystems" />
+    <element id="Use Case Infection Control.Empfängerstandort.Aktiv-Inaktiv">
+      <path value="Use Case Infection Control.Empfängerstandort.Aktiv-Inaktiv" />
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+        <code value="boolean" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/boolean" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Auftrags-IDEmpfänger">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Auftrags-IDEmpfänger" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Einsenderstandort">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Einsenderstandort" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Einsenderstandort.Standorttyp">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Einsenderstandort.Standorttyp" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Einsenderstandort.Standortbeschreibung">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Einsenderstandort.Standortbeschreibung" />
+    <element id="Use Case Infection Control.Empfängerstandort.ZusätzlicheBeschreibung">
+      <path value="Use Case Infection Control.Empfängerstandort.ZusätzlicheBeschreibung" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -809,13 +744,92 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Einsenderstandort.Standortschlüssel">
-      <path value="Use Case Infection Control.Mikrobiologischerbefund.DetailsderTestanforderung.Einsenderstandort.Standortschlüssel" />
+    <element id="Use Case Infection Control.DetailsderTestanforderung">
+      <path value="Use Case Infection Control.DetailsderTestanforderung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Anforderung">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Anforderung" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="code" />
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Auftrags-IDdesanforderndenSystems">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Auftrags-IDdesanforderndenSystems" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Auftrags-IDEmpfänger">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Auftrags-IDEmpfänger" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.Typ">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.Typ" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.Name">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.Name" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.Organisationsschlüssel">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.Organisationsschlüssel" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.Aktiv-Inaktiv">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.Aktiv-Inaktiv" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="boolean" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/boolean" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.ZusätzlicheBeschreibung">
+      <path value="Use Case Infection Control.DetailsderTestanforderung.Einsenderstandort.ZusätzlicheBeschreibung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
     <element id="Use Case Infection Control.Bewegungsdaten">
@@ -1276,6 +1290,151 @@
       <type>
         <code value="CodeableConcept" />
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund">
+      <path value="Use Case Infection Control.Virologischerbefund" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.BerichtID">
+      <path value="Use Case Infection Control.Virologischerbefund.BerichtID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.Status">
+      <path value="Use Case Infection Control.Virologischerbefund.Status" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.Fall-Kennung">
+      <path value="Use Case Infection Control.Virologischerbefund.Fall-Kennung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.Labortest-Bezeichnung">
+      <path value="Use Case Infection Control.Virologischerbefund.Labortest-Bezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.Analyseergebnis-Reihenfolge">
+      <path value="Use Case Infection Control.Virologischerbefund.Analyseergebnis-Reihenfolge" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.Virusnachweistest">
+      <path value="Use Case Infection Control.Virologischerbefund.Virusnachweistest" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.Nachweis">
+      <path value="Use Case Infection Control.Virologischerbefund.Nachweis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.QuantitativesErgebnis">
+      <path value="Use Case Infection Control.Virologischerbefund.QuantitativesErgebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Quantity" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Quantity" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.Interpretation">
+      <path value="Use Case Infection Control.Virologischerbefund.Interpretation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.ZeitpunktderValidierung">
+      <path value="Use Case Infection Control.Virologischerbefund.ZeitpunktderValidierung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="dateTime" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.Ergebnis-Status">
+      <path value="Use Case Infection Control.Virologischerbefund.Ergebnis-Status" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.ZeitpunktErgebnis-Status">
+      <path value="Use Case Infection Control.Virologischerbefund.ZeitpunktErgebnis-Status" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.ZugehörigeLaborprobe">
+      <path value="Use Case Infection Control.Virologischerbefund.ZugehörigeLaborprobe" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.KommentarAnalyt">
+      <path value="Use Case Infection Control.Virologischerbefund.KommentarAnalyt" />
+      <short value="Kommentar zum Analyt-Ergebnis, soweit noch nicht in anderen Feldern erfasst." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Use Case Infection Control.Virologischerbefund.KommentarEreignis">
+      <path value="Use Case Infection Control.Virologischerbefund.KommentarEreignis" />
+      <short value="Weitere Informationen über das Laborergebnis, welche bisher nicht in den anderen Feldern erfasst wurden" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
   </differential>
