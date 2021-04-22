@@ -49,7 +49,7 @@
       <path value="Observation.code.coding.code" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/mre-klassen-lokal" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokal" />
       </binding>
     </element>
     <element id="Observation.code.coding.display">
@@ -61,7 +61,7 @@
       <path value="Observation.value[x]" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
+        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
       </binding>
     </element>
     <element id="Observation.value[x]:valueQuantity">
@@ -75,13 +75,13 @@
     </element>
     <element id="Observation.value[x]:valueCodeableConcept.coding.system">
       <path value="Observation.value[x].coding.system" />
-      <fixedUri value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
+      <fixedUri value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept.coding.code">
       <path value="Observation.value[x].coding.code" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
+        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
       </binding>
     </element>
     <element id="Observation.specimen">

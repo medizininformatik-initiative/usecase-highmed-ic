@@ -4,7 +4,7 @@
     "versionId": "2",
     "lastUpdated": "2021-02-18T12:17:42.938+00:00"
   },
-  "url": "http://highmed.org/ValueSet/antiinfektiva-substanzen-snomedct",
+  "url": "http://highmed.org/fhir/ValueSet/ic/antiinfektiva-substanzen-snomedct",
   "version": "1.0",
   "title": "HiGHmed Antiinfektiva-Substanzen [SNOMED CT]",
   "status": "active",

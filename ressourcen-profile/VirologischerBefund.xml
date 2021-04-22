@@ -51,7 +51,7 @@
       <binding>
         <strength value="example" />
         <description value="Nachweis test" />
-        <valueSet value="http://highmed.org/ValueSet/sarscov2detectiontests-loinc" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/sarscov2detectiontests-loinc" />
       </binding>
     </element>
     <element id="Observation.encounter">

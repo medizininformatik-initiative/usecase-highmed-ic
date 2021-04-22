@@ -45,7 +45,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/keimzahl-loinc" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/keimzahl-loinc" />
       </binding>
     </element>
     <element id="Observation.value[x]:valueQuantity">

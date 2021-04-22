@@ -34,7 +34,7 @@
       <path value="Observation.code" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/antiinfektiva-resistenzbestimmung-loinc" />
       </binding>
     </element>
     <element id="Observation.code.coding">
@@ -51,7 +51,7 @@
       <min value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/antiinfektiva-resistenzbestimmung-loinc" />
       </binding>
     </element>
     <element id="Observation.value[x]:valueQuantity">
@@ -71,25 +71,25 @@
       <sliceName value="valueCodeableConcept" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast" />
+        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast" />
       </binding>
     </element>
     <element id="Observation.value[x]:valueCodeableConcept.coding.code">
       <path value="Observation.value[x].coding.code" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast" />
+        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast" />
       </binding>
     </element>
     <element id="Observation.interpretation.coding.system">
       <path value="Observation.interpretation.coding.system" />
-      <fixedUri value="http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast" />
+      <fixedUri value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast" />
     </element>
     <element id="Observation.interpretation.coding.code">
       <path value="Observation.interpretation.coding.code" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/resistenzklassen-antibiogramm-eucast" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast" />
       </binding>
     </element>
     <element id="Observation.specimen">

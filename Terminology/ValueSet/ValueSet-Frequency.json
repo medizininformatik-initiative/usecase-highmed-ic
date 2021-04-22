@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://highmed.org/ValueSet/keimzahl-haeufigkeit",
+  "url": "http://highmed.org/fhir/ValueSet/ic/keimzahl-haeufigkeit",
   "title": "Häufigkeit",
   "status": "draft",
   "contact": [

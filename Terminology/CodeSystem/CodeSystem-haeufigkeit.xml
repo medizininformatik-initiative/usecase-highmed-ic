@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="Häufigkeit" />
-    <url value="http://highmed.org/CodeSystem/keimzahl-haeufigkeit" />
+    <url value="http://highmed.org/fhir/CodeSystem/ic/keimzahl-haeufigkeit" />
     <version value="0.1" />
     <name value="Häufigkeit" />
     <title value="Häufigkeit" />

@@ -54,7 +54,7 @@
       <path value="Observation.value[x]" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit" />
       </binding>
     </element>
     <element id="Observation.value[x]:valueQuantity">

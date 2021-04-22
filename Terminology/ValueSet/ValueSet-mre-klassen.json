@@ -5,7 +5,7 @@
     "versionId": "1",
     "lastUpdated": "2021-02-18T12:25:49.807+00:00"
   },
-  "url": "http://highmed.org/CodeSystem/mre-klassen-lokal",
+  "url": "http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal",
   "version": "1.0",
   "status": "active",
   "description": "Das CodeSystem enthält die lokalen (deutschen) Bezeichnungen für Klassen von MultiResistenten Erregern (MRE).",
