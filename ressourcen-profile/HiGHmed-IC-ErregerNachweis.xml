@@ -90,7 +90,7 @@
       <path value="Observation.hasMember" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/ObservationMIBIQn" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Keimzahl" />
       </type>
     </element>
   </differential>
