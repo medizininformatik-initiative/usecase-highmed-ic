@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ProfileHiGHmedInfectionControlKeimzahl" />
   <url value="http://highmed.org/fhir/StructureDefinition/ic/Keimzahl" />
-  <name value="Keimzahl" />
-  <title value="HiGHmed- Infection Control - Keimzahl" />
+  <name value="ProfileHiGHmedInfectionControlKeimzahl" />
+  <title value="HiGHmed - Infection Control - Keimzahl" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
