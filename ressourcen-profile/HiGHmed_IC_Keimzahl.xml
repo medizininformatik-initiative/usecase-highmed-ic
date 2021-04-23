@@ -16,9 +16,9 @@
       <path value="Observation.category.coding" />
       <min value="3" />
     </element>
-    <element id="Observation.category.coding:loinc-subcategory">
+    <element id="Observation.category.coding:loinc-microbiology-studies">
       <path value="Observation.category.coding" />
-      <sliceName value="loinc-subcategory" />
+      <sliceName value="loinc-microbiology-studies" />
       <min value="1" />
       <max value="1" />
       <patternCoding>
