@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="HiGHmedInfectionControlVirulenzfaktor" />
   <url value="http://highmed.org/fhir/StructureDefinition/ic/Virulenzfaktor" />
-  <name value="Virulenzfaktor" />
-  <title value="HiGHmed- Infection Control- Virulenzfaktor" />
+  <name value="HiGHmedInfectionControlVirulenzfaktor" />
+  <title value="HiGHmed - Infection Control- Virulenzfaktor" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <mapping>
