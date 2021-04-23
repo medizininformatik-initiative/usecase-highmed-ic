@@ -4,7 +4,7 @@
     "versionId": "1",
     "lastUpdated": "2021-02-18T12:36:23.023+00:00"
   },
-  "url": "http://highmed.org/ValueSet/testanforderungen-mikrobiologischer-befund-loinc",
+  "url": "http://highmed.org/fhir/ValueSet/ic/testanforderungen-mikrobiologischer-befund-loinc",
   "version": "1.0",
   "title": "HiGHmed Testanforderungen im Mikrobiologischen Befund [LOINC]",
   "status": "active",

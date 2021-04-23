@@ -240,7 +240,7 @@
       <min value="1" />
       <binding>
         <strength value="example" />
-        <valueSet value="http://highmed.org/ValueSet/susceptibilitypanels" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/susceptibilitypanels" />
       </binding>
     </element>
     <element id="Observation.subject">

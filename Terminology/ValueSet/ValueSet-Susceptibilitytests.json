@@ -4,7 +4,7 @@
     "versionId": "3",
     "lastUpdated": "2021-02-18T12:12:35.001+00:00"
   },
-  "url": "http://highmed.org/ValueSet/antiinfektiva-resistenzbestimmung-loinc",
+  "url": "http://highmed.org/fhir/ValueSet/ic/antiinfektiva-resistenzbestimmung-loinc",
   "version": "1.0",
   "title": "HiGHmed Antiinfektiva-Resistenzbestimmung [LOINC]",
   "status": "active",

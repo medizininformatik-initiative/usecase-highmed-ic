@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="mre-klasse" />
-    <url value="http://highmed.org/CodeSystem/mre-klassen-lokal" />
+    <url value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
     <version value="0.1" />
     <name value="MRE Klasse" />
     <title value="MRE Klasse" />

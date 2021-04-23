@@ -63,7 +63,7 @@
       <path value="ServiceRequest.code" />
       <binding>
         <strength value="extensible" />
-        <valueSet value="http://highmed.org/ValueSet/testanforderungen-mikrobiologischer-befund-loinc" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/testanforderungen-mikrobiologischer-befund-loinc" />
       </binding>
     </element>
     <element id="ServiceRequest.requester">

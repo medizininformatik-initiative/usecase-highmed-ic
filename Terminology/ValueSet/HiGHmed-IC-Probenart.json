@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://highmed.org/fhir/ValueSet/probenart",
+  "url": "http://highmed.org/fhir/ValueSet/ic/probenart",
   "version": "1.0",
   "title": "HiGHmed Probenart im Mikrobiologischen Befund",
   "status": "active",

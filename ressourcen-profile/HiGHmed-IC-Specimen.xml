@@ -88,7 +88,7 @@
       </fixedCoding>
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/CodeSystem/probenart" />
+        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/probenart" />
       </binding>
     </element>
     <element id="Specimen.type.coding.system">
@@ -103,7 +103,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://highmed.org/ValueSet/probenart-mikrobiologischer-befund-snomedct" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenart-mikrobiologischer-befund-snomedct" />
       </binding>
     </element>
     <element id="Specimen.subject">
@@ -174,7 +174,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
-        <valueSet value="http://highmed.org/ValueSet/probenentnahmestelle-mikrobiologischer-befund-snomedct" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-mikrobiologischer-befund-snomedct" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -203,7 +203,7 @@
       <min value="1" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://highmed.org/ValueSet/probenentnahmestelle-anatomische-lokalisation-snomedct" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-anatomische-lokalisation-snomedct" />
       </binding>
     </element>
     <element id="Specimen.condition">
