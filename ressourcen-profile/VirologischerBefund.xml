@@ -68,11 +68,11 @@
       <short value="Zeitpunkt Ergebnis-Status" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.value[x]" />
+      <path value="Observation.valueCodeableConcept" />
       <sliceName value="valueCodeableConcept" />
       <binding>
         <strength value="required" />
-        <valueSet value="https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/detected-not-detected-inconclusive" />
       </binding>
     </element>
     <element id="Observation.interpretation">
