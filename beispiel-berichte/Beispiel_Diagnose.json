@@ -1,0 +1,40 @@
+{
+	
+    "resourceType": "Condition",
+    "id": "234",
+    "meta": {
+        "profile":  [
+            "http://highmed.org/fhir/StructureDefinition/ic/Condition"
+        ]
+    },
+
+
+    "code": {
+        "coding":  [
+           {
+                     "system": "http://fhir.de/CodeSystem/dimdi/icd-10-gm",
+
+			},
+			           {
+                     "system": "http://fhir.de/CodeSystem/dimdi/alpha-id",
+
+			},
+			           {
+                     "system": "http://snomed.info/sct",
+
+			},
+			           {
+                     "system": "http://www.orpha.net",
+
+			}
+        ],
+
+    },
+
+        "subject": {
+        "reference": "Patient/123"
+    },
+
+   "recordedDate": "2021-05-16T08:49:21+02:00"
+
+}

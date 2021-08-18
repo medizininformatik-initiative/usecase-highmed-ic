@@ -1,0 +1,80 @@
+    {
+    "resourceType": "Observation",
+    "id": "234",
+    "meta": {
+        "profile":  [
+            "http://highmed.org/StructureDefinition/VirologischerBefund"
+        ]
+    },
+       "identifier":  [
+        {
+            "type": {
+                "coding":  [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "OBI"
+                    }
+                ]
+            },
+            "system": "https://www.charite.de/fhir/CodeSystem/lab-identifiers",
+            "value": "94500-6_SARS-CoV-2-RNA-Presence-in-Respiratory-specimen",
+            "assigner": {
+            "reference": "Organization/Charite"
+            }
+        }
+    ],
+    "status": "final",
+    "category":  [
+        {
+            "coding":  [
+                {
+                    "system": "http://loinc.org",
+                    "code": "26436-6"
+                },
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                    "code": "laboratory"
+                },
+               {
+                    "system": "http://snomed.info/sct",
+                    "code": "122442008",
+                    "display": "Detection of virus (procedure)"
+}
+            ]
+        }
+    ],
+    "code": {
+        "coding":  [
+           {
+                     "system": "http://loinc.org",
+                     "code": "11475-1"
+}
+        ],
+        "text": "SARS-CoV-2-RNA (PCR)"
+    },
+        "subject": {
+        "reference": "Patient/123"
+    },
+     "encounter": {
+        "reference": "Encounter/123e"
+    },
+    "effectiveDateTime": "2021-05-16T08:49:21+02:00",
+    "valueCodeableConcept": {
+        "coding":  [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "260373001",
+                "display": "Detected (qualifier value)"
+            }
+        ],
+        "text": "SARS-CoV-2-RNA positiv"
+    },
+     "specimen": {
+        "reference": "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
+    },
+
+        "result": {
+        "reference": "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
+    }
+
+    }

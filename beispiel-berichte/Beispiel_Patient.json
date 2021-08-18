@@ -1,0 +1,94 @@
+{
+	
+   "resourceType": "Patient",
+   "id": "234",
+    "meta": {
+        "profile":  [
+            "http://highmed.org/fhir/StructureDefinition/ic/Patient"
+        ]
+    },	
+
+
+       "identifier":  [
+        {
+        	"versichertenId_GKV":[
+        {
+            "type": {
+                "coding":  [
+                    {
+                        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                        "code": "GKV"
+                    }
+                ]
+            },
+            "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+            "value": "123456",
+            "assigner": {
+                "reference": "Organization/Charite"
+            }
+        }
+    	],
+
+        	"pid":[
+        {
+            "type": {
+                "coding":  [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "MR"
+                    }
+                ]
+            },
+            "system": "http://www.acme.com/identifiers/patient",
+            "value": "123456",
+            "assigner": {
+                "reference": "Organization/Charite"
+            }
+        }
+    	],
+
+        	"versicherungsnummer_pkv":[
+        {
+            "type": {
+                "coding":  [
+                    {
+                        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                        "code": "PKV"
+                    }
+                ]
+            },
+            "value": "123456",
+            "assigner": {
+                "reference": "Organization/Charite"
+            }
+        }
+    	],
+
+        }
+    ],
+
+       "name":  [
+        {
+        	"use" : "official",
+            "family": "Özdin",
+            "given" : "Berkay"
+
+        }
+    ],
+
+
+	"birthDate": "19.05.1993",
+	"gender" : "male",
+	
+       "address":  [
+        {
+        	"line" : "137 Nowhere Street",
+            "city": "Erewhon",
+            "postal code" : "9132",
+            "country" : "Germany"
+
+        }
+    ]
+
+
+}
