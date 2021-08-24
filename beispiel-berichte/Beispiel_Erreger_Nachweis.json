@@ -59,8 +59,8 @@
     "valueCodeableConcept": {
         "coding":  [
             {
-                "system": "not set",
-                "code": "not set",
+                "system": "http://snomed.info/sct",
+                "code": "413414001",
             }
         ],
     },

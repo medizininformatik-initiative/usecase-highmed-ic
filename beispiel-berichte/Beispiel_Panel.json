@@ -47,7 +47,7 @@
         "coding":  [
            {
                  "system": "http://loinc.org",
-                 "code": "not set"
+                 "code": "1-8"
             }
         ],
     },
