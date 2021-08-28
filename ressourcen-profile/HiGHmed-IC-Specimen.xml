@@ -140,6 +140,7 @@
     </element>
     <element id="Specimen.collection">
       <path value="Specimen.collection" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Specimen.collection.collector">
@@ -157,6 +158,7 @@
       <path value="Specimen.collection.collected[x]" />
       <label value="Zeitpunkt der Probenentnahme" />
       <definition value="Das Datum und die Uhrzeit, zu der die Probennahme angeordnet wurde oder stattfand." />
+      <min value="1" />
       <condition value="dom-4" />
       <mustSupport value="true" />
       <mapping>
