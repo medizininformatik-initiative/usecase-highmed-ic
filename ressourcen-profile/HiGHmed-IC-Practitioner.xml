@@ -238,32 +238,23 @@
     </element>
     <element id="Practitioner.telecom">
       <path value="Practitioner.telecom" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
       <mustSupport value="true" />
     </element>
-    <element id="Practitioner.telecom:Telefon">
+    <element id="Practitioner.telecom">
       <path value="Practitioner.telecom" />
-      <sliceName value="Telefon" />
       <mustSupport value="true" />
     </element>
-    <element id="Practitioner.telecom:Telefon.system">
+    <element id="Practitioner.telecom.system">
       <path value="Practitioner.telecom.system" />
       <min value="1" />
-      <fixedCode value="phone" />
       <mustSupport value="true" />
     </element>
-    <element id="Practitioner.telecom:Telefon.value">
+    <element id="Practitioner.telecom.value">
       <path value="Practitioner.telecom.value" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Practitioner.telecom:Telefon.rank">
+    <element id="Practitioner.telecom.rank">
       <path value="Practitioner.telecom.rank" />
       <mustSupport value="true" />
     </element>
