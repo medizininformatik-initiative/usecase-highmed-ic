@@ -242,14 +242,6 @@
     <element id="Observation.subject">
       <path value="Observation.subject" />
       <min value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location" />
-        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-      </type>
       <mustSupport value="true" />
     </element>
     <element id="Observation.encounter">
@@ -297,7 +289,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/StructureDefinition/ic/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>
