@@ -21,9 +21,7 @@
             "assigner": {
                 "reference": "Organization/Charite"
             }
-        }
-    ],
-    "pid": [
+        },
         {
             "type": {
                 "coding": [
@@ -38,9 +36,7 @@
             "assigner": {
                 "reference": "Organization/Charite"
             }
-        }
-    ],
-    "versicherungsnummer_pkv": [
+        },
         {
             "type": {
                 "coding": [
@@ -56,23 +52,21 @@
             }
         }
     ],
-}
-],
-"name": [
-{
-    "use": "official",
-    "family": "Özdin",
-    "given": "Berkay"
-}
-],
-"birthDate": "19.05.1993",
-"gender": "male",
-"address": [
-{
-    "line": "137 Nowhere Street",
-    "city": "Erewhon",
-    "postal code": "9132",
-    "country": "Germany"
-}
-]
+    "name": [
+        {
+            "use": "official",
+            "family": "Özdin",
+            "given": "Berkay"
+        }
+    ],
+    "birthDate": "19.05.1993",
+    "gender": "male",
+    "address": [
+        {
+            "line": "137 Nowhere Street",
+            "city": "Erewhon",
+            "postal code": "9132",
+            "country": "Germany"
+        }
+    ]
 }
