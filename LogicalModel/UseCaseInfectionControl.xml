@@ -905,7 +905,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-        <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis">
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis">
       <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis" />
       <min value="0" />
       <max value="*" />
@@ -1065,8 +1065,16 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Analyseergebnis-Reihenfolge">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Analyseergebnis-Reihenfolge" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Analyseergebnis-Reihenfolge">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Analyseergebnis-Reihenfolge" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1074,8 +1082,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Virusnachweistest">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Virusnachweistest" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Virusnachweistest">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Virusnachweistest" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1083,8 +1091,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Nachweis">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Nachweis" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Nachweis">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Nachweis" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1092,8 +1100,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.QuantitativesErgebnis">
-      <path value="UseCaseInfectionControl.Serologischerbefund.QuantitativesErgebnis" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.QuantitativesErgebnis">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.QuantitativesErgebnis" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1101,8 +1109,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Quantity" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Interpretation">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Interpretation" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Interpretation">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Interpretation" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1110,8 +1118,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.ZeitpunktderValidierung">
-      <path value="UseCaseInfectionControl.Serologischerbefund.ZeitpunktderValidierung" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.ZeitpunktderValidierung">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.ZeitpunktderValidierung" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1119,8 +1127,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/time" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Ergebnis-Status">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Ergebnis-Status" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Ergebnis-Status">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Ergebnis-Status" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1128,8 +1136,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.ZeitpunktErgebnis-Status">
-      <path value="UseCaseInfectionControl.Serologischerbefund.ZeitpunktErgebnis-Status" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.ZeitpunktErgebnis-Status">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.ZeitpunktErgebnis-Status" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1137,8 +1145,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/time" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.ZugehörigeLaborprobe">
-      <path value="UseCaseInfectionControl.Serologischerbefund.ZugehörigeLaborprobe" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.ZugehörigeLaborprobe">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.ZugehörigeLaborprobe" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1146,8 +1154,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Kommentar">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Kommentar" />
+    <element id="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Kommentar">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Antikoerpernachweis.Kommentar" />
       <min value="0" />
       <max value="*" />
       <type>
