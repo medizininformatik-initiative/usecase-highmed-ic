@@ -44,7 +44,7 @@
       <mustSupport value="true" />
     </element>
     <element id="Organization.extension:zusaetzlicheBeschreibung">
-      <path value="Encounter.extension" />
+      <path value="Organization.extension" />
       <sliceName value="zusaetzlicheBeschreibung" />
       <max value="1" />
       <type>
