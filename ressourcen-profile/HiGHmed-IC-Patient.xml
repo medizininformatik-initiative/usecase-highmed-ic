@@ -16,35 +16,19 @@
   <differential>
     <element id="Patient.telecom">
       <path value="Patient.telecom" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
       <mustSupport value="true" />
     </element>
-    <element id="Patient.telecom:Telefon">
-      <path value="Patient.telecom" />
-      <sliceName value="Telefon" />
-      <patternContactPoint>
-        <system value="phone" />
-      </patternContactPoint>
-      <mustSupport value="true" />
-    </element>
-    <element id="Patient.telecom:Telefon.system">
+    <element id="Patient.telecom.system">
       <path value="Patient.telecom.system" />
       <min value="1" />
-      <fixedCode value="phone" />
       <mustSupport value="true" />
     </element>
-    <element id="Patient.telecom:Telefon.value">
+    <element id="Patient.telecom.value">
       <path value="Patient.telecom.value" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Patient.telecom:Telefon.rank">
+    <element id="Patient.telecom.rank">
       <path value="Patient.telecom.rank" />
       <mustSupport value="true" />
     </element>
