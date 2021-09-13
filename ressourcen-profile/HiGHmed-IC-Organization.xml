@@ -32,24 +32,51 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Organization" />
   <derivation value="constraint" />
   <differential>
+    <element id="Organization.extension">
+      <path value="Organization.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.extension:zusaetzlicheBeschreibung">
+      <path value="Encounter.extension" />
+      <sliceName value="zusaetzlicheBeschreibung" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment" />
+      </type>
+      <mustSupport value="true" />
+    </element>
     <element id="Organization.identifier">
       <path value="Organization.identifier" />
       <short value="Organisationsschlüssel" />
       <comment value="[Anhang 1 der BPflV (31.12.2003)]" />
       <min value="1" />
       <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Organization.active">
+      <path value="Organization.active" />
+      <mustSupport value="true" />
     </element>
     <element id="Organization.type">
       <path value="Organization.type" />
-      <code>
-        <system value="http://hl7.org/fhir/ValueSet/organization-type" />
-      </code>
       <short value="Art der Organisationseinheit." />
       <definition value="Comment: Zum Beispiel: Fachabteilung im Krankenhaus, Versicherungsunternehmen, Sponsor" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
     </element>
-    <element id="Organization.type.coding.system">
-      <path value="Organization.type.coding.system" />
-      <fixedUri value="http://hl7.org/fhir/ValueSet/organization-type" />
+    <element id="Organization.name">
+      <path value="Organization.name" />
+      <min value="1" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
