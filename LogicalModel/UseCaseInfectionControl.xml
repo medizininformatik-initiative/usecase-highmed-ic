@@ -374,7 +374,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-        <element id="UseCaseInfectionControl.Prozedur">
+    <element id="UseCaseInfectionControl.Prozedur">
       <path value="UseCaseInfectionControl.Prozedur" />
       <short value="Ein Dokument zur Übermittlung von Informationen an andere, meist als Antwort auf eine Anfrage." />
       <min value="0" />
@@ -577,6 +577,65 @@
     </element>
     <element id="UseCaseInfectionControl.Probendetails.Kommentar">
       <path value="UseCaseInfectionControl.Probendetails.Kommentar" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Empfängerstandort">
+      <path value="UseCaseInfectionControl.Empfängerstandort" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Empfängerstandort.Typ">
+      <path value="UseCaseInfectionControl.Empfängerstandort.Typ" />
+      <short value="Art der Organisationseinheit." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Empfängerstandort.Name">
+      <path value="UseCaseInfectionControl.Empfängerstandort.Name" />
+      <short value="Bezeichnung für die Organisationseinheit" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Empfängerstandort.Organisationsschlüssel">
+      <path value="UseCaseInfectionControl.Empfängerstandort.Organisationsschlüssel" />
+      <short value="Eindeutiger Identifikator der Organisationseinheit." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Empfängerstandort.Aktiv-Inaktiv">
+      <path value="UseCaseInfectionControl.Empfängerstandort.Aktiv-Inaktiv" />
+      <short value="Gibt an, ob die Organisationseinheit noch aktiv ist." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="boolean" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/boolean" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Empfängerstandort.ZusätzlicheBeschreibung">
+      <path value="UseCaseInfectionControl.Empfängerstandort.ZusätzlicheBeschreibung" />
+      <short value="Zusätzliche Informationen" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -804,65 +863,6 @@
     </element>
     <element id="UseCaseInfectionControl.Mikrobiologischerbefund.Kultur.Kommentar">
       <path value="UseCaseInfectionControl.Mikrobiologischerbefund.Kultur.Kommentar" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Empfängerstandort">
-      <path value="UseCaseInfectionControl.Empfängerstandort" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Empfängerstandort.Typ">
-      <path value="UseCaseInfectionControl.Empfängerstandort.Typ" />
-      <short value="Art der Organisationseinheit." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Empfängerstandort.Name">
-      <path value="UseCaseInfectionControl.Empfängerstandort.Name" />
-      <short value="Bezeichnung für die Organisationseinheit" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Empfängerstandort.Organisationsschlüssel">
-      <path value="UseCaseInfectionControl.Empfängerstandort.Organisationsschlüssel" />
-      <short value="Eindeutiger Identifikator der Organisationseinheit." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Empfängerstandort.Aktiv-Inaktiv">
-      <path value="UseCaseInfectionControl.Empfängerstandort.Aktiv-Inaktiv" />
-      <short value="Gibt an, ob die Organisationseinheit noch aktiv ist." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="boolean" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/boolean" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Empfängerstandort.ZusätzlicheBeschreibung">
-      <path value="UseCaseInfectionControl.Empfängerstandort.ZusätzlicheBeschreibung" />
-      <short value="Zusätzliche Informationen" />
       <min value="0" />
       <max value="*" />
       <type>
