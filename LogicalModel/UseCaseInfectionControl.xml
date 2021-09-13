@@ -156,8 +156,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Person.Telefonnummer">
-      <path value="UseCaseInfectionControl.Person.Telefonnummer" />
+    <element id="UseCaseInfectionControl.Person.Kontaktdaten">
+      <path value="UseCaseInfectionControl.Person.Kontaktdaten" />
       <min value="0" />
       <max value="*" />
       <type>
