@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/VirologischerBefund" />
-  <name value="VirologischerBefund" />
-  <title value="HiGHmed- Infection Control- Virologischer Befund" />
+  <url value="http://highmed.org/StructureDefinition/SerologischerBefund" />
+  <name value="SerologischerBefund" />
+  <title value="HiGHmed- Infection Control- Serologischer Befund" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
@@ -26,8 +26,8 @@
       <max value="1" />
       <fixedCoding>
         <system value="http://snomed.info/sct" />
-        <code value="122442008" />
-        <display value="Detection of virus (procedure)" />
+        <code value="68793005" />
+        <display value="Serologic test (procedure)" />
       </fixedCoding>
     </element>
     <element id="Observation.category.coding:snomedct-subcategory.system">
@@ -51,7 +51,7 @@
       <binding>
         <strength value="example" />
         <description value="Nachweis test" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/sarscov2detectiontests-loinc" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/sarscov2serologictests-loinc" />
       </binding>
     </element>
     <element id="Observation.encounter">

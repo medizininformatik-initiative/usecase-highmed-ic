@@ -68,12 +68,13 @@
         <severity value="error" />
         <human value="Falls ein Isolat kodiert wird, muss die Probe auch angeben werden" />
         <expression value="$this.coding.where(code = '429951000124103' and system = 'http://snomed.info/sct').exists() implies %resource.parent.exists()" />
+        <source value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
       </constraint>
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
         <description value="Use Case IC Probenart" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/probenart" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenart" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -139,6 +140,7 @@
     </element>
     <element id="Specimen.collection">
       <path value="Specimen.collection" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Specimen.collection.collector">
@@ -156,6 +158,7 @@
       <path value="Specimen.collection.collected[x]" />
       <label value="Zeitpunkt der Probenentnahme" />
       <definition value="Das Datum und die Uhrzeit, zu der die Probennahme angeordnet wurde oder stattfand." />
+      <min value="1" />
       <condition value="dom-4" />
       <mustSupport value="true" />
       <mapping>
@@ -202,7 +205,7 @@
       <path value="Specimen.collection.bodySite.coding.code" />
       <min value="1" />
       <binding>
-        <strength value="preferred" />
+        <strength value="extensible" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-anatomische-lokalisation-snomedct" />
       </binding>
     </element>

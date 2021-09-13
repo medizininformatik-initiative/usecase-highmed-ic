@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/Virulenzfaktor" />
-  <name value="Virulenzfaktor" />
-  <title value="HiGHmed- Infection Control- Virulenzfaktor" />
+  <id value="HiGHmedInfectionControlVirulenzfaktor" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/Virulenzfaktor" />
+  <name value="HiGHmedInfectionControlVirulenzfaktor" />
+  <title value="HiGHmed - Infection Control- Virulenzfaktor" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <mapping>
@@ -41,6 +42,18 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
+    <element id="Observation.id">
+      <path value="Observation.id" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.meta">
+      <path value="Observation.meta" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.meta.profile">
+      <path value="Observation.meta.profile" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.identifier">
       <path value="Observation.identifier" />
       <slicing>
@@ -184,25 +197,16 @@
       <fixedCode value="laboratory" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.category.coding:loinc-subcategory">
+    <element id="Observation.category.coding:loinc-microbiology-studies">
       <path value="Observation.category.coding" />
-      <sliceName value="loinc-subcategory" />
+      <sliceName value="loinc-microbiology-studies" />
       <min value="1" />
       <max value="1" />
-    </element>
-    <element id="Observation.category.coding:loinc-subcategory.system">
-      <path value="Observation.category.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.category.coding:loinc-subcategory.code">
-      <path value="Observation.category.coding.code" />
-      <min value="1" />
-      <fixedCode value="18725-2" />
-    </element>
-    <element id="Observation.category.coding:loinc-subcategory.display">
-      <path value="Observation.category.coding.display" />
-      <fixedString value="Microbiology studies" />
+      <patternCoding>
+        <system value="http://loinc.org" />
+        <code value="18725-2" />
+      </patternCoding>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
@@ -221,25 +225,19 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <max value="1" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.code.coding:loinc">
+    <element id="Observation.code.coding:sct">
       <path value="Observation.code.coding" />
-      <sliceName value="loinc" />
+      <sliceName value="sct" />
+      <min value="1" />
       <max value="1" />
-    </element>
-    <element id="Observation.code.coding:loinc.system">
-      <path value="Observation.code.coding.system" />
-      <min value="1" />
-    </element>
-    <element id="Observation.code.coding:loinc.code">
-      <path value="Observation.code.coding.code" />
-      <min value="1" />
-    </element>
-    <element id="Observation.code.text">
-      <path value="Observation.code.text" />
-      <fixedString value="Virulenzfaktor" />
+      <patternCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="250475009" />
+      </patternCoding>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -272,9 +270,11 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
+      <min value="1" />
       <type>
         <code value="string" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
@@ -297,7 +297,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
+        <targetProfile value="http://highmed.org/StructureDefinition/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>

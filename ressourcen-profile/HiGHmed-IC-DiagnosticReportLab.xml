@@ -46,7 +46,7 @@
       <max value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/MicrobiologyDiagnosticReport" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/MicrobiologyDiagnosticReport" />
       </binding>
     </element>
     <element id="DiagnosticReport.resultsInterpreter">

@@ -1,0 +1,28 @@
+{
+
+   "resourceType": "Provenance",
+   "id": "234",
+    "meta": {
+        "profile":  [
+            "http://highmed.org/fhir/StructureDefinition/ic/LetztesDokumentationsdatum"
+        ]
+    },  
+
+
+      "target":  
+        {
+            "reference": "http://highmed.org/fhir/StructureDefinition/Condition"
+        },
+
+    "recorded":  "2021-05-16T08:49:21+02:00",
+    "agent":  [
+        {
+            "who": {
+                "reference":  "Practitioner",
+            }
+        }
+    ]
+
+
+
+}

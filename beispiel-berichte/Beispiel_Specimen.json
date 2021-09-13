@@ -1,0 +1,33 @@
+{
+	"resourceType": "Observation",
+    "id": "234",
+    "meta": {
+        "profile":  [
+            "http://highmed.org/fhir/StructureDefinition/ic/Specimen"
+        ]
+    },
+
+       "accessionIdentifier":  [
+        {
+            "system": "https://www.charite.de/fhir/CodeSystem/lab-identifiers",
+            "assigner": {
+            "reference": "Organization/Charite"
+            }
+        }
+    ],    
+
+            "type": {
+                "coding":  [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "123038009"
+                    }
+                ]
+            },
+                    "subject": {
+        "reference": "Patient/123"
+    },
+            
+
+
+}
