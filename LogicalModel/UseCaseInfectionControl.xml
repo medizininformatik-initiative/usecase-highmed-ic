@@ -870,6 +870,292 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund">
+      <path value="UseCaseInfectionControl.Virologischerbefund" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.BerichtID">
+      <path value="UseCaseInfectionControl.Virologischerbefund.BerichtID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Status">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Status" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Fall-Kennung">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Fall-Kennung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Labortest-Bezeichnung">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Labortest-Bezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Analyseergebnis-Reihenfolge">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Analyseergebnis-Reihenfolge" />
+      <definition value="Die beabsichtigte Position dieses Analyseergebnisses in der Reihenfolge aller Analyseergebnisse.&#xD;&#xA;Comment: z.B. '1', '2', '3'. Werden mehrere Analysenergebnisse berichtet, gibt die Analyseergebnis-Reihenfolge explizit die Reihenfolge der Analyseergebnisse an." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweistest">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweistest" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Nachweis">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Nachweis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.QuantitativesErgebnis">
+      <path value="UseCaseInfectionControl.Virologischerbefund.QuantitativesErgebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Quantity" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Quantity" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Interpretation">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Interpretation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.ZeitpunktderValidierung">
+      <path value="UseCaseInfectionControl.Virologischerbefund.ZeitpunktderValidierung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="dateTime" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Ergebnis-Status">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Ergebnis-Status" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.ZeitpunktErgebnis-Status">
+      <path value="UseCaseInfectionControl.Virologischerbefund.ZeitpunktErgebnis-Status" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.ZugehörigeLaborprobe">
+      <path value="UseCaseInfectionControl.Virologischerbefund.ZugehörigeLaborprobe" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.KommentarAnalyt">
+      <path value="UseCaseInfectionControl.Virologischerbefund.KommentarAnalyt" />
+      <short value="Kommentar zum Analyt-Ergebnis, soweit noch nicht in anderen Feldern erfasst." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.KommentarEreignis">
+      <path value="UseCaseInfectionControl.Virologischerbefund.KommentarEreignis" />
+      <short value="Weitere Informationen über das Laborergebnis, welche bisher nicht in den anderen Feldern erfasst wurden" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund">
+      <path value="UseCaseInfectionControl.Serologischerbefund" />
+      <definition value="Das Model dient dazu einen serologischen Befund strukturiert abzubilden." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.BerichtID">
+      <path value="UseCaseInfectionControl.Serologischerbefund.BerichtID" />
+      <short value="Eindeutige Identifikation des Berichts." />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Status">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Status" />
+      <short value="Status des gesamten Ergebnisberichts." />
+      <definition value="Hinweis: Dies ist nicht der Status einzelner Berichtskomponenten." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Fall-Kennung">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Fall-Kennung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Labortest-Bezeichnung">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Labortest-Bezeichnung" />
+      <short value="Der Bezeichner/die Kennung dieses Falls." />
+      <comment value="DiagnosticReport.code" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Analyseergebnis-Reihenfolge">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Analyseergebnis-Reihenfolge" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Virusnachweistest">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Virusnachweistest" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Nachweis">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Nachweis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.QuantitativesErgebnis">
+      <path value="UseCaseInfectionControl.Serologischerbefund.QuantitativesErgebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Quantity" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Quantity" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Interpretation">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Interpretation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.ZeitpunktderValidierung">
+      <path value="UseCaseInfectionControl.Serologischerbefund.ZeitpunktderValidierung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="time" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/time" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Ergebnis-Status">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Ergebnis-Status" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.ZeitpunktErgebnis-Status">
+      <path value="UseCaseInfectionControl.Serologischerbefund.ZeitpunktErgebnis-Status" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="time" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/time" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.ZugehörigeLaborprobe">
+      <path value="UseCaseInfectionControl.Serologischerbefund.ZugehörigeLaborprobe" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Serologischerbefund.Kommentar">
+      <path value="UseCaseInfectionControl.Serologischerbefund.Kommentar" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
     <element id="UseCaseInfectionControl.DetailsderTestanforderung">
       <path value="UseCaseInfectionControl.DetailsderTestanforderung" />
       <definition value="Details zur Testanforderung.&#xD;&#xA;Comment: In den meisten Fällen gibt es eine Testanfrage und ein einzelnes entsprechendes Testergebnis. Jedoch ermöglicht dieser wiederholte Cluster die Situation, dass mehrere Testanfragen mit einem einzigen Testergebnis gemeldet werden können. Als Beispiel: &quot;Ein Arzt fordert in einer Anfrage Blutzucker und in einer zweiten Anfrage Harnstoff/Elektrolyte an, aber das Laboranalysegerät führt beides durch und das Labor möchte diese zusammen melden&quot;." />
@@ -1840,292 +2126,6 @@
       <type>
         <code value="CodeableConcept" />
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund">
-      <path value="UseCaseInfectionControl.Virologischerbefund" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.BerichtID">
-      <path value="UseCaseInfectionControl.Virologischerbefund.BerichtID" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Status">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Status" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Fall-Kennung">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Fall-Kennung" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Labortest-Bezeichnung">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Labortest-Bezeichnung" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Analyseergebnis-Reihenfolge">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Analyseergebnis-Reihenfolge" />
-      <definition value="Die beabsichtigte Position dieses Analyseergebnisses in der Reihenfolge aller Analyseergebnisse.&#xD;&#xA;Comment: z.B. '1', '2', '3'. Werden mehrere Analysenergebnisse berichtet, gibt die Analyseergebnis-Reihenfolge explizit die Reihenfolge der Analyseergebnisse an." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweistest">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweistest" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Nachweis">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Nachweis" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.QuantitativesErgebnis">
-      <path value="UseCaseInfectionControl.Virologischerbefund.QuantitativesErgebnis" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Quantity" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Quantity" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Interpretation">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Interpretation" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.ZeitpunktderValidierung">
-      <path value="UseCaseInfectionControl.Virologischerbefund.ZeitpunktderValidierung" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="dateTime" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Ergebnis-Status">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Ergebnis-Status" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.ZeitpunktErgebnis-Status">
-      <path value="UseCaseInfectionControl.Virologischerbefund.ZeitpunktErgebnis-Status" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.ZugehörigeLaborprobe">
-      <path value="UseCaseInfectionControl.Virologischerbefund.ZugehörigeLaborprobe" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.KommentarAnalyt">
-      <path value="UseCaseInfectionControl.Virologischerbefund.KommentarAnalyt" />
-      <short value="Kommentar zum Analyt-Ergebnis, soweit noch nicht in anderen Feldern erfasst." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.KommentarEreignis">
-      <path value="UseCaseInfectionControl.Virologischerbefund.KommentarEreignis" />
-      <short value="Weitere Informationen über das Laborergebnis, welche bisher nicht in den anderen Feldern erfasst wurden" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund">
-      <path value="UseCaseInfectionControl.Serologischerbefund" />
-      <definition value="Das Model dient dazu einen serologischen Befund strukturiert abzubilden." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="BackboneElement" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.BerichtID">
-      <path value="UseCaseInfectionControl.Serologischerbefund.BerichtID" />
-      <short value="Eindeutige Identifikation des Berichts." />
-      <min value="0" />
-      <max value="1" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Status">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Status" />
-      <short value="Status des gesamten Ergebnisberichts." />
-      <definition value="Hinweis: Dies ist nicht der Status einzelner Berichtskomponenten." />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Fall-Kennung">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Fall-Kennung" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Labortest-Bezeichnung">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Labortest-Bezeichnung" />
-      <short value="Der Bezeichner/die Kennung dieses Falls." />
-      <comment value="DiagnosticReport.code" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Analyseergebnis-Reihenfolge">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Analyseergebnis-Reihenfolge" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Virusnachweistest">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Virusnachweistest" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Nachweis">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Nachweis" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.QuantitativesErgebnis">
-      <path value="UseCaseInfectionControl.Serologischerbefund.QuantitativesErgebnis" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Quantity" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Quantity" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Interpretation">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Interpretation" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.ZeitpunktderValidierung">
-      <path value="UseCaseInfectionControl.Serologischerbefund.ZeitpunktderValidierung" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="time" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/time" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Ergebnis-Status">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Ergebnis-Status" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="code" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.ZeitpunktErgebnis-Status">
-      <path value="UseCaseInfectionControl.Serologischerbefund.ZeitpunktErgebnis-Status" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="time" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/time" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.ZugehörigeLaborprobe">
-      <path value="UseCaseInfectionControl.Serologischerbefund.ZugehörigeLaborprobe" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="Identifier" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
-      </type>
-    </element>
-    <element id="UseCaseInfectionControl.Serologischerbefund.Kommentar">
-      <path value="UseCaseInfectionControl.Serologischerbefund.Kommentar" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
   </differential>
