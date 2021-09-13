@@ -33,6 +33,15 @@
         <code value="BackboneElement" />
       </type>
     </element>
+    <element id="UseCaseInfectionControl.Person.PersonenID">
+      <path value="UseCaseInfectionControl.Person.PersonenID" />
+      <short value="Identifizierungsmerkmal der Person (PID bei Patient, Mitarbeiter-ID bei Heilberufler)" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
     <element id="UseCaseInfectionControl.Person.ArtderPerson">
       <path value="UseCaseInfectionControl.Person.ArtderPerson" />
       <short value="Art der Person" />
