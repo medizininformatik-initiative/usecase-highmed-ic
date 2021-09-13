@@ -905,8 +905,16 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Analyseergebnis-Reihenfolge">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Analyseergebnis-Reihenfolge" />
+        <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Analyseergebnis-Reihenfolge">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Analyseergebnis-Reihenfolge" />
       <definition value="Die beabsichtigte Position dieses Analyseergebnisses in der Reihenfolge aller Analyseergebnisse.&#xD;&#xA;Comment: z.B. '1', '2', '3'. Werden mehrere Analysenergebnisse berichtet, gibt die Analyseergebnis-Reihenfolge explizit die Reihenfolge der Analyseergebnisse an." />
       <min value="0" />
       <max value="*" />
@@ -915,8 +923,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweistest">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweistest" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Virusnachweistest">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Virusnachweistest" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -924,8 +932,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Nachweis">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Nachweis" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Nachweis">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Nachweis" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -933,8 +941,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.QuantitativesErgebnis">
-      <path value="UseCaseInfectionControl.Virologischerbefund.QuantitativesErgebnis" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.QuantitativesErgebnis">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.QuantitativesErgebnis" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -942,8 +950,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Quantity" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Interpretation">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Interpretation" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Interpretation">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Interpretation" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -951,8 +959,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.ZeitpunktderValidierung">
-      <path value="UseCaseInfectionControl.Virologischerbefund.ZeitpunktderValidierung" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.ZeitpunktderValidierung">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.ZeitpunktderValidierung" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -960,8 +968,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.Ergebnis-Status">
-      <path value="UseCaseInfectionControl.Virologischerbefund.Ergebnis-Status" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Ergebnis-Status">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.Ergebnis-Status" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -969,8 +977,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.ZeitpunktErgebnis-Status">
-      <path value="UseCaseInfectionControl.Virologischerbefund.ZeitpunktErgebnis-Status" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.ZeitpunktErgebnis-Status">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.ZeitpunktErgebnis-Status" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -978,8 +986,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.ZugehörigeLaborprobe">
-      <path value="UseCaseInfectionControl.Virologischerbefund.ZugehörigeLaborprobe" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.ZugehörigeLaborprobe">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.ZugehörigeLaborprobe" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -987,8 +995,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.KommentarAnalyt">
-      <path value="UseCaseInfectionControl.Virologischerbefund.KommentarAnalyt" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.KommentarAnalyt">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.KommentarAnalyt" />
       <short value="Kommentar zum Analyt-Ergebnis, soweit noch nicht in anderen Feldern erfasst." />
       <min value="0" />
       <max value="*" />
@@ -997,8 +1005,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Virologischerbefund.KommentarEreignis">
-      <path value="UseCaseInfectionControl.Virologischerbefund.KommentarEreignis" />
+    <element id="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.KommentarEreignis">
+      <path value="UseCaseInfectionControl.Virologischerbefund.Virusnachweis.KommentarEreignis" />
       <short value="Weitere Informationen über das Laborergebnis, welche bisher nicht in den anderen Feldern erfasst wurden" />
       <min value="0" />
       <max value="*" />
