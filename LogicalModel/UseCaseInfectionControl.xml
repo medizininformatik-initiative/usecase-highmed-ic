@@ -692,15 +692,6 @@
         <text value="Microbiology studies" />
       </fixedCodeableConcept>
     </element>
-    <element id="UseCaseInfectionControl.Mikrobiologischerbefund.Testmethode">
-      <path value="UseCaseInfectionControl.Mikrobiologischerbefund.Testmethode" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="CodeableConcept" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
-      </type>
-    </element>
     <element id="UseCaseInfectionControl.Mikrobiologischerbefund.Kultur">
       <path value="UseCaseInfectionControl.Mikrobiologischerbefund.Kultur" />
       <short value="Laborergebnis als Panel/Profil von Einzelresultaten. Verbreitet im medizinischen Labor." />
