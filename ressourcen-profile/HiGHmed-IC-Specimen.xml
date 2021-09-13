@@ -82,31 +82,6 @@
         <comment value="v 2.3" />
       </mapping>
     </element>
-    <element id="Specimen.type.coding">
-      <path value="Specimen.type.coding" />
-      <fixedCoding>
-        <system value="http://snomed.info/sct" />
-      </fixedCoding>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/probenart" />
-      </binding>
-    </element>
-    <element id="Specimen.type.coding.system">
-      <path value="Specimen.type.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://snomed.info/sct" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Specimen.type.coding.code">
-      <path value="Specimen.type.coding.code" />
-      <min value="1" />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenart-mikrobiologischer-befund-snomedct" />
-      </binding>
-    </element>
     <element id="Specimen.subject">
       <path value="Specimen.subject" />
       <min value="1" />
@@ -177,37 +152,13 @@
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-mikrobiologischer-befund-snomedct" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-anatomische-lokalisation-snomedct" />
       </binding>
       <mapping>
         <identity value="v2" />
         <map value="OBR-15.4,OBR-15.5" />
         <comment value="v 2.3" />
       </mapping>
-    </element>
-    <element id="Specimen.collection.bodySite.coding">
-      <path value="Specimen.collection.bodySite.coding" />
-      <fixedCoding>
-        <system value="http://snomed.info/sct" />
-      </fixedCoding>
-    </element>
-    <element id="Specimen.collection.bodySite.coding.system">
-      <path value="Specimen.collection.bodySite.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://snomed.info/sct" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Specimen.collection.bodySite.coding.version">
-      <path value="Specimen.collection.bodySite.coding.version" />
-      <fixedString value="http://snomed.info/sct/900000000000207008" />
-    </element>
-    <element id="Specimen.collection.bodySite.coding.code">
-      <path value="Specimen.collection.bodySite.coding.code" />
-      <min value="1" />
-      <binding>
-        <strength value="extensible" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-anatomische-lokalisation-snomedct" />
-      </binding>
     </element>
     <element id="Specimen.condition">
       <path value="Specimen.condition" />
