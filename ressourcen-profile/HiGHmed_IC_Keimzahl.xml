@@ -136,6 +136,9 @@
         <strength value="required" />
         <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/Laborergebnis-semiquantitativ" />
       </binding>
+      <type>
+        <code value="CodeableConcept" />
+      </type>
       <mustSupport value="true" />
     </element>
   </differential>
