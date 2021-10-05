@@ -1,30 +1,30 @@
 {
-	"resourceType": "Observation",
-	"id": "234",
-	"meta": {
-	        "profile":  [
-	            "http://highmed.org/fhir/StructureDefinition/ic/Virulenzfaktor"
-	        ]
-	    },
-	           "identifier":  [
-	        {
-	            "type": {
-	                "coding":  [
-	                    {
-	                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-	                        "code": "OBI"
-	                    }
-	                ]
-	            },
-	            "system": "http://www.acme.com/identifiers/patient",
-	            "value": "123456",
-	            "assigner": {
-	                "reference": "Organization/Charite"
-	            }
-	        }
-	    ],
-	"status": "final",
-	"category":  [
+    "resourceType": "Observation",
+    "id": "234",
+    "meta": {
+            "profile":  [
+                "http://highmed.org/fhir/StructureDefinition/ic/Virulenzfaktor"
+            ]
+        },
+               "identifier":  [
+            {
+                "type": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                            "code": "OBI"
+                        }
+                    ]
+                },
+                "system": "http://www.acme.com/identifiers/patient",
+                "value": "123456",
+                "assigner": {
+                    "reference": "Organization/Charite"
+                }
+            }
+        ],
+    "status": "final",
+    "category":  [
         {
             "coding":  [
                 {
@@ -36,9 +36,9 @@
                     "code": "laboratory"
                 },
                 {
-					"system": "http://loinc.org",
-  					"code": "18725-2"
-				}
+                    "system": "http://loinc.org",
+                    "code": "18725-2"
+                }
             ]
         }
     ],
@@ -46,10 +46,10 @@
         "coding":  [
             {
                        "system": "http://snomed.info/sct",
-  						"code": "250475009"
-			}
-        			],
-    		},
+                        "code": "250475009"
+            }
+                    ]
+            },
 
         "subject": {
         "reference": "Patient/123"
@@ -58,9 +58,9 @@
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
     "valueString": "string",
      "specimen": {
-        "reference": "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
+        "reference": "http://highmed.org/StructureDefinition/ic/Specimen"
     }
 
 
 
-}	
+}   

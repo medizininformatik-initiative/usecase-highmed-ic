@@ -38,7 +38,7 @@
                {
                     "system": "http://loinc.org",
                     "code": "18725-2",
-                    "display": "Microbiology Studies"
+                    "display": "Microbiology studies"
                 }
             ]
         }
@@ -49,12 +49,12 @@
                  "system": "http://loinc.org",
                  "code": "1-8"
             }
-        ],
+        ]
     },
         "subject": {
         "reference": "Patient/123"
     },
 
-    "effectiveDateTime": "2021-05-16T08:49:21+02:00",
+    "effectiveDateTime": "2021-05-16T08:49:21+02:00"
   
 }

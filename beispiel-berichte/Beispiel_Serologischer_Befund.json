@@ -37,7 +37,7 @@
                 },
                {
                     "system": "http://snomed.info/sct",
-                    "code": "68793005",
+                    "code": "122442008",
                     "display": "Serologic test (procedure)"
 }
             ]
@@ -59,11 +59,14 @@
         "reference": "Encounter/123e"
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
+    "value": [
+    {
     "valueQuantity": {
 
                 "system": "http://unitsofmeasure.org",
                 "value": "0.1",
                 "unit" : "string",
+                "code": "UCUM"
 
 
     },
@@ -71,10 +74,12 @@
         "coding":  [
             {
                 "system": "http://snomed.info/sct",
-                "code": "260373001",
+                "code": "260373001"
             }
-        ],
-    },
+        ]
+    }
+    }
+],
      "specimen": {
         "reference": "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
     }

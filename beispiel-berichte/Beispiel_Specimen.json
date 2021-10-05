@@ -1,5 +1,5 @@
 {
-	"resourceType": "Observation",
+    "resourceType": "Specimen",
     "id": "234",
     "meta": {
         "profile":  [
@@ -26,7 +26,7 @@
             },
                     "subject": {
         "reference": "Patient/123"
-    },
+    }
             
 
 

@@ -1,15 +1,15 @@
 {
-   "resourceType": "Observation",
+   "resourceType": "ServiceRequest",
    "id": "234",
     "meta": {
         "profile":  [
             "http://highmed.org/StructureDefinition/ic/ServiceRequestLab"
         ]
-    },	
+    },  
 
        "identifier":  [
         {
-        	"anforderung":[
+            "anforderung":[
         {
             "type": {
                 "coding":  [
@@ -25,9 +25,9 @@
                 "reference": "Organization/Charite"
             }
         }
-    	],
+        ],
 
-        	"anforderung-empfaenger":[
+            "anforderung-empfaenger":[
         {
             "type": {
                 "coding":  [
@@ -43,7 +43,7 @@
                 "reference": "Organization/Charite"
             }
         }
-    	],
+        ]
 
         }
     ],

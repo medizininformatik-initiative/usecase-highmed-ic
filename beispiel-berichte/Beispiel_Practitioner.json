@@ -6,7 +6,7 @@
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/Practitioner"
         ]
-    },	
+    },  
 
        "identifier":  [
         {
@@ -17,15 +17,15 @@
                         "code": "LANR"
                     }
                 ]
-            },
+            }
 
         }
     ],
 
        "name":  [
         {
-        	"use" : "official",
-            "family": "Özdin",
+            "use" : "official",
+            "family": "�zdin",
             "given" : "Berkay"
 
         }
@@ -33,7 +33,7 @@
 
        "address":  [
         {
-        	"line" : "137 Nowhere Street",
+            "line" : "137 Nowhere Street",
             "city": "Erewhon",
             "postal code" : "9132",
             "country" : "Germany"
@@ -41,7 +41,7 @@
         }
     ],
 
-	"birthDate": "19.05.1993",
+    "birthDate": "1993-05-19T12:47:16+02:00",
 
        "qualification":  [
         {
@@ -52,9 +52,9 @@
                         "code": "042"
                     }
                 ]
-            },
+            }
 
         }
-    ],
+    ]
 
 }
