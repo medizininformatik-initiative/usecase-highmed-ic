@@ -6,7 +6,8 @@
             "http://highmed.org/StructureDefinition/ic/VirologischerBefund"
         ]
     },
-    "identifier": { befund: [
+    "identifier": [ befund: 
+        [
         {
             "type": {
                 "coding":  [
@@ -23,7 +24,7 @@
             }
         }
         ]
-    },
+    ],
     "basedOn": [{ reference: "http://highmed.org/StructureDefinition/ServiceRequestLab" }],
     "status": "final",
     "category":  [
