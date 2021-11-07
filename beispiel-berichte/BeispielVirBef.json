@@ -23,7 +23,7 @@
             }
         },
     
-    "basedOn": [{ reference: "http://highmed.org/StructureDefinition/ServiceRequestLab" }],
+    "basedOn": { reference: "ServiceRequestLab/123" },
     "status": "final",
     "category":  [
         {
