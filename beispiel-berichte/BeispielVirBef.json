@@ -49,12 +49,7 @@
            {
                      "system": "http://loinc.org",
                      "code": "11502-2"
-           },
-           {
-                     "system": "http://loinc.org",
-                     "code": "94500-6"
-           }
-
+        }
         ],
         "text": "SARS-CoV-2-RNA (PCR)"
     },
