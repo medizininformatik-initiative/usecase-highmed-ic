@@ -48,7 +48,7 @@
         "coding":  [
            {
                      "system": "http://loinc.org",
-                     "code": "11475-1"
+                     "code": "11502-2"
 }
         ],
         "text": "SARS-CoV-2-RNA (PCR)"
