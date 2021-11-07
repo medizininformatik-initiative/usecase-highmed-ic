@@ -23,6 +23,7 @@
             }
         }
     ],
+    "basedOn": "http://highmed.org/StructureDefinition/ServiceRequestLab",
     "status": "final",
     "category":  [
         {
