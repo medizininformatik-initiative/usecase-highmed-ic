@@ -6,7 +6,7 @@
             "http://highmed.org/StructureDefinition/ic/VirologischerBefund"
         ]
     },
-    "identifier":   [
+    "identifier":{ identifier:   [
         {
             "type": {
                 "coding":  [
@@ -22,7 +22,8 @@
             "reference": "Organization/Charite"
             }
         }
-    ],
+    ]
+    },
     "basedOn": [{ reference: "http://highmed.org/StructureDefinition/ServiceRequestLab" }],
     "status": "final",
     "category":  [
