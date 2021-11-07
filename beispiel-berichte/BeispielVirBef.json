@@ -23,7 +23,7 @@
             }
         }
     ],
-    "basedOn": "http://highmed.org/StructureDefinition/ServiceRequestLab",
+    "basedOn": [{ MII-Reference: "http://highmed.org/StructureDefinition/ServiceRequestLab" }],
     "status": "final",
     "category":  [
         {
