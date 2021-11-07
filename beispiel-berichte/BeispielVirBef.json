@@ -59,16 +59,7 @@
         "reference": "Encounter/123e"
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
-    "valueCodeableConcept": {
-        "coding":  [
-            {
-                "system": "http://snomed.info/sct",
-                "code": "260373001",
-                "display": "Detected (qualifier value)"
-            }
-        ],
-        "text": "SARS-CoV-2-RNA positiv"
-    },
+    "issued": "2021-05-16T08:49:21+02:00",
      "specimen": {
         "reference": "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
     },
