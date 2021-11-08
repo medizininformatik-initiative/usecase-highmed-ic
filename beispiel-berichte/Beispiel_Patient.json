@@ -20,7 +20,7 @@
             "value": "123456",
             "assigner": {
                 "reference": "Organization/Charite",
-                "identifier": "http://fhir.de/NamingSystem/arge-ik/iknr",
+                "identifier": {reference:"http://fhir.de/NamingSystem/arge-ik/iknr"},
                 "display": "Identifier-Profil f�r die Abbildung eines Institutionskennzeichens (IKNR)"
             }
         },
