@@ -28,6 +28,10 @@
         "reference": "Patient/123"
     },
 
-    "collectedDateTime": "2021-05-16T08:49:21+02:00"
+    "collection": {
+
+        "collectedDateTime": "2021-05-16T08:49:21+02:00"
+
+    }
 
 }
