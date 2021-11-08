@@ -59,26 +59,18 @@
         "reference": "Encounter/123e"
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
-    "value": [    
-     {
+    "valueCodeableConcept":     
 
-                "system": "http://unitsofmeasure.org",
-                "value": "0.1",
-                "unit" : "string",
-                "code": "UCUM"
-
-
-    },
     {
-        "coding":  [
+        "coding":  
             {
                 "system": "http://snomed.info/sct",
                 "code": "260373001"
             }
-        ]
-    }
+        
+    },
     
-],
+
      "specimen": {
         "reference": "http://highmed.org/StructureDefinition/Specimen"
     }
