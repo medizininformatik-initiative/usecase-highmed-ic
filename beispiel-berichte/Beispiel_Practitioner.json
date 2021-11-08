@@ -1,14 +1,14 @@
 {
 
    "resourceType": "Practitioner",
-   "id": "234",
-    "meta": {
+   "id": "1234",
+   "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/Practitioner"
         ]
     },  
 
-       "identifier":  [
+    "identifier":  [
         {
             "type": {
                 "coding":  [
@@ -22,7 +22,7 @@
         }
     ],
 
-       "name":  [
+    "name":  [
         {
             "use" : "official",
             "family": "�zdin",
@@ -31,7 +31,7 @@
         }
     ],
 
-       "address":  [
+    "address":  [
         {
             "line" : "137 Nowhere Street",
             "city": "Erewhon",
@@ -43,7 +43,7 @@
 
     "birthDate": "1993-05-19T12:47:16+02:00",
 
-       "qualification":  [
+    "qualification":  [
         {
             "code": {
                 "coding":  [
