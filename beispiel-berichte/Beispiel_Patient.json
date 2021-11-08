@@ -23,7 +23,7 @@
                 "identifier": {
                 "use":"official",
                 "system":"http://fhir.de/NamingSystem/arge-ik/iknr",
-                "value":"A123456"
+                "value":"123456789"
 
             },
                 "display": "Identifier-Profil f�r die Abbildung eines Institutionskennzeichens (IKNR)"
