@@ -17,13 +17,13 @@
                 ]
             },
             "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
-            "value": "123456",
+            "value": "A123456",
             "assigner": {
                 "reference": "Organization/Charite",
                 "identifier": {
                 "use":"official",
                 "system":"http://fhir.de/NamingSystem/arge-ik/iknr",
-                "value":"123456"
+                "value":"A123456"
 
             },
                 "display": "Identifier-Profil f�r die Abbildung eines Institutionskennzeichens (IKNR)"
