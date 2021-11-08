@@ -17,10 +17,10 @@
                 ]
             },
             "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
-            "value": "A123456",
+            "value": "123456",
             "assigner": {
                 "reference": "Organization/Charite",
-                "identifier": [{"http://fhir.de/NamingSystem/arge-ik/iknr"}],
+                "identifier": "http://fhir.de/NamingSystem/arge-ik/iknr",
                 "display": "Identifier-Profil f�r die Abbildung eines Institutionskennzeichens (IKNR)"
             }
         },
@@ -57,7 +57,7 @@
     "name": [
         {
             "use": "official",
-            "family": "Oezdin",
+            "family": "Özdin",
             "given": "Berkay"
         }
     ],
