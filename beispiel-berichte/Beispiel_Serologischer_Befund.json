@@ -36,9 +36,9 @@
                     "code": "laboratory"
                 },
                 {
-                    "system": "http://snomed.info/sct",
-                    "code": "122442008",
-                    "display": "Serologic test (procedure)"
+                  "system": "http://snomed.info/sct",
+                  "code": "68793005",
+                  "display": "Serologic test (procedure)"
                 }
             ]
         }
