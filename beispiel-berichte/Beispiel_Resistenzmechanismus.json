@@ -49,8 +49,8 @@
                      "system": "http://loinc.org",
                      "code": "1-8"
             }
-        ],
-        "text": "Resistenzmechanismus"
+        ]
+        
     },
         "subject": {
         "reference": "Patient/123"
