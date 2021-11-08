@@ -9,8 +9,8 @@
 
        "identifier":  [
         {
-            "anforderung":[
-        {
+
+        
             "type": {
                 "coding":  [
                     {
@@ -24,10 +24,10 @@
             "assigner": {
                 "reference": "Organization/Charite"
             }
-        }
-        ],
+        },
 
-            "anforderung-empfaenger":[
+
+
         {
             "type": {
                 "coding":  [
@@ -42,11 +42,11 @@
             "assigner": {
                 "reference": "Organization/Charite"
             }
-        }
-        ]
+        
 
         }
     ],
+
 
     "status": "completed",
     "intent": "order",
