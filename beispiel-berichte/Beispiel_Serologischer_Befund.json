@@ -59,8 +59,7 @@
         "reference": "Encounter/123e"
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
-    "value": [
-    
+    "value": [    
      {
 
                 "system": "http://unitsofmeasure.org",
