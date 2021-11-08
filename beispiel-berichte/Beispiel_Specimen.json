@@ -35,7 +35,8 @@
 
     },
 
-    "bodySite": {
+    {
+        "bodySite": {
                 "coding":  [
                     {
                         "system": "http://snomed.info/sct",
@@ -43,7 +44,7 @@
                     }
                 ]
             }
-
+    }
 ]
 
 }
