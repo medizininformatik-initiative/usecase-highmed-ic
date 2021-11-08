@@ -56,16 +56,6 @@
     },
 
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
-    "valueQuantity": 
-        {
-
-                "system": "http://unitsofmeasure.org",
-                "value": "0.1",
-                "unit" : "�g/mL",
-                "code" : "�g/mL"
-
-
-    },
 
     "valueCodeableConcept":
     {    "coding":  [
