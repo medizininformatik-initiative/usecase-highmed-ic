@@ -26,17 +26,17 @@
     "status": "final",
     "category":  [
         {
-                "loinc-observation":  
+                "coding":  
                 {
                     "system": "http://loinc.org",
                     "code": "26436-6"
                 },
-                "observation-category":
+                "coding":
                 {
                     "system": "http://terminology.hl7.org/CodeSystem/observation-category",
                     "code": "laboratory"
                 },
-                "snomedct-subcategory":
+                "coding":
                 {
                   "system": "http://snomed.info/sct",
                   "code": "122442008",
