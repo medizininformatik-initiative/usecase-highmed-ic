@@ -17,7 +17,7 @@
                 ]
             },
             "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
-            "value": "A123456",
+            "value": "A123456789",
             "assigner": {
                 "reference": "Organization/Charite",
                 "identifier": {
