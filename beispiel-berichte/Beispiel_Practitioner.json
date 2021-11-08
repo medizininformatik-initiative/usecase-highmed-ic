@@ -1,7 +1,6 @@
 {
-
    "resourceType": "Practitioner",
-   "id": "1234",
+   "id": "12345678",
    "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/Practitioner"
@@ -25,7 +24,7 @@
     "name":  [
         {
             "use" : "official",
-            "family": "�zdin",
+            "family": "Oezdin",
             "given" : "Berkay"
 
         }
