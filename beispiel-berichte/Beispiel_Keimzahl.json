@@ -85,7 +85,7 @@
         },
         "valueCodeableConcept":[ 
             {
-                "coding":{ "260347006"},
+                "coding":[ "code": { "260347006"}],
                 "text": "Present + out of ++++ (qualifier value)"
         }     
   
