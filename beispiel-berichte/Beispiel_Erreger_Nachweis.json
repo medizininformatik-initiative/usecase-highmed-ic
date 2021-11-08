@@ -49,20 +49,20 @@
                  "system": "http://loinc.org",
                  "code": "11475-1"
             }
-        ],
+        ]
     },
         "subject": {
         "reference": "Patient/123"
     },
 
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
-    "valueCodeableConcept": {
+    "value": {
         "coding":  [
             {
                 "system": "http://snomed.info/sct",
-                "code": "413414001",
+                "code": "413414001"
             }
-        ],
+        ]
     },
 
 
