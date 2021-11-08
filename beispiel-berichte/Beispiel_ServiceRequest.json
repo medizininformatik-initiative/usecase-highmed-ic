@@ -7,35 +7,32 @@
         ]
     },  
 
-       "identifier":  [
+    "identifier":  [
         {
 
         
             "type": {
-                "coding":  [
+                "coding":  
                     {
                         "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
                         "code": "PLAC"
                     }
-                ]
-            },
+                
+        },
             "system": "http://www.acme.com/identifiers/patient",
             "value": "123456",
             "assigner": {
                 "reference": "Organization/Charite"
             }
         },
-
-
-
         {
             "type": {
-                "coding":  [
+                "coding":  
                     {
                         "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
                         "code": "FILL"
                     }
-                ]
+                
             },
             "system": "http://www.acme.com/identifiers/patient",
             "value": "123456",
