@@ -24,7 +24,7 @@
         }
     ],
     "status": "final",
-    "category":  [
+    "category":  
         {
                 "coding":  [
                 
@@ -46,8 +46,8 @@
                 
                 ]
             
-        }
-    ],
+        },
+
     "code": {
         "coding":  [
            {
