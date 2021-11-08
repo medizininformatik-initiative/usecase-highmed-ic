@@ -48,7 +48,7 @@
            {
                  "code": "49223-1"
             }
-        ],
+        ]
     },
         "subject": {
         "reference": "Patient/123"
@@ -60,7 +60,7 @@
                 "system": "http://unitsofmeasure.org",
                 "value": "0.1",
                 "unit" : "{CFU}/mL",
-                "code" : "{CFU}/mL",
+                "code" : "{CFU}/mL"
 
 
     },
@@ -72,36 +72,20 @@
     },
 
 
-        "component": [ 
+    "component": [ 
         {
-        "code": "http://highmed.org/StructureDefinition/AntibiotikaSusceptibility",
-        }
-        {
-        "keimzahl-loinc-semiqualitativ" : [
+              
+        "code": {
+        "coding":  
             {
-                        "code": {
-        "coding":  [
-           {
                  "system": "http://loinc.org",
                  "code": "565-2"
             }
-        ],
-
-            "valueCodeableConcept": {
-        "coding":  [
-            {
-                "system": "https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.laborbefund/1.0.4-alpha2/files/357648",
-                "code": "260347006",
-            }
-        ],
-    },
-    },
-            }
-            ]
-        }
-        ],
-
-
-
+        
+        },
+        "value": "123456" 
+        }     
+        
+    ]
 
 }
