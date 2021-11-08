@@ -73,8 +73,8 @@
     },
 
 
-        "subject": {
-        "reference": "Patient/123"
+    "subject": {
+    "reference": "Patient/123"
     },
     "authoredOn": "2021-05-16T08:49:21+02:00"
 
