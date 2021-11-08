@@ -17,10 +17,10 @@
                 ]
             },
             "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
-            "value": "123456",
+            "value": "A123456",
             "assigner": {
                 "reference": "Organization/Charite",
-                "identifier": "http://fhir.de/NamingSystem/arge-ik/iknr",
+                "identifier": [{"http://fhir.de/NamingSystem/arge-ik/iknr"}],
                 "display": "Identifier-Profil f�r die Abbildung eines Institutionskennzeichens (IKNR)"
             }
         },
@@ -57,11 +57,11 @@
     "name": [
         {
             "use": "official",
-            "family": "Özdin",
+            "family": "Oezdin",
             "given": "Berkay"
         }
     ],
-    "birthDate": "1993-05-19T12:47:16+02:00",
+    "birthDate": "1993-05-19",
     "gender": "male",
     "address": [
         {
