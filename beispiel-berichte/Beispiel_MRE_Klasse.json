@@ -44,14 +44,8 @@
         }
     ],
     "code": {
-        "text": "MRE",
-        "coding":  [
-           {
-                 "display": "MRE Klasse",
-                 "code": "http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokal"
-            }
-        ]
-    },
+  "text": "MRE Klasse"
+},
         "subject": {
         "reference": "Patient/123"
     },
