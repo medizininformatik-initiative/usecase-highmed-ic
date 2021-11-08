@@ -83,7 +83,14 @@
             }
         
         },
-        "value": "123456" 
+        "value": {
+            "code": {
+            "coding":  
+            {
+                 "system": "http://snomed.info/sct",
+                 "code": "260347006"
+            }
+        }
         }     
         
     ]
