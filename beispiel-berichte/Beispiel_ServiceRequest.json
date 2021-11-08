@@ -34,7 +34,7 @@
                     }
                 
             },
-            "system": "http://www.acme.com/identifiers/patient",
+            "system": "http://www.acme.com/identifiers/service",
             "value": "12345678",
             "assigner": {
                 "reference": "Organization/Charite"
