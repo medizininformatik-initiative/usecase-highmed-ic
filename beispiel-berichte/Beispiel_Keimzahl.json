@@ -85,13 +85,8 @@
         },
         "valueCodeableConcept":[ 
             {
-            "code": {
-            "coding":  
-            {
-                 "system": "http://snomed.info/sct",
-                 "code": "260347006"
-            }
-        }
+                "coding": "260347006",
+                "text": "Present + out of ++++ (qualifier value)"
         }     
   
         ]   
