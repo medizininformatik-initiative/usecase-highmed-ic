@@ -28,10 +28,22 @@
         "reference": "Patient/123"
     },
 
-    "collection": {
+    "collection": [
+        {
 
         "collectedDateTime": "2021-05-16T08:49:21+02:00"
 
-    }
+    },
+
+    "bodySite": {
+                "coding":  [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "53505006"
+                    }
+                ]
+            }
+
+]
 
 }
