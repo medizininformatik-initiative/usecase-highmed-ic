@@ -35,7 +35,7 @@
                 
             },
             "system": "http://www.acme.com/identifiers/patient",
-            "value": "123456",
+            "value": "12345678",
             "assigner": {
                 "reference": "Organization/Charite"
             }
@@ -64,10 +64,10 @@
 
     "code": {
         "coding":  [
-           {
+            {
                      "system": "http://loinc.org",
                      "code": "78702-8"
-}
+            }
         ],
         "text": "Multiple drug resistant gram negative organism [Identifier] in Unspecified specimen by Culture"
     },
