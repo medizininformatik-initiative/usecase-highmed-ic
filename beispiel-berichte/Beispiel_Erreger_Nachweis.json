@@ -49,7 +49,7 @@
                  "system": "http://loinc.org",
                  "code": "11475-1"
             }
-        ],
+        ]
     },
         "subject": {
         "reference": "Patient/123"
@@ -60,9 +60,9 @@
         "coding":  [
             {
                 "system": "http://snomed.info/sct",
-                "code": "413414001",
+                "code": "413414001"
             }
-        ],
+        ]
     },
 
 

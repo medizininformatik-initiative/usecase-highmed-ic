@@ -1,5 +1,5 @@
 {
-	
+    
     "resourceType": "Condition",
     "id": "234",
     "meta": {
@@ -13,21 +13,26 @@
         "coding":  [
            {
                      "system": "http://fhir.de/CodeSystem/dimdi/icd-10-gm",
+                     "version": "example",
+                     "code": "123456"
 
-			},
-			           {
+            },
+                       {
                      "system": "http://fhir.de/CodeSystem/dimdi/alpha-id",
+                     "code": "123456"
 
-			},
-			           {
+            },
+                       {
                      "system": "http://snomed.info/sct",
+                     "code": "123456"
 
-			},
-			           {
+            },
+                       {
                      "system": "http://www.orpha.net",
+                     "code": "123456"
 
-			}
-        ],
+            }
+        ]
 
     },
 

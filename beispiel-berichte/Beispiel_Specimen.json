@@ -7,7 +7,7 @@
         ]
     },
 
-       "accessionIdentifier":  [
+    "accessionIdentifier":  [
         {
             "system": "https://www.charite.de/fhir/CodeSystem/lab-identifiers",
             "assigner": {
@@ -16,7 +16,7 @@
         }
     ],    
 
-            "type": {
+    "type": {
                 "coding":  [
                     {
                         "system": "http://snomed.info/sct",
@@ -24,10 +24,23 @@
                     }
                 ]
             },
-                    "subject": {
+    "subject": {
         "reference": "Patient/123"
-    }
-            
+    },
 
+    "collection": 
+        {
+
+        "collectedDateTime": "2021-05-16T08:49:21+02:00",
+        "bodySite": 
+        {
+                "coding":  [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "53505006"
+                    }
+                ]
+        }
+    }
 
 }

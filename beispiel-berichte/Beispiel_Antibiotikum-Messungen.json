@@ -56,27 +56,15 @@
     },
 
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
-    "value": [
-        {
-    "valueQuantity": {
 
-                "system": "http://unitsofmeasure.org",
-                "value": "0.1",
-                "unit" : "�g/mL",
-                "code" : "�g/mL"
-
-
-    },
-    "valueCodeableConcept": {
-        "coding":  [
+    "valueCodeableConcept":
+    {    "coding":  [
             {
                 "system": "http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast",
                 "code": "S"
             }
         ]
-    }
-    }
-    ],
+    },
 
 
      "specimen": {

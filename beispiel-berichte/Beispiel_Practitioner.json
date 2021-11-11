@@ -1,14 +1,13 @@
 {
-
    "resourceType": "Practitioner",
-   "id": "234",
-    "meta": {
+   "id": "12345678",
+   "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/Practitioner"
         ]
     },  
 
-       "identifier":  [
+    "identifier":  [
         {
             "type": {
                 "coding":  [
@@ -17,33 +16,35 @@
                         "code": "LANR"
                     }
                 ]
-            }
+            },
+         "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR",
+         "value": "123456789"
 
         }
     ],
 
-       "name":  [
+    "name":  [
         {
             "use" : "official",
-            "family": "�zdin",
+            "family": "Oezdin",
             "given" : "Berkay"
 
         }
     ],
 
-       "address":  [
+    "address":  [
         {
             "line" : "137 Nowhere Street",
             "city": "Erewhon",
-            "postal code" : "9132",
+            "postalCode" : "9132",
             "country" : "Germany"
 
         }
     ],
 
-    "birthDate": "1993-05-19T12:47:16+02:00",
+    "birthDate": "1993-05-19",
 
-       "qualification":  [
+    "qualification":  [
         {
             "code": {
                 "coding":  [
