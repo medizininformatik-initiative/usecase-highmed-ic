@@ -110,7 +110,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/fhir/StructureDefinition/Specimen" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
       </type>
       <mustSupport value="true" />
       <mapping>
