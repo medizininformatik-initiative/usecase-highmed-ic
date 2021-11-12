@@ -20,12 +20,9 @@
             </concept>
             <concept>
                 <code value="94558-4"/>
-                <display value="SARS-CoV-2 Ag"/>
+                <display value="SSARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay"/>
             </concept>
-            <concept>
-                <code value="94745-7"/>
-                <display value="SARS-CoV-2 (COVID-19) RNA [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"/>
-            </concept>
+    
      
                         
         </include>
