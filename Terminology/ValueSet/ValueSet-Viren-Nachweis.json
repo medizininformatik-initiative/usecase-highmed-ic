@@ -30,7 +30,7 @@
           {
             "code": "419984006",
             "display": "Inconclusive (qualifier value)"
-          }
+          },
           {
             "code": "424470006;Family Adenoviridae (organism)",
             "display": "424470006;Family Adenoviridae (organism)"
@@ -138,5 +138,5 @@
   "description": "Das ValueSet enthält eine explizite Auflistung der SNOMED CT Concepts, die die im UC IC abgestimmten mikrobiologischen Erreger umfasst; allerdings ausschließlich Viren",
   "version": "2.0",
   "date": "2021-02-18T00:00:00.000Z",
-  "publisher": "http://highmed.org",
+  "publisher": "http://highmed.org"
 }
