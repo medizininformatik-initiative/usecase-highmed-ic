@@ -1,0 +1,142 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Virologischer-befund-NonQuantitativesErgebnis",
+  "url": "http://highmed.org/fhir/ValueSet/ic/VirologischerBefundNonQuantitativesErgebnis",
+  "name": "HighmedVirologischerBefundNonQuantitativesErgebnis",
+  "title": "HiGHmed Viren Nachweis[SNOMED CT explizit]",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "260373001",
+            "display": "Detected (qualifier value)"
+          },
+          {
+            "code": "260415000",
+            "display": "Not detected (qualifier value)"
+          },
+          {
+            "code": "419984006",
+            "display": "Inconclusive (qualifier value)"
+          }
+          {
+            "code": "424470006;Family Adenoviridae (organism)",
+            "display": "424470006;Family Adenoviridae (organism)"
+          },
+          {
+            "code": "33160002;Human astrovirus (organism)",
+            "display": "33160002;Human astrovirus (organism)"
+          },
+          {
+            "code": "57757007;Human coxsackievirus (organism)",
+            "display": "57757007;Human coxsackievirus (organism)"
+          },
+          {
+            "code": "40168006;Human herpesvirus 4 (organism)",
+            "display": "40168006;Human herpesvirus 4 (organism)"
+          },
+          {
+            "code": "69239002;Human Enterovirus (organism)",
+            "display": "69239002;Human Enterovirus (organism)"
+          },
+          {
+            "code": "81665004;Hepatitis B virus (organism)",
+            "display": "81665004;Hepatitis B virus (organism)"
+          },
+          {
+            "code": "32452004;Hepatitis A virus (organism)",
+            "display": "32452004;Hepatitis A virus (organism)"
+          },
+          {
+            "code": "78475006;Hepatitis E virus (organism)",
+            "display": "78475006;Hepatitis E virus (organism)"
+          },
+          {
+            "code": "19965007;Human herpes simplex virus (organism)",
+            "display": "19965007;Human herpes simplex virus (organism)"
+          },
+          {
+            "code": "1838001;Human rhinovirus (organism)",
+            "display": "1838001;Human rhinovirus (organism)"
+          },
+          {
+            "code": "19965007;Human herpes simplex virus (organism)",
+            "display": "19965007;Human herpes simplex virus (organism)"
+          },
+          {
+            "code": "416730002;Human metapneumovirus (organism)",
+            "display": "416730002;Human metapneumovirus (organism)"
+          },
+          {
+            "code": "407479009;Influenza A virus (organism)",
+            "display": "407479009;Influenza A virus (organism)"
+          },
+          {
+            "code": "449024000;Pandemic influenza A (H1N1) 2009 (organism)",
+            "display": "449024000;Pandemic influenza A (H1N1) 2009 (organism)"
+          },
+          {
+            "code": "407480007;Influenza B virus (organism)",
+            "display": "407480007;Influenza B virus (organism)"
+          },
+          {
+            "code": "52584002;Measles morbillivirus (organism)",
+            "display": "52584002;Measles morbillivirus (organism)"
+          },
+          {
+            "code": "50384007;Mumps virus (organism)",
+            "display": "50384007;Mumps virus (organism)"
+          },
+          {
+            "code": "407359000;Genus Norovirus (organism)",
+            "display": "407359000;Genus Norovirus (organism)"
+          },
+          {
+            "code": "407498006;Human parainfluenza viruses (organism)",
+            "display": "407498006;Human parainfluenza viruses (organism)"
+          },
+          {
+            "code": "63603005;Primate erythroparvovirus 1 (organism)",
+            "display": "63603005;Primate erythroparvovirus 1 (organism)"
+          },
+          {
+            "code": "6415009;Human respiratory syncytial virus (organism)",
+            "display": "6415009;Human respiratory syncytial virus (organism)"
+          },
+          {
+            "code": "417542000;Genus Rotavirus (organism)",
+            "display": "417542000;Genus Rotavirus (organism)"
+          },
+          {
+            "code": "5210005;Rubella virus (organism)",
+            "display": "5210005;Rubella virus (organism)"
+          },
+          {
+            "code": "19551004;Human herpesvirus 3 (organism)",
+            "display": "19551004;Human herpesvirus 3 (organism)"
+          },
+          {
+            "code": "840533007;Severe acute respiratory syndrome coronavirus 2 (organism)",
+            "display": "840533007;Severe acute respiratory syndrome coronavirus 2 (organism)"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Das ValueSet enthält eine explizite Auflistung der SNOMED CT Concepts, die die im UC IC abgestimmten mikrobiologischen Erreger umfasst; allerdings ausschließlich Viren",
+  "version": "2.0",
+  "date": "2021-02-18T00:00:00.000Z",
+  "publisher": "http://highmed.org",
+}
