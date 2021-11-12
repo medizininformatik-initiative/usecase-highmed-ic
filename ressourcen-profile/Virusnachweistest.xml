@@ -77,7 +77,7 @@
       <sliceName value="valueCodeableConcept" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/detected-not-detected-inconclusive" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/VirologischerBefundNonQuantitativesErgebnis" />
       </binding>
     </element>
     <element id="Observation.interpretation">
