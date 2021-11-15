@@ -27,7 +27,7 @@
         <key value="loc-ic-1" />
         <severity value="error" />
         <human value="Loction muss identifizierbar sein" />
-        <expression value="name.exsists() or name.exists()" />
+        <expression value="identifier.exsists() or name.exists()" />
         <source value="http://highmed.org/fhir/StructureDefinition/ic/Location" />
       </constraint>
     </element>
