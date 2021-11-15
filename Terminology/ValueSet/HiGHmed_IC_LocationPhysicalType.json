@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-HiGHmed-IC-LocationPhysicalType",
+  "url": "http://highmed.org/fhir/ValueSet/ic/LocationPhysicalType",
+  "version": "1.0.0",
+  "title": "ValueSet - HiGHmed - IC - LocationPhysicalType",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "229772003",
+            "display": "Bed (physical object)"
+          },
+          {
+            "code": "223398003",
+            "display": "Room of building (environment)"
+          },
+          {
+            "code": "225746001",
+            "display": "Ward (environment)"
+          },
+          {
+            "code": "224901002",
+            "display": "General floor level (environment)"
+          },
+          {
+            "code": "284548004",
+            "display": "Hospital department (environment)"
+          },
+          {
+            "code": "224884006",
+            "display": "Location within hospital premises (environment)"
+          }
+        ]
+      }
+    ]
+  },
+  "publisher": "HiGHmed",
+  "name": "ValueSet_HiGHmed_IC_LocationPhysicalType"
+}

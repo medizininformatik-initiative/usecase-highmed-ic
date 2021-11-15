@@ -21,24 +21,34 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Location" />
   <derivation value="constraint" />
   <differential>
+      <element id="Location">
+      <path value="Location" />
+      <constraint>
+        <key value="loc-ic-1" />
+        <severity value="error" />
+        <human value="Loction muss identifizierbar sein" />
+        <expression value="name.exsists() or name.exists()" />
+        <source value="http://highmed.org/fhir/StructureDefinition/ic/Location" />
+      </constraint>
+    </element>
+    <element id="Location.identifier">
+      <path value="Location.identifier" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Location.name">
+      <path value="Location.name" />
+      <mustSupport value="true" />
+    </element>
     <element id="Location.physicalType">
       <path value="Location.physicalType" />
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/LocationPhysicalType" />
       </binding>
-    </element>
-    <element id="Location.physicalType.coding.system">
-      <path value="Location.physicalType.coding.system" />
-      <fixedUri value="https://www.hl7.org/fhir/valueset-location-physical-type.html" />
     </element>
     <element id="Location.managingOrganization">
       <path value="Location.managingOrganization" />
       <min value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
-        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Organization" />
-      </type>
     </element>
   </differential>
 </StructureDefinition>
