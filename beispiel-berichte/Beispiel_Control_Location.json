@@ -6,6 +6,19 @@
             "http://highmed.org/fhir/StructureDefinition/ic/Location"
         ]
     },
+    "identifier": 
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://example.org/CodeSystem",
+                        "code": "ORG"
+                    }
+                ]
+            },
+            "system": "http://example.org/CodeSystem",
+            "value": "A123456789"
+    },
     "managingOrganization": {
 
         "reference": "Organization/Charite"
