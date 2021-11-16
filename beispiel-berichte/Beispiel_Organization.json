@@ -1,0 +1,19 @@
+{
+	"resourceType": "Organization",
+    "id": "1234",
+    "meta": {
+        "profile":  [
+            "http://highmed.org/fhir/StructureDefinition/ic/Organization"
+        ]
+    },
+    "type": {
+
+    	"coding": {
+
+    			"system": "http://example.org/CodeSystem",
+                "code": "ORG"
+
+    	}
+    },
+    "name": "Charite"
+}
