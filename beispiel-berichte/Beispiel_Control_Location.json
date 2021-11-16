@@ -1,0 +1,13 @@
+{
+    "resourceType": "Location",
+    "id": "1234",
+    "meta": {
+        "profile":  [
+            "http://highmed.org/fhir/StructureDefinition/ic/Location"
+        ]
+    },
+    "managingOrganization": {
+
+        "reference": "Organization/Charite"
+    }
+}
