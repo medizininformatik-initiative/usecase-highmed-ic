@@ -68,16 +68,16 @@
       <short value="Zeitpunkt Ergebnis-Status" />
     </element>
     <element id="Observation.value[x]:valueQuantity">
-      <path value="Observation.valueQuantity" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
       <max value="0" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.value[x]" />
+      <path value="Observation.valueCodeableConcept" />
       <sliceName value="valueCodeableConcept" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/VirologischerBefundNonQuantitativesErgebnis" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/detected-not-detected-inconclusive" />
       </binding>
     </element>
     <element id="Observation.interpretation">
