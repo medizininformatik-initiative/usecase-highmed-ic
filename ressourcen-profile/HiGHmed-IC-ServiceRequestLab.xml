@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="ProfileHiGHmedInfectionControlServiceRequestLab" />
-  <url value="http://highmed.org/StructureDefinition/ic/ServiceRequestLab" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/ServiceRequestLab" />
   <version value="1.0" />
   <name value="ProfileHiGHmedInfectionControlServiceRequestLab" />
   <title value="Profile - HiGHmed - Infection Control - ServiceRequest" />
