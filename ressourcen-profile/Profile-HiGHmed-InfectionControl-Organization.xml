@@ -2,8 +2,9 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Profile-HiGHmed-InfectionControl-Organization" />
   <url value="http://highmed.org/fhir/StructureDefinition/ic/Location" />
+  <version value="1.0.0" />
   <name value="Profile_HiGHmed_InfectionControl_Location" />
-  <status value="draft" />
+  <status value="active" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="rim" />
