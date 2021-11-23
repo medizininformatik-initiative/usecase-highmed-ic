@@ -39,7 +39,7 @@
       </binding>
     </element>
     <element id="DiagnosticReport.category.coding:loinc-microbiology-specialization">
-      <path value="DiagnosticReport.code.coding" />
+      <path value="DiagnosticReport.category.coding" />
       <sliceName value="loinc-microbiology-specialization" />
       <max value="1" />
       <constraint>
