@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="ProfileHiGHmedInfectionControlLetztesDokumentationsdatum" />
+  <id value="Profile-HiGHmed-InfectionControl-LetztesDokumentationsdatum" />
   <url value="http://highmed.org/fhir/StructureDefinition/ic/LetztesDokumentationsdatum" />
-  <version value="1.0" />
-  <name value="ProfileHiGHmedInfectionControlLetztesDokumentationsdatum" />
+  <version value="1.0.0" />
+  <name value="Profile_HiGHmed_InfectionControl_LetztesDokumentationsdatum" />
   <title value="Profile - HiGHmed - Infection Control - LetztesDokumentationsdatum" />
-  <status value="draft" />
+  <status value="active" />
   <description value="Dieses Profil beschreibt das Letzte Dokumentationsdatum einer Diagnose im HiGHmed Use Case Infection Control" />
   <fhirVersion value="4.0.1" />
   <mapping>
