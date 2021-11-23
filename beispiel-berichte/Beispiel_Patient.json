@@ -55,7 +55,8 @@
             },
             "value": "123456",
             "assigner": {
-                "reference": "Organization/Charite"
+                "reference": "Organization/Charite",
+                "display": "Charite"
             }
         }
     ],
