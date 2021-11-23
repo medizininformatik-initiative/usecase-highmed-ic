@@ -38,7 +38,7 @@
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/DiagnosticReportStudies" />
       </binding>
     </element>
-    <element id="DiagnosticReport.code.coding:loinc-microbiology-specialization">
+    <element id="DiagnosticReport.category.coding:loinc-microbiology-specialization">
       <path value="DiagnosticReport.code.coding" />
       <sliceName value="loinc-microbiology-specialization" />
       <max value="1" />
