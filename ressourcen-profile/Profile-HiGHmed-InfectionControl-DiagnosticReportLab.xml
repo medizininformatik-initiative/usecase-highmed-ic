@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="ProfileHiGHmedInfectionControlDiagnosticReportLab" />
+  <id value="Profile-HiGHmed-InfectionControl-DiagnosticReportLab" />
   <url value="http://highmed.org/fhir/StructureDefinition/ic/DiagnosticReportLab" />
-  <version value="1.0" />
-  <name value="ProfileHiGHmedInfectionControlDiagnosticReportLab" />
+  <version value="1.0.0" />
+  <name value="Profile_HiGHmed_InfectionControl_DiagnosticReportLab" />
   <title value="Profile - HiGHmed - Infection Control - DiagnosticReportLab" />
-  <status value="draft" />
+  <status value="active" />
   <experimental value="true" />
   <publisher value="https://highmed.org/" />
   <description value="Dieses Profil beschreibt einen Laborbefund in HiGHmed Use Case Infection Control" />
