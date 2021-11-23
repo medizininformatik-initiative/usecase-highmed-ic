@@ -28,24 +28,29 @@
       <path value="DiagnosticReport.category.coding" />
       <min value="3" />
     </element>
-    <element id="DiagnosticReport.category.coding:loinc-microbiology-studies">
+    <element id="DiagnosticReport.category.coding:loinc-report-studies">
       <path value="DiagnosticReport.category.coding" />
       <sliceName value="loinc-microbiology-studies" />
       <min value="1" />
       <max value="1" />
-      <patternCoding>
-        <system value="http://loinc.org" />
-        <code value="18725-2" />
-      </patternCoding>
-    </element>
-    <element id="DiagnosticReport.code.coding:loinc-microbiology">
-      <path value="DiagnosticReport.code.coding" />
-      <sliceName value="loinc-microbiology" />
-      <min value="1" />
-      <max value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/MicrobiologyDiagnosticReport" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/DiagnosticReportStudies" />
+      </binding>
+    </element>
+    <element id="DiagnosticReport.code.coding:loinc-microbiology-specialization">
+      <path value="DiagnosticReport.code.coding" />
+      <sliceName value="loinc-microbiology-specialization" />
+      <max value="1" />
+      <constraint>
+        <key value="dia-ic-highmed-1" />
+        <human value="Microbiology LOINC Spezialisierungen dürfen nur ausgewählt werden, falls der Report als Microbiology studies kodiert wurde" />
+        <expression value="%resource.category.where(coding.code = '18725-2').exists()" />
+        <source value="http://highmed.org/fhir/StructureDefinition/ic/DiagnosticReportLab" />
+      </constraint>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/MicrobiologySpecializationDiagnosticReport" />
       </binding>
     </element>
     <element id="DiagnosticReport.resultsInterpreter">
