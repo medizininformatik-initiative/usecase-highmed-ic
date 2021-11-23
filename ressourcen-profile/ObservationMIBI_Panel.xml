@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/ObservationMIBIPanel" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ObservationMIBIPanel" />
   <name value="ObservationMIBIPanel" />
   <title value="HiGHmed- Infection Control- Panel" />
   <status value="draft" />
