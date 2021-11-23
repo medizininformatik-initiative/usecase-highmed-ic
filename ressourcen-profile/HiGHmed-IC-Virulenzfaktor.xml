@@ -59,10 +59,6 @@
       <sliceName value="valueCodeableConcept" />
       <min value="1" />
     </element>
-    <element id="Observation.value[x]:valueCodeableConcept.text">
-      <path value="Observation.valueCodeableConcept.text" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <min value="1" />
