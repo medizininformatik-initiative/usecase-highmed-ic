@@ -15,54 +15,21 @@
       <path value="Observation.category.coding" />
       <min value="3" />
     </element>
-    <element id="Observation.category.coding:loinc-subcategory">
+    <element id="Observation.category.coding:loinc-microbiology-studies">
       <path value="Observation.category.coding" />
-      <sliceName value="loinc-subcategory" />
+      <sliceName value="loinc-microbiology-studies" />
       <min value="1" />
       <max value="1" />
-    </element>
-    <element id="Observation.category.coding:loinc-subcategory.system">
-      <path value="Observation.category.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.category.coding:loinc-subcategory.code">
-      <path value="Observation.category.coding.code" />
-      <min value="1" />
-      <fixedCode value="18725-2" />
-    </element>
-    <element id="Observation.category.coding:loinc-subcategory.display">
-      <path value="Observation.category.coding.display" />
-      <fixedString value="Microbiology studies" />
+      <patternCoding>
+        <system value="http://loinc.org" />
+        <code value="18725-2" />
+      </patternCoding>
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <fixedCodeableConcept>
+      <patternCodeableConcept>
         <text value="MRE Klasse" />
-      </fixedCodeableConcept>
-    </element>
-    <element id="Observation.code.coding.system">
-      <path value="Observation.code.coding.system" />
-      <max value="0" />
-    </element>
-    <element id="Observation.code.coding.code">
-      <path value="Observation.code.coding.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokal" />
-      </binding>
-    </element>
-    <element id="Observation.code.coding.display">
-      <path value="Observation.code.coding.display" />
-      <short value="Robert Koch Institut Classification" />
-      <fixedString value="MRE Klasse" />
-    </element>
-    <element id="Observation.value[x]">
-      <path value="Observation.value[x]" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
-      </binding>
+      </patternCodeableConcept>
     </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
@@ -72,13 +39,6 @@
     <element id="Observation.value[x]:valueCodeableConcept">
       <path value="Observation.value[x]" />
       <sliceName value="valueCodeableConcept" />
-    </element>
-    <element id="Observation.value[x]:valueCodeableConcept.coding.system">
-      <path value="Observation.value[x].coding.system" />
-      <fixedUri value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
-    </element>
-    <element id="Observation.value[x]:valueCodeableConcept.coding.code">
-      <path value="Observation.value[x].coding.code" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
@@ -88,7 +48,7 @@
       <path value="Observation.specimen" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
       </type>
     </element>
   </differential>
