@@ -27,6 +27,7 @@
     </element>
     <element id="Observation.code.text">
       <path value="Observation.code.text" />
+      <min value="1" />
       <fixedString value="Resistenzmechanismus" />
     </element>
     <element id="Observation.value[x]:valueQuantity">
