@@ -92,6 +92,7 @@
         <code value="Reference" />
         <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Keimzahl" />
       </type>
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
