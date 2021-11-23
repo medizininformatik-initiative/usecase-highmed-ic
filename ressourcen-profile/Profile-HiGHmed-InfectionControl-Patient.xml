@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="ProfileHiGHmedInfectionControlPatient" />
+  <id value="Profile-HiGHmed-InfectionControl-Patient" />
   <url value="http://highmed.org/fhir/StructureDefinition/ic/Patient" />
-  <version value="1.0" />
-  <name value="ProfileHiGHmedInfectionControlPatient" />
+  <version value="1.0.0" />
+  <name value="Profile_HiGHmed_InfectionControl_Patient" />
   <title value="Profile - HiGHmed - Infection Control - Patient" />
-  <status value="draft" />
+  <status value="atcive" />
   <description value="Dieses Profil beschreibt einen Patienten im HiGHmed Use Case Infection Control" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
