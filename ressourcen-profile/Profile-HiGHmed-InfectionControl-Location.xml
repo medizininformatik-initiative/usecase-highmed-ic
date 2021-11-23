@@ -4,6 +4,7 @@
   <url value="http://highmed.org/fhir/StructureDefinition/ic/Location" />
   <version value="1.0.0" />
   <name value="Profile_HiGHmed_InfectionControl_Location" />
+  <title value="Profile - HiGHmed - Infection Control - Location" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <mapping>
@@ -22,7 +23,7 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Location" />
   <derivation value="constraint" />
   <differential>
-      <element id="Location">
+    <element id="Location">
       <path value="Location" />
       <constraint>
         <key value="loc-ic-1" />

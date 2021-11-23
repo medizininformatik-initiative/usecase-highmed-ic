@@ -6,7 +6,6 @@
   <name value="Profile_HiGHmed_InfectionControl_ServiceRequestLab" />
   <title value="Profile - HiGHmed - Infection Control - ServiceRequest" />
   <status value="active" />
-  <experimental value="true" />
   <publisher value="https://highmed.org/" />
   <description value="Dieses Profil beschreibt eine Laboranforderung in HiGHmed Use Case Infection Control" />
   <fhirVersion value="4.0.1" />
