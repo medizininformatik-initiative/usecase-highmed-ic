@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://highmed.org/StructureDefinition/AntibiotikaSusceptibility" />
+  <url value="http://highmed.org/fhir/StructureDefinition/AntibiotikaSusceptibility" />
   <name value="ObservationMIBISusceptibility" />
   <title value="HiGHmed- Infection Control - Antibiotikum-Messungen" />
   <status value="draft" />
@@ -26,29 +26,8 @@
         <display value="Microbiology Studies" />
       </fixedCoding>
     </element>
-    <element id="Observation.category.coding:loinc-subcategory.system">
-      <path value="Observation.category.coding.system" />
-      <fixedUri value="http://loinc.org" />
-    </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/antiinfektiva-resistenzbestimmung-loinc" />
-      </binding>
-    </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <min value="1" />
-    </element>
-    <element id="Observation.code.coding.system">
-      <path value="Observation.code.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.code.coding.code">
-      <path value="Observation.code.coding.code" />
-      <min value="1" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/antiinfektiva-resistenzbestimmung-loinc" />
@@ -57,36 +36,12 @@
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
+      <patternQuantity>
+        <code value="ug/mL" />
+      </patternQuantity>
     </element>
-    <element id="Observation.value[x]:valueQuantity.unit">
-      <path value="Observation.value[x].unit" />
-      <fixedString value="µg/mL" />
-    </element>
-    <element id="Observation.value[x]:valueQuantity.code">
-      <path value="Observation.value[x].code" />
-      <fixedCode value="µg/mL" />
-    </element>
-    <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.value[x]" />
-      <sliceName value="valueCodeableConcept" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast" />
-      </binding>
-    </element>
-    <element id="Observation.value[x]:valueCodeableConcept.coding.code">
-      <path value="Observation.value[x].coding.code" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast" />
-      </binding>
-    </element>
-    <element id="Observation.interpretation.coding.system">
-      <path value="Observation.interpretation.coding.system" />
-      <fixedUri value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast" />
-    </element>
-    <element id="Observation.interpretation.coding.code">
-      <path value="Observation.interpretation.coding.code" />
+    <element id="Observation.interpretation">
+      <path value="Observation.interpretation" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast" />
@@ -97,7 +52,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/Isolat" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
       </type>
     </element>
   </differential>
