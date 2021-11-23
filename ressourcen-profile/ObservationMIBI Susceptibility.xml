@@ -20,11 +20,11 @@
       <sliceName value="loinc-subcategory" />
       <min value="1" />
       <max value="1" />
-      <fixedCoding>
+      <patternCoding>
         <system value="http://loinc.org" />
         <code value="18725-2" />
         <display value="Microbiology Studies" />
-      </fixedCoding>
+      </patternCoding>
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
