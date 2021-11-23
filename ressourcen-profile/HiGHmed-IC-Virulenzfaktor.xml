@@ -12,64 +12,9 @@
   <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.category">
-      <path value="Observation.category" />
-      <min value="1" />
-      <max value="1" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.category.coding">
       <path value="Observation.category.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="system" />
-        </discriminator>
-        <discriminator>
-          <type value="pattern" />
-          <path value="code" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
       <min value="3" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.category.coding:loinc-observation">
-      <path value="Observation.category.coding" />
-      <sliceName value="loinc-observation" />
-      <min value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.category.coding:loinc-observation.system">
-      <path value="Observation.category.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://loinc.org" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.category.coding:loinc-observation.code">
-      <path value="Observation.category.coding.code" />
-      <min value="1" />
-      <fixedCode value="26436-6" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.category.coding:observation-category">
-      <path value="Observation.category.coding" />
-      <sliceName value="observation-category" />
-      <min value="1" />
-      <max value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.category.coding:observation-category.system">
-      <path value="Observation.category.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.category.coding:observation-category.code">
-      <path value="Observation.category.coding.code" />
-      <min value="1" />
-      <fixedCode value="laboratory" />
-      <mustSupport value="true" />
     </element>
     <element id="Observation.category.coding:loinc-microbiology-studies">
       <path value="Observation.category.coding" />
@@ -80,15 +25,6 @@
         <system value="http://loinc.org" />
         <code value="18725-2" />
       </patternCoding>
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.code">
-      <path value="Observation.code" />
-      <mustSupport value="true" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
-      </binding>
     </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
