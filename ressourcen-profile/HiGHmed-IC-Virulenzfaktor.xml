@@ -49,12 +49,26 @@
       </patternCoding>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.value[x]:valueQuantity">
+      <path value="Observation.value[x]" />
+      <sliceName value="valueQuantity" />
+      <max value="0" />
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept">
+      <path value="Observation.valueCodeableConcept" />
+      <sliceName value="valueCodeableConcept" />
+      <min value="1" />
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept.text">
+      <path value="Observation.valueCodeableConcept.text" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/ic/Specimen" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
       </type>
       <mustSupport value="true" />
     </element>
