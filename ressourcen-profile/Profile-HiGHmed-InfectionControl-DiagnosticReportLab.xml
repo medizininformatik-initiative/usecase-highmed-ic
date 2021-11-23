@@ -21,7 +21,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://highmed.org/StructureDefinition/ic/ServiceRequestLab" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/ServiceRequestLab" />
       </type>
     </element>
     <element id="DiagnosticReport.category.coding">
