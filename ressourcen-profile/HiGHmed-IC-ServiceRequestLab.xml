@@ -25,6 +25,7 @@
       <sliceName value="anforderung-empfaenger" />
       <min value="1" />
       <max value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="ServiceRequest.identifier:anforderung-empfaenger.type">
       <path value="ServiceRequest.identifier.type" />
