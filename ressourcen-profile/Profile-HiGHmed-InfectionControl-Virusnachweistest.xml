@@ -107,6 +107,12 @@
         </coding>
       </patternCodeableConcept>
     </element>
+    <element id="Observation.component:Virusname.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+    </element>
     <element id="Observation.component:Viruslast">
       <path value="Observation.component" />
       <sliceName value="Viruslast" />
@@ -122,5 +128,11 @@
         </coding>
       </patternCodeableConcept>
     </element>
+    <element id="Observation.component:Viruslast.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
   </differential>
-  </StructureDefinition>
+</StructureDefinition>
