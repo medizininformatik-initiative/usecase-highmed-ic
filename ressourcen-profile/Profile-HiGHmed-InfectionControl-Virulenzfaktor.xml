@@ -4,7 +4,7 @@
   <url value="http://highmed.org/fhir/StructureDefinition/ic/Virulenzfaktor" />
   <version value="1.0.0" />
   <name value="Profile_HiGHmed_InfectionControl_Virulenzfaktor" />
-  <title value="Profile - HiGHmed - Infection Control- Virulenzfaktor" />
+  <title value="Profile - HiGHmed - Infection Control - Virulenzfaktor" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
