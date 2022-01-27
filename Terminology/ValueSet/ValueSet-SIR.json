@@ -1,36 +1,47 @@
 {
   "resourceType": "ValueSet",
-  "title": "HiGHmed Resistenzklassen Antibiogramm nach EUCAST",
-  
+  "id": "resistenzklassen-antibiogramm-eucast",
   "url": "http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast",
-  "version": "1.0",
+   "name": "HighmedResistenzklassenAntibiogrammEucast",
+  "title": "HiGHmed Resistenzklassen Antibiogramm nach EUCAST",
   "status": "active",
-  "description": "ValueSet für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.",
-      "concept": [
+  "contact": [
     {
-      "code": "S",
-      "display": "Susceptible, standard dosing regimen",
-      "definition": "A microorganism is categorised as \"Susceptible, standard dosing regimen\", when there is a high likelihood of therapeutic success using a standard dosing regimen of the agent."
-    },
-    {
-      "code": "I",
-      "display": "Susceptible, increased exposure",
-      "definition": "A microorganism is categorised as \"Susceptible, Increased exposure\" when there is a high likelihood of therapeutic success because exposure to the agent is increased by adjusting the dosing regimen or by its concentration at the site of infection."
-    },
-    {
-      "code": "R",
-      "display": "Resistant",
-      "definition": "A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure."
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
     }
   ],
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed Resistenzklassen Antibiogramm nach EUCAST</h2><tt>http://highmed.org/CodeSystem/resistenzklassen-antibiogramm-eucast</tt><p>CodeSystem für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.</p></div>"
+  "compose": {
+    "include": [
+      {
+        "system": "http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast",
+        "concept": [
+         
+            {
+                "code": "S",
+                "display": "Susceptible, standard dosing regimen",
+                "definition": "A microorganism is categorised as \"Susceptible, standard dosing regimen\", when there is a high likelihood of therapeutic success using a standard dosing regimen of the agent."
+              },
+              {
+                "code": "I",
+                "display": "Susceptible, increased exposure",
+                "definition": "A microorganism is categorised as \"Susceptible, Increased exposure\" when there is a high likelihood of therapeutic success because exposure to the agent is increased by adjusting the dosing regimen or by its concentration at the site of infection."
+              },
+              {
+                "code": "R",
+                "display": "Resistant",
+                "definition": "A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure."
+              }
+        
+        ]
+      }
+    ]
   },
-  "valueSet": "http://highmed.org/ValueSet/resistenzklassen-antibiogramm-eucast",
-  "name": "HighmedResistenzklassenAntibiogrammEucast",
-  "id": "resistenzklassen-antibiogramm-eucast",
-  "publisher": "http://highmed.org",
+  "description": " ValueSet für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.",
+  "version": "2.0",
   "date": "2021-02-18T00:00:00.000Z",
-  "count": 3
+  "publisher": "http://highmed.org"
 }
