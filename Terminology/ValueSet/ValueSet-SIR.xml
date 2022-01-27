@@ -4,25 +4,28 @@
     </meta>
     <url value="http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast" />
     <version value="0.9" />
-    <name value="Colons" />
-    <title value="Colo" />
-    <status value="draft" />
+    <name value="HighmedResistenzklassenAntibiogrammEucast" />
+    <title value="HiGHmed Resistenzklassen Antibiogramm nach EUCAST"" />
+    <status value="active" />
     <experimental value="true" />
     <date value="2020-03-20" />
     <publisher value="https://www.medizininformatik-initiative.de" />
-    <description value="Defines codes for Colony Count tests for HiGHmed Use Case Infection Control." />
+    <description value="ValueSet für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019" />
     <compose>
         <include>
             <system value="http://loinc.org"/>
           <concept>
                 <code value="S"/>
-                <display value=" Colony count [#/volume] in Unspecified specimen by Visual count"/>
+                <display value=" Susceptible, standard dosing regimen"/>
             </concept>
             <concept>
                 <code value="I"/>
-                <display value=" Fungus colony count [#/volume] in Unspecified specimen by Culture"/>
+                <display value=" Susceptible, increased exposure"/>
             </concept>
-           
+            <concept>
+                <code value="R"/>
+                <display value=" A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure"/>
+            </concept>
                         
                     </include>
     </compose>
