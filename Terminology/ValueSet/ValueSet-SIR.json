@@ -20,11 +20,11 @@
          
             {
                 "code": "S",
-                "display": "Susceptible, standard dosing regimen",
+                "display": "Susceptible, standard dosing regimen"
               },
               {
                 "code": "I",
-                "display": "Susceptible, increased exposure",
+                "display": "Susceptible, increased exposure"
                },
               {
                 "code": "R",
