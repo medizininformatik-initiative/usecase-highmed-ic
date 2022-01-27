@@ -29,9 +29,15 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code" />
-      <patternCodeableConcept>
-        <text value="MRE Klasse" />
-      </patternCodeableConcept>
+      <short value="MRE Klasse)" />
+    </element>
+    <element id="Observation.code.coding.system">
+      <path value="Observation.code.coding.system" />
+      <fixedUri value="http://loinc.org" />
+    </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="99780-9" />
     </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
