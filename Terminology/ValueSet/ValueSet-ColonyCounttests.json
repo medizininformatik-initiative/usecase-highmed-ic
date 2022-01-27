@@ -24,10 +24,6 @@
           {
             "code": "19101-5",
             "display": "Fungus colony count [#/volume] in Unspecified specimen by Culture]"
-          },
-          {
-            "code": "20774-6",
-            "display": "Colony count [Units/volume] in Unspecified specimen by Visual count"
           }
           
         ]

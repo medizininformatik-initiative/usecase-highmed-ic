@@ -22,10 +22,7 @@
                 <code value="19101-5"/>
                 <display value=" Fungus colony count [#/volume] in Unspecified specimen by Culture"/>
             </concept>
-            <concept>
-                <code value="20774-6"/>
-                <display value=" Colony count [Units/volume] in Unspecified specimen by Visual count"/>
-            </concept>
+           
                         
                     </include>
     </compose>
