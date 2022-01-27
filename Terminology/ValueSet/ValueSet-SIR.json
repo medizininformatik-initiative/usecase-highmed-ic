@@ -21,7 +21,6 @@
             {
                 "code": "S",
                 "display": "Susceptible, standard dosing regimen",
-               
               },
               {
                 "code": "I",
@@ -29,10 +28,9 @@
                },
               {
                 "code": "R",
-                "definition": "A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure."
+                "display": "A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure."
               }
-        
-        ]
+                ]
       }
     ]
   },
