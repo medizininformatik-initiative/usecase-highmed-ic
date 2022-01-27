@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-    "url": "http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast",
-     "title": "HiGHmed Resistenzklassen Antibiogramm nach EUCAST",
-  "status": "active",
+  "url": "http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast",
+  "title": "Colony count tests",
+  "status": "draft",
   "contact": [
     {
       "telecom": [
@@ -15,25 +15,25 @@
   "compose": {
     "include": [
       {
-        "system": "http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast",
+        "system": "http://loinc.org",
         "concept": [
-         
-            {
-                "code": "S",
-                "display": "Susceptible, standard dosing regimen"
-              },
-              {
-                "code": "I",
-                "display": "Susceptible, increased exposure"
-               },
-              {
-                "code": "R",
-                "display": "A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure."
-              }
-                ]
+          {
+            "code": "S",
+            "display": "Susceptible, standard dosing regimen"
+          },
+          {
+            "code": "I",
+            "display": "Susceptible, increased exposure"
+           },
+          {
+            "code": "R",
+            "display": "A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure."
+          }
+          
+        ]
       }
     ]
   },
-  "description": " ValueSet für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.",
-  "name": "HighmedResistenzklassenAntibiogrammEucast"
+ 
+  "name": "Colony count tests"
 }
