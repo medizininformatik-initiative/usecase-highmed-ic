@@ -6,14 +6,14 @@
     <version value="0.9" />
     <name value="HiGHmed Resistenzklassen Antibiogramm nach EUCAST" />
     <title value="HighmedResistenzklassenAntibiogrammEucast"/>
-    <status value="draft" />
+    <status value="active" />
     <experimental value="true" />
     <date value="2020-03-20" />
     <publisher value="https://www.medizininformatik-initiative.de" />
     <description value="ValueSet für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019." />
     <compose>
         <include>
-            <system value="http://loinc.org"/>
+            <system value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast"/>
           <concept>
                 <code value="S"/>
                 <display value=" Susceptible, standard dosing regimen"/>
@@ -22,7 +22,10 @@
                 <code value="I"/>
                 <display value=" Susceptible, increased exposure"/>
             </concept>
-           
+           <concept>
+                <code value="R"/>
+                <display value=" A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure"/>
+            </concept>
                         
                     </include>
     </compose>
