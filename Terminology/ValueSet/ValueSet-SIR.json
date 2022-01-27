@@ -1,14 +1,14 @@
 {
-  "resourceType": "CodeSystem",
+  "resourceType": "ValueSet",
   "title": "HiGHmed Resistenzklassen Antibiogramm nach EUCAST",
   "meta": {
     "versionId": "2",
     "lastUpdated": "2021-02-18T12:09:50.236+00:00"
   },
-  "url": "http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast",
+  "url": "http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast",
   "version": "1.0",
   "status": "active",
-  "description": "CodeSystem für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.",
+  "description": "ValueSet für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.",
   "compositional": false,
   "content": "complete",
   "concept": [
