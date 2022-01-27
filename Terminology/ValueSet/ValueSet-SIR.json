@@ -21,16 +21,14 @@
             {
                 "code": "S",
                 "display": "Susceptible, standard dosing regimen",
-                "definition": "A microorganism is categorised as \"Susceptible, standard dosing regimen\", when there is a high likelihood of therapeutic success using a standard dosing regimen of the agent."
+               
               },
               {
                 "code": "I",
                 "display": "Susceptible, increased exposure",
-                "definition": "A microorganism is categorised as \"Susceptible, Increased exposure\" when there is a high likelihood of therapeutic success because exposure to the agent is increased by adjusting the dosing regimen or by its concentration at the site of infection."
-              },
+               },
               {
                 "code": "R",
-                "display": "Resistant",
                 "definition": "A microorganism is categorised as \"Resistant\" when there is a high likelihood of therapeutic failure even when there is increased exposure."
               }
         
