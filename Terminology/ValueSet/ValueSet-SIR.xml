@@ -1,0 +1,29 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
+    <url value="http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast" />
+    <version value="0.9" />
+    <name value="Colons" />
+    <title value="Colo" />
+    <status value="draft" />
+    <experimental value="true" />
+    <date value="2020-03-20" />
+    <publisher value="https://www.medizininformatik-initiative.de" />
+    <description value="Defines codes for Colony Count tests for HiGHmed Use Case Infection Control." />
+    <compose>
+        <include>
+            <system value="http://loinc.org"/>
+          <concept>
+                <code value="S"/>
+                <display value=" Colony count [#/volume] in Unspecified specimen by Visual count"/>
+            </concept>
+            <concept>
+                <code value="I"/>
+                <display value=" Fungus colony count [#/volume] in Unspecified specimen by Culture"/>
+            </concept>
+           
+                        
+                    </include>
+    </compose>
+</ValueSet>
