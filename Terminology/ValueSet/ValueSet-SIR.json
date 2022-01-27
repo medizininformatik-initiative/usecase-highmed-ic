@@ -9,9 +9,7 @@
   "version": "1.0",
   "status": "active",
   "description": "ValueSet für die Resistenzklasseneinteilung im Antibiogramm nach EUCAST in der Definition ab 2019.",
-  "compositional": false,
-  "content": "complete",
-  "concept": [
+      "concept": [
     {
       "code": "S",
       "display": "Susceptible, standard dosing regimen",
