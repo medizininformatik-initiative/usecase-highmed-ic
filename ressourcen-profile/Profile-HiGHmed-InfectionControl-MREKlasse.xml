@@ -39,6 +39,10 @@
       <path value="Observation.code.coding.code" />
       <fixedCode value="99780-9" />
     </element>
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display" />
+      <fixedString value="Multidrug resistant gram-negative organism classification [Type]" />
+    </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
