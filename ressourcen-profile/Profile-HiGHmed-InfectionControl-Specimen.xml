@@ -72,7 +72,7 @@
         <key value="Highmed-IC-Specimen-1" />
         <severity value="error" />
         <human value="Falls ein Isolat kodiert wird, muss die Probe auch angeben werden" />
-        <expression value="$this.coding.where(code = '429951000124103' and system = 'http://snomed.info/sct').exists() implies %resource.parent.exists()" />
+        <expression value="coding.where(code = '429951000124103' and system = 'http://snomed.info/sct').exists() implies %resource.parent.exists()" />
         <source value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
       </constraint>
       <mustSupport value="true" />
