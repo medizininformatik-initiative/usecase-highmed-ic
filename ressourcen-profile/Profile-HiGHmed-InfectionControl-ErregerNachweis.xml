@@ -34,6 +34,10 @@
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
         <rules value="open" />
       </slicing>
       <min value="1" />
