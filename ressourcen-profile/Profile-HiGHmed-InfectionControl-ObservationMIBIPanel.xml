@@ -49,7 +49,7 @@
       <min value="1" />
       <max value="1" />
       <binding>
-        <strength value="example" />
+        <strength value="preferred" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/susceptibilitypanels" />
       </binding>
     </element>
