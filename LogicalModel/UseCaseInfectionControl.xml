@@ -1411,8 +1411,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.Aufnahmedaten.IdentifikationsnummerdesPatientenvorderAufnahme">
-      <path value="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.Aufnahmedaten.IdentifikationsnummerdesPatientenvorderAufnahme" />
+    <element id="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.Aufnahmedaten.KennungvorderAufnahme">
+      <path value="UseCaseInfectionControl.Bewegungsdaten.StationärerVersorgungsfall.Aufnahmedaten.KennungvorderAufnahme" />
       <short value="Identifikationsnummer des Patienten vor der Aufnahme" />
       <definition value="Identifikationsnummer des Patienten vor der Aufnahme" />
       <min value="0" />

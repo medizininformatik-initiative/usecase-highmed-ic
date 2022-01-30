@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "Virologischer-befund-NonQuantitativesErgebnis",
-  "url": "http://highmed.org/fhir/ValueSet/ic/VirologischerBefundNonQuantitativesErgebnis",
-  "name": "HighmedVirologischerBefundNonQuantitativesErgebnis",
+  "id": "Viren",
+  "url": "http://highmed.org/fhir/ValueSet/ic/viren-snomedct-explizit",
+   "name": "HighmedVirologischerBefundViren",
   "title": "HiGHmed Viren Nachweis[SNOMED CT explizit]",
   "status": "draft",
   "contact": [
@@ -19,18 +19,7 @@
       {
         "system": "http://snomed.info/sct",
         "concept": [
-          {
-            "code": "260373001",
-            "display": "Detected (qualifier value)"
-          },
-          {
-            "code": "260415000",
-            "display": "Not detected (qualifier value)"
-          },
-          {
-            "code": "419984006",
-            "display": "Inconclusive (qualifier value)"
-          },
+         
           {
             "code": "424470006",
             "display": "Family Adenoviridae (organism)"
