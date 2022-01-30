@@ -39,6 +39,7 @@
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
       <patternQuantity>
+        <system value="http://unitsofmeasure.org" />
         <code value="ug/mL" />
       </patternQuantity>
     </element>
