@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Profile-HiGHmed-InfectionControl-ObservationMIBIPanel" />
-  <url value="http://highmed.org/fhir/StructureDefinition/ObservationMIBIPanel" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/ObservationMIBIPanel" />
   <version value="1.0.0" />
   <name value="Profile_HiGHmed_InfectionControl_ObservationMIBIPanel" />
   <title value="Profile - HiGHmed - Infection Control- Panel" />
@@ -30,10 +30,6 @@
     <element id="Observation.code">
       <path value="Observation.code" />
       <mustSupport value="true" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/laboratory-tests-and-panels-uv-ips" />
-      </binding>
     </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
@@ -67,6 +63,11 @@
     </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/MREKlasse" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/AntibiotikaSusceptibility" />
+      </type>
       <min value="1" />
       <mustSupport value="true" />
     </element>

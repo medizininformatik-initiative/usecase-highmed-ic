@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Profile-HiGHmed-InfectionControl-MREKlasse" />
-  <url value="http://highmed.org/fhir/StructureDefinition/MREKlasse" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/MREKlasse" />
   <version value="1.0.0" />
   <name value="Profile_HiGHmed_InfectionControl_MREKlasse" />
   <title value="Proifle - HiGHmed - Infection Control- MRE Klasse" />
