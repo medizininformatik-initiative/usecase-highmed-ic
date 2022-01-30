@@ -254,10 +254,6 @@
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Practitioner.telecom.rank">
-      <path value="Practitioner.telecom.rank" />
-      <mustSupport value="true" />
-    </element>
     <element id="Practitioner.address">
       <path value="Practitioner.address" />
       <slicing>
