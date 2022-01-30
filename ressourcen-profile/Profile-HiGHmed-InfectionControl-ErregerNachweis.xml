@@ -84,6 +84,9 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Keimzahl" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Virulenzfaktor" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Resistenzmechanismus" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ObservationMIBIPanel" />
       </type>
       <mustSupport value="true" />
     </element>
