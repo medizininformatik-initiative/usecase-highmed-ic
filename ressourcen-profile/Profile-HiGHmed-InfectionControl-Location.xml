@@ -47,10 +47,12 @@
         <strength value="extensible" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/LocationPhysicalType" />
       </binding>
+      <mustSupport value="true" />
     </element>
     <element id="Location.managingOrganization">
       <path value="Location.managingOrganization" />
       <min value="1" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
