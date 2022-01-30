@@ -52,6 +52,7 @@
         <strength value="preferred" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/susceptibilitypanels" />
       </binding>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
