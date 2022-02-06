@@ -4,7 +4,7 @@
   <url value="http://highmed.org/fhir/StructureDefinition/ic/MREKlasse" />
   <version value="1.0.0" />
   <name value="Profile_HiGHmed_InfectionControl_MREKlasse" />
-  <title value="Proifle - HiGHmed - Infection Control- MRE Klasse" />
+  <title value="Profile - HiGHmed - Infection Control - MRE Klasse" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
