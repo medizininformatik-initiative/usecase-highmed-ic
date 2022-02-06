@@ -35,7 +35,7 @@ jobs:
           PATH_TO_CONFORMANCE_RESOURCES: ressourcen-profile Terminology/CodeSystem Terminology/ValueSet Terminology/ConceptMap LogicalModel
           PATH_TO_EXAMPLES: beispiele
           DOTNET_VALIDATION_ENABLED: false
-          JAVA_VALIDATION_ENABLED: true
+          JAVA_VALIDATION_ENABLED: false
           OUTPUT_FORMAT: RAW
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA
           JAVA_VALIDATION_OPTIONS: -allow-example-urls true
