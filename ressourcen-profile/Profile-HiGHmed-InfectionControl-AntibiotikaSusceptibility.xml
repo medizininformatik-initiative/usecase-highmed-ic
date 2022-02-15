@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Profile-HiGHmed-InfectionControl-AntibiotikaSusceptibility" />
-  <url value="http://highmed.org/fhir/StructureDefinition/ic/AntibiotikaSusceptibility" />
+  <id value="Profile-HiGHmed-InfectionControl-AntibiotikumMessung" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/AntibiotikumMessung" />
   <version value="1.0.0" />
-  <name value="Profile_HiGHmed_InfectionControl_AntibiotikaSusceptibility" />
-  <title value="Profile - HiGHmed - Infection Control - Antibiotikum-Messungen" />
+  <name value="Profile_HiGHmed_InfectionControl_AntibiotikumMessung" />
+  <title value="Profile - HiGHmed - Infection Control - Antibiotikum-Messung" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
