@@ -14,38 +14,17 @@
     <compose>
         <include>
             <system value="http://www.loinc.org"/>
-          <concept>
-                <code value="85421-6"/>
-                <display value="Bacterial identification und susceptibility panel"/>
-            </concept>
-            <concept>
-                <code value="87927-0"/>
-                <display value="Bacterial susceptibility panel (MLC)"/>
-            </concept>
+
+
             <concept>
                 <code value="29576-6"/>
                 <display value="Bacterial susceptibility panel"/>
             </concept>
             <concept>
-                <code value="50546-1"/>
-                <display value="Bacterial susceptibility panel (Agar diffusion)"/>
+                <code value="29577-4"/>
+                <display value="Fungal susceptibility panel"/>
             </concept>
-            <concept>
-                <code value="49589-5"/>
-                <display value="Bacterial susceptibility panel (Gradient strip)"/>
-            </concept>
-            <concept>
-                <code value="50545-3"/>
-                <display value="Bacterial susceptibility panel (MIC)"/>
-            </concept>
-            <concept>
-                <code value="29579-0"/>
-                <display value="Mycobacterial susceptibility panel (Method for Slow-growing mycobacteria)"/>
-            </concept>
-            <concept>
-                <code value="89486-5"/>
-                <display value="Mycobacterial susceptibility panel (Genotyping)"/>
-            </concept>
+            
                     </include>
     </compose>
 </ValueSet>

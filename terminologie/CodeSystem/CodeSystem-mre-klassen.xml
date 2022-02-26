@@ -13,31 +13,31 @@
     <content value="complete" />
     <count value="7" />
     <concept>
-        <code value="01" />
+        <code value="115329001" />
         <display value="MRSA" />
     </concept>
     <concept>
-        <code value="02" />
+        <code value="113727004" />
         <display value="VRE" />
     </concept>
     <concept>
-        <code value="03" />
+        <code value="838511009" />
         <display value="LVRE" />
         </concept>
         <concept>
-            <code value="04" />
+            <code value="838510005" />
             <display value="LRE" />
         </concept>
         <concept>
-            <code value="05" />
+            <code value="LA33214-0" />
             <display value="2MRGN" />
         </concept>
         <concept>
-            <code value="06" />
+            <code value="LA33215-7" />
             <display value="3MRGN" />
         </concept>
         <concept>
-            <code value="07" />
+            <code value="LA33216-5" />
             <display value="4MRGN" />
         </concept>
     
