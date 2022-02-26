@@ -1,0 +1,4450 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://highmed.org/ValueSet/ic/highmed-quantitativevirusnachweistests-loinc",
+  "title": "HiGHmedQuantitative Virusnachweisests",
+  "status": "draft",
+  "copyright": "This content LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LOINC",
+            "display": "LongName"
+          },
+          {
+            "code": "31217-3",
+            "display": "Adenovirus Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "13192-0",
+            "display": "Adenovirus Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7805-5",
+            "display": "Adenovirus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "44289-7",
+            "display": "Adenovirus Ab [Units/volume] in Serum by Complement fixation"
+          },
+          {
+            "code": "29416-5",
+            "display": "Adenovirus Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "29314-2",
+            "display": "Adenovirus Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "34576-9",
+            "display": "Adenovirus Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "23950-9",
+            "display": "Adenovirus Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22080-6",
+            "display": "Adenovirus Ab [Titer] in Serum"
+          },
+          {
+            "code": "5041-9",
+            "display": "Adenovirus Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "13913-9",
+            "display": "Adenovirus Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "13914-7",
+            "display": "Adenovirus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "51822-5",
+            "display": "Adenovirus IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "21053-4",
+            "display": "Adenovirus IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "55160-6",
+            "display": "Adenovirus IgG and IgM panel - Serum"
+          },
+          {
+            "code": "5042-7",
+            "display": "Adenovirus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "51823-3",
+            "display": "Adenovirus IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "13915-4",
+            "display": "Adenovirus IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "24249-5",
+            "display": "Adenovirus Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24175-2",
+            "display": "Adenovirus Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24250-3",
+            "display": "Adenovirus Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24176-0",
+            "display": "Adenovirus Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "66725-3",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "66720-4",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Body fluid by NAA with probe detection"
+          },
+          {
+            "code": "66730-3",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "66726-1",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Genital specimen by NAA with probe detection"
+          },
+          {
+            "code": "66723-8",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "66728-7",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Skin by NAA with probe detection"
+          },
+          {
+            "code": "66731-1",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Sputum or Bronchial by NAA with probe detection"
+          },
+          {
+            "code": "66724-6",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Stool by NAA with probe detection"
+          },
+          {
+            "code": "66722-0",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "66719-6",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "64038-3",
+            "display": "Adenovirus DNA [Log #/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49336-1",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "49341-1",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "66721-2",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Body fluid by NAA with probe detection"
+          },
+          {
+            "code": "49337-9",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "92854-9",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "49338-7",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "66727-9",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Genital specimen by NAA with probe detection"
+          },
+          {
+            "code": "49334-6",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "66729-5",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Skin by NAA with probe detection"
+          },
+          {
+            "code": "49339-5",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Stool by NAA with probe detection"
+          },
+          {
+            "code": "49335-3",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "48609-2",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "49340-3",
+            "display": "Adenovirus DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "13232-4",
+            "display": "Coxsackievirus A Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "16679-3",
+            "display": "Coxsackievirus A Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "40758-5",
+            "display": "Coxsackievirus A Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "63434-5",
+            "display": "Coxsackievirus A Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "51978-5",
+            "display": "Coxsackievirus A Ab [Titer] in Serum"
+          },
+          {
+            "code": "86516-2",
+            "display": "Coxsackievirus A Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "41484-7",
+            "display": "Coxsackievirus A Ab panel [Titer] - Serum by Complement fixation"
+          },
+          {
+            "code": "16680-1",
+            "display": "Coxsackievirus A IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "16681-9",
+            "display": "Coxsackievirus A IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "40759-3",
+            "display": "Coxsackievirus A IgM Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "40762-7",
+            "display": "Coxsackievirus A Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "40760-1",
+            "display": "Coxsackievirus A Ab [Titer] in Cerebral spinal fluid --2nd specimen"
+          },
+          {
+            "code": "40761-9",
+            "display": "Coxsackievirus A Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "13297-7",
+            "display": "Coxsackievirus A1 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31317-1",
+            "display": "Coxsackievirus A10 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "13295-1",
+            "display": "Coxsackievirus A10 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "11590-7",
+            "display": "Coxsackievirus A10 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "43049-6",
+            "display": "Coxsackievirus A10 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31051-6",
+            "display": "Coxsackievirus A10 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22212-5",
+            "display": "Coxsackievirus A10 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9751-9",
+            "display": "Coxsackievirus A10 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22213-3",
+            "display": "Coxsackievirus A10 Ab [Titer] in Serum"
+          },
+          {
+            "code": "9750-1",
+            "display": "Coxsackievirus A10 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "24300-6",
+            "display": "Coxsackievirus A10 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24226-3",
+            "display": "Coxsackievirus A10 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24301-4",
+            "display": "Coxsackievirus A10 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24227-1",
+            "display": "Coxsackievirus A10 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "31318-9",
+            "display": "Coxsackievirus A16 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "13235-7",
+            "display": "Coxsackievirus A16 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7833-7",
+            "display": "Coxsackievirus A16 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "43046-2",
+            "display": "Coxsackievirus A16 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31052-4",
+            "display": "Coxsackievirus A16 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22214-1",
+            "display": "Coxsackievirus A16 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9752-7",
+            "display": "Coxsackievirus A16 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22215-8",
+            "display": "Coxsackievirus A16 Ab [Titer] in Serum"
+          },
+          {
+            "code": "6688-6",
+            "display": "Coxsackievirus A16 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "59583-5",
+            "display": "Coxsackievirus A16 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "59580-1",
+            "display": "Coxsackievirus A16 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "24302-2",
+            "display": "Coxsackievirus A16 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24228-9",
+            "display": "Coxsackievirus A16 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24303-0",
+            "display": "Coxsackievirus A16 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24229-7",
+            "display": "Coxsackievirus A16 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "13233-2",
+            "display": "Coxsackievirus A2 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "11591-5",
+            "display": "Coxsackievirus A2 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "16682-7",
+            "display": "Coxsackievirus A2 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22216-6",
+            "display": "Coxsackievirus A2 Ab [Titer] in Serum"
+          },
+          {
+            "code": "9753-5",
+            "display": "Coxsackievirus A2 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "11599-8",
+            "display": "Coxsackievirus A21 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "22217-4",
+            "display": "Coxsackievirus A21 Ab [Titer] in Serum"
+          },
+          {
+            "code": "6956-7",
+            "display": "Coxsackievirus A21 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "59582-7",
+            "display": "Coxsackievirus A24 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "59579-3",
+            "display": "Coxsackievirus A24 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "42623-9",
+            "display": "Coxsackievirus A3 Ab [Titer] in Serum"
+          },
+          {
+            "code": "13234-0",
+            "display": "Coxsackievirus A4 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "11593-1",
+            "display": "Coxsackievirus A4 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "16683-5",
+            "display": "Coxsackievirus A4 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22218-2",
+            "display": "Coxsackievirus A4 Ab [Titer] in Serum"
+          },
+          {
+            "code": "9754-3",
+            "display": "Coxsackievirus A4 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "35413-4",
+            "display": "Coxsackievirus A4+A16 Ab [Titer] in Serum"
+          },
+          {
+            "code": "42603-1",
+            "display": "Coxsackievirus A6 Ab [Titer] in Serum"
+          },
+          {
+            "code": "31320-5",
+            "display": "Coxsackievirus A7 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31319-7",
+            "display": "Coxsackievirus A7 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7834-5",
+            "display": "Coxsackievirus A7 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "43047-0",
+            "display": "Coxsackievirus A7 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31049-0",
+            "display": "Coxsackievirus A7 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22219-0",
+            "display": "Coxsackievirus A7 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9756-8",
+            "display": "Coxsackievirus A7 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22220-8",
+            "display": "Coxsackievirus A7 Ab [Titer] in Serum"
+          },
+          {
+            "code": "9755-0",
+            "display": "Coxsackievirus A7 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5101-1",
+            "display": "Coxsackievirus A7 Ab [Titer] in Serum by Neutralization test"
+          },
+          {
+            "code": "59584-3",
+            "display": "Coxsackievirus A7 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "59581-9",
+            "display": "Coxsackievirus A7 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "24304-8",
+            "display": "Coxsackievirus A7 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24230-5",
+            "display": "Coxsackievirus A7 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24305-5",
+            "display": "Coxsackievirus A7 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24231-3",
+            "display": "Coxsackievirus A7 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "27947-1",
+            "display": "Coxsackievirus A7 RNA [Units/volume] (viral load) in Cerebral spinal fluid by Probe"
+          },
+          {
+            "code": "33391-4",
+            "display": "Coxsackievirus A8 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31322-1",
+            "display": "Coxsackievirus A9 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31321-3",
+            "display": "Coxsackievirus A9 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7835-2",
+            "display": "Coxsackievirus A9 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "43048-8",
+            "display": "Coxsackievirus A9 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31050-8",
+            "display": "Coxsackievirus A9 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22221-6",
+            "display": "Coxsackievirus A9 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9758-4",
+            "display": "Coxsackievirus A9 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22222-4",
+            "display": "Coxsackievirus A9 Ab [Titer] in Serum"
+          },
+          {
+            "code": "9757-6",
+            "display": "Coxsackievirus A9 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5102-9",
+            "display": "Coxsackievirus A9 Ab [Titer] in Serum by Neutralization test"
+          },
+          {
+            "code": "56621-6",
+            "display": "Coxsackievirus A9 IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "58792-3",
+            "display": "Coxsackievirus A9 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "58791-5",
+            "display": "Coxsackievirus A9 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "24306-3",
+            "display": "Coxsackievirus A9 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24232-1",
+            "display": "Coxsackievirus A9 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24307-1",
+            "display": "Coxsackievirus A9 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24233-9",
+            "display": "Coxsackievirus A9 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "27969-5",
+            "display": "Coxsackievirus A9 RNA [Units/volume] (viral load) in Cerebral spinal fluid by Probe"
+          },
+          {
+            "code": "51453-9",
+            "display": "Coxsackievirus A9+B1+B2+B3+B4+B5+B6 Ab [Titer] in Serum"
+          },
+          {
+            "code": "50691-5",
+            "display": "Coxsackievirus A9+B1+B2+B3+B4+B5+B6 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "16684-3",
+            "display": "Coxsackievirus B Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "40765-0",
+            "display": "Coxsackievirus B Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "34437-4",
+            "display": "Coxsackievirus B Ab [Titer] in Serum"
+          },
+          {
+            "code": "41485-4",
+            "display": "Coxsackievirus B Ab panel [Titer] - Serum by Complement fixation"
+          },
+          {
+            "code": "41486-2",
+            "display": "Coxsackievirus B Ab panel [Titer] - Serum by Neutralization test"
+          },
+          {
+            "code": "22223-2",
+            "display": "Coxsackievirus B IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "51817-5",
+            "display": "Coxsackievirus B IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "16685-0",
+            "display": "Coxsackievirus B IgG Ab [Units/volume] in Serum by Neutralization test"
+          },
+          {
+            "code": "58780-8",
+            "display": "Coxsackievirus B IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "40767-6",
+            "display": "Coxsackievirus B IgG Ab [Titer] in Cerebral spinal fluid --2nd specimen"
+          },
+          {
+            "code": "40764-3",
+            "display": "Coxsackievirus B IgG Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "22224-0",
+            "display": "Coxsackievirus B IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "51818-3",
+            "display": "Coxsackievirus B IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "16686-8",
+            "display": "Coxsackievirus B IgM Ab [Units/volume] in Serum by Neutralization test"
+          },
+          {
+            "code": "58790-7",
+            "display": "Coxsackievirus B IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "40766-8",
+            "display": "Coxsackievirus B IgM Ab [Titer] in Cerebral spinal fluid --1st specimen"
+          },
+          {
+            "code": "40763-5",
+            "display": "Coxsackievirus B IgM Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "31324-7",
+            "display": "Coxsackievirus B1 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31323-9",
+            "display": "Coxsackievirus B1 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7836-0",
+            "display": "Coxsackievirus B1 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29230-0",
+            "display": "Coxsackievirus B1 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31053-2",
+            "display": "Coxsackievirus B1 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22225-7",
+            "display": "Coxsackievirus B1 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9759-2",
+            "display": "Coxsackievirus B1 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22226-5",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5104-5",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5103-7",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum by Neutralization test"
+          },
+          {
+            "code": "24251-1",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24177-8",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24179-4",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum by Neutralization test --1st specimen"
+          },
+          {
+            "code": "24252-9",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24178-6",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "24180-2",
+            "display": "Coxsackievirus B1 Ab [Titer] in Serum by Neutralization test --2nd specimen"
+          },
+          {
+            "code": "31326-2",
+            "display": "Coxsackievirus B2 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31325-4",
+            "display": "Coxsackievirus B2 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7837-8",
+            "display": "Coxsackievirus B2 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29231-8",
+            "display": "Coxsackievirus B2 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31054-0",
+            "display": "Coxsackievirus B2 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22227-3",
+            "display": "Coxsackievirus B2 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9760-0",
+            "display": "Coxsackievirus B2 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22228-1",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5106-0",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5105-2",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum by Neutralization test"
+          },
+          {
+            "code": "24255-2",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24181-0",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24183-6",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum by Neutralization test --1st specimen"
+          },
+          {
+            "code": "24256-0",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24182-8",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "24184-4",
+            "display": "Coxsackievirus B2 Ab [Titer] in Serum by Neutralization test --2nd specimen"
+          },
+          {
+            "code": "31328-8",
+            "display": "Coxsackievirus B3 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31327-0",
+            "display": "Coxsackievirus B3 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7838-6",
+            "display": "Coxsackievirus B3 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29232-6",
+            "display": "Coxsackievirus B3 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31055-7",
+            "display": "Coxsackievirus B3 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22229-9",
+            "display": "Coxsackievirus B3 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9761-8",
+            "display": "Coxsackievirus B3 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22230-7",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5108-6",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5107-8",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum by Neutralization test"
+          },
+          {
+            "code": "24259-4",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24185-1",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24187-7",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum by Neutralization test --1st specimen"
+          },
+          {
+            "code": "24260-2",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24186-9",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "24188-5",
+            "display": "Coxsackievirus B3 Ab [Titer] in Serum by Neutralization test --2nd specimen"
+          },
+          {
+            "code": "31330-4",
+            "display": "Coxsackievirus B4 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31329-6",
+            "display": "Coxsackievirus B4 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7839-4",
+            "display": "Coxsackievirus B4 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29233-4",
+            "display": "Coxsackievirus B4 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31056-5",
+            "display": "Coxsackievirus B4 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22231-5",
+            "display": "Coxsackievirus B4 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9762-6",
+            "display": "Coxsackievirus B4 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22232-3",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5110-2",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5109-4",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum by Neutralization test"
+          },
+          {
+            "code": "24263-6",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24189-3",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24191-9",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum by Neutralization test --1st specimen"
+          },
+          {
+            "code": "24264-4",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24190-1",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "24192-7",
+            "display": "Coxsackievirus B4 Ab [Titer] in Serum by Neutralization test --2nd specimen"
+          },
+          {
+            "code": "31332-0",
+            "display": "Coxsackievirus B5 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31331-2",
+            "display": "Coxsackievirus B5 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7840-2",
+            "display": "Coxsackievirus B5 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29234-2",
+            "display": "Coxsackievirus B5 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31057-3",
+            "display": "Coxsackievirus B5 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22233-1",
+            "display": "Coxsackievirus B5 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9763-4",
+            "display": "Coxsackievirus B5 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22234-9",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5112-8",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5111-0",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum by Neutralization test"
+          },
+          {
+            "code": "24267-7",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24193-5",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24195-0",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum by Neutralization test --1st specimen"
+          },
+          {
+            "code": "24268-5",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24194-3",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "24196-8",
+            "display": "Coxsackievirus B5 Ab [Titer] in Serum by Neutralization test --2nd specimen"
+          },
+          {
+            "code": "27960-4",
+            "display": "Coxsackievirus B5 RNA [Units/volume] (viral load) in Cerebral spinal fluid by Probe"
+          },
+          {
+            "code": "31334-6",
+            "display": "Coxsackievirus B6 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31333-8",
+            "display": "Coxsackievirus B6 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7841-0",
+            "display": "Coxsackievirus B6 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29235-9",
+            "display": "Coxsackievirus B6 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31058-1",
+            "display": "Coxsackievirus B6 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22235-6",
+            "display": "Coxsackievirus B6 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9764-2",
+            "display": "Coxsackievirus B6 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22236-4",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5114-4",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5113-6",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum by Neutralization test"
+          },
+          {
+            "code": "24271-9",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24197-6",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24199-2",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum by Neutralization test --1st specimen"
+          },
+          {
+            "code": "24272-7",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24198-4",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "24200-8",
+            "display": "Coxsackievirus B6 Ab [Titer] in Serum by Neutralization test --2nd specimen"
+          },
+          {
+            "code": "27954-7",
+            "display": "Coxsackievirus B6 RNA [Units/volume] (viral load) in Cerebral spinal fluid by Probe"
+          },
+          {
+            "code": "35100-7",
+            "display": "Enterovirus IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "31367-6",
+            "display": "Enterovirus NOS Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "42903-5",
+            "display": "Enterovirus NOS Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "43038-9",
+            "display": "Enterovirus NOS Ab [Titer] in Serum"
+          },
+          {
+            "code": "26022-4",
+            "display": "Enterovirus NOS Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "62463-5",
+            "display": "Enterovirus RNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "62464-3",
+            "display": "Enterovirus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "53256-4",
+            "display": "Enterovirus RNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "74424-3",
+            "display": "Enterovirus RNA [Cycle Threshold #] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "74423-5",
+            "display": "Enterovirus RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "13238-1",
+            "display": "Epstein Barr virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "49069-8",
+            "display": "Epstein Barr virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "94828-1",
+            "display": "Epstein Barr virus DNA [Units/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "93840-7",
+            "display": "Epstein Barr virus DNA [Units/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "43730-1",
+            "display": "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "94829-9",
+            "display": "Epstein Barr virus DNA [log units/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "93841-5",
+            "display": "Epstein Barr virus DNA [log units/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "94830-7",
+            "display": "Epstein Barr virus DNA [Log #/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "53774-6",
+            "display": "Epstein Barr virus DNA [Log #/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49355-1",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "49354-4",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "36923-1",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "49353-6",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "34593-4",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "47982-4",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49356-9",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49352-8",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "32585-2",
+            "display": "Epstein Barr virus DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "31369-2",
+            "display": "Epstein Barr virus capsid IgA Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "34639-5",
+            "display": "Epstein Barr virus capsid IgA Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22290-1",
+            "display": "Epstein Barr virus capsid IgA Ab [Titer] in Serum"
+          },
+          {
+            "code": "9633-9",
+            "display": "Epstein Barr virus capsid IgA Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "16826-0",
+            "display": "Epstein Barr virus capsid IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "58760-0",
+            "display": "Epstein Barr virus capsid IgG Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7885-7",
+            "display": "Epstein Barr virus capsid IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5157-3",
+            "display": "Epstein Barr virus capsid IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "47432-0",
+            "display": "Epstein Barr virus capsid IgG Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "47064-1",
+            "display": "Epstein Barr virus capsid IgG Ab [Titer] in Body fluid by Immunofluorescence"
+          },
+          {
+            "code": "22291-9",
+            "display": "Epstein Barr virus capsid IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "11009-8",
+            "display": "Epstein Barr virus capsid IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "20490-9",
+            "display": "Epstein Barr virus capsid IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "5158-1",
+            "display": "Epstein Barr virus capsid IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "24316-2",
+            "display": "Epstein Barr virus capsid IgG and IgM panel - Serum"
+          },
+          {
+            "code": "81119-0",
+            "display": "Epstein Barr virus capsid IgG Ab avidity [Ratio] in Serum by Immunoassay"
+          },
+          {
+            "code": "32843-5",
+            "display": "Epstein Barr virus capsid IgG Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "32828-6",
+            "display": "Epstein Barr virus capsid IgG Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "32845-0",
+            "display": "Epstein Barr virus capsid IgG Ab [Ratio] in Serum --1st specimen/2nd specimen"
+          },
+          {
+            "code": "32830-2",
+            "display": "Epstein Barr virus capsid IgG Ab [Ratio] in Serum by Immunoassay --1st specimen/2nd specimen"
+          },
+          {
+            "code": "32844-3",
+            "display": "Epstein Barr virus capsid IgG Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "32829-4",
+            "display": "Epstein Barr virus capsid IgG Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "31370-0",
+            "display": "Epstein Barr virus capsid IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "56599-4",
+            "display": "Epstein Barr virus capsid IgM Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7886-5",
+            "display": "Epstein Barr virus capsid IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5159-9",
+            "display": "Epstein Barr virus capsid IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "47433-8",
+            "display": "Epstein Barr virus capsid IgM Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "47066-6",
+            "display": "Epstein Barr virus capsid IgM Ab [Titer] in Body fluid by Immunofluorescence"
+          },
+          {
+            "code": "22292-7",
+            "display": "Epstein Barr virus capsid IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "11010-6",
+            "display": "Epstein Barr virus capsid IgM Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "20491-7",
+            "display": "Epstein Barr virus capsid IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "5160-7",
+            "display": "Epstein Barr virus capsid IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "22293-5",
+            "display": "Epstein Barr virus early Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "16823-7",
+            "display": "Epstein Barr virus early Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "42497-8",
+            "display": "Epstein Barr virus early Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22294-3",
+            "display": "Epstein Barr virus early Ab [Titer] in Serum"
+          },
+          {
+            "code": "14083-0",
+            "display": "Epstein Barr virus early Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "47435-3",
+            "display": "Epstein Barr virus early IgA Ab [Titer] in Serum"
+          },
+          {
+            "code": "47072-4",
+            "display": "Epstein Barr virus early IgA Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "31371-8",
+            "display": "Epstein Barr virus early IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "24007-7",
+            "display": "Epstein Barr virus early IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "47436-1",
+            "display": "Epstein Barr virus early IgG Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "47068-2",
+            "display": "Epstein Barr virus early IgG Ab [Titer] in Body fluid by Immunofluorescence"
+          },
+          {
+            "code": "23972-3",
+            "display": "Epstein Barr virus early IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "23996-2",
+            "display": "Epstein Barr virus early IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "23971-5",
+            "display": "Epstein Barr virus early IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "23995-4",
+            "display": "Epstein Barr virus early IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "56598-6",
+            "display": "Epstein Barr virus early IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "97993-0",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94102-1",
+            "display": "Epstein Barr virus early diffuse IgA Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "50969-5",
+            "display": "Epstein Barr virus early diffuse IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "33479-7",
+            "display": "Epstein Barr virus early restricted Ab [Titer] in Serum"
+          },
+          {
+            "code": "66493-8",
+            "display": "Epstein Barr virus nuclear 1 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31372-6",
+            "display": "Epstein Barr virus nuclear Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "42498-6",
+            "display": "Epstein Barr virus nuclear Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22297-6",
+            "display": "Epstein Barr virus nuclear Ab [Titer] in Serum"
+          },
+          {
+            "code": "21260-5",
+            "display": "Epstein Barr virus nuclear Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "31373-4",
+            "display": "Epstein Barr virus nuclear IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "31374-2",
+            "display": "Epstein Barr virus nuclear IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "30083-0",
+            "display": "Epstein Barr virus nuclear IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "40753-6",
+            "display": "Epstein Barr virus nuclear IgG Ab [Units/volume] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "23970-7",
+            "display": "Epstein Barr virus nuclear IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "23994-7",
+            "display": "Epstein Barr virus nuclear IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "22298-4",
+            "display": "Epstein Barr virus nuclear IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "12212-7",
+            "display": "Epstein Barr virus nuclear IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "31375-9",
+            "display": "Epstein Barr virus nuclear IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "26705-4",
+            "display": "Epstein Barr virus nuclear IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "22312-3",
+            "display": "Hepatitis A virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5184-7",
+            "display": "Hepatitis A virus Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "5183-9",
+            "display": "Hepatitis A virus Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "22313-1",
+            "display": "Hepatitis A virus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5179-7",
+            "display": "Hepatitis A virus IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "5180-5",
+            "display": "Hepatitis A virus IgG Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "78444-7",
+            "display": "Hepatitis A virus IgG+IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "22315-6",
+            "display": "Hepatitis A virus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5181-3",
+            "display": "Hepatitis A virus IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "5182-1",
+            "display": "Hepatitis A virus IgM Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "97106-9",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "49358-5",
+            "display": "Hepatitis B virus DNA [Units/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49357-7",
+            "display": "Hepatitis B virus DNA [Units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "11258-1",
+            "display": "Hepatitis B virus DNA [Units/volume] in Serum"
+          },
+          {
+            "code": "42595-9",
+            "display": "Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49368-4",
+            "display": "Hepatitis B virus DNA [Units/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49360-1",
+            "display": "Hepatitis B virus DNA [Units/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49602-6",
+            "display": "Hepatitis B virus DNA [log units/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49601-8",
+            "display": "Hepatitis B virus DNA [log units/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "48398-2",
+            "display": "Hepatitis B virus DNA [log units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49606-7",
+            "display": "Hepatitis B virus DNA [log units/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49600-0",
+            "display": "Hepatitis B virus DNA [log units/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49359-3",
+            "display": "Hepatitis B virus DNA [Log #/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49367-6",
+            "display": "Hepatitis B virus DNA [Log #/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "40459-0",
+            "display": "Hepatitis B virus DNA [Log #/volume] (viral load) in Serum by Probe with signal amplification"
+          },
+          {
+            "code": "45161-7",
+            "display": "Hepatitis B virus DNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49361-9",
+            "display": "Hepatitis B virus DNA [Log #/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49366-8",
+            "display": "Hepatitis B virus DNA [Log #/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "32686-8",
+            "display": "Hepatitis B virus DNA [Mass/volume] in Serum"
+          },
+          {
+            "code": "23869-1",
+            "display": "Hepatitis B virus DNA [Mass/volume] (viral load) in Serum by Probe"
+          },
+          {
+            "code": "29900-8",
+            "display": "Hepatitis B virus DNA [Mass/volume] (viral load) in Serum by Probe with signal amplification"
+          },
+          {
+            "code": "49364-3",
+            "display": "Hepatitis B virus DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49363-5",
+            "display": "Hepatitis B virus DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "20442-0",
+            "display": "Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification"
+          },
+          {
+            "code": "29615-2",
+            "display": "Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "47216-7",
+            "display": "Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 200 copies/ml"
+          },
+          {
+            "code": "48650-6",
+            "display": "Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 500 copies/mL"
+          },
+          {
+            "code": "49365-0",
+            "display": "Hepatitis B virus DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49362-7",
+            "display": "Hepatitis B virus DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "22316-4",
+            "display": "Hepatitis B virus core Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5187-0",
+            "display": "Hepatitis B virus core Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "5188-8",
+            "display": "Hepatitis B virus core Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "22317-2",
+            "display": "Hepatitis B virus core Ab [Units/volume] in Serum from Donor"
+          },
+          {
+            "code": "21005-4",
+            "display": "Hepatitis B virus core Ab [Units/volume] in Serum from Donor by Immunoassay"
+          },
+          {
+            "code": "22318-0",
+            "display": "Hepatitis B virus core IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "13919-6",
+            "display": "Hepatitis B virus core IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22319-8",
+            "display": "Hepatitis B virus core IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5186-2",
+            "display": "Hepatitis B virus core IgM Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "5185-4",
+            "display": "Hepatitis B virus core IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "97152-3",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "30937-7",
+            "display": "Hepatitis B virus dose count in combination vaccine"
+          },
+          {
+            "code": "10397-8",
+            "display": "Hepatitis B immune globulin given [Volume]"
+          },
+          {
+            "code": "22321-4",
+            "display": "Hepatitis B virus e Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5189-6",
+            "display": "Hepatitis B virus e Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "5190-4",
+            "display": "Hepatitis B virus e Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "31845-1",
+            "display": "Hepatitis B virus e Ag [Units/volume] in Serum"
+          },
+          {
+            "code": "5191-2",
+            "display": "Hepatitis B virus e Ag [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "32178-6",
+            "display": "Hepatitis B virus e Ag [Titer] in Serum"
+          },
+          {
+            "code": "16935-9",
+            "display": "Hepatitis B virus surface Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5194-6",
+            "display": "Hepatitis B virus surface Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "5193-8",
+            "display": "Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "22323-0",
+            "display": "Hepatitis B virus surface Ab [Units/volume] in Serum from Donor"
+          },
+          {
+            "code": "21006-2",
+            "display": "Hepatitis B virus surface Ab [Units/volume] in Serum from Donor by Immunoassay"
+          },
+          {
+            "code": "32019-2",
+            "display": "Hepatitis B virus surface Ab [Titer] in Serum"
+          },
+          {
+            "code": "49495-5",
+            "display": "Hepatitis B virus surface Ab actual/Negative control in Serum or Plasma"
+          },
+          {
+            "code": "58405-2",
+            "display": "Hepatitis B virus surface Ab Signal/Cutoff in Serum"
+          },
+          {
+            "code": "58452-4",
+            "display": "Hepatitis B virus surface Ag [Units/volume] in Serum"
+          },
+          {
+            "code": "63557-3",
+            "display": "Hepatitis B virus surface Ag [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "70154-0",
+            "display": "Hepatitis B virus surface Ag in Serum or Plasma by Confirmatory method"
+          },
+          {
+            "code": "51459-6",
+            "display": "Hepatitis E virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "49776-8",
+            "display": "Hepatitis E virus Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "56513-5",
+            "display": "Hepatitis E virus IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "51798-7",
+            "display": "Hepatitis E virus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "69961-1",
+            "display": "Hepatitis E virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "78750-7",
+            "display": "Hepatitis E virus RNA [log units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "29237-5",
+            "display": "Herpes simplex virus 1 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31410-4",
+            "display": "Herpes simplex virus 1 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "41033-2",
+            "display": "Herpes simplex virus 1 Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "7908-7",
+            "display": "Herpes simplex virus 1 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5205-0",
+            "display": "Herpes simplex virus 1 Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "13324-9",
+            "display": "Herpes simplex virus 1 Ab [Units/volume] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "32180-2",
+            "display": "Herpes simplex virus 1 Ab [Units/volume] in Synovial fluid"
+          },
+          {
+            "code": "43032-2",
+            "display": "Herpes simplex virus 1 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "25838-4",
+            "display": "Herpes simplex virus 1 Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "43031-4",
+            "display": "Herpes simplex virus 1 Ab [Titer] in Serum"
+          },
+          {
+            "code": "25837-6",
+            "display": "Herpes simplex virus 1 Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "31066-4",
+            "display": "Herpes simplex virus 1 IgG Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "16948-2",
+            "display": "Herpes simplex virus 1 IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "58786-5",
+            "display": "Herpes simplex virus 1 IgG Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7909-5",
+            "display": "Herpes simplex virus 1 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5206-8",
+            "display": "Herpes simplex virus 1 IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22333-9",
+            "display": "Herpes simplex virus 1 IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "14086-3",
+            "display": "Herpes simplex virus 1 IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "73559-7",
+            "display": "Herpes simplex virus 1 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "16949-0",
+            "display": "Herpes simplex virus 1 IgG Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "32846-8",
+            "display": "Herpes simplex virus 1 IgG Ab [Ratio] in Serum --1st specimen/2nd specimen"
+          },
+          {
+            "code": "32831-0",
+            "display": "Herpes simplex virus 1 IgG Ab [Ratio] in Serum by Immunoassay --1st specimen/2nd specimen"
+          },
+          {
+            "code": "16950-8",
+            "display": "Herpes simplex virus 1 IgG Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "31068-0",
+            "display": "Herpes simplex virus 1 IgM Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "13251-4",
+            "display": "Herpes simplex virus 1 IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "58784-0",
+            "display": "Herpes simplex virus 1 IgM Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7910-3",
+            "display": "Herpes simplex virus 1 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5207-6",
+            "display": "Herpes simplex virus 1 IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22334-7",
+            "display": "Herpes simplex virus 1 IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "14087-1",
+            "display": "Herpes simplex virus 1 IgM Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "21326-4",
+            "display": "Herpes simplex virus 1 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "50758-2",
+            "display": "Herpes simplex virus 1 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "94835-6",
+            "display": "Herpes simplex virus 1 DNA [Log #/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "62472-6",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "62473-4",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "49985-5",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "49986-3",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Body fluid by NAA with probe detection"
+          },
+          {
+            "code": "62470-0",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49987-1",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "50660-0",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "62471-8",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "50661-8",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "60461-1",
+            "display": "Herpes simplex virus 1 DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "48399-0",
+            "display": "Herpes simplex virus 1 glycoprotein G IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "42337-6",
+            "display": "Herpes simplex virus 1 glycoprotein G IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "35875-4",
+            "display": "Herpes simplex virus 1+2 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "43033-0",
+            "display": "Herpes simplex virus 1+2 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "33292-4",
+            "display": "Herpes simplex virus 1+2 Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "13249-8",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "31411-2",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "27948-9",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "34613-0",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "63432-9",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "43030-6",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "41399-7",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "39571-5",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "49731-3",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "34152-9",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "94834-9",
+            "display": "Herpes simplex virus 1+2 DNA [Log #/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "49385-8",
+            "display": "Herpes simplex virus 1+2 DNA [#/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "49386-6",
+            "display": "Herpes simplex virus 1+2 DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "49384-1",
+            "display": "Herpes simplex virus 1+2 DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "34655-1",
+            "display": "Herpes simplex virus 1+2 DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "47409-8",
+            "display": "Herpes simplex virus 1+2 DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49382-5",
+            "display": "Herpes simplex virus 1+2 DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49383-3",
+            "display": "Herpes simplex virus 1+2 DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "49381-7",
+            "display": "Herpes simplex virus 1+2 DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "29236-7",
+            "display": "Herpes simplex virus 2 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "27087-6",
+            "display": "Herpes simplex virus 2 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "41034-0",
+            "display": "Herpes simplex virus 2 Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "7911-1",
+            "display": "Herpes simplex virus 2 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5208-4",
+            "display": "Herpes simplex virus 2 Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "13323-1",
+            "display": "Herpes simplex virus 2 Ab [Units/volume] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "32181-0",
+            "display": "Herpes simplex virus 2 Ab [Units/volume] in Synovial fluid"
+          },
+          {
+            "code": "43029-8",
+            "display": "Herpes simplex virus 2 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "25840-0",
+            "display": "Herpes simplex virus 2 Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "43028-0",
+            "display": "Herpes simplex virus 2 Ab [Titer] in Serum"
+          },
+          {
+            "code": "25839-2",
+            "display": "Herpes simplex virus 2 Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "31067-2",
+            "display": "Herpes simplex virus 2 IgG Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "16956-5",
+            "display": "Herpes simplex virus 2 IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "58785-7",
+            "display": "Herpes simplex virus 2 IgG Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7912-9",
+            "display": "Herpes simplex virus 2 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5209-2",
+            "display": "Herpes simplex virus 2 IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22337-0",
+            "display": "Herpes simplex virus 2 IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "14089-7",
+            "display": "Herpes simplex virus 2 IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "24014-3",
+            "display": "Herpes simplex virus 2 IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "16957-3",
+            "display": "Herpes simplex virus 2 IgG Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "32834-4",
+            "display": "Herpes simplex virus 2 IgG Ab [Ratio] in Serum --1st specimen/2nd specimen"
+          },
+          {
+            "code": "32790-8",
+            "display": "Herpes simplex virus 2 IgG Ab [Ratio] in Serum by Immunoassay --1st specimen/2nd specimen"
+          },
+          {
+            "code": "16958-1",
+            "display": "Herpes simplex virus 2 IgG Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "57321-2",
+            "display": "Herpes simplex virus 2 IgG Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "31412-0",
+            "display": "Herpes simplex virus 2 IgM Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "13252-2",
+            "display": "Herpes simplex virus 2 IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "58783-2",
+            "display": "Herpes simplex virus 2 IgM Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7913-7",
+            "display": "Herpes simplex virus 2 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5210-0",
+            "display": "Herpes simplex virus 2 IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "43027-2",
+            "display": "Herpes simplex virus 2 IgM Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "31069-8",
+            "display": "Herpes simplex virus 2 IgM Ab [Titer] in Body fluid by Immunofluorescence"
+          },
+          {
+            "code": "22338-8",
+            "display": "Herpes simplex virus 2 IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "14090-5",
+            "display": "Herpes simplex virus 2 IgM Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "21327-2",
+            "display": "Herpes simplex virus 2 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "26927-4",
+            "display": "Herpes simplex virus 2 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "94836-4",
+            "display": "Herpes simplex virus 2 DNA [Log #/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "62476-7",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "62477-5",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "49988-9",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "49989-7",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Body fluid by NAA with probe detection"
+          },
+          {
+            "code": "62474-2",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49990-5",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "50662-6",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "62475-9",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "50663-4",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "60462-9",
+            "display": "Herpes simplex virus 2 DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "48401-4",
+            "display": "Herpes simplex virus 2 glycoprotein G IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "42338-4",
+            "display": "Herpes simplex virus 2 glycoprotein G IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31413-8",
+            "display": "Herpes simplex virus Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7907-9",
+            "display": "Herpes simplex virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "52977-6",
+            "display": "Herpes simplex virus Ab [Units/volume] in Serum by Complement fixation"
+          },
+          {
+            "code": "5202-7",
+            "display": "Herpes simplex virus Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "5203-5",
+            "display": "Herpes simplex virus Ab [Units/volume] in Serum by Latex agglutination"
+          },
+          {
+            "code": "22340-4",
+            "display": "Herpes simplex virus Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9454-0",
+            "display": "Herpes simplex virus Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22341-2",
+            "display": "Herpes simplex virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "5204-3",
+            "display": "Herpes simplex virus Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "16943-3",
+            "display": "Herpes simplex virus IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9659-4",
+            "display": "Herpes simplex virus IgG Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "9422-7",
+            "display": "Herpes simplex virus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "52981-8",
+            "display": "Herpes simplex virus IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "53377-8",
+            "display": "Herpes simplex virus IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "51915-7",
+            "display": "Herpes simplex virus IgG Ab [Titer] in Serum by Immunoassay"
+          },
+          {
+            "code": "16944-1",
+            "display": "Herpes simplex virus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "53560-9",
+            "display": "Herpes simplex virus IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22343-8",
+            "display": "Herpes simplex virus IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "10350-7",
+            "display": "Herpes simplex virus IgM Ab [Titer] in Serum by Immunoassay"
+          },
+          {
+            "code": "14213-3",
+            "display": "Herpes simplex virus IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "53378-6",
+            "display": "Herpes virus 6 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "51704-5",
+            "display": "Herpes virus 6 Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "31414-6",
+            "display": "Herpes virus 6 IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "5211-8",
+            "display": "Herpes virus 6 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "97991-4",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "43024-9",
+            "display": "Herpes virus 6 IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "27168-4",
+            "display": "Herpes virus 6 IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "41496-1",
+            "display": "Herpes virus 6 IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "34179-2",
+            "display": "Herpes virus 6 IgG Ab [Titer] in Serum by Immunoassay"
+          },
+          {
+            "code": "25416-9",
+            "display": "Herpes virus 6 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "34946-4",
+            "display": "Herpes virus 6 IgG and IgM panel - Cerebral spinal fluid"
+          },
+          {
+            "code": "34945-6",
+            "display": "Herpes virus 6 IgG and IgM panel - Serum"
+          },
+          {
+            "code": "13250-6",
+            "display": "Herpes virus 6 IgG+IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31415-3",
+            "display": "Herpes virus 6 IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "5212-6",
+            "display": "Herpes virus 6 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "43025-6",
+            "display": "Herpes virus 6 IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "27159-3",
+            "display": "Herpes virus 6 IgM Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "32182-8",
+            "display": "Herpes virus 6 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "25417-7",
+            "display": "Herpes virus 6 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "97752-0",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "38350-5",
+            "display": "Herpes virus 6 DNA [Log #/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49387-4",
+            "display": "Herpes virus 6 DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "49391-6",
+            "display": "Herpes virus 6 DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "49389-0",
+            "display": "Herpes virus 6 DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49388-2",
+            "display": "Herpes virus 6 DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "49392-4",
+            "display": "Herpes virus 6 DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49390-8",
+            "display": "Herpes virus 6 DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49393-2",
+            "display": "Herpes virus 6 DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "38349-7",
+            "display": "Herpes virus 6 DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "31416-1",
+            "display": "Herpes virus 7 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "43023-1",
+            "display": "Herpes virus 7 IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "26972-0",
+            "display": "Herpes virus 7 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "34947-2",
+            "display": "Herpes virus 7 IgG and IgM panel - Serum"
+          },
+          {
+            "code": "41842-6",
+            "display": "Herpes virus 7 IgG and IgM panel [Titer] - Serum by Immunofluorescence"
+          },
+          {
+            "code": "31417-9",
+            "display": "Herpes virus 7 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "43022-3",
+            "display": "Herpes virus 7 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "27177-5",
+            "display": "Herpes virus 7 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "49395-7",
+            "display": "Herpes virus 7 DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "49398-1",
+            "display": "Herpes virus 7 DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "49396-5",
+            "display": "Herpes virus 7 DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49400-5",
+            "display": "Herpes virus 7 DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "49397-3",
+            "display": "Herpes virus 7 DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49401-3",
+            "display": "Herpes virus 7 DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49394-0",
+            "display": "Herpes virus 7 DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "49399-9",
+            "display": "Herpes virus 7 DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "43021-5",
+            "display": "Herpes virus 8 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "51826-6",
+            "display": "Herpes virus 8 IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "42508-2",
+            "display": "Herpes virus 8 IgG Ab [Units/volume] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "68950-5",
+            "display": "Herpes virus 8 IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "47442-9",
+            "display": "Herpes virus 8 IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "47050-0",
+            "display": "Herpes virus 8 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "49176-1",
+            "display": "Herpes virus 8 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "48358-6",
+            "display": "Herpes virus 8 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "49102-7",
+            "display": "Herpes virus 8 DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49409-6",
+            "display": "Herpes virus 8 DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "49406-2",
+            "display": "Herpes virus 8 DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "49408-8",
+            "display": "Herpes virus 8 DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49407-0",
+            "display": "Herpes virus 8 DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "49404-7",
+            "display": "Herpes virus 8 DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49402-1",
+            "display": "Herpes virus 8 DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49405-4",
+            "display": "Herpes virus 8 DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "49403-9",
+            "display": "Herpes virus 8 DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "17012-6",
+            "display": "Influenza virus A Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7920-2",
+            "display": "Influenza virus A Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "39536-8",
+            "display": "Influenza virus A Ab [Units/volume] in Serum by Complement fixation"
+          },
+          {
+            "code": "38273-9",
+            "display": "Influenza virus A Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "34153-7",
+            "display": "Influenza virus A Ab [Units/volume] in Specimen"
+          },
+          {
+            "code": "9531-5",
+            "display": "Influenza virus A Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22365-1",
+            "display": "Influenza virus A Ab [Titer] in Serum"
+          },
+          {
+            "code": "22823-9",
+            "display": "Influenza virus A Ab [Titer] in Serum by Agglutination"
+          },
+          {
+            "code": "5229-0",
+            "display": "Influenza virus A Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "22824-7",
+            "display": "Influenza virus A Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "72266-0",
+            "display": "Influenza virus A IgA Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "49074-8",
+            "display": "Influenza virus A IgA Ab [Mass/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "31437-7",
+            "display": "Influenza virus A IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "47313-2",
+            "display": "Influenza virus A IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "49073-0",
+            "display": "Influenza virus A IgG Ab [Mass/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9532-3",
+            "display": "Influenza virus A IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "57324-6",
+            "display": "Influenza virus A IgG Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "57325-3",
+            "display": "Influenza virus A IgG Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "31438-5",
+            "display": "Influenza virus A IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "47312-4",
+            "display": "Influenza virus A IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "49075-5",
+            "display": "Influenza virus A IgM Ab [Mass/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9533-1",
+            "display": "Influenza virus A IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "57326-1",
+            "display": "Influenza virus A IgM Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "57327-9",
+            "display": "Influenza virus A IgM Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "90323-7",
+            "display": "Influenza virus A Ab/Positive control in Serum by Immunoassay"
+          },
+          {
+            "code": "24289-1",
+            "display": "Influenza virus A Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24215-6",
+            "display": "Influenza virus A Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24290-9",
+            "display": "Influenza virus A Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24216-4",
+            "display": "Influenza virus A Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "7921-0",
+            "display": "Influenza virus A Bangkok Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6639-9",
+            "display": "Influenza virus A Bangkok Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "33383-1",
+            "display": "Influenza virus A Bangkok Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7922-8",
+            "display": "Influenza virus A England Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6635-7",
+            "display": "Influenza virus A England Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "60529-5",
+            "display": "Influenza virus A H1 2009 pandemic Ab [Titer] in Serum"
+          },
+          {
+            "code": "81305-5",
+            "display": "Influenza virus A H1 2009 pandemic RNA [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "86317-5",
+            "display": "Influenza virus A H1 2009 pandemic RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "47444-5",
+            "display": "Influenza virus A H1 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39296-9",
+            "display": "Influenza virus A H1 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "85802-7",
+            "display": "Influenza virus A H1 Ag [Titer] in Isolate by Hemagglutination inhibition"
+          },
+          {
+            "code": "74038-1",
+            "display": "Influenza virus A H1 RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "47445-2",
+            "display": "Influenza virus A H10 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39297-7",
+            "display": "Influenza virus A H10 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47446-0",
+            "display": "Influenza virus A H11 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39298-5",
+            "display": "Influenza virus A H11 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47447-8",
+            "display": "Influenza virus A H12 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39299-3",
+            "display": "Influenza virus A H12 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47448-6",
+            "display": "Influenza virus A H13 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39300-9",
+            "display": "Influenza virus A H13 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47449-4",
+            "display": "Influenza virus A H14 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39301-7",
+            "display": "Influenza virus A H14 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47450-2",
+            "display": "Influenza virus A H15 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39302-5",
+            "display": "Influenza virus A H15 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "51460-4",
+            "display": "Influenza virus A H16 Ab [Titer] in Serum"
+          },
+          {
+            "code": "49519-2",
+            "display": "Influenza virus A H16 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47451-0",
+            "display": "Influenza virus A H2 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39303-3",
+            "display": "Influenza virus A H2 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47452-8",
+            "display": "Influenza virus A H3 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39304-1",
+            "display": "Influenza virus A H3 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "85803-5",
+            "display": "Influenza virus A H3 Ag [Titer] in Isolate by Hemagglutination inhibition"
+          },
+          {
+            "code": "74039-9",
+            "display": "Influenza virus A H3 RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "47453-6",
+            "display": "Influenza virus A H4 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39305-8",
+            "display": "Influenza virus A H4 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47454-4",
+            "display": "Influenza virus A H5 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39306-6",
+            "display": "Influenza virus A H5 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "85804-3",
+            "display": "Influenza virus A H5 Ag [Titer] in Isolate by Hemagglutination inhibition"
+          },
+          {
+            "code": "81320-4",
+            "display": "Influenza virus A H5 Asian RNA [Cycle Threshold #] in Respiratory specimen by Nucleic acid amplification using primer-probe set H5a"
+          },
+          {
+            "code": "81321-2",
+            "display": "Influenza virus A H5 Asian RNA [Cycle Threshold #] in Respiratory specimen by Nucleic acid amplification using primer-probe set H5b"
+          },
+          {
+            "code": "44264-0",
+            "display": "Influenza virus A H5 RNA [Units/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "77605-4",
+            "display": "Influenza virus A H5 icA RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "47455-1",
+            "display": "Influenza virus A H6 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39307-4",
+            "display": "Influenza virus A H6 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "44265-7",
+            "display": "Influenza virus A H6 RNA [Units/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "47456-9",
+            "display": "Influenza virus A H7 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39308-2",
+            "display": "Influenza virus A H7 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "85805-0",
+            "display": "Influenza virus A H7 Ag [Titer] in Isolate by Hemagglutination inhibition"
+          },
+          {
+            "code": "81307-1",
+            "display": "Influenza virus A H7 Eurasia RNA [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "44266-5",
+            "display": "Influenza virus A H7 RNA [Units/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "47457-7",
+            "display": "Influenza virus A H8 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39309-0",
+            "display": "Influenza virus A H8 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "47458-5",
+            "display": "Influenza virus A H9 Ab [Titer] in Serum"
+          },
+          {
+            "code": "39310-8",
+            "display": "Influenza virus A H9 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "7923-6",
+            "display": "Influenza virus A Hong Kong Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6634-0",
+            "display": "Influenza virus A Hong Kong Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "7924-4",
+            "display": "Influenza virus A Leningrad Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6642-3",
+            "display": "Influenza virus A Leningrad Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "7925-1",
+            "display": "Influenza virus A Mississippi Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6641-5",
+            "display": "Influenza virus A Mississippi Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "56024-3",
+            "display": "Influenza virus A N1 RNA [Units/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "74040-7",
+            "display": "Influenza virus A N2 RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "7926-9",
+            "display": "Influenza virus A Phillipines Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6640-7",
+            "display": "Influenza virus A Phillipines Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "7927-7",
+            "display": "Influenza virus A Port Chalmers Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6636-5",
+            "display": "Influenza virus A Port Chalmers Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "44263-2",
+            "display": "Influenza virus A RNA [Units/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "53250-7",
+            "display": "Influenza virus A RNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "81308-9",
+            "display": "Influenza virus A RNA [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "85535-3",
+            "display": "Influenza virus A RNA TCID50 [#/volume] in Specimen"
+          },
+          {
+            "code": "7928-5",
+            "display": "Influenza virus A Texas Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6638-1",
+            "display": "Influenza virus A Texas Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "7929-3",
+            "display": "Influenza virus A Victoria Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "6637-3",
+            "display": "Influenza virus A Victoria Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "85534-6",
+            "display": "Influenza virus A avian origin nucleoprotein Ab/Negative control in Serum by Immunoassay"
+          },
+          {
+            "code": "85552-8",
+            "display": "Influenza virus A porcine origin nucleoprotein IgA Ab/Positive control in Specimen by Immunoassay"
+          },
+          {
+            "code": "85533-8",
+            "display": "Influenza virus A porcine origin nucleoprotein IgG Ab/Positive control in Specimen by Immunoassay"
+          },
+          {
+            "code": "88835-4",
+            "display": "Influenza virus A swine origin RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "7930-1",
+            "display": "Influenza virus A+B Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "17013-4",
+            "display": "Influenza virus A+B Ab [Units/volume] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "22366-9",
+            "display": "Influenza virus A+B Ab [Titer] in Serum"
+          },
+          {
+            "code": "50693-1",
+            "display": "Influenza virus A+B Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "6434-5",
+            "display": "Influenza virus A+B Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "18233-7",
+            "display": "Influenza virus Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "49518-4",
+            "display": "Influenza virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "17014-2",
+            "display": "Influenza virus B Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7931-9",
+            "display": "Influenza virus B Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "52974-3",
+            "display": "Influenza virus B Ab [Units/volume] in Serum by Complement fixation"
+          },
+          {
+            "code": "39537-6",
+            "display": "Influenza virus B Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "34154-5",
+            "display": "Influenza virus B Ab [Units/volume] in Specimen"
+          },
+          {
+            "code": "9534-9",
+            "display": "Influenza virus B Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22367-7",
+            "display": "Influenza virus B Ab [Titer] in Serum"
+          },
+          {
+            "code": "5230-8",
+            "display": "Influenza virus B Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "50709-5",
+            "display": "Influenza virus B Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "72265-2",
+            "display": "Influenza virus B IgA Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "49076-3",
+            "display": "Influenza virus B IgA Ab [Mass/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "17015-9",
+            "display": "Influenza virus B IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "47314-0",
+            "display": "Influenza virus B IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "49077-1",
+            "display": "Influenza virus B IgG Ab [Mass/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9535-6",
+            "display": "Influenza virus B IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "17016-7",
+            "display": "Influenza virus B IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "47315-7",
+            "display": "Influenza virus B IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "49078-9",
+            "display": "Influenza virus B IgM Ab [Mass/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9536-4",
+            "display": "Influenza virus B IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "57328-7",
+            "display": "Influenza virus B IgM Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "57329-5",
+            "display": "Influenza virus B IgM Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "24291-7",
+            "display": "Influenza virus B Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24217-2",
+            "display": "Influenza virus B Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24292-5",
+            "display": "Influenza virus B Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24218-0",
+            "display": "Influenza virus B Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "53251-5",
+            "display": "Influenza virus B RNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "81309-7",
+            "display": "Influenza virus B RNA [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "90886-3",
+            "display": "Influenza virus B RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "81327-9",
+            "display": "Influenza virus B Victoria lineage RNA [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "85801-9",
+            "display": "Influenza virus B Yamagata lineage Ag [Titer] in Isolate by Hemagglutination inhibition"
+          },
+          {
+            "code": "81325-3",
+            "display": "Influenza virus B Yamagata lineage RNA [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92929-9",
+            "display": "Measles"
+          },
+          {
+            "code": "17553-9",
+            "display": "Measles virus Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7961-6",
+            "display": "Measles virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5242-3",
+            "display": "Measles virus Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22498-0",
+            "display": "Measles virus Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9565-3",
+            "display": "Measles virus Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22499-8",
+            "display": "Measles virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "5243-1",
+            "display": "Measles virus Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "41501-8",
+            "display": "Measles virus Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "17554-7",
+            "display": "Measles virus IgA Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29242-5",
+            "display": "Measles virus IgG Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "74418-5",
+            "display": "Measles virus IgG Ab [Units/volume] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "22500-3",
+            "display": "Measles virus IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9566-1",
+            "display": "Measles virus IgG Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7962-4",
+            "display": "Measles virus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5244-9",
+            "display": "Measles virus IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22501-1",
+            "display": "Measles virus IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "21500-4",
+            "display": "Measles virus IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "22502-9",
+            "display": "Measles virus IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "21501-2",
+            "display": "Measles virus IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "34949-8",
+            "display": "Measles virus IgG and IgM panel - Cerebral spinal fluid"
+          },
+          {
+            "code": "34948-0",
+            "display": "Measles virus IgG and IgM Qn panel - Serum"
+          },
+          {
+            "code": "90254-4",
+            "display": "Measles virus IgG and IgM panel [Titer] - Cerebral spinal fluid"
+          },
+          {
+            "code": "22503-7",
+            "display": "Measles virus IgG Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "14304-0",
+            "display": "Measles virus IgG Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "25299-9",
+            "display": "Measles virus IgG Ab [Ratio] in Serum --1st specimen/2nd specimen"
+          },
+          {
+            "code": "22504-5",
+            "display": "Measles virus IgG Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "14305-7",
+            "display": "Measles virus IgG Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "74416-9",
+            "display": "Measles virus IgM Ab [Units/volume] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "13283-7",
+            "display": "Measles virus IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "40649-6",
+            "display": "Measles virus IgM Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7963-2",
+            "display": "Measles virus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "25421-9",
+            "display": "Measles virus IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22505-2",
+            "display": "Measles virus IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "21502-0",
+            "display": "Measles virus IgM Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "22506-0",
+            "display": "Measles virus IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "5245-6",
+            "display": "Measles virus IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "17555-4",
+            "display": "Measles virus Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "17556-2",
+            "display": "Measles virus Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "85798-7",
+            "display": "Measles virus N gene [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "30939-3",
+            "display": "Measles virus dose count in combination vaccine"
+          },
+          {
+            "code": "88876-8",
+            "display": "Measles virus genotype A vaccine strain N gene [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "30940-1",
+            "display": "Measles virus+Mumps virus+Rubella virus dose count in combination vaccine"
+          },
+          {
+            "code": "17292-4",
+            "display": "Mumps virus Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7965-7",
+            "display": "Mumps virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "47412-2",
+            "display": "Mumps virus Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22413-9",
+            "display": "Mumps virus Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9567-9",
+            "display": "Mumps virus Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22414-7",
+            "display": "Mumps virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "5249-8",
+            "display": "Mumps virus Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "5250-6",
+            "display": "Mumps virus Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "29241-7",
+            "display": "Mumps virus IgG Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "13266-2",
+            "display": "Mumps virus IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7966-5",
+            "display": "Mumps virus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "25418-5",
+            "display": "Mumps virus IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22416-2",
+            "display": "Mumps virus IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "21401-5",
+            "display": "Mumps virus IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "22417-0",
+            "display": "Mumps virus IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "6477-4",
+            "display": "Mumps virus IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "17293-2",
+            "display": "Mumps virus IgG+IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "24240-4",
+            "display": "Mumps virus IgG Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "24241-2",
+            "display": "Mumps virus IgG Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "74421-9",
+            "display": "Mumps virus IgM Ab [Units/volume] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "13267-0",
+            "display": "Mumps virus IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7967-3",
+            "display": "Mumps virus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "25419-3",
+            "display": "Mumps virus IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22419-6",
+            "display": "Mumps virus IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "21402-3",
+            "display": "Mumps virus IgM Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "22420-4",
+            "display": "Mumps virus IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "6479-0",
+            "display": "Mumps virus IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "93749-0",
+            "display": "Mumps virus N gene [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "85800-1",
+            "display": "Mumps virus SH gene [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "30941-9",
+            "display": "Mumps virus dose count in combination vaccine"
+          },
+          {
+            "code": "31506-9",
+            "display": "Mumps virus particle-bound Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "31507-7",
+            "display": "Mumps virus particle-bound Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31133-2",
+            "display": "Mumps virus particle-bound Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "31131-6",
+            "display": "Mumps virus particle-bound Ab [Titer] in Serum"
+          },
+          {
+            "code": "31504-4",
+            "display": "Mumps virus soluble Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "31505-1",
+            "display": "Mumps virus soluble Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31132-4",
+            "display": "Mumps virus soluble Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "31130-8",
+            "display": "Mumps virus soluble Ab [Titer] in Serum"
+          },
+          {
+            "code": "7978-0",
+            "display": "Parainfluenza virus 1 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29417-3",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "29366-2",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "46199-6",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "43203-9",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "22437-8",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5268-8",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "38182-2",
+            "display": "Parainfluenza virus 1 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31549-9",
+            "display": "Parainfluenza virus 1 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "15391-6",
+            "display": "Parainfluenza virus 1 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "24293-3",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24219-8",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "42984-5",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "25297-3",
+            "display": "Parainfluenza virus 1 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "53252-3",
+            "display": "Parainfluenza virus 1 RNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "51466-1",
+            "display": "Parainfluenza virus 1+2+3 Ab [Titer] in Serum"
+          },
+          {
+            "code": "50692-3",
+            "display": "Parainfluenza virus 1+2+3 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "31550-7",
+            "display": "Parainfluenza virus 2 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "43204-7",
+            "display": "Parainfluenza virus 2 Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7979-8",
+            "display": "Parainfluenza virus 2 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29359-7",
+            "display": "Parainfluenza virus 2 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "29367-0",
+            "display": "Parainfluenza virus 2 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22438-6",
+            "display": "Parainfluenza virus 2 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5269-6",
+            "display": "Parainfluenza virus 2 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "38183-0",
+            "display": "Parainfluenza virus 2 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "41405-2",
+            "display": "Parainfluenza virus 2 IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "31551-5",
+            "display": "Parainfluenza virus 2 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "15393-2",
+            "display": "Parainfluenza virus 2 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "24294-1",
+            "display": "Parainfluenza virus 2 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24220-6",
+            "display": "Parainfluenza virus 2 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24295-8",
+            "display": "Parainfluenza virus 2 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24221-4",
+            "display": "Parainfluenza virus 2 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "53253-1",
+            "display": "Parainfluenza virus 2 RNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "31552-3",
+            "display": "Parainfluenza virus 3 Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "7980-6",
+            "display": "Parainfluenza virus 3 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "29414-0",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Body fluid"
+          },
+          {
+            "code": "29368-8",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Body fluid by Complement fixation"
+          },
+          {
+            "code": "22439-4",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Serum"
+          },
+          {
+            "code": "5270-4",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "15493-0",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "31553-1",
+            "display": "Parainfluenza virus 3 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "11262-3",
+            "display": "Parainfluenza virus 3 IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "31554-9",
+            "display": "Parainfluenza virus 3 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "11263-1",
+            "display": "Parainfluenza virus 3 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "24296-6",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24222-2",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Serum by Complement fixation --1st specimen"
+          },
+          {
+            "code": "24297-4",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "24223-0",
+            "display": "Parainfluenza virus 3 Ab [Titer] in Serum by Complement fixation --2nd specimen"
+          },
+          {
+            "code": "53254-9",
+            "display": "Parainfluenza virus 3 RNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "17415-1",
+            "display": "Parainfluenza virus A Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "31555-6",
+            "display": "Parainfluenza virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "42982-9",
+            "display": "Parainfluenza virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "49713-1",
+            "display": "Parainfluenza virus Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "26855-7",
+            "display": "Parainfluenza virus Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "7982-2",
+            "display": "Parvovirus B19 Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5272-0",
+            "display": "Parvovirus B19 Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "53885-0",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31557-2",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "58757-6",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7983-0",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5273-8",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "27095-9",
+            "display": "Parvovirus B19 IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "25630-5",
+            "display": "Parvovirus B19 IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "25729-5",
+            "display": "Parvovirus B19 IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "34950-6",
+            "display": "Parvovirus B19 IgG and IgM panel - Serum"
+          },
+          {
+            "code": "17422-7",
+            "display": "Parvovirus B19 IgG+IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "32836-9",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "32826-0",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "32838-5",
+            "display": "Parvovirus B19 IgG Ab [Ratio] in Serum --1st specimen/2nd specimen"
+          },
+          {
+            "code": "32793-2",
+            "display": "Parvovirus B19 IgG Ab [Ratio] in Serum by Immunoassay --1st specimen/2nd specimen"
+          },
+          {
+            "code": "32837-7",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "32792-4",
+            "display": "Parvovirus B19 IgG Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "53886-8",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "31558-0",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "58756-8",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "7984-8",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5274-6",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "27115-5",
+            "display": "Parvovirus B19 IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "25631-3",
+            "display": "Parvovirus B19 IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "25730-3",
+            "display": "Parvovirus B19 IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "41129-8",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "32794-0",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "32840-1",
+            "display": "Parvovirus B19 IgM Ab [Ratio] in Serum --1st specimen/2nd specimen"
+          },
+          {
+            "code": "32796-5",
+            "display": "Parvovirus B19 IgM Ab [Ratio] in Serum by Immunoassay --1st specimen/2nd specimen"
+          },
+          {
+            "code": "32839-3",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "32795-7",
+            "display": "Parvovirus B19 IgM Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "94824-0",
+            "display": "Parvovirus B19 DNA [Units/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "74420-1",
+            "display": "Parvovirus B19 DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "94825-7",
+            "display": "Parvovirus B19 DNA [log units/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "75541-3",
+            "display": "Parvovirus B19 DNA [log units/volume] (viral load) in Plasma from Donor by NAA with probe detection"
+          },
+          {
+            "code": "74419-3",
+            "display": "Parvovirus B19 DNA [log units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "94826-5",
+            "display": "Parvovirus B19 DNA [Log #/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "69355-6",
+            "display": "Parvovirus B19 DNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49427-8",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "49428-6",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "49431-0",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "49429-4",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "49430-2",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "91797-1",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "49434-4",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49435-1",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49433-6",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "49432-8",
+            "display": "Parvovirus B19 DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "7990-5",
+            "display": "Respiratory syncytial virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "33382-3",
+            "display": "Respiratory syncytial virus Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22466-7",
+            "display": "Respiratory syncytial virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "5295-1",
+            "display": "Respiratory syncytial virus Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "31583-8",
+            "display": "Respiratory syncytial virus IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7991-3",
+            "display": "Respiratory syncytial virus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "17517-4",
+            "display": "Respiratory syncytial virus IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "17518-2",
+            "display": "Respiratory syncytial virus IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "9573-7",
+            "display": "Respiratory syncytial virus IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "49037-5",
+            "display": "Respiratory syncytial virus IgG and IgM panel [Units/volume] - Serum"
+          },
+          {
+            "code": "7992-1",
+            "display": "Respiratory syncytial virus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "17519-0",
+            "display": "Respiratory syncytial virus IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22467-5",
+            "display": "Respiratory syncytial virus IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "9574-5",
+            "display": "Respiratory syncytial virus IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "24298-2",
+            "display": "Respiratory syncytial virus Ab [Titer] in Serum --1st specimen"
+          },
+          {
+            "code": "24299-0",
+            "display": "Respiratory syncytial virus Ab [Titer] in Serum --2nd specimen"
+          },
+          {
+            "code": "86701-0",
+            "display": "Rotavirus A RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "5328-0",
+            "display": "Rotavirus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "71705-8",
+            "display": "Rotavirus Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "22495-6",
+            "display": "Rotavirus Ab [Titer] in Serum"
+          },
+          {
+            "code": "71764-5",
+            "display": "Rotavirus Ab [Titer] in Serum by Immunoassay"
+          },
+          {
+            "code": "71704-1",
+            "display": "Rotavirus IgA Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "71763-7",
+            "display": "Rotavirus IgA Ab [Titer] in Serum by Immunoassay"
+          },
+          {
+            "code": "25599-2",
+            "display": "Rotavirus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "25754-3",
+            "display": "Rotavirus IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "71703-3",
+            "display": "Rotavirus IgG Ab [Titer] in Serum by Immunoassay"
+          },
+          {
+            "code": "25600-8",
+            "display": "Rotavirus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "25756-8",
+            "display": "Rotavirus IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "86702-8",
+            "display": "Rotavirus B RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "86700-2",
+            "display": "Rotavirus C RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "17549-7",
+            "display": "Rubella virus Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "9576-0",
+            "display": "Rubella virus Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "8013-5",
+            "display": "Rubella virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5330-6",
+            "display": "Rubella virus Ab [Units/volume] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "51931-4",
+            "display": "Rubella virus Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "17550-5",
+            "display": "Rubella virus Ab [Units/volume] in Serum by Latex agglutination"
+          },
+          {
+            "code": "42967-0",
+            "display": "Rubella virus Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "40542-3",
+            "display": "Rubella virus Ab [Titer] in Cerebral spinal fluid by Latex agglutination"
+          },
+          {
+            "code": "22497-2",
+            "display": "Rubella virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "50694-9",
+            "display": "Rubella virus Ab [Titer] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "5333-0",
+            "display": "Rubella virus Ab [Titer] in Serum by Latex agglutination"
+          },
+          {
+            "code": "29343-1",
+            "display": "Rubella virus IgG Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "13281-1",
+            "display": "Rubella virus IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "17551-3",
+            "display": "Rubella virus IgG Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "8014-3",
+            "display": "Rubella virus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5334-8",
+            "display": "Rubella virus IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "46110-3",
+            "display": "Rubella virus IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "41763-4",
+            "display": "Rubella virus IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "34953-0",
+            "display": "Rubella virus IgG and IgM panel - Cerebral spinal fluid"
+          },
+          {
+            "code": "34952-2",
+            "display": "Rubella virus IgG and IgM panel - Serum"
+          },
+          {
+            "code": "52986-7",
+            "display": "Rubella virus IgG Ab avidity [Ratio] in Serum by Immunoassay"
+          },
+          {
+            "code": "13279-5",
+            "display": "Rubella virus IgG Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "25298-1",
+            "display": "Rubella virus IgG Ab [Ratio] in Serum --1st specimen/2nd specimen"
+          },
+          {
+            "code": "13280-3",
+            "display": "Rubella virus IgG Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "31047-4",
+            "display": "Rubella virus IgM Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "13282-9",
+            "display": "Rubella virus IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "8015-0",
+            "display": "Rubella virus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5335-5",
+            "display": "Rubella virus IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "46109-5",
+            "display": "Rubella virus IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "49107-6",
+            "display": "Rubella virus IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "85796-1",
+            "display": "Rubella virus E1 gene [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "30942-7",
+            "display": "Rubella virus dose count in combination vaccine"
+          },
+          {
+            "code": "94769-7",
+            "display": "SARS-CoV-2 (COVID-19) Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "94720-0",
+            "display": "SARS-CoV-2 (COVID-19) IgA Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "95427-1",
+            "display": "SARS-CoV-2 (COVID-19) IgA Ab [Titer] in Serum or Plasma by Immunofluorescence"
+          },
+          {
+            "code": "94505-5",
+            "display": "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "96742-2",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "95429-7",
+            "display": "SARS-CoV-2 (COVID-19) IgG Ab [Titer] in Serum or Plasma by Immunofluorescence"
+          },
+          {
+            "code": "94506-3",
+            "display": "SARS-CoV-2 (COVID-19) IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "95428-9",
+            "display": "SARS-CoV-2 (COVID-19) IgM Ab [Titer] in Serum or Plasma by Immunofluorescence"
+          },
+          {
+            "code": "95410-7",
+            "display": "SARS-CoV-2 (COVID-19) neutralizing antibody [Titer] in Serum by pVNT"
+          },
+          {
+            "code": "96764-6",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "95522-9",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Log #/volume] (viral load) in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "95521-1",
+            "display": "SARS-CoV-2 (COVID-19) N gene [#/volume] (viral load) in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "96898-2",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94510-5",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94311-8",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Cycle Threshold #] in Specimen by Nucleic acid amplification using CDC primer-probe set N1"
+          },
+          {
+            "code": "94312-6",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Cycle Threshold #] in Specimen by Nucleic acid amplification using CDC primer-probe set N2"
+          },
+          {
+            "code": "97104-4",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "96899-0",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94644-2",
+            "display": "SARS-CoV-2 (COVID-19) ORF1ab region [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94511-3",
+            "display": "SARS-CoV-2 (COVID-19) ORF1ab region [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94819-0",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Log #/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94745-7",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94746-5",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94646-7",
+            "display": "SARS-CoV-2 (COVID-19) RdRp gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94645-9",
+            "display": "SARS-CoV-2 (COVID-19) RdRp gene [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "96900-6",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94642-6",
+            "display": "SARS-CoV-2 (COVID-19) S gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94643-4",
+            "display": "SARS-CoV-2 (COVID-19) S gene [Cycle Threshold #] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "95973-4",
+            "display": "SARS CoV-2 stimulated gamma interferon release by T-cells [Units/volume] in Blood"
+          },
+          {
+            "code": "95972-6",
+            "display": "SARS CoV-2 stimulated gamma interferon release by T-cells [Units/volume] corrected for background in Blood"
+          },
+          {
+            "code": "31694-3",
+            "display": "Varicella zoster virus Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "8046-5",
+            "display": "Varicella zoster virus Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "52978-4",
+            "display": "Varicella zoster virus Ab [Units/volume] in Serum by Complement fixation"
+          },
+          {
+            "code": "47419-7",
+            "display": "Varicella zoster virus Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "21592-1",
+            "display": "Varicella zoster virus Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "33327-8",
+            "display": "Varicella zoster virus Ab [Titer] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "26723-7",
+            "display": "Varicella zoster virus Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "21594-7",
+            "display": "Varicella zoster virus Ab [Titer] in Serum"
+          },
+          {
+            "code": "5401-5",
+            "display": "Varicella zoster virus Ab [Titer] in Serum by Complement fixation"
+          },
+          {
+            "code": "44771-4",
+            "display": "Varicella zoster virus Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "5402-3",
+            "display": "Varicella zoster virus Ab [Titer] in Serum by Latex agglutination"
+          },
+          {
+            "code": "29249-0",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Body fluid"
+          },
+          {
+            "code": "17764-2",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "58755-0",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "17765-9",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "8047-3",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5403-1",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "17763-4",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "95714-2",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Specimen by Immunoassay"
+          },
+          {
+            "code": "22601-9",
+            "display": "Varicella zoster virus IgG Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "21595-4",
+            "display": "Varicella zoster virus IgG Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "22602-7",
+            "display": "Varicella zoster virus IgG Ab [Titer] in Serum"
+          },
+          {
+            "code": "6569-8",
+            "display": "Varicella zoster virus IgG Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "35679-0",
+            "display": "Varicella zoster virus IgG and IgM panel - Cerebral spinal fluid"
+          },
+          {
+            "code": "45063-5",
+            "display": "Varicella zoster virus IgG and IgM panel - Serum"
+          },
+          {
+            "code": "96961-8",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "22603-5",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Serum --1st specimen"
+          },
+          {
+            "code": "14306-5",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "22604-3",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Serum --2nd specimen"
+          },
+          {
+            "code": "14307-3",
+            "display": "Varicella zoster virus IgG Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "74414-4",
+            "display": "Varicella zoster virus IgM Ab [Units/volume] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "31695-0",
+            "display": "Varicella zoster virus IgM Ab [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code": "8048-1",
+            "display": "Varicella zoster virus IgM Ab [Units/volume] in Serum"
+          },
+          {
+            "code": "5404-9",
+            "display": "Varicella zoster virus IgM Ab [Units/volume] in Serum by Immunoassay"
+          },
+          {
+            "code": "17766-7",
+            "display": "Varicella zoster virus IgM Ab [Units/volume] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "22605-0",
+            "display": "Varicella zoster virus IgM Ab [Titer] in Cerebral spinal fluid"
+          },
+          {
+            "code": "21596-2",
+            "display": "Varicella zoster virus IgM Ab [Titer] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "22606-8",
+            "display": "Varicella zoster virus IgM Ab [Titer] in Serum"
+          },
+          {
+            "code": "6570-6",
+            "display": "Varicella zoster virus IgM Ab [Titer] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "96960-0",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "57322-0",
+            "display": "Varicella zoster virus IgM Ab [Units/volume] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code": "57323-8",
+            "display": "Varicella zoster virus IgM Ab [Units/volume] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code": "94831-5",
+            "display": "Varicella zoster virus DNA [Units/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "94832-3",
+            "display": "Varicella zoster virus DNA [log units/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "94833-1",
+            "display": "Varicella zoster virus DNA [Log #/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "49454-2",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "49455-9",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "92848-1",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Blood by NAA with probe detection"
+          },
+          {
+            "code": "49453-4",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "47002-1",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "47003-9",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "49450-0",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "49452-6",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Urine by NAA with probe detection"
+          },
+          {
+            "code": "49451-8",
+            "display": "Varicella zoster virus DNA [#/volume] (viral load) in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "30943-5",
+            "display": "Varicella zoster virus dose count in combination vaccine"
+          },
+          {
+            "code": "10428-1",
+            "display": "Varicella zoster virus immune globulin given [Volume]"
+          },
+          {
+            "code": "51874-6",
+            "display": "Varicella zoster virus immune globulin ordered [#] in Blood product unit"
+          },
+          {
+            "code": "51875-3",
+            "display": "Varicella zoster virus immune globulin units given [#]"
+          }
+        ]
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed quantitative Virusnachweistests</h2><tt>http://highmed.org/ValueSet/ic/highmed-quantitativevirusnachweistests-loinc</tt></div>"
+  },
+  "name": "HiGHmed Quantitative Virusnachweistests"
+}

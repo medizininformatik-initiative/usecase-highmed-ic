@@ -1,0 +1,4735 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://highmed.org/ValueSet/ic/highmedvirusnachweistests-loinc",
+  "title": "HiGHmedVirusnachweistests",
+  "copyright": "This content LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LOINC",
+            "display": "LongName"
+          },
+          {
+            "code": "88899-0",
+            "display": "Adenovirus [Presence] in Cornea or Conjunctiva by Organism specific culture"
+          },
+          {
+            "code": "88898-2",
+            "display": "Adenovirus [Presence] in Lower respiratory specimen by Organism specific culture"
+          },
+          {
+            "code": "88900-6",
+            "display": "Adenovirus [Presence] in Upper respiratory specimen by Organism specific culture"
+          },
+          {
+            "code": "88901-4",
+            "display": "Adenovirus [Presence] in Stool by Organism specific culture"
+          },
+          {
+            "code": "88902-2",
+            "display": "Adenovirus [Presence] in Urine by Organism specific culture"
+          },
+          {
+            "code": "55095-4",
+            "display": "Adenovirus [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "86330-8",
+            "display": "Adenovirus B(11) DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "86331-6",
+            "display": "Adenovirus B(14) DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "86329-0",
+            "display": "Adenovirus B(16) DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "86328-2",
+            "display": "Adenovirus B(21) DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "86334-0",
+            "display": "Adenovirus B(3) DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "61363-8",
+            "display": "Adenovirus 3+4+7+21 DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "86333-2",
+            "display": "Adenovirus E(4) DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "31709-9",
+            "display": "Adenovirus 40+41 Ag [Presence] in Stool"
+          },
+          {
+            "code": "6306-5",
+            "display": "Adenovirus 40+41 Ag [Presence] in Stool by Immunoassay"
+          },
+          {
+            "code": "82209-8",
+            "display": "Adenovirus 40+41 DNA [Presence] in Stool by NAA with non-probe detection"
+          },
+          {
+            "code": "92690-7",
+            "display": "Adenovirus 40+41 DNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "80674-5",
+            "display": "Adenovirus 40+41fiber protein gene [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "86332-4",
+            "display": "Adenovirus B(7) DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94040-3",
+            "display": "Adenovirus A+B+C+D+E DNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "88716-6",
+            "display": "Adenovirus A+B+C+D+E+F DNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "43617-0",
+            "display": "Adenovirus Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "43616-2",
+            "display": "Adenovirus Ab [Presence] in Serum"
+          },
+          {
+            "code": "43618-8",
+            "display": "Adenovirus Ab [Presence] in Serum by Complement fixation"
+          },
+          {
+            "code": "43714-5",
+            "display": "Adenovirus Ab [Presence] in Specimen"
+          },
+          {
+            "code": "69920-7",
+            "display": "Adenovirus IgA Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "41162-9",
+            "display": "Adenovirus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40977-1",
+            "display": "Adenovirus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "21054-2",
+            "display": "Adenovirus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "86513-9",
+            "display": "Adenovirus IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "77382-0",
+            "display": "Adenovirus Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+          },
+          {
+            "code": "43611-3",
+            "display": "Adenovirus Ag [Presence] in Bronchial specimen by Immunofluorescence"
+          },
+          {
+            "code": "31710-7",
+            "display": "Adenovirus Ag [Presence] in Conjunctival specimen"
+          },
+          {
+            "code": "5823-0",
+            "display": "Adenovirus Ag [Presence] in Conjunctival specimen by Immunoassay"
+          },
+          {
+            "code": "5824-8",
+            "display": "Adenovirus Ag [Presence] in Conjunctival specimen by Immunofluorescence"
+          },
+          {
+            "code": "87959-3",
+            "display": "Adenovirus Ag [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "43615-4",
+            "display": "Adenovirus Ag [Presence] in Genital specimen"
+          },
+          {
+            "code": "43614-7",
+            "display": "Adenovirus Ag [Presence] in Nose"
+          },
+          {
+            "code": "43612-1",
+            "display": "Adenovirus Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code": "35705-3",
+            "display": "Adenovirus Ag [Presence] in Nasopharynx"
+          },
+          {
+            "code": "88602-8",
+            "display": "Adenovirus Ag [Presence] in Nasopharynx by Immunoassay"
+          },
+          {
+            "code": "43610-5",
+            "display": "Adenovirus Ag [Presence] in Nasopharynx by Immunofluorescence"
+          },
+          {
+            "code": "88603-6",
+            "display": "Adenovirus Ag [Presence] in Lower respiratory specimen by Immunoassay"
+          },
+          {
+            "code": "91841-7",
+            "display": "Adenovirus Ag [Presence] in Lower respiratory specimen by Rapid immunoassay"
+          },
+          {
+            "code": "88897-4",
+            "display": "Adenovirus Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "91822-7",
+            "display": "Adenovirus Ag [Presence] in Upper respiratory specimen by Immunoassay"
+          },
+          {
+            "code": "91821-9",
+            "display": "Adenovirus Ag [Presence] in Upper respiratory specimen by Rapid immunoassay"
+          },
+          {
+            "code": "31711-5",
+            "display": "Adenovirus Ag [Presence] in Stool"
+          },
+          {
+            "code": "5825-5",
+            "display": "Adenovirus Ag [Presence] in Stool by Immunoassay"
+          },
+          {
+            "code": "78529-5",
+            "display": "Adenovirus Ag [Presence] in Stool by Rapid immunoassay"
+          },
+          {
+            "code": "5826-3",
+            "display": "Adenovirus Ag [Presence] in Stool by Immunofluorescence"
+          },
+          {
+            "code": "31712-3",
+            "display": "Adenovirus Ag [Presence] in Throat"
+          },
+          {
+            "code": "5827-1",
+            "display": "Adenovirus Ag [Presence] in Throat by Immunoassay"
+          },
+          {
+            "code": "5828-9",
+            "display": "Adenovirus Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "5829-7",
+            "display": "Adenovirus Ag [Presence] in Tissue by Immunoassay"
+          },
+          {
+            "code": "5830-5",
+            "display": "Adenovirus Ag [Presence] in Tissue by Immunofluorescence"
+          },
+          {
+            "code": "43613-9",
+            "display": "Adenovirus Ag [Presence] in Trachea by Immunofluorescence"
+          },
+          {
+            "code": "31713-1",
+            "display": "Adenovirus Ag [Presence] in Urine"
+          },
+          {
+            "code": "5831-3",
+            "display": "Adenovirus Ag [Presence] in Urine by Immunoassay"
+          },
+          {
+            "code": "5832-1",
+            "display": "Adenovirus Ag [Presence] in Urine by Immunofluorescence"
+          },
+          {
+            "code": "31714-9",
+            "display": "Adenovirus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5833-9",
+            "display": "Adenovirus Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code": "5834-7",
+            "display": "Adenovirus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "92136-1",
+            "display": "Adenovirus B+C+E DNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "73755-1",
+            "display": "Adenovirus B+E DNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "92828-3",
+            "display": "Adenovirus B+E DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "73754-4",
+            "display": "Adenovirus C DNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88541-8",
+            "display": "Adenovirus DNA [Presence] in Aspirate by NAA with probe detection"
+          },
+          {
+            "code": "62480-9",
+            "display": "Adenovirus DNA [Presence] in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "86511-3",
+            "display": "Adenovirus DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "88533-5",
+            "display": "Adenovirus DNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "38375-2",
+            "display": "Adenovirus DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "60259-9",
+            "display": "Adenovirus DNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82160-3",
+            "display": "Adenovirus DNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "76070-2",
+            "display": "Adenovirus DNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "96503-8",
+            "display": "Adenovirus DNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92987-7",
+            "display": "Adenovirus DNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "90463-1",
+            "display": "Adenovirus DNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91820-1",
+            "display": "Adenovirus DNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "21055-9",
+            "display": "Adenovirus DNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "88539-2",
+            "display": "Adenovirus DNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "86510-5",
+            "display": "Adenovirus DNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "86512-1",
+            "display": "Adenovirus DNA [Presence] in Urine by NAA with probe detection"
+          },
+          {
+            "code": "39528-5",
+            "display": "Adenovirus DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "95659-9",
+            "display": "Adenovirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "80586-1",
+            "display": "Adenovirus hexon gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "6307-3",
+            "display": "Adenovirus rRNA [Presence] in Tissue by Probe"
+          },
+          {
+            "code": "6308-1",
+            "display": "Adenovirus rRNA [Presence] in Specimen by Probe"
+          },
+          {
+            "code": "40831-0",
+            "display": "Adenovirus+Rotavirus Ag [Presence] in Stool"
+          },
+          {
+            "code": "7809-7",
+            "display": "Astrovirus [Presence] in Stool by Electron microscopy"
+          },
+          {
+            "code": "31718-0",
+            "display": "Astrovirus Ag [Presence] in Stool"
+          },
+          {
+            "code": "7810-5",
+            "display": "Astrovirus Ag [Presence] in Stool by Immunoassay"
+          },
+          {
+            "code": "7811-3",
+            "display": "Astrovirus RNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code": "92691-5",
+            "display": "Astrovirus RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "69938-9",
+            "display": "Astrovirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "82210-6",
+            "display": "Astrovirus subtypes 1-8 RNA [Presence] in Stool by NAA with non-probe detection"
+          },
+          {
+            "code": "30214-1",
+            "display": "Coxsackievirus A10 Ab [Presence] in Serum"
+          },
+          {
+            "code": "30215-8",
+            "display": "Coxsackievirus A16 Ab [Presence] in Serum"
+          },
+          {
+            "code": "30216-6",
+            "display": "Coxsackievirus A2 Ab [Presence] in Serum"
+          },
+          {
+            "code": "30217-4",
+            "display": "Coxsackievirus A4 Ab [Presence] in Serum"
+          },
+          {
+            "code": "30218-2",
+            "display": "Coxsackievirus A7 Ab [Presence] in Serum"
+          },
+          {
+            "code": "33392-2",
+            "display": "Coxsackievirus A8 Ab [Presence] in Serum"
+          },
+          {
+            "code": "30219-0",
+            "display": "Coxsackievirus A9 Ab [Presence] in Serum"
+          },
+          {
+            "code": "70013-8",
+            "display": "Coxsackievirus IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "70012-0",
+            "display": "Coxsackievirus IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "30132-5",
+            "display": "Coxsackievirus Ab [Presence] in Serum --1st specimen"
+          },
+          {
+            "code": "30133-3",
+            "display": "Coxsackievirus Ab [Presence] in Serum --2nd specimen"
+          },
+          {
+            "code": "45292-0",
+            "display": "Coxsackievirus B1 Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "27908-3",
+            "display": "Coxsackievirus B1 Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "30220-8",
+            "display": "Coxsackievirus B1 Ab [Presence] in Serum"
+          },
+          {
+            "code": "45291-2",
+            "display": "Coxsackievirus B2 Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "27903-4",
+            "display": "Coxsackievirus B2 Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "30221-6",
+            "display": "Coxsackievirus B2 Ab [Presence] in Serum"
+          },
+          {
+            "code": "45290-4",
+            "display": "Coxsackievirus B3 Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "27917-4",
+            "display": "Coxsackievirus B3 Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "30222-4",
+            "display": "Coxsackievirus B3 Ab [Presence] in Serum"
+          },
+          {
+            "code": "45289-6",
+            "display": "Coxsackievirus B4 Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "27918-2",
+            "display": "Coxsackievirus B4 Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "30223-2",
+            "display": "Coxsackievirus B4 Ab [Presence] in Serum"
+          },
+          {
+            "code": "45288-8",
+            "display": "Coxsackievirus B5 Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "30224-0",
+            "display": "Coxsackievirus B5 Ab [Presence] in Serum"
+          },
+          {
+            "code": "45287-0",
+            "display": "Coxsackievirus B6 Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "30225-7",
+            "display": "Coxsackievirus B6 Ab [Presence] in Serum"
+          },
+          {
+            "code": "86322-5",
+            "display": "Enterovirus [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "60429-8",
+            "display": "Enterovirus 71 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "62861-0",
+            "display": "Enterovirus 71 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "92132-0",
+            "display": "Enterovirus A+B+C RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "70010-4",
+            "display": "Enterovirus IgG Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "70011-2",
+            "display": "Enterovirus IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "70008-8",
+            "display": "Enterovirus IgM Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "70009-6",
+            "display": "Enterovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "70065-8",
+            "display": "Enterovirus Ag [Presence] in Stool by Immunoassay"
+          },
+          {
+            "code": "86323-3",
+            "display": "Enterovirus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "76072-8",
+            "display": "Enterovirus D68 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "87316-6",
+            "display": "Enterovirus G RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94838-0",
+            "display": "Enterovirus RNA [Presence] in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "88540-0",
+            "display": "Enterovirus RNA [Presence] in Aspirate by NAA with probe detection"
+          },
+          {
+            "code": "87960-1",
+            "display": "Enterovirus RNA [Presence] in Body fluid by NAA with probe detection"
+          },
+          {
+            "code": "91067-9",
+            "display": "Enterovirus RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "82194-2",
+            "display": "Enterovirus RNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection"
+          },
+          {
+            "code": "29558-4",
+            "display": "Enterovirus RNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "60263-1",
+            "display": "Enterovirus RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "7881-6",
+            "display": "Enterovirus RNA [Presence] in Nose by NAA with probe detection"
+          },
+          {
+            "code": "76074-4",
+            "display": "Enterovirus RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88538-4",
+            "display": "Enterovirus RNA [Presence] in Pericardial fluid by NAA with probe detection"
+          },
+          {
+            "code": "91066-1",
+            "display": "Enterovirus RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91769-0",
+            "display": "Enterovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "49847-7",
+            "display": "Enterovirus RNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code": "91068-7",
+            "display": "Enterovirus RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "35396-1",
+            "display": "Enterovirus RNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "91069-5",
+            "display": "Enterovirus RNA [Presence] in Urine by NAA with probe detection"
+          },
+          {
+            "code": "93856-3",
+            "display": "Enterovirus RNA [Presence] in Specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "29591-5",
+            "display": "Enterovirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "76632-9",
+            "display": "Enterovirus sp [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "49178-7",
+            "display": "Epstein Barr virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "48723-1",
+            "display": "Epstein Barr virus Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "94827-3",
+            "display": "Epstein Barr virus DNA [Presence] in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "5002-1",
+            "display": "Epstein Barr virus DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "59805-2",
+            "display": "Epstein Barr virus DNA [Presence] in Body fluid by NAA with probe detection"
+          },
+          {
+            "code": "35397-9",
+            "display": "Epstein Barr virus DNA [Presence] in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "23858-4",
+            "display": "Epstein Barr virus DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "35398-7",
+            "display": "Epstein Barr virus DNA [Presence] in Mouth by NAA with probe detection"
+          },
+          {
+            "code": "5003-9",
+            "display": "Epstein Barr virus DNA [Presence] in Tissue by Probe"
+          },
+          {
+            "code": "5004-7",
+            "display": "Epstein Barr virus DNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "5005-4",
+            "display": "Epstein Barr virus DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "33395-5",
+            "display": "Epstein Barr virus capsid Ab [Presence] in Serum"
+          },
+          {
+            "code": "16827-8",
+            "display": "Epstein Barr virus capsid IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "30339-6",
+            "display": "Epstein Barr virus capsid IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "24114-1",
+            "display": "Epstein Barr virus capsid IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "40750-2",
+            "display": "Epstein Barr virus capsid IgG Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "93713-6",
+            "display": "Epstein Barr virus capsid IgG Ab [Presence] in Serum from Donor by Immunoassay"
+          },
+          {
+            "code": "69949-6",
+            "display": "Epstein Barr virus capsid IgG Ab avidity [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "30136-6",
+            "display": "Epstein Barr virus capsid IgG Ab [Presence] in Serum --2nd specimen"
+          },
+          {
+            "code": "30340-4",
+            "display": "Epstein Barr virus capsid IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "24115-8",
+            "display": "Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "40751-0",
+            "display": "Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "93714-4",
+            "display": "Epstein Barr virus capsid IgM Ab [Presence] in Serum from Donor by Immunoassay"
+          },
+          {
+            "code": "30137-4",
+            "display": "Epstein Barr virus capsid IgM Ab [Presence] in Serum --2nd specimen"
+          },
+          {
+            "code": "84871-3",
+            "display": "Epstein Barr virus capsid p18 IgG Ab [Presence] in Serum by Rapid immunoassay"
+          },
+          {
+            "code": "83095-0",
+            "display": "Epstein Barr virus capsid+early IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "18427-5",
+            "display": "Epstein Barr virus early Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "7882-4",
+            "display": "Epstein Barr virus early Ab [Presence] in Serum"
+          },
+          {
+            "code": "5153-2",
+            "display": "Epstein Barr virus early Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "5154-0",
+            "display": "Epstein Barr virus early Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "22295-0",
+            "display": "Epstein Barr virus early IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40752-8",
+            "display": "Epstein Barr virus early IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "6814-8",
+            "display": "Epstein Barr virus early IgG Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "51454-7",
+            "display": "Epstein Barr virus early diffuse Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "47434-6",
+            "display": "Epstein Barr virus early diffuse Ab [Presence] in Serum"
+          },
+          {
+            "code": "13236-5",
+            "display": "Epstein Barr virus early diffuse Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "59183-4",
+            "display": "Epstein Barr virus early diffuse IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "47437-9",
+            "display": "Epstein Barr virus early restricted Ab [Presence] in Serum"
+          },
+          {
+            "code": "13237-3",
+            "display": "Epstein Barr virus early restricted Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "84872-1",
+            "display": "Epstein Barr virus nuclear 1 IgG Ab [Presence] in Serum by Rapid immunoassay"
+          },
+          {
+            "code": "16824-5",
+            "display": "Epstein Barr virus nuclear Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22296-8",
+            "display": "Epstein Barr virus nuclear Ab [Presence] in Serum"
+          },
+          {
+            "code": "20432-1",
+            "display": "Epstein Barr virus nuclear Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "93712-8",
+            "display": "Epstein Barr virus nuclear Ab [Presence] in Serum from Donor by Immunoassay"
+          },
+          {
+            "code": "16825-2",
+            "display": "Epstein Barr virus nuclear IgG Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "18428-3",
+            "display": "Epstein Barr virus nuclear IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "7883-2",
+            "display": "Epstein Barr virus nuclear IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "5156-5",
+            "display": "Epstein Barr virus nuclear IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "5155-7",
+            "display": "Epstein Barr virus nuclear IgG Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "7884-0",
+            "display": "Epstein Barr virus nuclear IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "6815-5",
+            "display": "Epstein Barr virus nuclear IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "30138-2",
+            "display": "Epstein Barr virus nuclear Ab [Presence] in Serum --2nd specimen"
+          },
+          {
+            "code": "68466-2",
+            "display": "Epstein-Barr virus-encoded RNA 1 [Presence] in Tissue by Probe"
+          },
+          {
+            "code": "51661-7",
+            "display": "Hepatitis A virus Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "20575-7",
+            "display": "Hepatitis A virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "13951-9",
+            "display": "Hepatitis A virus Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "32018-4",
+            "display": "Hepatitis A virus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40724-7",
+            "display": "Hepatitis A virus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "51913-2",
+            "display": "Hepatitis A virus IgG+IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "51660-9",
+            "display": "Hepatitis A virus IgM Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "22314-9",
+            "display": "Hepatitis A virus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "13950-1",
+            "display": "Hepatitis A virus IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "94539-4",
+            "display": "Hepatitis A virus IgM and total panel - Serum or Plasma Qualitative"
+          },
+          {
+            "code": "75542-1",
+            "display": "Hepatitis A virus RNA [Interpretation] in Plasma from Donor Qualitative by NAA with probe detection"
+          },
+          {
+            "code": "7904-6",
+            "display": "Hepatitis A virus RNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code": "91070-3",
+            "display": "Hepatitis A virus RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "75540-5",
+            "display": "Hepatitis A virus RNA+Parvovirus B19 DNA [Interpretation] in Plasma from Donor Qualitative by NAA with probe detection"
+          },
+          {
+            "code": "5007-0",
+            "display": "Hepatitis B virus DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "29610-3",
+            "display": "Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "5008-8",
+            "display": "Hepatitis B virus DNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "5009-6",
+            "display": "Hepatitis B virus DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "39005-4",
+            "display": "Hepatitis B virus core Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "16933-4",
+            "display": "Hepatitis B virus core Ab [Presence] in Serum"
+          },
+          {
+            "code": "13952-7",
+            "display": "Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "75378-0",
+            "display": "Hepatitis B virus core Ab [Presence] in Serum"
+          },
+          {
+            "code": "47440-3",
+            "display": "Hepatitis B virus core Ab [Presence] in Serum from Donor"
+          },
+          {
+            "code": "47358-7",
+            "display": "Hepatitis B virus core Ab [Presence] in Serum from Donor by Immunoassay"
+          },
+          {
+            "code": "32685-0",
+            "display": "Hepatitis B virus core IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40725-4",
+            "display": "Hepatitis B virus core IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "51914-0",
+            "display": "Hepatitis B virus core IgG+IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "83100-8",
+            "display": "Hepatitis B virus core IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "51658-3",
+            "display": "Hepatitis B virus core IgM Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "31204-1",
+            "display": "Hepatitis B virus core IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "24113-3",
+            "display": "Hepatitis B virus core IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "10673-2",
+            "display": "Hepatitis B virus core Ag [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code": "39006-2",
+            "display": "Hepatitis B virus e Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "22320-6",
+            "display": "Hepatitis B virus e Ab [Presence] in Serum"
+          },
+          {
+            "code": "13953-5",
+            "display": "Hepatitis B virus e Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "75407-7",
+            "display": "Hepatitis B virus e Ab [Presence] in Serum"
+          },
+          {
+            "code": "41151-2",
+            "display": "Hepatitis B virus e IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "33463-1",
+            "display": "Hepatitis B virus e IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "31844-4",
+            "display": "Hepatitis B virus e Ag [Presence] in Serum"
+          },
+          {
+            "code": "5192-0",
+            "display": "Hepatitis B virus e Ag [Presence] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "13954-3",
+            "display": "Hepatitis B virus e Ag [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "75408-5",
+            "display": "Hepatitis B virus e Ag [Presence] in Serum"
+          },
+          {
+            "code": "39007-0",
+            "display": "Hepatitis B virus e Ag [Presence] in Specimen"
+          },
+          {
+            "code": "16934-2",
+            "display": "Hepatitis B virus polymerase DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "33633-9",
+            "display": "Hepatitis B virus precore TAG [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code": "6421-2",
+            "display": "Hepatitis B virus rRNA [Presence] in Specimen by Probe"
+          },
+          {
+            "code": "42504-1",
+            "display": "Hepatitis B virus surface Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22322-2",
+            "display": "Hepatitis B virus surface Ab [Presence] in Serum"
+          },
+          {
+            "code": "10900-9",
+            "display": "Hepatitis B virus surface Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "39535-0",
+            "display": "Hepatitis B virus surface Ab [Presence] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "75409-3",
+            "display": "Hepatitis B virus surface Ab [Presence] in Serum"
+          },
+          {
+            "code": "49177-9",
+            "display": "Hepatitis B virus surface IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "48070-7",
+            "display": "Hepatitis B virus surface IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "77739-1",
+            "display": "Mother's Hepatitis B virus surface Ag status"
+          },
+          {
+            "code": "50967-9",
+            "display": "Hepatitis B virus surface Ag [Presence] in Blood from Donor by Neutralization test"
+          },
+          {
+            "code": "51659-1",
+            "display": "Hepatitis B virus surface Ag [Presence] in Body fluid"
+          },
+          {
+            "code": "42505-8",
+            "display": "Hepatitis B virus surface Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "5195-3",
+            "display": "Hepatitis B virus surface Ag [Presence] in Serum"
+          },
+          {
+            "code": "5197-9",
+            "display": "Hepatitis B virus surface Ag [Presence] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code": "65633-0",
+            "display": "Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Confirmatory method"
+          },
+          {
+            "code": "5196-1",
+            "display": "Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "7905-3",
+            "display": "Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Neutralization test"
+          },
+          {
+            "code": "75410-1",
+            "display": "Hepatitis B virus surface Ag [Presence] in Serum"
+          },
+          {
+            "code": "47364-5",
+            "display": "Hepatitis B virus surface Ag [Presence] in Serum from Donor by Immunoassay"
+          },
+          {
+            "code": "10674-0",
+            "display": "Hepatitis B virus surface Ag [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code": "10675-7",
+            "display": "Hepatitis B virus surface Ag [Presence] in Tissue by Orcein stain"
+          },
+          {
+            "code": "51653-4",
+            "display": "Hepatitis E virus Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "13294-4",
+            "display": "Hepatitis E virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "58936-6",
+            "display": "Hepatitis E virus Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "14211-7",
+            "display": "Hepatitis E virus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "49693-5",
+            "display": "Hepatitis E virus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "14212-5",
+            "display": "Hepatitis E virus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "83128-9",
+            "display": "Hepatitis E virus IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "69577-5",
+            "display": "Hepatitis E virus RNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "90460-7",
+            "display": "Hepatitis E virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "91071-1",
+            "display": "Hepatitis E virus RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "95156-6",
+            "display": "Hepatitis E virus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "74858-2",
+            "display": "Hepatitis E virus genotypes 1+2+3+4 RNA [Presence] in Serum or Plasma from Donor by NAA with probe detection"
+          },
+          {
+            "code": "93439-8",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Blood by NAA with non-probe detection"
+          },
+          {
+            "code": "93438-0",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Blood by NAA with non-probe detection"
+          },
+          {
+            "code": "44468-7",
+            "display": "Herpes simplex virus 1 [Presence] in Anal by Organism specific culture"
+          },
+          {
+            "code": "44467-9",
+            "display": "Herpes simplex virus 1 [Presence] in Cervix by Organism specific culture"
+          },
+          {
+            "code": "44465-3",
+            "display": "Herpes simplex virus 1 [Presence] in Genital specimen by Organism specific culture"
+          },
+          {
+            "code": "14084-8",
+            "display": "Herpes simplex virus 1 [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "44464-6",
+            "display": "Herpes simplex virus 1 [Presence] in Skin by Organism specific culture"
+          },
+          {
+            "code": "44466-1",
+            "display": "Herpes simplex virus 1 [Presence] in Throat by Organism specific culture"
+          },
+          {
+            "code": "44463-8",
+            "display": "Herpes simplex virus 1 [Presence] in Vaginal fluid by Organism specific culture"
+          },
+          {
+            "code": "16291-7",
+            "display": "Herpes simplex virus 1 [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "87431-3",
+            "display": "Herpes simplex virus 1 and 2 DNA panel - Specimen Qualitative by NAA with probe detection"
+          },
+          {
+            "code": "44469-5",
+            "display": "Herpes simplex virus 1 Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "22331-3",
+            "display": "Herpes simplex virus 1 Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "16947-4",
+            "display": "Herpes simplex virus 1 Ab [Presence] in Cerebral spinal fluid by Immunoblot"
+          },
+          {
+            "code": "43111-4",
+            "display": "Herpes simplex virus 1 Ab [Presence] in Serum"
+          },
+          {
+            "code": "42507-4",
+            "display": "Herpes simplex virus 1 IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "28001-6",
+            "display": "Herpes simplex virus 1 IgG Ab [Presence] in Cerebral spinal fluid by Immunoblot"
+          },
+          {
+            "code": "17850-9",
+            "display": "Herpes simplex virus 1 IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "33291-6",
+            "display": "Herpes simplex virus 1 IgG Ab [Presence] in Serum by Immunoblot"
+          },
+          {
+            "code": "51916-5",
+            "display": "Herpes simplex virus 1 IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "69921-5",
+            "display": "Herpes simplex virus 1 IgM Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "88457-7",
+            "display": "Herpes simplex virus 1 IgM Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "32687-6",
+            "display": "Herpes simplex virus 1 IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "40466-5",
+            "display": "Herpes simplex virus 1 IgM Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "44470-3",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Anal"
+          },
+          {
+            "code": "88678-8",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Cornea or Conjunctiva by Immunofluorescence"
+          },
+          {
+            "code": "89586-2",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "44471-1",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Cervix"
+          },
+          {
+            "code": "44472-9",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Eye"
+          },
+          {
+            "code": "31846-9",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Genital specimen"
+          },
+          {
+            "code": "5844-6",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Genital specimen by Immunofluorescence"
+          },
+          {
+            "code": "44473-7",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Penis"
+          },
+          {
+            "code": "91835-9",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "31847-7",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Skin"
+          },
+          {
+            "code": "5845-3",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Skin by Immunofluorescence"
+          },
+          {
+            "code": "44474-5",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Throat"
+          },
+          {
+            "code": "44475-2",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Tissue"
+          },
+          {
+            "code": "88201-9",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Tissue by Immunofluorescence"
+          },
+          {
+            "code": "10677-3",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code": "44476-0",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Urethra"
+          },
+          {
+            "code": "44477-8",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Vaginal fluid"
+          },
+          {
+            "code": "31848-5",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5846-1",
+            "display": "Herpes simplex virus 1 Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "44478-6",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "92872-1",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Anogenital by NAA with probe detection"
+          },
+          {
+            "code": "90451-6",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Aspirate by NAA with probe detection"
+          },
+          {
+            "code": "92870-5",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "88128-4",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "82190-0",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection"
+          },
+          {
+            "code": "16952-4",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "91859-9",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Genital specimen by NAA with probe detection"
+          },
+          {
+            "code": "89585-4",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "90452-4",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "16953-2",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "92871-3",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Skin by NAA with probe detection"
+          },
+          {
+            "code": "86539-4",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "94581-6",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "16130-7",
+            "display": "Herpes simplex virus 1 DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "80353-6",
+            "display": "Herpes simplex virus 1 genome DNA polymerase region B+thymidine kinase region C [Presence] in Anogenital specimen by NAA with probe detection"
+          },
+          {
+            "code": "44479-4",
+            "display": "Herpes simplex virus 1+2 Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "44480-2",
+            "display": "Herpes simplex virus 1+2 Ab [Presence] in Serum"
+          },
+          {
+            "code": "44482-8",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "44481-0",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "33293-2",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Presence] in Cerebral spinal fluid by Immunoblot"
+          },
+          {
+            "code": "36921-5",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "90461-5",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "49848-5",
+            "display": "Herpes simplex virus 1+2 IgG Ab [Presence] in Serum by Immunoblot"
+          },
+          {
+            "code": "44483-6",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "41150-4",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "33294-0",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "41149-6",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "90464-9",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "30355-2",
+            "display": "Herpes simplex virus 1+2 IgM Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "48400-6",
+            "display": "Herpes simplex virus 1+2 Ag [Presence] in Tissue by Immunofluorescence"
+          },
+          {
+            "code": "10678-1",
+            "display": "Herpes simplex virus 1+2 Ag [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code": "58414-4",
+            "display": "Herpes simplex virus 1+2 DNA [Presence] in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "32141-4",
+            "display": "Herpes simplex virus 1+2 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "44868-8",
+            "display": "Herpes simplex virus 1+2 DNA [Presence] in Vaginal fluid by NAA with probe detection"
+          },
+          {
+            "code": "20444-6",
+            "display": "Herpes simplex virus 1+2 DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "44490-1",
+            "display": "Herpes simplex virus 2 [Presence] in Anal by Organism specific culture"
+          },
+          {
+            "code": "44489-3",
+            "display": "Herpes simplex virus 2 [Presence] in Cervix by Organism specific culture"
+          },
+          {
+            "code": "44487-7",
+            "display": "Herpes simplex virus 2 [Presence] in Genital specimen by Organism specific culture"
+          },
+          {
+            "code": "14085-5",
+            "display": "Herpes simplex virus 2 [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "44486-9",
+            "display": "Herpes simplex virus 2 [Presence] in Skin by Organism specific culture"
+          },
+          {
+            "code": "44488-5",
+            "display": "Herpes simplex virus 2 [Presence] in Throat by Organism specific culture"
+          },
+          {
+            "code": "44485-1",
+            "display": "Herpes simplex virus 2 [Presence] in Vaginal fluid by Organism specific culture"
+          },
+          {
+            "code": "44484-4",
+            "display": "Herpes simplex virus 2 [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "44491-9",
+            "display": "Herpes simplex virus 2 Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "44493-5",
+            "display": "Herpes simplex virus 2 Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "44492-7",
+            "display": "Herpes simplex virus 2 Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "16954-0",
+            "display": "Herpes simplex virus 2 Ab [Presence] in Serum"
+          },
+          {
+            "code": "48784-3",
+            "display": "Herpes simplex virus 2 Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "27315-1",
+            "display": "Herpes simplex virus 2 IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "17851-7",
+            "display": "Herpes simplex virus 2 IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "16955-7",
+            "display": "Herpes simplex virus 2 IgG Ab [Presence] in Serum by Immunoblot"
+          },
+          {
+            "code": "43180-9",
+            "display": "Herpes simplex virus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "43026-4",
+            "display": "Herpes simplex virus 2 IgM Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "42606-4",
+            "display": "Herpes simplex virus 2 IgM Ab [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "32688-4",
+            "display": "Herpes simplex virus 2 IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "44494-3",
+            "display": "Herpes simplex virus 2 IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "45210-2",
+            "display": "Herpes simplex virus 2 IgM Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "44498-4",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Anal"
+          },
+          {
+            "code": "88679-6",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Cornea or Conjunctiva by Immunofluorescence"
+          },
+          {
+            "code": "89588-8",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "44500-7",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Cervix"
+          },
+          {
+            "code": "44495-0",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Eye"
+          },
+          {
+            "code": "31849-3",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Genital specimen"
+          },
+          {
+            "code": "5847-9",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Genital specimen by Immunofluorescence"
+          },
+          {
+            "code": "44496-8",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Penis"
+          },
+          {
+            "code": "91834-2",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "31850-1",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Skin"
+          },
+          {
+            "code": "5848-7",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Skin by Immunofluorescence"
+          },
+          {
+            "code": "44501-5",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Throat"
+          },
+          {
+            "code": "44502-3",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Tissue"
+          },
+          {
+            "code": "86540-2",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Tissue by Immunofluorescence"
+          },
+          {
+            "code": "10679-9",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code": "44499-2",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Urethra"
+          },
+          {
+            "code": "44497-6",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Vaginal fluid"
+          },
+          {
+            "code": "31851-9",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5849-5",
+            "display": "Herpes simplex virus 2 Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "44503-1",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "92875-4",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Anogenital by NAA with probe detection"
+          },
+          {
+            "code": "90453-2",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Aspirate by NAA with probe detection"
+          },
+          {
+            "code": "92873-9",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "88133-4",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "82191-8",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection"
+          },
+          {
+            "code": "16960-7",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "91858-1",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Genital specimen by NAA with probe detection"
+          },
+          {
+            "code": "89587-0",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "90454-0",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "16959-9",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "92874-7",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Skin by NAA with probe detection"
+          },
+          {
+            "code": "86541-0",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "94582-4",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "16131-5",
+            "display": "Herpes simplex virus 2 DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "80355-1",
+            "display": "Herpes simplex virus 2 genome glycoprotein B 3' end region+thymidine kinase region C [Presence] in Anogenital specimen by NAA with probe detection"
+          },
+          {
+            "code": "46190-5",
+            "display": "Herpes simplex virus Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "44504-9",
+            "display": "Herpes simplex virus Ab [Presence] in Body fluid by Immunofluorescence"
+          },
+          {
+            "code": "44506-4",
+            "display": "Herpes simplex virus Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "22339-6",
+            "display": "Herpes simplex virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "16942-5",
+            "display": "Herpes simplex virus Ab [Presence] in Serum by Immunoblot"
+          },
+          {
+            "code": "53533-6",
+            "display": "Herpes simplex virus IgG Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "44505-6",
+            "display": "Herpes simplex virus IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "19106-4",
+            "display": "Herpes simplex virus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40728-8",
+            "display": "Herpes simplex virus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "53538-5",
+            "display": "Herpes simplex virus IgM Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "25435-9",
+            "display": "Herpes simplex virus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "40729-6",
+            "display": "Herpes simplex virus IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "44507-2",
+            "display": "Herpes simplex virus IgM Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "44513-0",
+            "display": "Herpes simplex virus Ag [Presence] in Bronchial specimen by Immunofluorescence"
+          },
+          {
+            "code": "88681-2",
+            "display": "Herpes simplex virus Ag [Presence] in Cornea or Conjunctiva by Immunofluorescence"
+          },
+          {
+            "code": "47229-0",
+            "display": "Herpes simplex virus Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "44514-8",
+            "display": "Herpes simplex virus Ag [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "88680-4",
+            "display": "Herpes simplex virus Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "44508-0",
+            "display": "Herpes simplex virus Ag [Presence] in Cervix"
+          },
+          {
+            "code": "44515-5",
+            "display": "Herpes simplex virus Ag [Presence] in Cervix by Immunoassay"
+          },
+          {
+            "code": "44516-3",
+            "display": "Herpes simplex virus Ag [Presence] in Cervix by Immunofluorescence"
+          },
+          {
+            "code": "44511-4",
+            "display": "Herpes simplex virus Ag [Presence] in Eye"
+          },
+          {
+            "code": "31852-7",
+            "display": "Herpes simplex virus Ag [Presence] in Genital specimen"
+          },
+          {
+            "code": "5850-3",
+            "display": "Herpes simplex virus Ag [Presence] in Genital specimen by Immunoassay"
+          },
+          {
+            "code": "5851-1",
+            "display": "Herpes simplex virus Ag [Presence] in Genital specimen by Immunofluorescence"
+          },
+          {
+            "code": "44512-2",
+            "display": "Herpes simplex virus Ag [Presence] in Nose"
+          },
+          {
+            "code": "44509-8",
+            "display": "Herpes simplex virus Ag [Presence] in Penis"
+          },
+          {
+            "code": "91833-4",
+            "display": "Herpes simplex virus Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "31853-5",
+            "display": "Herpes simplex virus Ag [Presence] in Serum"
+          },
+          {
+            "code": "29957-8",
+            "display": "Herpes simplex virus Ag [Presence] in Serum by Immunoblot"
+          },
+          {
+            "code": "31854-3",
+            "display": "Herpes simplex virus Ag [Presence] in Skin"
+          },
+          {
+            "code": "5852-9",
+            "display": "Herpes simplex virus Ag [Presence] in Skin by Immunoassay"
+          },
+          {
+            "code": "5853-7",
+            "display": "Herpes simplex virus Ag [Presence] in Skin by Immunofluorescence"
+          },
+          {
+            "code": "44510-6",
+            "display": "Herpes simplex virus Ag [Presence] in Vaginal fluid"
+          },
+          {
+            "code": "16945-8",
+            "display": "Herpes simplex virus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5854-5",
+            "display": "Herpes simplex virus Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code": "5855-2",
+            "display": "Herpes simplex virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "44517-1",
+            "display": "Herpes simplex virus DNA [Presence] in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "90450-8",
+            "display": "Herpes simplex virus DNA [Presence] in Aspirate by NAA with probe detection"
+          },
+          {
+            "code": "34451-5",
+            "display": "Herpes simplex virus DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "88138-3",
+            "display": "Herpes simplex virus DNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "5013-8",
+            "display": "Herpes simplex virus DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "91857-3",
+            "display": "Herpes simplex virus DNA [Presence] in Genital specimen by NAA with probe detection"
+          },
+          {
+            "code": "89584-7",
+            "display": "Herpes simplex virus DNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "44518-9",
+            "display": "Herpes simplex virus DNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "86542-8",
+            "display": "Herpes simplex virus DNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "5014-6",
+            "display": "Herpes simplex virus DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "47230-8",
+            "display": "Herpes simplex virus glycoprotein G IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "33027-4",
+            "display": "Herpes simplex virus+Varicella zoster virus DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "92978-6",
+            "display": "Human metapneumovirus RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "67820-1",
+            "display": "Human metapneumovirus A RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "80587-9",
+            "display": "Human metapneumovirus A+B L+N genes [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "41011-8",
+            "display": "Human metapneumovirus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40980-5",
+            "display": "Human metapneumovirus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "88222-5",
+            "display": "Human metapneumovirus Ag [Presence] in Nasopharynx by Immunofluorescence"
+          },
+          {
+            "code": "91831-8",
+            "display": "Human metapneumovirus Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "91810-2",
+            "display": "Human metapneumovirus Ag [Presence] in Upper respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "60425-6",
+            "display": "Human metapneumovirus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "40979-7",
+            "display": "Human metapneumovirus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "67821-9",
+            "display": "Human metapneumovirus B RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "88534-3",
+            "display": "Human metapneumovirus RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "60266-4",
+            "display": "Human metapneumovirus RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82165-2",
+            "display": "Human metapneumovirus RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "77024-8",
+            "display": "Human metapneumovirus RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "92134-6",
+            "display": "Human metapneumovirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "89651-4",
+            "display": "Human metapneumovirus RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91809-4",
+            "display": "Human metapneumovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "38917-1",
+            "display": "Human metapneumovirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "85821-7",
+            "display": "Influenza virus B Victoria lineage Ag [Presence] in Isolate by Hemagglutination inhibition"
+          },
+          {
+            "code": "86318-3",
+            "display": "Influenza virus B Yamagata lineage Ag [Presence] in Isolate by Hemagglutination inhibition"
+          },
+          {
+            "code": "48310-7",
+            "display": "Influenza virus A [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "44557-7",
+            "display": "Influenza virus A Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "44876-1",
+            "display": "Influenza virus A Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "47443-7",
+            "display": "Influenza virus A Ab [Presence] in Egg yolk"
+          },
+          {
+            "code": "39295-1",
+            "display": "Influenza virus A Ab [Presence] in Egg yolk by Immune diffusion (ID)"
+          },
+          {
+            "code": "22096-2",
+            "display": "Influenza virus A Ab [Presence] in Serum"
+          },
+          {
+            "code": "44556-9",
+            "display": "Influenza virus A Ab [Presence] in Serum by Complement fixation"
+          },
+          {
+            "code": "20862-9",
+            "display": "Influenza virus A Ab [Presence] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "22822-1",
+            "display": "Influenza virus A Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "15444-3",
+            "display": "Influenza virus A Ab [Presence] in Serum by Immune diffusion (ID)"
+          },
+          {
+            "code": "43851-5",
+            "display": "Influenza virus A IgA Ab [Presence] in Serum"
+          },
+          {
+            "code": "43837-4",
+            "display": "Influenza virus A IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "86566-7",
+            "display": "Influenza virus A IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "43838-2",
+            "display": "Influenza virus A IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "86567-5",
+            "display": "Influenza virus A IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "47232-4",
+            "display": "Influenza virus A Ab [Presence] in Serum --1st specimen"
+          },
+          {
+            "code": "47233-2",
+            "display": "Influenza virus A Ab [Presence] in Serum --2nd specimen"
+          },
+          {
+            "code": "77383-8",
+            "display": "Influenza virus A Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+          },
+          {
+            "code": "44562-7",
+            "display": "Influenza virus A Ag [Presence] in Bronchial specimen"
+          },
+          {
+            "code": "44559-3",
+            "display": "Influenza virus A Ag [Presence] in Bronchial specimen by Immunofluorescence"
+          },
+          {
+            "code": "49529-1",
+            "display": "Influenza virus A Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "44563-5",
+            "display": "Influenza virus A Ag [Presence] in Nose"
+          },
+          {
+            "code": "44564-3",
+            "display": "Influenza virus A Ag [Presence] in Nose by Immunoassay"
+          },
+          {
+            "code": "44560-1",
+            "display": "Influenza virus A Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code": "43874-7",
+            "display": "Influenza virus A Ag [Presence] in Nasopharynx"
+          },
+          {
+            "code": "46082-4",
+            "display": "Influenza virus A Ag [Presence] in Nasopharynx by Immunoassay"
+          },
+          {
+            "code": "44558-5",
+            "display": "Influenza virus A Ag [Presence] in Nasopharynx by Immunofluorescence"
+          },
+          {
+            "code": "88904-8",
+            "display": "Influenza virus A Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "80382-5",
+            "display": "Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay"
+          },
+          {
+            "code": "31858-4",
+            "display": "Influenza virus A Ag [Presence] in Throat"
+          },
+          {
+            "code": "5860-2",
+            "display": "Influenza virus A Ag [Presence] in Throat by Immunoassay"
+          },
+          {
+            "code": "5861-0",
+            "display": "Influenza virus A Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "86565-9",
+            "display": "Influenza virus A Ag [Presence] in Tissue by Immunofluorescence"
+          },
+          {
+            "code": "44561-9",
+            "display": "Influenza virus A Ag [Presence] in Trachea by Immunofluorescence"
+          },
+          {
+            "code": "31859-2",
+            "display": "Influenza virus A Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5862-8",
+            "display": "Influenza virus A Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code": "5863-6",
+            "display": "Influenza virus A Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "22825-4",
+            "display": "Influenza virus A Ag [Presence] in Specimen by Immune diffusion (ID)"
+          },
+          {
+            "code": "60494-2",
+            "display": "Influenza virus A H1 2009 pandemic and Influenza virus A swine origin RNA [Interpretation] in Specimen Qualitative by NAA with probe detection"
+          },
+          {
+            "code": "82168-6",
+            "display": "Influenza virus A H1 2009 pandemic RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "77028-9",
+            "display": "Influenza virus A H1 2009 pandemic RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "94395-1",
+            "display": "Influenza virus A H1 2009 pandemic RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "55465-9",
+            "display": "Influenza virus A H1 2009 pandemic RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "50701-2",
+            "display": "Influenza virus A H1 Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "80589-5",
+            "display": "Influenza virus A H1 HA gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "49520-0",
+            "display": "Influenza virus A H1 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82167-8",
+            "display": "Influenza virus A H1 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "77026-3",
+            "display": "Influenza virus A H1 RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "94396-9",
+            "display": "Influenza virus A H1 RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92809-3",
+            "display": "Influenza virus A H1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "49521-8",
+            "display": "Influenza virus A H1 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "60538-6",
+            "display": "Influenza virus A H1+H3+B RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "57985-4",
+            "display": "Influenza virus A H2 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49522-6",
+            "display": "Influenza virus A H3 Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "80590-3",
+            "display": "Influenza virus A H3 HA gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "49523-4",
+            "display": "Influenza virus A H3 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82169-4",
+            "display": "Influenza virus A H3 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "77027-1",
+            "display": "Influenza virus A H3 RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "94394-4",
+            "display": "Influenza virus A H3 RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92808-5",
+            "display": "Influenza virus A H3 RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "49524-2",
+            "display": "Influenza virus A H3 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49525-9",
+            "display": "Influenza virus A H5 Ab [Presence] in Serum"
+          },
+          {
+            "code": "44795-3",
+            "display": "Influenza virus A H5 Asian RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49526-7",
+            "display": "Influenza virus A H5 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "38272-1",
+            "display": "Influenza virus A H5 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "68986-9",
+            "display": "Influenza virus A H5a RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "68987-7",
+            "display": "Influenza virus A H5b RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "38271-3",
+            "display": "Influenza virus A H6 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "81428-5",
+            "display": "Influenza virus A H7 Eurasia RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "95658-1",
+            "display": "Influenza virus A H7 Eurasia RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "49527-5",
+            "display": "Influenza virus A H7 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "38270-5",
+            "display": "Influenza virus A H7 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "60530-3",
+            "display": "+A1000Influenza virus A H9 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "49528-3",
+            "display": "Influenza virus A H9 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "80588-7",
+            "display": "Influenza virus A M gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "41142-1",
+            "display": "Influenza virus A N1 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39311-6",
+            "display": "Influenza virus A N1 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "41141-3",
+            "display": "Influenza virus A N2 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39312-4",
+            "display": "Influenza virus A N2 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "41140-5",
+            "display": "Influenza virus A N3 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39313-2",
+            "display": "Influenza virus A N3 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "41139-7",
+            "display": "Influenza virus A N4 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39314-0",
+            "display": "Influenza virus A N4 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "41138-9",
+            "display": "Influenza virus A N5 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39315-7",
+            "display": "Influenza virus A N5 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "41137-1",
+            "display": "Influenza virus A N6 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39316-5",
+            "display": "Influenza virus A N6 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "41136-3",
+            "display": "Influenza virus A N7 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39317-3",
+            "display": "Influenza virus A N7 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "41135-5",
+            "display": "Influenza virus A N8 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39318-1",
+            "display": "Influenza virus A N8 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "41134-8",
+            "display": "Influenza virus A N9 Ab [Presence] in Serum"
+          },
+          {
+            "code": "39319-9",
+            "display": "Influenza virus A N9 Ab [Presence] in Serum by Neutralization test"
+          },
+          {
+            "code": "76077-7",
+            "display": "Influenza virus A RNA [Presence] in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "88193-8",
+            "display": "Influenza virus A RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "86568-3",
+            "display": "Influenza virus A RNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "49531-7",
+            "display": "Influenza virus A RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82166-0",
+            "display": "Influenza virus A RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "76078-5",
+            "display": "Influenza virus A RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88600-2",
+            "display": "Influenza virus A RNA [Presence] in Pericardial fluid by NAA with probe detection"
+          },
+          {
+            "code": "92142-9",
+            "display": "Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92977-8",
+            "display": "Influenza virus A RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "88599-6",
+            "display": "Influenza virus A RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "85477-8",
+            "display": "Influenza virus A RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "86569-1",
+            "display": "Influenza virus A RNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "34487-9",
+            "display": "Influenza virus A RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "38381-0",
+            "display": "Influenza virus A cDNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "55464-2",
+            "display": "Influenza virus A swine origin RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "45279-7",
+            "display": "Influenza virus A+B Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "44565-0",
+            "display": "Influenza virus A+B Ab [Presence] in Serum"
+          },
+          {
+            "code": "44566-8",
+            "display": "Influenza virus A+B Ag [Presence] in Bronchial specimen"
+          },
+          {
+            "code": "44567-6",
+            "display": "Influenza virus A+B Ag [Presence] in Nose"
+          },
+          {
+            "code": "72367-6",
+            "display": "Influenza virus A+B Ag [Presence] in Nose by Rapid immunoassay"
+          },
+          {
+            "code": "33535-6",
+            "display": "Influenza virus A+B Ag [Presence] in Nasopharynx"
+          },
+          {
+            "code": "31860-0",
+            "display": "Influenza virus A+B Ag [Presence] in Throat"
+          },
+          {
+            "code": "6435-2",
+            "display": "Influenza virus A+B Ag [Presence] in Throat by Immunoassay"
+          },
+          {
+            "code": "6436-0",
+            "display": "Influenza virus A+B Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "24015-0",
+            "display": "Influenza virus A+B Ag [Presence] in Specimen"
+          },
+          {
+            "code": "6437-8",
+            "display": "Influenza virus A+B Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code": "6438-6",
+            "display": "Influenza virus A+B Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "62462-7",
+            "display": "Influenza virus A+B RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "31861-8",
+            "display": "Influenza virus A+B+C Ag [Presence] in Throat"
+          },
+          {
+            "code": "6439-4",
+            "display": "Influenza virus A+B+C Ag [Presence] in Throat by Immunoassay"
+          },
+          {
+            "code": "6440-2",
+            "display": "Influenza virus A+B+C Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "31862-6",
+            "display": "Influenza virus A+B+C Ag [Presence] in Specimen"
+          },
+          {
+            "code": "6441-0",
+            "display": "Influenza virus A+B+C Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code": "6442-8",
+            "display": "Influenza virus A+B+C Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "54240-7",
+            "display": "Influenza virus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "38382-8",
+            "display": "Influenza virus B [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "44569-2",
+            "display": "Influenza virus B Ab [Presence] in Body fluid"
+          },
+          {
+            "code": "44570-0",
+            "display": "Influenza virus B Ab [Presence] in Serum"
+          },
+          {
+            "code": "44568-4",
+            "display": "Influenza virus B Ab [Presence] in Serum by Complement fixation"
+          },
+          {
+            "code": "49533-3",
+            "display": "Influenza virus B Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "43852-3",
+            "display": "Influenza virus B IgA Ab [Presence] in Serum"
+          },
+          {
+            "code": "43839-0",
+            "display": "Influenza virus B IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "88903-0",
+            "display": "Influenza virus B IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "43840-8",
+            "display": "Influenza virus B IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "86570-9",
+            "display": "Influenza virus B IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "77384-6",
+            "display": "Influenza virus B Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+          },
+          {
+            "code": "44576-7",
+            "display": "Influenza virus B Ag [Presence] in Bronchial specimen"
+          },
+          {
+            "code": "44572-6",
+            "display": "Influenza virus B Ag [Presence] in Bronchial specimen by Immunofluorescence"
+          },
+          {
+            "code": "54241-5",
+            "display": "Influenza virus B Ag [Presence] in Isolate"
+          },
+          {
+            "code": "49534-1",
+            "display": "Influenza virus B Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "44577-5",
+            "display": "Influenza virus B Ag [Presence] in Nose"
+          },
+          {
+            "code": "44575-9",
+            "display": "Influenza virus B Ag [Presence] in Nose by Immunoassay"
+          },
+          {
+            "code": "44573-4",
+            "display": "Influenza virus B Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code": "43895-2",
+            "display": "Influenza virus B Ag [Presence] in Nasopharynx"
+          },
+          {
+            "code": "46083-2",
+            "display": "Influenza virus B Ag [Presence] in Nasopharynx by Immunoassay"
+          },
+          {
+            "code": "44571-8",
+            "display": "Influenza virus B Ag [Presence] in Nasopharynx by Immunofluorescence"
+          },
+          {
+            "code": "88905-5",
+            "display": "Influenza virus B Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "80383-3",
+            "display": "Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay"
+          },
+          {
+            "code": "31863-4",
+            "display": "Influenza virus B Ag [Presence] in Throat"
+          },
+          {
+            "code": "5864-4",
+            "display": "Influenza virus B Ag [Presence] in Throat by Immunoassay"
+          },
+          {
+            "code": "5865-1",
+            "display": "Influenza virus B Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "88194-6",
+            "display": "Influenza virus B Ag [Presence] in Tissue by Immunofluorescence"
+          },
+          {
+            "code": "44574-2",
+            "display": "Influenza virus B Ag [Presence] in Trachea by Immunofluorescence"
+          },
+          {
+            "code": "31864-2",
+            "display": "Influenza virus B Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5866-9",
+            "display": "Influenza virus B Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code": "5867-7",
+            "display": "Influenza virus B Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "80591-1",
+            "display": "Influenza virus B NS gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "76079-3",
+            "display": "Influenza virus B RNA [Presence] in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "88195-3",
+            "display": "Influenza virus B RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "86571-7",
+            "display": "Influenza virus B RNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "49535-8",
+            "display": "Influenza virus B RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82170-2",
+            "display": "Influenza virus B RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "76080-1",
+            "display": "Influenza virus B RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88596-2",
+            "display": "Influenza virus B RNA [Presence] in Pericardial fluid by NAA with probe detection"
+          },
+          {
+            "code": "92141-1",
+            "display": "Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92976-0",
+            "display": "Influenza virus B RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "88592-1",
+            "display": "Influenza virus B RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "85478-6",
+            "display": "Influenza virus B RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "86572-5",
+            "display": "Influenza virus B RNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "40982-1",
+            "display": "Influenza virus B RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "74785-7",
+            "display": "Influenza virus B Victoria lineage RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "74786-5",
+            "display": "Influenza virus B Yamagata lineage RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "91780-7",
+            "display": "Measles virus [Presence] in Lower respiratory specimen by Organism specific culture"
+          },
+          {
+            "code": "91786-4",
+            "display": "Measles virus [Presence] in Upper respiratory specimen by Organism specific culture"
+          },
+          {
+            "code": "76626-1",
+            "display": "Measles virus [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "46197-0",
+            "display": "Measles virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "43976-0",
+            "display": "Measles virus Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "53536-9",
+            "display": "Measles virus IgG Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "41132-2",
+            "display": "Measles virus IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "40648-8",
+            "display": "Measles virus IgG Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "20479-2",
+            "display": "Measles virus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "35275-7",
+            "display": "Measles virus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "53537-7",
+            "display": "Measles virus IgM Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "74417-7",
+            "display": "Measles virus IgM Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "21503-8",
+            "display": "Measles virus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "35276-5",
+            "display": "Measles virus IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "31875-8",
+            "display": "Measles virus Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "14534-2",
+            "display": "Measles virus Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "31876-6",
+            "display": "Measles virus Ag [Presence] in Cervix"
+          },
+          {
+            "code": "14540-9",
+            "display": "Measles virus Ag [Presence] in Cervix by Immunofluorescence"
+          },
+          {
+            "code": "31877-4",
+            "display": "Measles virus Ag [Presence] in Eye"
+          },
+          {
+            "code": "14537-5",
+            "display": "Measles virus Ag [Presence] in Eye by Immunofluorescence"
+          },
+          {
+            "code": "67806-0",
+            "display": "Measles virus Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "31879-0",
+            "display": "Measles virus Ag [Presence] in Nose"
+          },
+          {
+            "code": "14538-3",
+            "display": "Measles virus Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code": "31880-8",
+            "display": "Measles virus Ag [Presence] in Penis"
+          },
+          {
+            "code": "14543-3",
+            "display": "Measles virus Ag [Presence] in Penis by Immunofluorescence"
+          },
+          {
+            "code": "31881-6",
+            "display": "Measles virus Ag [Presence] in Serum or Plasma"
+          },
+          {
+            "code": "13328-0",
+            "display": "Measles virus Ag [Presence] in Serum or Plasma by Immunofluorescence"
+          },
+          {
+            "code": "31882-4",
+            "display": "Measles virus Ag [Presence] in Skin"
+          },
+          {
+            "code": "14536-7",
+            "display": "Measles virus Ag [Presence] in Skin by Immunofluorescence"
+          },
+          {
+            "code": "31883-2",
+            "display": "Measles virus Ag [Presence] in Sputum"
+          },
+          {
+            "code": "14539-1",
+            "display": "Measles virus Ag [Presence] in Sputum by Immunofluorescence"
+          },
+          {
+            "code": "31884-0",
+            "display": "Measles virus Ag [Presence] in Throat"
+          },
+          {
+            "code": "14535-9",
+            "display": "Measles virus Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "31886-5",
+            "display": "Measles virus Ag [Presence] in Urethra"
+          },
+          {
+            "code": "14544-1",
+            "display": "Measles virus Ag [Presence] in Urethra by Immunofluorescence"
+          },
+          {
+            "code": "31885-7",
+            "display": "Measles virus Ag [Presence] in Urine sediment"
+          },
+          {
+            "code": "14542-5",
+            "display": "Measles virus Ag [Presence] in Urine sediment by Immunofluorescence"
+          },
+          {
+            "code": "31878-2",
+            "display": "Measles virus Ag [Presence] in Vaginal fluid"
+          },
+          {
+            "code": "14541-7",
+            "display": "Measles virus Ag [Presence] in Vaginal fluid by Immunofluorescence"
+          },
+          {
+            "code": "31887-3",
+            "display": "Measles virus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "12232-5",
+            "display": "Measles virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "86575-8",
+            "display": "Measles virus RNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "7964-0",
+            "display": "Measles virus RNA [Presence] in Nose by NAA with probe detection"
+          },
+          {
+            "code": "91132-1",
+            "display": "Measles virus RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91077-8",
+            "display": "Measles virus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "86576-6",
+            "display": "Measles virus RNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code": "86577-4",
+            "display": "Measles virus RNA [Presence] in Urine by NAA with probe detection"
+          },
+          {
+            "code": "48508-6",
+            "display": "Measles virus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "91787-2",
+            "display": "Mumps virus [Presence] in Upper respiratory specimen by Organism specific culture"
+          },
+          {
+            "code": "13921-2",
+            "display": "Mumps virus [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "31503-6",
+            "display": "Mumps virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "26942-3",
+            "display": "Mumps virus Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "74422-7",
+            "display": "Mumps virus IgG Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "39011-2",
+            "display": "Mumps virus IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "40737-9",
+            "display": "Mumps virus IgG Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "22415-4",
+            "display": "Mumps virus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "6476-6",
+            "display": "Mumps virus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "88454-4",
+            "display": "Mumps virus IgG+IgM Ab [Interpretation] in Cerebral spinal fluid Qualitative by Immunofluorescence"
+          },
+          {
+            "code": "69766-4",
+            "display": "Mumps virus IgM Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "41131-4",
+            "display": "Mumps virus IgM Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "40738-7",
+            "display": "Mumps virus IgM Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "22418-8",
+            "display": "Mumps virus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "6478-2",
+            "display": "Mumps virus IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "30146-5",
+            "display": "Mumps virus Ab [Presence] in Serum --2nd specimen"
+          },
+          {
+            "code": "31888-1",
+            "display": "Mumps virus Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "14545-8",
+            "display": "Mumps virus Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "31889-9",
+            "display": "Mumps virus Ag [Presence] in Cervix"
+          },
+          {
+            "code": "14551-6",
+            "display": "Mumps virus Ag [Presence] in Cervix by Immunofluorescence"
+          },
+          {
+            "code": "31890-7",
+            "display": "Mumps virus Ag [Presence] in Eye"
+          },
+          {
+            "code": "14548-2",
+            "display": "Mumps virus Ag [Presence] in Eye by Immunofluorescence"
+          },
+          {
+            "code": "67807-8",
+            "display": "Mumps virus Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "31892-3",
+            "display": "Mumps virus Ag [Presence] in Nose"
+          },
+          {
+            "code": "14549-0",
+            "display": "Mumps virus Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code": "31893-1",
+            "display": "Mumps virus Ag [Presence] in Penis"
+          },
+          {
+            "code": "14554-0",
+            "display": "Mumps virus Ag [Presence] in Penis by Immunofluorescence"
+          },
+          {
+            "code": "31894-9",
+            "display": "Mumps virus Ag [Presence] in Serum"
+          },
+          {
+            "code": "6480-8",
+            "display": "Mumps virus Ag [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "31895-6",
+            "display": "Mumps virus Ag [Presence] in Skin"
+          },
+          {
+            "code": "14547-4",
+            "display": "Mumps virus Ag [Presence] in Skin by Immunofluorescence"
+          },
+          {
+            "code": "31896-4",
+            "display": "Mumps virus Ag [Presence] in Sputum"
+          },
+          {
+            "code": "14550-8",
+            "display": "Mumps virus Ag [Presence] in Sputum by Immunofluorescence"
+          },
+          {
+            "code": "31897-2",
+            "display": "Mumps virus Ag [Presence] in Throat"
+          },
+          {
+            "code": "14546-6",
+            "display": "Mumps virus Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "31899-8",
+            "display": "Mumps virus Ag [Presence] in Urethra"
+          },
+          {
+            "code": "14555-7",
+            "display": "Mumps virus Ag [Presence] in Urethra by Immunofluorescence"
+          },
+          {
+            "code": "31898-0",
+            "display": "Mumps virus Ag [Presence] in Urine sediment"
+          },
+          {
+            "code": "14553-2",
+            "display": "Mumps virus Ag [Presence] in Urine sediment by Immunofluorescence"
+          },
+          {
+            "code": "31891-5",
+            "display": "Mumps virus Ag [Presence] in Vaginal fluid"
+          },
+          {
+            "code": "14552-4",
+            "display": "Mumps virus Ag [Presence] in Vaginal fluid by Immunofluorescence"
+          },
+          {
+            "code": "31900-4",
+            "display": "Mumps virus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "12237-4",
+            "display": "Mumps virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "7968-1",
+            "display": "Mumps virus RNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "91806-0",
+            "display": "Mumps virus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "53603-7",
+            "display": "Mumps virus RNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code": "86580-8",
+            "display": "Mumps virus RNA [Presence] in Urine by NAA with probe detection"
+          },
+          {
+            "code": "47532-7",
+            "display": "Mumps virus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "7973-1",
+            "display": "Norovirus [Presence] in Stool by Electron microscopy"
+          },
+          {
+            "code": "49117-5",
+            "display": "Norovirus Ag [Presence] in Stool"
+          },
+          {
+            "code": "80375-9",
+            "display": "Norovirus Ag [Presence] in Stool by Rapid immunoassay"
+          },
+          {
+            "code": "60427-2",
+            "display": "Norovirus RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "7974-9",
+            "display": "Norovirus RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "90287-4",
+            "display": "Norovirus RNA [Presence] in Vomitus by NAA with probe detection"
+          },
+          {
+            "code": "41035-7",
+            "display": "Norovirus RNA [Presence] in Specimen by Probe"
+          },
+          {
+            "code": "56748-7",
+            "display": "Norovirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "40863-3",
+            "display": "Norovirus Genogroup I Ag [Presence] in Stool"
+          },
+          {
+            "code": "54905-5",
+            "display": "Norovirus Genogroup I RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "90288-2",
+            "display": "Norovirus Genogroup I RNA [Presence] in Vomitus by NAA with probe detection"
+          },
+          {
+            "code": "82211-4",
+            "display": "Norovirus genogroup I+II RNA [Presence] in Stool by NAA with non-probe detection"
+          },
+          {
+            "code": "92692-3",
+            "display": "Norovirus genogroup I+II RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "79388-5",
+            "display": "Norovirus genogroup I+II orf1-orf2 junction region [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "54906-3",
+            "display": "Norovirus Genogroup II RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "90289-0",
+            "display": "Norovirus Genogroup II RNA [Presence] in Vomitus by NAA with probe detection"
+          },
+          {
+            "code": "55097-0",
+            "display": "Parainfluenza virus 1 [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "15389-0",
+            "display": "Parainfluenza virus 1 IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40983-9",
+            "display": "Parainfluenza virus 1 IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "15390-8",
+            "display": "Parainfluenza virus 1 IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "77385-3",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+          },
+          {
+            "code": "67808-6",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "38396-8",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code": "38395-0",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Nasopharynx by Immunofluorescence"
+          },
+          {
+            "code": "88906-3",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "31923-6",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Throat"
+          },
+          {
+            "code": "5868-5",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "31924-4",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5869-3",
+            "display": "Parainfluenza virus 1 Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "80592-9",
+            "display": "Parainfluenza virus 1 F gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88208-4",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "60269-8",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82171-0",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "76084-3",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "92140-3",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94483-5",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "88563-2",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91802-9",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "29908-1",
+            "display": "Parainfluenza virus 1 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "38400-8",
+            "display": "Parainfluenza virus 1+2+3 Ab [Presence] in Serum"
+          },
+          {
+            "code": "17414-4",
+            "display": "Parainfluenza virus 1+2+3 Ag [Presence] in Specimen"
+          },
+          {
+            "code": "60254-0",
+            "display": "Parainfluenza virus 1+2+3 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "70014-6",
+            "display": "Parainfluenza virus 1+2+3+4 IgA Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "93747-4",
+            "display": "Parainfluenza virus 1+2+3+4 IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "70017-9",
+            "display": "Parainfluenza virus 1+2+3+4 IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "88890-9",
+            "display": "Parainfluenza virus 1+2+3+4 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "92883-8",
+            "display": "Parainfluenza virus 1+2+3+4 RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92884-6",
+            "display": "Parainfluenza virus 1+2+3+4 RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "55098-8",
+            "display": "Parainfluenza virus 2 [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "15392-4",
+            "display": "Parainfluenza virus 2 IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40984-7",
+            "display": "Parainfluenza virus 2 IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "29667-3",
+            "display": "Parainfluenza virus 2 IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "29646-7",
+            "display": "Parainfluenza virus 2 IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "77386-1",
+            "display": "Parainfluenza virus 2 Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+          },
+          {
+            "code": "67809-4",
+            "display": "Parainfluenza virus 2 Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "77391-1",
+            "display": "Parainfluenza virus 2 Ag [Presence] in Nasopharynx by Immunofluorescence"
+          },
+          {
+            "code": "88907-1",
+            "display": "Parainfluenza virus 2 Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "31925-1",
+            "display": "Parainfluenza virus 2 Ag [Presence] in Throat"
+          },
+          {
+            "code": "5870-1",
+            "display": "Parainfluenza virus 2 Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "31926-9",
+            "display": "Parainfluenza virus 2 Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5871-9",
+            "display": "Parainfluenza virus 2 Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "80593-7",
+            "display": "Parainfluenza virus 2 L gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88209-2",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "60417-3",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82172-8",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "76085-0",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "92139-5",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94484-3",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "88559-0",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91801-1",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "29909-9",
+            "display": "Parainfluenza virus 2 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "55099-6",
+            "display": "Parainfluenza virus 3 [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "46200-2",
+            "display": "Parainfluenza virus 3 Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "43205-4",
+            "display": "Parainfluenza virus 3 Ab [Presence] in Cerebral spinal fluid by Complement fixation"
+          },
+          {
+            "code": "15394-0",
+            "display": "Parainfluenza virus 3 IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40985-4",
+            "display": "Parainfluenza virus 3 IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "15395-7",
+            "display": "Parainfluenza virus 3 IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "77387-9",
+            "display": "Parainfluenza virus 3 Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+          },
+          {
+            "code": "67810-2",
+            "display": "Parainfluenza virus 3 Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "77392-9",
+            "display": "Parainfluenza virus 3 Ag [Presence] in Nasopharynx by Immunofluorescence"
+          },
+          {
+            "code": "88908-9",
+            "display": "Parainfluenza virus 3 Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "31927-7",
+            "display": "Parainfluenza virus 3 Ag [Presence] in Throat"
+          },
+          {
+            "code": "5872-7",
+            "display": "Parainfluenza virus 3 Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "31928-5",
+            "display": "Parainfluenza virus 3 Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5873-5",
+            "display": "Parainfluenza virus 3 Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "80594-5",
+            "display": "Parainfluenza virus 3 NP gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88210-0",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "60416-5",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82173-6",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "76086-8",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "92138-7",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94485-0",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "88560-8",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91800-3",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "29910-7",
+            "display": "Parainfluenza virus 3 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "42983-7",
+            "display": "Parainfluenza virus 4 IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "41990-3",
+            "display": "Parainfluenza virus 4 IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "67811-0",
+            "display": "Parainfluenza virus 4 Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "60424-9",
+            "display": "Parainfluenza virus 4 Ag [Presence] in Specimen"
+          },
+          {
+            "code": "40986-2",
+            "display": "Parainfluenza virus 4 Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "80595-2",
+            "display": "Parainfluenza virus 4 P gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88530-1",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "60415-7",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82174-4",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "76087-6",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "92137-9",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94486-8",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "88561-6",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91799-7",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "41010-0",
+            "display": "Parainfluenza virus 4 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "67818-5",
+            "display": "Parainfluenza virus 4a RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "67819-3",
+            "display": "Parainfluenza virus 4b RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "31929-3",
+            "display": "Parainfluenza virus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "13327-2",
+            "display": "Parainfluenza virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "88529-3",
+            "display": "Parainfluenza virus RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "92963-8",
+            "display": "Parainfluenza virus RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "88562-4",
+            "display": "Parainfluenza virus RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91798-9",
+            "display": "Parainfluenza virus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "61365-3",
+            "display": "Parainfluenza virus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "60525-3",
+            "display": "Parechovirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "29675-6",
+            "display": "Parvovirus B19 IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "29660-8",
+            "display": "Parvovirus B19 IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "40657-9",
+            "display": "Parvovirus B19 IgG Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "7981-4",
+            "display": "Parvovirus B19 IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "40658-7",
+            "display": "Parvovirus B19 IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "6517-7",
+            "display": "Parvovirus B19 IgM Ab [Presence] in Serum by Immunoblot"
+          },
+          {
+            "code": "40659-5",
+            "display": "Parvovirus B19 IgM Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "50349-0",
+            "display": "Parvovirus B19 DNA [Presence] in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "50348-2",
+            "display": "Parvovirus B19 DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "50344-1",
+            "display": "Parvovirus B19 DNA [Presence] in Body fluid by NAA with probe detection"
+          },
+          {
+            "code": "50347-4",
+            "display": "Parvovirus B19 DNA [Presence] in Bone marrow by NAA with probe detection"
+          },
+          {
+            "code": "50346-6",
+            "display": "Parvovirus B19 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "75543-9",
+            "display": "Parvovirus B19 DNA [Presence] in Plasma from Donor by NAA with probe detection"
+          },
+          {
+            "code": "91796-3",
+            "display": "Parvovirus B19 DNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "9572-9",
+            "display": "Parvovirus B19 DNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code": "50345-8",
+            "display": "Parvovirus B19 DNA [Presence] in Urine by NAA with probe detection"
+          },
+          {
+            "code": "9571-1",
+            "display": "Parvovirus B19 DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "5030-2",
+            "display": "Parvovirus B19 RNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "5031-0",
+            "display": "Parvovirus B19 RNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "5032-8",
+            "display": "Parvovirus B19 RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "14129-1",
+            "display": "Respiratory syncytial virus [Presence] in Nose by Organism specific culture"
+          },
+          {
+            "code": "55100-2",
+            "display": "Respiratory syncytial virus [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "80597-8",
+            "display": "Respiratory syncytial virus A 5' UTR RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88204-3",
+            "display": "Respiratory syncytial virus A RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "77022-2",
+            "display": "Respiratory syncytial virus A RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88595-4",
+            "display": "Respiratory syncytial virus A RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91795-5",
+            "display": "Respiratory syncytial virus A RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "30075-6",
+            "display": "Respiratory syncytial virus A RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "33390-6",
+            "display": "Respiratory syncytial virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "69929-8",
+            "display": "Respiratory syncytial virus IgA Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "41012-6",
+            "display": "Respiratory syncytial virus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "40989-6",
+            "display": "Respiratory syncytial virus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "69962-9",
+            "display": "Respiratory syncytial virus IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "30147-3",
+            "display": "Respiratory syncytial virus Ab [Presence] in Serum --1st specimen"
+          },
+          {
+            "code": "30148-1",
+            "display": "Respiratory syncytial virus Ab [Presence] in Serum --2nd specimen"
+          },
+          {
+            "code": "77389-5",
+            "display": "Respiratory syncytial virus Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+          },
+          {
+            "code": "33045-6",
+            "display": "Respiratory syncytial virus Ag [Presence] in Nose"
+          },
+          {
+            "code": "32040-8",
+            "display": "Respiratory syncytial virus Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code": "68966-1",
+            "display": "Respiratory syncytial virus Ag [Presence] in Nasopharynx by Immunoassay"
+          },
+          {
+            "code": "72885-7",
+            "display": "Respiratory syncytial virus Ag [Presence] in Nasopharynx by Rapid immunoassay"
+          },
+          {
+            "code": "77390-3",
+            "display": "Respiratory syncytial virus Ag [Presence] in Nasopharynx by Immunofluorescence"
+          },
+          {
+            "code": "88909-7",
+            "display": "Respiratory syncytial virus Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "31949-1",
+            "display": "Respiratory syncytial virus Ag [Presence] in Throat"
+          },
+          {
+            "code": "5874-3",
+            "display": "Respiratory syncytial virus Ag [Presence] in Throat by Immunoassay"
+          },
+          {
+            "code": "5875-0",
+            "display": "Respiratory syncytial virus Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "50329-2",
+            "display": "Respiratory syncytial virus Ag [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code": "31950-9",
+            "display": "Respiratory syncytial virus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5876-8",
+            "display": "Respiratory syncytial virus Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code": "5877-6",
+            "display": "Respiratory syncytial virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "80598-6",
+            "display": "Respiratory syncytial virus B F gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88202-7",
+            "display": "Respiratory syncytial virus B RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "77023-0",
+            "display": "Respiratory syncytial virus B RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88597-0",
+            "display": "Respiratory syncytial virus B RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91794-8",
+            "display": "Respiratory syncytial virus B RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "30076-4",
+            "display": "Respiratory syncytial virus B RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "76088-4",
+            "display": "Respiratory syncytial virus RNA [Presence] in Bronchoalveolar lavage by NAA with probe detection"
+          },
+          {
+            "code": "88528-5",
+            "display": "Respiratory syncytial virus RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "60271-4",
+            "display": "Respiratory syncytial virus RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "82176-9",
+            "display": "Respiratory syncytial virus RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "76089-2",
+            "display": "Respiratory syncytial virus RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "92131-2",
+            "display": "Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92957-0",
+            "display": "Respiratory syncytial virus RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "91133-9",
+            "display": "Respiratory syncytial virus RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "85479-4",
+            "display": "Respiratory syncytial virus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "40988-8",
+            "display": "Respiratory syncytial virus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "88527-7",
+            "display": "Respiratory syncytial virus identified [Presence] in Cornea or Conjunctiva by Organism specific culture"
+          },
+          {
+            "code": "91782-3",
+            "display": "Respiratory syncytial virus identified [Presence] in Lower respiratory specimen by Organism specific culture"
+          },
+          {
+            "code": "91785-6",
+            "display": "Respiratory syncytial virus identified [Presence] in Upper respiratory specimen by Organism specific culture"
+          },
+          {
+            "code": "80596-0",
+            "display": "Rhinovirus 5' UTR RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "88213-4",
+            "display": "Rhinovirus RNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "77025-5",
+            "display": "Rhinovirus RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "92130-4",
+            "display": "Rhinovirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91131-3",
+            "display": "Rhinovirus RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91793-0",
+            "display": "Rhinovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "7993-9",
+            "display": "Rhinovirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "97954-2",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "40992-0",
+            "display": "Rhinovirus+Enterovirus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "82175-1",
+            "display": "Rhinovirus+Enterovirus RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "92956-2",
+            "display": "Rhinovirus+Enterovirus RNA [Presence] in Lower respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "92885-3",
+            "display": "Rhinovirus+Enterovirus RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "92807-7",
+            "display": "Rhinovirus+Enterovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "40991-2",
+            "display": "Rhinovirus+Enterovirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "88721-6",
+            "display": "Rhinovirus+Enterovirus RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "8011-9",
+            "display": "Rotavirus [Presence] in Stool by Electron microscopy"
+          },
+          {
+            "code": "86689-7",
+            "display": "Rotavirus A [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "86199-7",
+            "display": "Rotavirus A Ag [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code": "82212-2",
+            "display": "Rotavirus A RNA [Presence] in Stool by NAA with non-probe detection"
+          },
+          {
+            "code": "92693-1",
+            "display": "Rotavirus A RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "86692-1",
+            "display": "Rotavirus A RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "86217-7",
+            "display": "Rotavirus A VP6 capsid protein [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code": "80675-2",
+            "display": "Rotavirus A VP6 gene [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "79389-3",
+            "display": "Rotavirus A nsp5 gene [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "71765-2",
+            "display": "Rotavirus Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "71762-9",
+            "display": "Rotavirus IgA Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "25593-5",
+            "display": "Rotavirus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "25753-5",
+            "display": "Rotavirus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "25601-6",
+            "display": "Rotavirus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "25755-0",
+            "display": "Rotavirus IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "17547-1",
+            "display": "Rotavirus Ag [Presence] in Stool"
+          },
+          {
+            "code": "5879-2",
+            "display": "Rotavirus Ag [Presence] in Stool by Agglutination"
+          },
+          {
+            "code": "5880-0",
+            "display": "Rotavirus Ag [Presence] in Stool by Immunoassay"
+          },
+          {
+            "code": "72174-6",
+            "display": "Rotavirus Ag [Presence] in Stool by Rapid immunoassay"
+          },
+          {
+            "code": "86691-3",
+            "display": "Rotavirus B RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "86688-9",
+            "display": "Rotavirus C [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "86690-5",
+            "display": "Rotavirus C RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "60273-0",
+            "display": "Rotavirus RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "17548-9",
+            "display": "Rotavirus RNA [Presence] in Specimen by Probe"
+          },
+          {
+            "code": "62859-4",
+            "display": "Rotavirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "8012-7",
+            "display": "Rotavirus dsRNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "39581-4",
+            "display": "Rubella virus Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "40666-0",
+            "display": "Rubella virus Ab [Presence] in Cerebral spinal fluid by Latex agglutination"
+          },
+          {
+            "code": "22496-4",
+            "display": "Rubella virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "5331-4",
+            "display": "Rubella virus Ab [Presence] in Serum by Hemagglutination inhibition"
+          },
+          {
+            "code": "43810-1",
+            "display": "Rubella virus Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "89040-0",
+            "display": "Rubella virus Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "5332-2",
+            "display": "Rubella virus Ab [Presence] in Serum by Latex agglutination"
+          },
+          {
+            "code": "74415-1",
+            "display": "Rubella virus IgG Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "39013-8",
+            "display": "Rubella virus IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "40668-6",
+            "display": "Rubella virus IgG Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "25514-1",
+            "display": "Rubella virus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "63462-6",
+            "display": "Rubella virus IgG Ab [Presence] in Serum by Latex agglutination"
+          },
+          {
+            "code": "40667-8",
+            "display": "Rubella virus IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "69765-6",
+            "display": "Rubella virus IgM Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "17552-1",
+            "display": "Rubella virus IgM Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "40669-4",
+            "display": "Rubella virus IgM Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "31616-6",
+            "display": "Rubella virus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "25420-1",
+            "display": "Rubella virus IgM Ab [Presence] in Serum by Latex agglutination"
+          },
+          {
+            "code": "24116-6",
+            "display": "Rubella virus IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "31955-8",
+            "display": "Rubella virus Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "14523-5",
+            "display": "Rubella virus Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "31956-6",
+            "display": "Rubella virus Ag [Presence] in Cervix"
+          },
+          {
+            "code": "14529-2",
+            "display": "Rubella virus Ag [Presence] in Cervix by Immunofluorescence"
+          },
+          {
+            "code": "31957-4",
+            "display": "Rubella virus Ag [Presence] in Eye"
+          },
+          {
+            "code": "14526-8",
+            "display": "Rubella virus Ag [Presence] in Eye by Immunofluorescence"
+          },
+          {
+            "code": "31959-0",
+            "display": "Rubella virus Ag [Presence] in Nose"
+          },
+          {
+            "code": "14527-6",
+            "display": "Rubella virus Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code": "31960-8",
+            "display": "Rubella virus Ag [Presence] in Penis"
+          },
+          {
+            "code": "14532-6",
+            "display": "Rubella virus Ag [Presence] in Penis by Immunofluorescence"
+          },
+          {
+            "code": "31961-6",
+            "display": "Rubella virus Ag [Presence] in Skin"
+          },
+          {
+            "code": "14525-0",
+            "display": "Rubella virus Ag [Presence] in Skin by Immunofluorescence"
+          },
+          {
+            "code": "31962-4",
+            "display": "Rubella virus Ag [Presence] in Sputum"
+          },
+          {
+            "code": "14528-4",
+            "display": "Rubella virus Ag [Presence] in Sputum by Immunofluorescence"
+          },
+          {
+            "code": "31963-2",
+            "display": "Rubella virus Ag [Presence] in Throat"
+          },
+          {
+            "code": "14524-3",
+            "display": "Rubella virus Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code": "31965-7",
+            "display": "Rubella virus Ag [Presence] in Urethra"
+          },
+          {
+            "code": "14533-4",
+            "display": "Rubella virus Ag [Presence] in Urethra by Immunofluorescence"
+          },
+          {
+            "code": "31964-0",
+            "display": "Rubella virus Ag [Presence] in Urine sediment"
+          },
+          {
+            "code": "14531-8",
+            "display": "Rubella virus Ag [Presence] in Urine sediment by Immunofluorescence"
+          },
+          {
+            "code": "31958-2",
+            "display": "Rubella virus Ag [Presence] in Vaginal fluid"
+          },
+          {
+            "code": "14530-0",
+            "display": "Rubella virus Ag [Presence] in Vaginal fluid by Immunofluorescence"
+          },
+          {
+            "code": "31966-5",
+            "display": "Rubella virus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "12251-5",
+            "display": "Rubella virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "91823-5",
+            "display": "Rubella virus RNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "91792-2",
+            "display": "Rubella virus RNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "60274-8",
+            "display": "Rubella virus RNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "86589-9",
+            "display": "Rubella virus RNA [Presence] in Urine by NAA with probe detection"
+          },
+          {
+            "code": "54091-4",
+            "display": "Rubella virus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "41459-9",
+            "display": "SARS coronavirus [Presence] in Specimen"
+          },
+          {
+            "code": "94763-0",
+            "display": "SARS-CoV-2 (COVID-19) [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "95825-6",
+            "display": "SARS-CoV-2 (COVID-19) Ab [Presence] in DBS by Immunoassay"
+          },
+          {
+            "code": "98069-8",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94762-2",
+            "display": "SARS-CoV-2 (COVID-19) Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "95542-7",
+            "display": "SARS-CoV-2 (COVID-19) IgG+IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "94562-6",
+            "display": "SARS-CoV-2 (COVID-19) IgA Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "94768-9",
+            "display": "SARS-CoV-2 (COVID-19) IgA Ab [Presence] in Serum"
+          },
+          {
+            "code": "95125-1",
+            "display": "SARS-CoV-2 (COVID-19) IgA+IgM [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "94761-4",
+            "display": "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in DBS by Immunoassay"
+          },
+          {
+            "code": "94563-4",
+            "display": "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "94507-1",
+            "display": "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "94547-7",
+            "display": "SARS-CoV-2 (COVID-19) IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "95416-4",
+            "display": "SARS-CoV-2 (COVID-19) IgM Ab [Presence] in DBS by Immunoassay"
+          },
+          {
+            "code": "94564-2",
+            "display": "SARS-CoV-2 (COVID-19) IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "94508-9",
+            "display": "SARS-CoV-2 (COVID-19) IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "95411-5",
+            "display": "SARS-CoV-2 (COVID-19) neutralizing antibody [Presence] in Serum by pVNT"
+          },
+          {
+            "code": "94558-4",
+            "display": "SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay"
+          },
+          {
+            "code": "96119-3",
+            "display": "SARS-CoV-2 (COVID-19) Ag [Presence] in Upper respiratory specimen by Immunoassay"
+          },
+          {
+            "code": "97097-0",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "96763-8",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "96957-6",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "96986-5",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "95409-9",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Nose by NAA with probe detection"
+          },
+          {
+            "code": "94760-6",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "94533-7",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94756-4",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N1"
+          },
+          {
+            "code": "94757-2",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N2"
+          },
+          {
+            "code": "95425-5",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Saliva (oral fluid) by NAA with probe detection"
+          },
+          {
+            "code": "96448-6",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Saliva (oral fluid) by Nucleic acid amplification using CDC primer-probe set N1"
+          },
+          {
+            "code": "96958-4",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94766-3",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "94316-7",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94307-6",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Specimen by Nucleic acid amplification using CDC primer-probe set N1"
+          },
+          {
+            "code": "94308-4",
+            "display": "SARS-CoV-2 (COVID-19) N gene [Presence] in Specimen by Nucleic acid amplification using CDC primer-probe set N2"
+          },
+          {
+            "code": "97098-8",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "98132-4",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "98494-8",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94559-2",
+            "display": "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "95824-9",
+            "display": "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Saliva (oral fluid) by NAA with probe detection"
+          },
+          {
+            "code": "94639-2",
+            "display": "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "98131-6",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "98493-0",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "95406-5",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection"
+          },
+          {
+            "code": "94565-9",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+          },
+          {
+            "code": "94759-8",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with probe detection"
+          },
+          {
+            "code": "96797-6",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "95608-6",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "94500-6",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "95424-8",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by Sequencing"
+          },
+          {
+            "code": "94845-5",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Saliva (oral fluid) by NAA with probe detection"
+          },
+          {
+            "code": "94822-4",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Saliva (oral fluid) by Sequencing"
+          },
+          {
+            "code": "94660-8",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "94309-2",
+            "display": "SARS-CoV-2 (COVID-19) RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "96829-7",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94534-5",
+            "display": "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "96120-1",
+            "display": "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "96123-5",
+            "display": "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "96091-4",
+            "display": "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Saliva (oral fluid) by NAA with probe detection"
+          },
+          {
+            "code": "94314-2",
+            "display": "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94640-0",
+            "display": "SARS-CoV-2 (COVID-19) S gene [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "95609-4",
+            "display": "SARS-CoV-2 (COVID-19) S gene [Presence] in Respiratory specimen by Sequencing"
+          },
+          {
+            "code": "96765-3",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "94767-1",
+            "display": "SARS-CoV-2 (COVID-19) S gene [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "94641-8",
+            "display": "SARS-CoV-2 (COVID-19) S gene [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "96756-2",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "96757-0",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "96752-1",
+            "display": "<<This LOINC is not in the LOINC database.>>"
+          },
+          {
+            "code": "95970-0",
+            "display": "SARS-CoV-2 (COVID-19) specific TCRB gene rearrangements [Presence] in Blood by Sequencing"
+          },
+          {
+            "code": "96603-6",
+            "display": "SARS-CoV-2 (COVID-19) S protein RBD neutralizing antibody [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "95971-8",
+            "display": "SARS CoV-2 stimulated gamma interferon [Presence] in Blood"
+          },
+          {
+            "code": "42957-1",
+            "display": "SARS coronavirus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "41460-7",
+            "display": "SARS coronavirus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "42956-3",
+            "display": "SARS coronavirus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "41991-1",
+            "display": "SARS coronavirus IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "60275-5",
+            "display": "SARS coronavirus RNA [Presence] in Isolate by NAA with probe detection"
+          },
+          {
+            "code": "60534-5",
+            "display": "SARS coronavirus RNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "41458-1",
+            "display": "SARS coronavirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "33972-1",
+            "display": "SARS coronavirus Urbani Ab [Presence] in Serum"
+          },
+          {
+            "code": "33968-9",
+            "display": "SARS coronavirus Urbani Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "33970-5",
+            "display": "SARS coronavirus Urbani Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "33966-3",
+            "display": "SARS coronavirus Urbani RNA [Presence] in Nose by NAA with probe detection"
+          },
+          {
+            "code": "33967-1",
+            "display": "SARS coronavirus Urbani RNA [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "33975-4",
+            "display": "SARS coronavirus Urbani RNA [Presence] in Sputum by NAA with probe detection"
+          },
+          {
+            "code": "33965-5",
+            "display": "SARS coronavirus Urbani RNA [Presence] in Stool by NAA with probe detection"
+          },
+          {
+            "code": "33964-8",
+            "display": "SARS coronavirus Urbani RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "95209-3",
+            "display": "SARS-CoV+SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay"
+          },
+          {
+            "code": "94758-0",
+            "display": "SARS-related coronavirus E gene [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "96121-9",
+            "display": "SARS-related coronavirus E gene [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "96122-7",
+            "display": "SARS-related coronavirus E gene [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "95823-1",
+            "display": "SARS-related coronavirus E gene [Presence] in Saliva (oral fluid) by NAA with probe detection"
+          },
+          {
+            "code": "94765-5",
+            "display": "SARS-related coronavirus E gene [Presence] in Serum or Plasma by NAA with probe detection"
+          },
+          {
+            "code": "94315-9",
+            "display": "SARS-related coronavirus E gene [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94310-0",
+            "display": "SARS-like coronavirus N gene [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94502-2",
+            "display": "SARS-related coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "94647-5",
+            "display": "SARS-related coronavirus RNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94532-9",
+            "display": "SARS-related coronavirus+MERS coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "43588-3Varicella zoster virus IgM Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "29662-4Varicella zoster virus IgM Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "21597-0Varicella zoster virus IgM Ab [Presence] in Serum"
+          },
+          {
+            "code": "69930-6Varicella zoster virus IgM Ab [Presence] in Cerebral spinal fluid by Immunoassay"
+          },
+          {
+            "code": "53535-1Varicella zoster virus IgM Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "81234-7Varicella zoster virus IgG and IgM panel - Serum or Plasma Qualitative"
+          },
+          {
+            "code": "41512-5Varicella zoster virus IgG Ab [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code": "15410-4Varicella zoster virus IgG Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "19162-7Varicella zoster virus IgG Ab [Presence] in Serum"
+          },
+          {
+            "code": "42537-1Varicella zoster virus IgG Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "53534-4Varicella zoster virus IgG Ab [Presence] in Body fluid by Immunoassay"
+          },
+          {
+            "code": "91791-4Varicella zoster virus DNA [Presence] in Upper respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "35400-1Varicella zoster virus DNA [Presence] in Tissue by NAA with probe detection"
+          },
+          {
+            "code": "11483-5Varicella zoster virus DNA [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code": "94584-0Varicella zoster virus DNA [Presence] in Specimen by NAA with non-probe detection"
+          },
+          {
+            "code": "92888-7Varicella zoster virus DNA [Presence] in Skin by NAA with probe detection"
+          },
+          {
+            "code": "8049-9Varicella zoster virus DNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code": "88134-2Varicella zoster virus DNA [Presence] in Ocular fluid by NAA with probe detection"
+          },
+          {
+            "code": "88565-7Varicella zoster virus DNA [Presence] in Lower respiratory specimen by NAA with probe detection"
+          },
+          {
+            "code": "35399-5",
+            "display": "Varicella zoster virus DNA [Presence] in Eye by NAA with probe detection"
+          },
+          {
+            "code": "88132-6",
+            "display": "Varicella zoster virus DNA [Presence] in Cornea or Conjunctiva by NAA with probe detection"
+          },
+          {
+            "code": "21598-8",
+            "display": "Varicella zoster virus DNA [Presence] in Cerebral spinal fluid by NAA with probe detection"
+          },
+          {
+            "code": "82188-4",
+            "display": "Varicella zoster virus DNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection"
+          },
+          {
+            "code": "87961-9",
+            "display": "Varicella zoster virus DNA [Presence] in Body fluid by NAA with probe detection"
+          },
+          {
+            "code": "29248-2",
+            "display": "Varicella zoster virus DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code": "88536-8",
+            "display": "Varicella zoster virus DNA [Presence] in Aspirate by NAA with probe detection"
+          },
+          {
+            "code": "86593-1",
+            "display": "Varicella zoster virus DNA [Presence] in Amniotic fluid by NAA with probe detection"
+          },
+          {
+            "code": "86592-3",
+            "display": "Varicella zoster virus Ag [Presence] in Tissue by Immunofluorescence"
+          },
+          {
+            "code": "5882-6",
+            "display": "Varicella zoster virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code": "31982-2",
+            "display": "Varicella zoster virus Ag [Presence] in Specimen"
+          },
+          {
+            "code": "5881-8",
+            "display": "Varicella zoster virus Ag [Presence] in Skin by Immunofluorescence"
+          },
+          {
+            "code": "31981-4",
+            "display": "Varicella zoster virus Ag [Presence] in Skin"
+          },
+          {
+            "code": "91774-0",
+            "display": "Varicella zoster virus Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          },
+          {
+            "code": "67812-8",
+            "display": "Varicella zoster virus Ag [Presence] in Isolate by Immunofluorescence"
+          },
+          {
+            "code": "89589-6",
+            "display": "Varicella zoster virus Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code": "93786-2",
+            "display": "Varicella zoster virus Ab.IgM+total [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "12271-3",
+            "display": "Varicella zoster virus Ab [Presence] in Serum by Latex agglutination"
+          },
+          {
+            "code": "43978-6",
+            "display": "Varicella zoster virus Ab [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code": "22600-1",
+            "display": "Varicella zoster virus Ab [Presence] in Serum"
+          },
+          {
+            "code": "9636-2",
+            "display": "Varicella zoster virus Ab [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code": "10860-5",
+            "display": "Varicella zoster virus [Presence] in Specimen by Organism specific culture"
+          },
+          {
+            "code": "88136-7",
+            "display": "Varicella zoster virus [Presence] in Ocular fluid by Organism specific culture"
+          },
+          {
+            "code": "91784-9",
+            "display": "Varicella zoster virus [Presence] in Lower respiratory specimen by Organism specific culture"
+          },
+          {
+            "code": "88135-9",
+            "display": "Varicella zoster virus [Presence] in Cornea or Conjunctiva by Organism specific culture"
+          }
+        ]
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed -Viren</h2><tt>http://highmed.org/ValueSet/ic/highmedvirusnachweistests-loinc</tt></div>"
+  },
+  "name": "HiGHmed Virusnachweistests"
+}
