@@ -1,61 +1,65 @@
 {
   "resourceType": "ValueSet",
-  "title": "HiGHmed MRE-Klassen [lokal]",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2021-02-18T12:25:49.807+00:00"
+    "versionId": "2",
+    "lastUpdated": "2022-02-18T12:15:44.858+00:00"
   },
   "url": "http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokal",
-  "version": "1.0",
+  "version": "1.1",
+  "title": "Bezeichnungen für Klassen von MultiResistenten Erregern (MRE).",
   "status": "active",
-  "description": "Das CodeSystem enthält die Bezeichnungen für Klassen von MultiResistenten Erregern (MRE).",
-  "compositional": false,
-  "content": "complete",
-  "concept": [
-    {
-      "code": "115329001",
-      "display": "MRSA",
-      "definition": "Methicillin-resistenter Staphylococcus aureus"
-    },
-    {
-      "code": "113727004",
-      "display": "VRE",
-      "definition": "Vancomycin-resistente Enterokokken"
-    },
-    {
-      "code": "838511009",
-      "display": "LVRE",
-      "definition": "Linezolid+Vancomycin-resistente Enterokokken"
-    },
-    {
-      "code": "838510005",
-      "display": "LRE",
-      "definition": "Linezolid-resistente Enterokokken"
-    },
-    {
-      "code": "LA33214-0",
-      "display": "2MRGN",
-      "definition": "Gegenüber 2 der 4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
-    },
-    {
-      "code": "LA33215-7",
-      "display": "3MRGN",
-      "definition": "Gegenüber 3 der 4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
-    },
-    {
-      "code": "LA33216-5",
-      "display": "4MRGN",
-      "definition": "Gegenüber 4 der  4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
-    }
-  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal",
+        "concept": [
+          {
+            "code": "115329001",
+            "display": "MRSA",
+            "definition": "Methicillin-resistenter Staphylococcus aureus"
+          },
+          {
+            "code": "113727004",
+            "display": "VRE",
+            "definition": "Vancomycin-resistente Enterokokken"
+          },
+          {
+            "code": "838511009",
+            "display": "LVRE",
+            "definition": "Linezolid+Vancomycin-resistente Enterokokken"
+          },
+          {
+            "code": "838510005",
+            "display": "LRE",
+            "definition": "Linezolid-resistente Enterokokken"
+          },
+          {
+            "code": "LA33214-0",
+            "display": "2MRGN",
+            "definition": "Gegenüber 2 der 4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
+          },
+          {
+            "code": "LA33215-7",
+            "display": "3MRGN",
+            "definition": "Gegenüber 3 der 4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
+          },
+          {
+            "code": "LA33216-5",
+            "display": "4MRGN",
+            "definition": "Gegenüber 4 der  4 Antibiotikagruppen \"nicht mehr sensibel\", also intermediär (I) bzw. resistent (R)"
+          }
+        ],
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131"
+      }
+    ]
+  },
+  "description": "Bezeichnungen für Klassen von MultiResistenten Erregern (MRE)..",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed MRE-Klassen [lokal]</h2><tt>http://highmed.org/CodeSystem/mre-klassen-lokal</tt><p>Das CodeSystem enthält die lokalen (deutschen) Bezeichnungen für Klassen von MultiResistenten Erregern (MRE).</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2> MRE Klasse  [SNOMED CT- LOINC]</h2><tt>http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokalg/ValueSet/probenentnahmestelle-mikrobiologischer-befund-snomedct</tt><p>MRE Klasse</p></div>"
   },
-  "valueSet": "http://highmed.org/ValueSet/mre-klassen-lokal",
-  "name": "HighmedMreKlassenLokal",
-  "id": "mre-klassen-lokal",
+  "name": "HighmedProbenentnahmestelleMikrobiologischerBefundSnomedct",
+  "id": "probenentnahmestelle-mikrobiologischer-befund-snomedct",
   "date": "2021-02-18T00:00:00.000Z",
-  "publisher": "http://highmed.org",
-  "count": 7
+  "publisher": "http://highmed.org"
 }
