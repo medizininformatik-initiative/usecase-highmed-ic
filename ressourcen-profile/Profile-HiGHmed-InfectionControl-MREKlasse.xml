@@ -27,10 +27,6 @@
         <code value="18725-2" />
       </patternCoding>
     </element>
-    <element id="Observation.code">
-      <path value="Observation.code" />
-      <mustSupport value="true" />
-    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
@@ -60,11 +56,11 @@
       <max value="0" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.value[x]" />
+      <path value="Observation.valueCodeableConcept" />
       <sliceName value="valueCodeableConcept" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokal" />
       </binding>
     </element>
     <element id="Observation.specimen">
