@@ -129,7 +129,6 @@
       </patternCodeableConcept>
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/ic/highmed-quantitativevirusnachweistests-loinc" />
       </binding>
     </element>
     <element id="Observation.component:Viruslast.value[x]">
