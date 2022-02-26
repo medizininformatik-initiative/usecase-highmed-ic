@@ -56,12 +56,16 @@
       <max value="0" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
-      <path value="Observation.valueCodeableConcept" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueCodeableConcept" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokal" />
       </binding>
+    </element>
+    <element id="Observation.value[x]:valueCodeableConcept.coding.system">
+      <path value="Observation.value[x].coding.system" />
+      <fixedUri value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
     </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
