@@ -50,6 +50,16 @@
       </patternCoding>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.code.coding:loinc">
+      <path value="Observation.code.coding" />
+      <sliceName value="sct" />
+      <max value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://medizininformatikinitiative.de/fhir/ext/modul-mikrobio/ValueSet/vs-mii-mikrobio-virulenzfaktor-loinc" />
+      </binding>
+    </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />

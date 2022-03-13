@@ -1,15 +1,15 @@
 {
     "resourceType": "ValueSet",
-    "id": "ValueSet-Virulenzfaktor",
+    "id": "vs-mii-mikrobio-virulenzfaktor-loinc",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
       ]
     },
-    "url": "http://medizininformatikinitiative.de/ValueSet/virulenzfaktor-loinc",
+    "url": "http://medizininformatikinitiative.de/fhir/ext/modul-mikrobio/ValueSet/vs-mii-mikrobio-virulenzfaktor-loinc",
     "version": "1.0",
-    "name": "ValueSet-Virulenzfaktor",
-    "title": "ValueSet - Virulenzfaktor",
+    "name": "VS_MII_Mikrobio_Virulenzfaktor_LOINC",
+    "title": "VS MII Mikrobio Virulenzfaktor [LOINC]",
     "status": "active",
     "experimental": false,
     "publisher": "http://medizininformatikinitiative.de",
