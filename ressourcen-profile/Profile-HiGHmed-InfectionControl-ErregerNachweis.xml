@@ -65,13 +65,6 @@
       <min value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-pilze-snomedct-explizit" />
-      </binding>
-    </element>
-    <element id="Observation.interpretation">
-      <path value="Observation.interpretation" />
-      <binding>
-        <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/detected-not-detected-inconclusive" />
       </binding>
     </element>
@@ -93,6 +86,74 @@
         <targetProfile value="http://highmed.org/fhir/StructureDefinition/ObservationMIBIPanel" />
       </type>
       <mustSupport value="true" />
+    </element>
+    <element id="Observation.component">
+      <path value="Observation.component" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="code" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.component:NachweisBakterien">
+      <path value="Observation.component" />
+      <sliceName value="NachweisBakterien" />
+      <max value="1" />
+    </element>
+    <element id="Observation.component:NachweisBakterien.code">
+      <path value="Observation.component.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="6463-4" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Observation.component:NachweisBakterien.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+    </element>
+    <element id="Observation.component:NachweisBakterien.value[x]:valueCodeableConcept">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueCodeableConcept" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+    </element>
+    <element id="Observation.component:NachweisPilze">
+      <path value="Observation.component" />
+      <sliceName value="NachweisPilze" />
+      <max value="1" />
+    </element>
+    <element id="Observation.component:NachweisPilze.code">
+      <path value="Observation.component.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="42805-2" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Observation.component:NachweisPilze.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+    </element>
+    <element id="Observation.component:NachweisPilze.value[x]:valueCodeableConcept">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueCodeableConcept" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>
