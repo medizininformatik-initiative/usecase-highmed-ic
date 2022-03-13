@@ -29,14 +29,29 @@
     </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.code.coding:loinc">
+      <path value="Observation.code.coding" />
+      <sliceName value="loinc" />
+      <max value="1" />
+      <mustSupport value="true" />
       <binding>
-        <strength value="extensible" />
+        <strength value="required" />
         <valueSet value="http://highmed.org/ValueSet/resistenzmechanismus-loinc" />
       </binding>
     </element>
     <element id="Observation.code.text">
       <path value="Observation.code.text" />
-      <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
