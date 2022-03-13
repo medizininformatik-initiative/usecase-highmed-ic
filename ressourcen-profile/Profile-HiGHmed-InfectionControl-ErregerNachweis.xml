@@ -96,11 +96,13 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisBakterien">
       <path value="Observation.component" />
       <sliceName value="NachweisBakterien" />
       <max value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisBakterien.code">
       <path value="Observation.component.code" />
@@ -111,12 +113,15 @@
           <code value="6463-4" />
         </coding>
       </patternCodeableConcept>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisBakterien.value[x]">
       <path value="Observation.component.value[x]" />
       <type>
         <code value="CodeableConcept" />
       </type>
+      <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisBakterien.value[x]:valueCodeableConcept">
       <path value="Observation.component.value[x]" />
@@ -125,11 +130,13 @@
       <type>
         <code value="CodeableConcept" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisPilze">
       <path value="Observation.component" />
       <sliceName value="NachweisPilze" />
       <max value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisPilze.code">
       <path value="Observation.component.code" />
@@ -140,12 +147,15 @@
           <code value="42805-2" />
         </coding>
       </patternCodeableConcept>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisPilze.value[x]">
       <path value="Observation.component.value[x]" />
       <type>
         <code value="CodeableConcept" />
       </type>
+      <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisPilze.value[x]:valueCodeableConcept">
       <path value="Observation.component.value[x]" />
@@ -154,6 +164,7 @@
       <type>
         <code value="CodeableConcept" />
       </type>
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
