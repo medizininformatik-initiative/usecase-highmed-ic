@@ -52,7 +52,7 @@
     </element>
     <element id="Observation.code.coding:loinc">
       <path value="Observation.code.coding" />
-      <sliceName value="sct" />
+      <sliceName value="loinc" />
       <max value="1" />
       <mustSupport value="true" />
       <binding>
