@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://highmed.org/fhir/ValueSet/ic/viruslast-units-snomedct",
+  "title": "Viruslast units",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1",
+            "display": "10*6{viral equivalents}/mL"
+          },
+          {
+            "code": "2",
+            "display": " [arb'U]/mL"
+          },
+          {
+            "code": "3",
+            "display": " [IU]/mL"
+          },
+          {
+            "code": "4",
+            "display": " pg/mL"
+          },
+          {
+            "code": " 5",
+            "display": "{#}/mL"
+          },
+          {
+            "code": " 6",
+            "display": "{copies}/10*6{cells}"
+          },
+          {
+            "code": "7",
+            "display": "{copies}/mL"
+          },
+          {
+            "code": "8",
+            "display": " {Log_cells}/mL"
+          },
+          {
+            "code": "9",
+            "display": " {Log_copies}/10*6{cells}"
+          },
+          {
+            "code": "10",
+            "display": " {Log_copies}/mL"
+          },
+          {
+            "code": "11",
+            "display": "{Log_IU}/mL"
+          }
+        ]
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Viruslast units</h2><tt>http://highmed.org/fhir/ValueSet/ic/viruslast_units</tt></div>"
+  },
+  "name": "Viruslast_units"
+}

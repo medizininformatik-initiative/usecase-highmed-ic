@@ -1,0 +1,73 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://highmed.org/fhir/ValueSet/ic/serologische-units-snomedct",
+  "title": "Serologische Tests mit quantitativen Ergebnissen",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "Code",
+            "display": "Unit"
+          },
+          {
+            "code": "1",
+            "display": "arb'U]/mL"
+          },
+          {
+            "code": "2",
+            "display": "k[IU]/L"
+          },
+          {
+            "code": "3",
+            "display": "m[IU]/mL"
+          },
+          {
+            "code": "4",
+            "display": "mg/L"
+          },
+          {
+            "code": "5",
+            "display": "mg/mL"
+          },
+          {
+            "code": "6",
+            "display": "ng/mL"
+          },
+          {
+            "code": "7",
+            "display": "ug/mL"
+          },
+          {
+            "code": "8",
+            "display": "{#}"
+          },
+          {
+            "code": "9",
+            "display": "{titer}"
+          },
+          {
+            "code": "10",
+            "display": "{ratio}"
+          }
+        ]
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Serologische Tests mit quantitativen Ergebnissen</h2><tt>http://highmed.org/fhir/ValueSet/ic/serologische_Units</tt></div>"
+  },
+  "name": "Serologische_Tests_mit_quantitativen_Ergebnissen"
+}
