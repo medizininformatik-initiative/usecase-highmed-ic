@@ -112,6 +112,10 @@
       <type>
         <code value="CodeableConcept" />
       </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mikrobiologische-viren-snomedct-explizit" />
+      </binding>
     </element>
     <element id="Observation.component:Viruslast">
       <path value="Observation.component" />

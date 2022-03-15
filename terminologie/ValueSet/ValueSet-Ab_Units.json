@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://highmed.org/fhir/ValueSet/ic/serologische-units-snomedct",
-  "title": "Serologische Tests mit quantitativen Ergebnissen",
+  "title": "Serologische Tests mit Quantitativen Ergebnissen-Einheiten",
   "status": "draft",
   "contact": [
     {

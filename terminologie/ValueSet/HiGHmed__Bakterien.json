@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-snomedct-explizit",
-  "title": "HiGHmed- Bakterien",
+  "title": "HiGHmed-Bakterien",
   "status": "draft",
   "contact": [
     {
