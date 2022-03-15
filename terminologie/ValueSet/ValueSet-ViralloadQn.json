@@ -2,7 +2,7 @@
     "resourceType": "ValueSet",
     "id": "b87e8989-62c8-4039-b6ef-3a511337fed8",
     "url": "http://highmed.org/fhir/ValueSet/ic/viruslast-loinc",
-    "title": "Viruslast Tests",
+    "title": "Viruslast tests",
     "version": "2.72",
     "status": "active",
     "experimental": false,
