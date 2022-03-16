@@ -35,9 +35,9 @@ jobs:
           PATH_TO_CONFORMANCE_RESOURCES: ressourcen-profile Terminology/CodeSystem Terminology/ValueSet Terminology/ConceptMap LogicalModel
           PATH_TO_EXAMPLES: beispiele
           DOTNET_VALIDATION_ENABLED: false
-          JAVA_VALIDATION_ENABLED: false
+          JAVA_VALIDATION_ENABLED: true
           OUTPUT_FORMAT: RAW
-          EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA
+          EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_EXAMPLES_JAVA
           JAVA_VALIDATION_OPTIONS: -allow-example-urls true
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
