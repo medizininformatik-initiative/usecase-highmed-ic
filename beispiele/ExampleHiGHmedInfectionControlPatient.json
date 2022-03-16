@@ -143,6 +143,6 @@
         }
     ],
     "managingOrganization": {
-        "reference": "Organization/Charite-Universitaetsmedizin-Berlin"
+        "reference": "Organization/ExampleHiGHmedInfectionControlOrganization"
     }
 }
