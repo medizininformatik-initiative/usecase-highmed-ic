@@ -183,6 +183,17 @@
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/viruslast-units-ucum" />
       </binding>
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:Viruslast.value[x]:valueQuantity.system">
+      <path value="Observation.component.value[x].system" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:Viruslast.value[x]:valueQuantity.code">
+      <path value="Observation.component.value[x].code" />
+      <min value="1" />
+      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
