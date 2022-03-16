@@ -122,6 +122,10 @@
       </type>
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-snomedct-explizit" />
+      </binding>
     </element>
     <element id="Observation.component:NachweisBakterien.value[x]:valueCodeableConcept">
       <path value="Observation.component.value[x]" />
@@ -165,6 +169,40 @@
         <code value="CodeableConcept" />
       </type>
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-pilze-snomedct-explizit" />
+      </binding>
+    </element>
+    <element id="Observation.component:NachweisVirus">
+      <path value="Observation.component" />
+      <sliceName value="NachweisVirus" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:NachweisVirus.code">
+      <path value="Observation.component.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="6584-7" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:NachweisVirus.value[x]:valueCodeableConcept">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueCodeableConcept" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/mikrobiologische-viren-snomedct-explizit" />
+      </binding>
     </element>
   </differential>
 </StructureDefinition>
