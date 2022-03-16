@@ -1,7 +1,7 @@
 {
 
    "resourceType": "Provenance",
-   "id": "234",
+   "id": "ExampleHiGHmedInfectionControlProvenance",
     "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/LetztesDokumentationsdatum"
