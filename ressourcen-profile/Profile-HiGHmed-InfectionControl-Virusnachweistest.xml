@@ -39,9 +39,9 @@
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.code.coding:virusnachweistest-unbekannt">
+    <element id="Observation.code.coding:virusnachweistest-allgemein">
       <path value="Observation.code.coding" />
-      <sliceName value="virusnachweistest-unbekannt" />
+      <sliceName value="virusnachweistest-allgemein" />
       <min value="1" />
       <max value="1" />
       <patternCoding>
@@ -128,6 +128,13 @@
     </element>
     <element id="Observation.component:Virusname.value[x]">
       <path value="Observation.component.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+    </element>
+    <element id="Observation.component:Virusname.value[x]:valueCodeableConcept">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueCodeableConcept" />
       <type>
         <code value="CodeableConcept" />
       </type>
