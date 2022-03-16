@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://highmed.org/fhir/ValueSet/ic/viruslast-units-snomedct",
+  "url": "http://highmed.org/fhir/ValueSet/ic/viruslast-units-ucum",
   "title": "Viruslast Einheiten",
   "status": "draft",
   "contact": [
@@ -15,7 +15,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://snomed.info/sct",
+        "system": "http://unitsofmeasure.org",
         "concept": [
           {
             "code": "1",
