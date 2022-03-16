@@ -1,6 +1,6 @@
 {
     "resourceType": "Specimen",
-    "id": "234",
+    "id": "ExampleHiGHmedInfectionControlSpecimen",
     "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/Specimen"
