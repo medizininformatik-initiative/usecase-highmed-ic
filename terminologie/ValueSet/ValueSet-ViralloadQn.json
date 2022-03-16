@@ -20394,4 +20394,11 @@
             }
         ]
     }
+},
+,
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Viruslast Einheiten</h2><tt>http://highmed.org/fhir/ValueSet/ic/viruslast-loinc</tt></div>"
+  },
+  "name": "Viruslast tests"
 }

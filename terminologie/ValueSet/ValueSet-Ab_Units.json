@@ -69,5 +69,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Serologische Tests mit quantitativen Ergebnissen</h2><tt>http://highmed.org/fhir/ValueSet/ic/serologische_Units</tt></div>"
   },
-  "name": "Serologische_Tests_mit_quantitativen_Ergebnissen"
+  "name": "Serologische Tests Einheiten"
 }
