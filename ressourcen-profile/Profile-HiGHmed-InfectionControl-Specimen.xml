@@ -59,8 +59,8 @@
     </element>
     <element id="Specimen.status">
       <path value="Specimen.status" />
-      <mustSupport value="true" />
       <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Specimen.type">
       <path value="Specimen.type" />
