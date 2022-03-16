@@ -83,7 +83,7 @@
         <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Keimzahl" />
         <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Virulenzfaktor" />
         <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Resistenzmechanismus" />
-        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ObservationMIBIPanel" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/AntibiogrammPanel" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -117,10 +117,10 @@
     </element>
     <element id="Observation.component:NachweisBakterien.value[x]">
       <path value="Observation.component.value[x]" />
+      <min value="1" />
       <type>
         <code value="CodeableConcept" />
       </type>
-      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisBakterien.value[x]:valueCodeableConcept">
@@ -155,10 +155,10 @@
     </element>
     <element id="Observation.component:NachweisPilze.value[x]">
       <path value="Observation.component.value[x]" />
+      <min value="1" />
       <type>
         <code value="CodeableConcept" />
       </type>
-      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisPilze.value[x]:valueCodeableConcept">

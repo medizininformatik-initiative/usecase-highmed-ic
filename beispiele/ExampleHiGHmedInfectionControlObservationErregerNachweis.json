@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "234",
+    "id": "ExampleHiGHmedInfectionControlObservationErregerNachweis",
     "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/ErregerNachweis"
