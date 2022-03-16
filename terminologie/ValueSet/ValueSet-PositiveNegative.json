@@ -6,7 +6,7 @@
         "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
       ]
     },
-    "url": "http://medizininformatikinitiative.de/positive-weaklypositive-negative-inconclusive-snomed",
+    "url": "http://highmed.org/fhir/ValueSet/ic/positive-weaklypositive-negative-inconclusive-snomed",
     "version": "1.0",
     "name": "ValueSet-Positive-Weaklypositive-Negative-Inconclusive",
     "title": "ValueSet - ValueSet-Positive Weakly positive Negative Inconclusive",
