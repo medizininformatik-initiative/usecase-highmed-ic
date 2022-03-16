@@ -1,7 +1,7 @@
 {
     
     "resourceType": "Condition",
-    "id": "234",
+    "id": "ExampleHiGHmedInfectionControlCondition",
     "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/Condition"
