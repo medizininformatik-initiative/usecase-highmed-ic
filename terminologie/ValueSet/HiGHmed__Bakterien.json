@@ -3,15 +3,7 @@
   "url": "http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-snomedct-explizit",
   "title": "HiGHmed-Bakterien",
   "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+ 
   "compose": {
     "include": [
       {
@@ -2321,5 +2313,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed- Bakterien</h2><tt>http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-snomedct-explizit</tt></div>"
   },
-  "name": "HiGHmed__Bakterien"
+  "name": "HiGHmed-Bakterien"
 }

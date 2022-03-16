@@ -3,15 +3,7 @@
   "url": "http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-pilze-snomedct-explizit",
   "title": "HiGHmed-Pilze",
   "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+  
   "compose": {
     "include": [
       {
@@ -238,5 +230,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed- Pilze</h2><tt>http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-pilze-snomedct-explizit</tt></div>"
   },
-  "name": "HiGHmed__Pilze"
+  "name": "HiGHmed-Pilze"
 }

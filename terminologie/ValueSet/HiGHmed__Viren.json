@@ -3,15 +3,7 @@
   "url": "http://highmed.org/fhir/ValueSet/ic/mikrobiologische-viren-snomedct-explizit",
   "title": "HiGHmed-Viren",
   "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+ 
   "compose": {
     "include": [
       {
@@ -127,5 +119,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed -Viren</h2><tt>http://highmed.org/fhir/ValueSet/ic/mikrobiologische-viren-snomedct-explizit</tt></div>"
   },
-  "name": "HiGHmed__Viren"
+  "name": "HiGHmed-Viren"
 }

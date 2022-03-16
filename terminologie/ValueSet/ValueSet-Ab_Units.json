@@ -3,15 +3,7 @@
   "url": "http://highmed.org/fhir/ValueSet/ic/serologische-units-snomedct",
   "title": "Serologische Tests mit Quantitativen Ergebnissen-Einheiten",
   "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+ 
   "compose": {
     "include": [
       {
@@ -67,7 +59,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Serologische Tests mit quantitativen Ergebnissen</h2><tt>http://highmed.org/fhir/ValueSet/ic/serologische_Units</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Serologische Tests Einheiten</h2><tt>http://highmed.org/fhir/ValueSet/ic/serologische_Units</tt></div>"
   },
   "name": "Serologische Tests Einheiten"
 }
