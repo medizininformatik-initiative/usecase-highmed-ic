@@ -165,16 +165,16 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler">
-      <path value="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler" />
+    <element id="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler">
+      <path value="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Fachbezeichnung">
-      <path value="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Fachbezeichnung" />
+    <element id="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Fachbezeichnung">
+      <path value="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Fachbezeichnung" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -182,16 +182,16 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Adresse">
-      <path value="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Adresse" />
+    <element id="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Adresse">
+      <path value="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Adresse" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Adresse.Zeile">
-      <path value="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Adresse.Zeile" />
+    <element id="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Adresse.Zeile">
+      <path value="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Adresse.Zeile" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -199,8 +199,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Adresse.Stadt">
-      <path value="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Adresse.Stadt" />
+    <element id="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Adresse.Stadt">
+      <path value="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Adresse.Stadt" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -208,8 +208,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Adresse.Postleitzahl">
-      <path value="UseCaseInfectionControl.Person.PersönlicheDatenHeilberufler.Adresse.Postleitzahl" />
+    <element id="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Adresse.Postleitzahl">
+      <path value="UseCaseInfectionControl.Person.PersoenlicheDatenHeilberufler.Adresse.Postleitzahl" />
       <min value="0" />
       <max value="*" />
       <type>
