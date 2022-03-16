@@ -6,7 +6,7 @@
             "http://highmed.org/fhir/StructureDefinition/ic/DiagnosticReportLab"
         ]
     },
-    "identifier": {
+    "identifier": [{
         "type": {
             "coding": [
                 {
@@ -20,10 +20,10 @@
         "assigner": {
             "reference": "Organization/Charite"
         }
-    },
-    "basedOn": {
+    }],
+    "basedOn": [{
         "reference": "ServiceRequestLab/test"
-    },
+    }],
     "status": "final",
     "category": [
         {
@@ -63,10 +63,10 @@
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
     "issued": "2021-05-16T08:49:21+02:00",
-    "specimen": {
+    "specimen": [{
         "reference": "http://highmed.org/StructureDefinition/Virusnachweistest"
-    },
-    "result": {
+    }],
+    "result": [{
         "reference": "Observation/ExampleHiGHmedInfectionControlMolekulareDiganostikVirusnachweis"
-    }
+    }]
 }
