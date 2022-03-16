@@ -240,10 +240,6 @@
       <path value="Practitioner.telecom" />
       <mustSupport value="true" />
     </element>
-    <element id="Practitioner.telecom">
-      <path value="Practitioner.telecom" />
-      <mustSupport value="true" />
-    </element>
     <element id="Practitioner.telecom.system">
       <path value="Practitioner.telecom.system" />
       <min value="1" />
