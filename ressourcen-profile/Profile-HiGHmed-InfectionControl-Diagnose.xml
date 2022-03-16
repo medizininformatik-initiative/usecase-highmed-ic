@@ -3,8 +3,8 @@
   <id value="Profile-HiGHmed-InfectionControl-Diagnose" />
   <url value="http://highmed.org/fhir/StructureDefinition/ic/Condition" />
   <version value="1.0.0" />
-  <name value="Profile_HiGHmed_InfectionControl_Diagnose " />
-  <title value="Profile - HiGHmed - InfectionControl - Diagnose " />
+  <name value="Profile_HiGHmed_InfectionControl_Diagnose" />
+  <title value="Profile - HiGHmed - InfectionControl - Diagnose" />
   <status value="active" />
   <description value="Dieses Profil beschreibt eine Diagnose im HiGHmed Use Case Infection Control" />
   <fhirVersion value="4.0.1" />
