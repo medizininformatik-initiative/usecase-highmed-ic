@@ -355,6 +355,9 @@
         <code value="Address" />
         <profile value="http://fhir.de/StructureDefinition/address-de-basis" />
       </type>
+      <patternAddress>
+        <type value="postal" />
+      </patternAddress>
       <mustSupport value="true" />
     </element>
     <element id="Practitioner.address:Postfach.extension">
