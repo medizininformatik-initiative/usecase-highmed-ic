@@ -1,28 +1,20 @@
 {
-
-   "resourceType": "Provenance",
-   "id": "ExampleHiGHmedInfectionControlProvenance",
+    "resourceType": "Provenance",
+    "id": "ExampleHiGHmedInfectionControlProvenance",
     "meta": {
-        "profile":  [
+        "profile": [
             "http://highmed.org/fhir/StructureDefinition/ic/LetztesDokumentationsdatum"
         ]
-    },  
-
-
-      "target":  
-        {
-            "reference": "http://highmed.org/fhir/StructureDefinition/Condition"
-        },
-
-    "recorded":  "2021-05-16T08:49:21+02:00",
-    "agent":  [
+    },
+    "target": {
+        "reference": "Condition/ExampleHiGHmedInfectionControlCondition"
+    },
+    "recorded": "2021-05-16T08:49:21+02:00",
+    "agent": [
         {
             "who": {
-                "reference":  "Practitioner",
+                "reference": "Practitioner/ExampleHiGHmedInfectionControlPractitioner"
             }
         }
     ]
-
-
-
 }
