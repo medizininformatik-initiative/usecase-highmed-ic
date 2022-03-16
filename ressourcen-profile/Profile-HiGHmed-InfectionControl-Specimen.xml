@@ -64,14 +64,6 @@
     </element>
     <element id="Specimen.type">
       <path value="Specimen.type" />
-      <mustSupport value="true" />
-      <min value="1" />
-    </element>
-    <element id="Specimen.type">
-      <path value="Specimen.type" />
-      <label value="Probenart" />
-      <short value="Die Art der Probe" />
-      <comment value="Zum Beispiel: Venöses Blut, Bakterienkultur, Zytologie oder Prostatabiopsie. Nach Möglichkeit wird die Kodierung der Probenart mit einer Terminologie bevorzugt" />
       <min value="1" />
       <constraint>
         <key value="Highmed-IC-Specimen-1" />
