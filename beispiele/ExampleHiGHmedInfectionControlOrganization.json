@@ -1,6 +1,6 @@
 {
     "resourceType": "Organization",
-    "id": "1234",
+    "id": "ExampleHiGHmedInfectionControlOrganization",
     "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/Organization"
