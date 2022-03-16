@@ -57,6 +57,11 @@
         <comment value="v 2.3" />
       </mapping>
     </element>
+    <element id="Specimen.status">
+      <path value="Specimen.status" />
+      <mustSupport value="true" />
+      <min value="1" />
+    </element>
     <element id="Specimen.type">
       <path value="Specimen.type" />
       <mustSupport value="true" />
@@ -164,10 +169,6 @@
         <map value="OBR-15.4,OBR-15.5" />
         <comment value="v 2.3" />
       </mapping>
-    </element>
-    <element id="Specimen.condition">
-      <path value="Specimen.condition" />
-      <max value="1" />
     </element>
     <element id="Specimen.note">
       <path value="Specimen.note" />
