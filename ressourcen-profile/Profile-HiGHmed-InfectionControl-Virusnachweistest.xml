@@ -50,15 +50,34 @@
       </patternCoding>
       <mustSupport value="true" />
     </element>
-    <element id="Observation.code.coding:known-viruses">
+    <element id="Observation.code.coding:virusnachweistests-loinc">
       <path value="Observation.code.coding" />
-      <sliceName value="known-viruses" />
-      <min value="1" />
+      <sliceName value="virusnachweistests-loinc" />
       <max value="1" />
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/ValueSet/ic/highmedvirusnachweistests-loinc" />
+      </binding>
+    </element>
+    <element id="Observation.code.coding:virusnachweistests-quantitativ-loinc">
+      <path value="Observation.code.coding" />
+      <sliceName value="virusnachweistests-quantitativ-loinc" />
+      <max value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/ValueSet/ic/highmed-quantitativevirusnachweistests-loinc" />
+      </binding>
+    </element>
+    <element id="Observation.code.coding:serologischetests-quantitativ-loinc">
+      <path value="Observation.code.coding" />
+      <sliceName value="serologischetests-quantitativ-loinc" />
+      <max value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://loinc.orghttp://highmed.org/fhir/ValueSet/ic/serologische-tests-qn-loinc" />
       </binding>
     </element>
     <element id="Observation.value[x]:valueQuantity">
