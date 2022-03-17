@@ -1,25 +1,15 @@
 {
-  "name": null,
-  "version": null,
-  "description": null,
-  "author": null,
-  "devDependencies": null,
-  "canonicals": null,
-  "fhirVersions": null,
-  "keywords": null,
-  "license": null,
-  "homepage": null,
-  "directories": null,
-  "title": null,
-  "fhir-version-list": null,
-  "maintainers": null,
-  "canonical": null,
-  "url": null,
-  "jurisdiction": null,
+  "name": "de.highmed.usecase.infectioncontrol",
+  "version": "1.0.0-ballot1",
+  "description": "HiGHmed Usecase Infection Control",
+  "author": "alexanderzautke",
+  "fhirVersions": [
+    "4.0.1"
+  ],
   "dependencies": {
     "de.medizininformatikinitiative.kerndatensatz.laborbefund": "1.0.4-alpha2",
     "KBV.Basis": "1.1.3",
-    "de.medizininformatikinitiative.kerndatensatz.diagnose": "1.0.3",
-    "de.medizininformatikinitiative.kerndatensatz.person": "1.0.14"
+    "de.medizininformatikinitiative.kerndatensatz.diagnose": "1.0.4",
+    "de.medizininformatikinitiative.kerndatensatz.person": "1.0.16"
   }
 }
