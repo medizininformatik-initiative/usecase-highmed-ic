@@ -1450,8 +1450,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigerPatientenstandortvorAufnahme.Gebäudegruppe">
-      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigerPatientenstandortvorAufnahme.Gebäudegruppe" />
+    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigerPatientenstandortvorAufnahme.Gebaeudegruppe">
+      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigerPatientenstandortvorAufnahme.Gebaeudegruppe" />
       <short value="Ein Gebäude oder Bauwerk. Dazu können Räume, Flure, Flügel, etc. gehören. Es hat möglicherweise keine Wände oder ein Dach, wird aber dennoch als definierter/zugeordneter Raum angesehen." />
       <min value="0" />
       <max value="*" />
