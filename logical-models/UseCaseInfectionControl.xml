@@ -612,8 +612,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Empfaengerstandort.Organisationsschlüssel">
-      <path value="UseCaseInfectionControl.Empfaengerstandort.Organisationsschlüssel" />
+    <element id="UseCaseInfectionControl.Empfaengerstandort.Organisationsschluessel">
+      <path value="UseCaseInfectionControl.Empfaengerstandort.Organisationsschluessel" />
       <short value="Eindeutiger Identifikator der Organisationseinheit." />
       <min value="0" />
       <max value="*" />
@@ -1526,8 +1526,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.Organisationsschlüssel">
-      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.Organisationsschlüssel" />
+    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.Organisationsschluessel">
+      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.Organisationsschluessel" />
       <short value="Eindeutiger Identifikator der Organisationseinheit." />
       <min value="0" />
       <max value="*" />
