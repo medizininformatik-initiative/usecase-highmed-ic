@@ -178,12 +178,16 @@
     <element id="Observation.component:Viruslast.value[x]:valueQuantity">
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
-      <min value="1" />
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/viruslast-units-ucum" />
       </binding>
+    </element>
+    <element id="Observation.component:Viruslast.value[x]:valueQuantity.value">
+      <path value="Observation.component.value[x].value" />
+      <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:Viruslast.value[x]:valueQuantity.system">
       <path value="Observation.component.value[x].system" />
