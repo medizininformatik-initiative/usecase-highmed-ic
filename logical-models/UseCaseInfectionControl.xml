@@ -354,8 +354,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Diagnose.Diagnoseerläuterung">
-      <path value="UseCaseInfectionControl.Diagnose.Diagnoseerläuterung" />
+    <element id="UseCaseInfectionControl.Diagnose.Diagnoseerlaeuterung">
+      <path value="UseCaseInfectionControl.Diagnose.Diagnoseerlaeuterung" />
       <short value="Ergänzende Beschreibung des Problems oder der Diagnose, die nicht anderweitig erfasst wurde" />
       <min value="0" />
       <max value="*" />
