@@ -2,31 +2,31 @@
     "resourceType": "Observation",
     "id": "ExampleHiGHmedInfectionControlObservationErregerNachweis",
     "meta": {
-        "profile":  [
+        "profile": [
             "http://highmed.org/fhir/StructureDefinition/ic/ErregerNachweis"
         ]
     },
-       "identifier":  [
+    "identifier": [
         {
             "type": {
-                "coding":  [
+                "coding": [
                     {
                         "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
                         "code": "OBI"
                     }
                 ]
             },
-            "system": "http://www.acme.com/identifiers/patient",
-            "value": "123456",
+            "system": "http://example.org/fhir/sid/obi",
+            "value": "012345678890",
             "assigner": {
-            "reference": "Organization/Charite"
+                "reference": "Organization/ExampleHiGHmedInfectionControlOrganization"
             }
         }
     ],
     "status": "final",
-    "category":  [
+    "category": [
         {
-            "coding":  [
+            "coding": [
                 {
                     "system": "http://loinc.org",
                     "code": "26436-6"
@@ -35,38 +35,54 @@
                     "system": "http://terminology.hl7.org/CodeSystem/observation-category",
                     "code": "laboratory"
                 },
-               {
+                {
                     "system": "http://loinc.org",
-                    "code": "18725-2",
-                    "display": "Microbiology studies"
+                    "code": "18725-2"
                 }
             ]
         }
     ],
     "code": {
-        "coding":  [
-           {
-                 "system": "http://loinc.org",
-                 "code": "11475-1"
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "11475-1"
             }
         ]
     },
-        "subject": {
+    "subject": {
         "reference": "Patient/123"
     },
-
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
     "valueCodeableConcept": {
-        "coding":  [
+        "coding": [
             {
                 "system": "http://snomed.info/sct",
-                "code": "413414001"
+                "code": "260373001"
             }
         ]
     },
-
-
-     "specimen": {
-        "reference": "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
-    }
+    "specimen": {
+        "reference": "Specimen/ExampleHiGHmedInfectionControlSpecimen"
+    },
+    "component": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "6584-7"
+                    }
+                ]
+            },
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "840533007"
+                    }
+                ]
+            }
+        }
+    ]
 }
