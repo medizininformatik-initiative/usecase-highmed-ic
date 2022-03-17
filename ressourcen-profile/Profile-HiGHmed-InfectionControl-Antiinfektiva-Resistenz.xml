@@ -25,7 +25,6 @@
       <patternCoding>
         <system value="http://loinc.org" />
         <code value="18725-2" />
-        <display value="Microbiology Studies" />
       </patternCoding>
     </element>
     <element id="Observation.code">
