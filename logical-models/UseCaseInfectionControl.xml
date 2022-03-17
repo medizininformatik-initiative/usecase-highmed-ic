@@ -564,8 +564,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Identifier" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Probendetails.IdentifikatorderübergeordnetenProbe">
-      <path value="UseCaseInfectionControl.Probendetails.IdentifikatorderübergeordnetenProbe" />
+    <element id="UseCaseInfectionControl.Probendetails.IdentifikatorDerUebergeordnetenProbe">
+      <path value="UseCaseInfectionControl.Probendetails.IdentifikatorDerUebergeordnetenProbe" />
       <short value="Eindeutige Kennung der verwandten Probe(n), bei der die Probe in Teilproben aufgeteilt ist." />
       <comment value="Zum Beispiel: eine bestimmte Probe eines Objektträgers für die Histologie würde einen bestimmten Paraffinwachsblock als Ausgangsprobe haben.&#xD;&#xA;FHIR_mapping: Specimen.parent" />
       <min value="0" />
