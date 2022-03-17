@@ -143,11 +143,11 @@
       <type>
         <code value="CodeableConcept" />
       </type>
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/mikrobiologische-viren-snomedct-explizit" />
       </binding>
-      <mustSupport value="true" />
     </element>
     <element id="Observation.component:Viruslast">
       <path value="Observation.component" />
@@ -163,10 +163,10 @@
           <code value="395058002" />
         </coding>
       </patternCodeableConcept>
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
       </binding>
-      <mustSupport value="true" />
     </element>
     <element id="Observation.component:Viruslast.value[x]">
       <path value="Observation.component.value[x]" />
@@ -179,11 +179,11 @@
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
       <min value="1" />
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/viruslast-units-ucum" />
       </binding>
-      <mustSupport value="true" />
     </element>
     <element id="Observation.component:Viruslast.value[x]:valueQuantity.system">
       <path value="Observation.component.value[x].system" />
