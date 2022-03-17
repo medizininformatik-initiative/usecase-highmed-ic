@@ -1602,8 +1602,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Entlassungsdaten.ZusätzlicheInformationen">
-      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Entlassungsdaten.ZusätzlicheInformationen" />
+    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Entlassungsdaten.ZusaetzlicheInformationen">
+      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Entlassungsdaten.ZusaetzlicheInformationen" />
       <min value="0" />
       <max value="*" />
       <type>
