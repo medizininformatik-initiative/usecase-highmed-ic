@@ -54,7 +54,7 @@
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
       <patternQuantity>
-        <system value="http://unitsofmeasure.org" /> 
+        <system value="http://unitsofmeasure.org" />
         <code value="{CFU}/mL" />
       </patternQuantity>
     </element>
@@ -62,8 +62,8 @@
       <path value="Observation.value[x]" />
       <sliceName value="valueCodeableConcept" />
       <binding>
-        <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/Laborergebnis-semiquantitativ" />
         <strength value="required" />
+        <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/Laborergebnis-semiquantitativ" />
       </binding>
     </element>
     <element id="Observation.specimen">
