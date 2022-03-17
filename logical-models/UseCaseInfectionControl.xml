@@ -633,8 +633,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/boolean" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Empfaengerstandort.ZusätzlicheBeschreibung">
-      <path value="UseCaseInfectionControl.Empfaengerstandort.ZusätzlicheBeschreibung" />
+    <element id="UseCaseInfectionControl.Empfaengerstandort.ZusaetzlicheBeschreibung">
+      <path value="UseCaseInfectionControl.Empfaengerstandort.ZusaetzlicheBeschreibung" />
       <short value="Zusätzliche Informationen" />
       <min value="0" />
       <max value="*" />
@@ -1498,8 +1498,8 @@
         <code value="string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigerPatientenstandortvorAufnahme.ZusätzlicheBeschreibung">
-      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigerPatientenstandortvorAufnahme.ZusätzlicheBeschreibung" />
+    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigerPatientenstandortvorAufnahme.ZusaetzlicheBeschreibung">
+      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigerPatientenstandortvorAufnahme.ZusaetzlicheBeschreibung" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -1556,8 +1556,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/boolean" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.ZusätzlicheBeschreibung">
-      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.ZusätzlicheBeschreibung" />
+    <element id="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.ZusaetzlicheBeschreibung">
+      <path value="UseCaseInfectionControl.Bewegungsdaten.StationaererVersorgungsfall.Aufnahmedaten.VorherigeverantwortlicheOrganisationseinheitvorAufnahme.ZusaetzlicheBeschreibung" />
       <short value="Zusätzliche Informationen" />
       <min value="0" />
       <max value="*" />
