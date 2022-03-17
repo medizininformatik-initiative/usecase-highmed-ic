@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "234",
+    "id": "ExampleHiGHmedInfectionControlObservationKeimzahl",
     "meta": {
         "profile":  [
             "http://highmed.org/fhir/StructureDefinition/ic/Keimzahl"
