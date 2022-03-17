@@ -191,6 +191,14 @@
       </patternCodeableConcept>
       <mustSupport value="true" />
     </element>
+    <element id="Observation.component:NachweisVirus.value[x]">
+      <path value="Observation.component.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.component:NachweisVirus.value[x]:valueCodeableConcept">
       <path value="Observation.component.value[x]" />
       <sliceName value="valueCodeableConcept" />
