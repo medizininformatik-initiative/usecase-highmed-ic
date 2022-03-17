@@ -754,8 +754,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/Quantity" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Mikrobiologischerbefund.Kultur.Erregerdetails.Häufigkeit">
-      <path value="UseCaseInfectionControl.Mikrobiologischerbefund.Kultur.Erregerdetails.Häufigkeit" />
+    <element id="UseCaseInfectionControl.Mikrobiologischerbefund.Kultur.Erregerdetails.Haeufigkeit">
+      <path value="UseCaseInfectionControl.Mikrobiologischerbefund.Kultur.Erregerdetails.Haeufigkeit" />
       <min value="0" />
       <max value="*" />
       <type>
