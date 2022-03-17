@@ -423,8 +423,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Prozedur.Körperstelle">
-      <path value="UseCaseInfectionControl.Prozedur.Körperstelle" />
+    <element id="UseCaseInfectionControl.Prozedur.Koerperstelle">
+      <path value="UseCaseInfectionControl.Prozedur.Koerperstelle" />
       <short value="Anatomische Lokalisation, an der die Prozedur durchgeführt wird." />
       <min value="0" />
       <max value="*" />
@@ -533,8 +533,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="UseCaseInfectionControl.Probendetails.NamederKörperstelle">
-      <path value="UseCaseInfectionControl.Probendetails.NamederKörperstelle" />
+    <element id="UseCaseInfectionControl.Probendetails.NamederKoerperstelle">
+      <path value="UseCaseInfectionControl.Probendetails.NamederKoerperstelle" />
       <min value="0" />
       <max value="*" />
       <type>
