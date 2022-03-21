@@ -64,6 +64,6 @@
         "text": "Gene XYZ detektiert"
     },
     "specimen": {
-        "reference": "http://highmed.org/StructureDefinition/ic/Specimen"
+        "reference": "Specimen/ExampleHiGHmedInfectionControlSpecimen"
     }
 }
