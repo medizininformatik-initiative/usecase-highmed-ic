@@ -69,6 +69,10 @@
       <path value="Observation.valueCodeableConcept" />
       <sliceName value="valueCodeableConcept" />
       <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/detected-not-detected-inconclusive" />
+      </binding>
     </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
