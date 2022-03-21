@@ -47,7 +47,7 @@
         "text": "Resistenzmechanismus"
     },
     "subject": {
-        "reference": "Patient/123"
+        "reference": "Patient/ExampleHiGHmedInfectionControlPatient"
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
     "valueCodeableConcept": {
