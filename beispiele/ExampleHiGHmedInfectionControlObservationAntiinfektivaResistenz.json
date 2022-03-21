@@ -55,7 +55,12 @@
         "reference": "Patient/ExampleHiGHmedInfectionControlPatient"
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
-    "valueCodeableConcept": {
+    "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "ug/mL",
+        "value": 0.25
+    },
+    "interpretation": {
         "coding": [
             {
                 "system": "http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast",
