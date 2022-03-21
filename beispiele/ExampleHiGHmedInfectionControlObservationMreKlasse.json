@@ -58,8 +58,8 @@
     "valueCodeableConcept": {
         "coding": [
             {
-                "system": "http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal",
-                "code": "01"
+                "system": "http://snomed.info/sct",
+                "code": "115329001"
             }
         ]
     }
