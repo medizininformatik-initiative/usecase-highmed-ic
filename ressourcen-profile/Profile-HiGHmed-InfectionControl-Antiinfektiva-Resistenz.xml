@@ -42,6 +42,11 @@
         <code value="ug/mL" />
       </patternQuantity>
     </element>
+    <element id="Observation.value[x]:valueQuantity.value">
+      <path value="Observation.value[x].value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
     <element id="Observation.interpretation">
       <path value="Observation.interpretation" />
       <binding>
