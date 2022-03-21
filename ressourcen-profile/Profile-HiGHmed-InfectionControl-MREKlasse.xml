@@ -63,10 +63,6 @@
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokal" />
       </binding>
     </element>
-    <element id="Observation.value[x]:valueCodeableConcept.coding.system">
-      <path value="Observation.value[x].coding.system" />
-      <fixedUri value="http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal" />
-    </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <type>
