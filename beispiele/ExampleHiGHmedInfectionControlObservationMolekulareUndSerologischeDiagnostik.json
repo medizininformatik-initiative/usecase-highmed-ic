@@ -3,7 +3,7 @@
     "id": "ExampleHiGHmedInfectionControlObservationMolekulareUndSerologischeDiagnostik",
     "meta": {
         "profile":  [
-            "hhttp://highmed.org/fhir/StructureDefinition/MolekulareUndSerologischeDiagnostik"
+            "hhttp://highmed.org/fhir/StructureDefinition/ic/MolekulareUndSerologischeDiagnostik"
         ]
     },
        "identifier":  [
