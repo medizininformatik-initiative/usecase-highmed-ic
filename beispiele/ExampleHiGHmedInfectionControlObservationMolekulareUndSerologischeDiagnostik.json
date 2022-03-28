@@ -1,0 +1,92 @@
+{
+    "resourceType": "Observation",
+    "id": "ExampleHiGHmedInfectionControlObservationMolekulareUndSerologischeDiagnostik",
+    "meta": {
+        "profile":  [
+            "hhttp://highmed.org/fhir/StructureDefinition/MolekulareUndSerologischeDiagnostik"
+        ]
+    },
+       "identifier":  [
+        {
+            "type": {
+                "coding":  [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "OBI"
+                    }
+                ]
+            },
+            "system": "http://example.org/fhir/sid/obi",
+            "value": "012345678890",
+            "assigner": {
+                "reference": "Organization/ExampleHiGHmedInfectionControlOrganization"
+            }
+        }
+    ],
+    "status": "final",
+    "category":  [
+        {
+            "coding":  [
+                {
+                    "system": "http://loinc.org",
+                    "code": "26436-6"
+                },
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                    "code": "laboratory"
+                },
+               {
+                    "system": "http://snomed.info/sct",
+                    "code": "122442008",
+                    "display": "Detection of virus (procedure)"
+}
+            ]
+        }
+    ],
+    "code": {
+        "coding":  [
+           {
+                     "system": "http://snomed.info/sct",
+                     "code": "439923006"
+            }
+        ],
+        "text": "Interpretation of test for detection of virus (observable entity)"
+    },
+        "subject": {
+        "reference": "Patient/ExampleHiGHmedInfectionControlPatient"
+    },
+
+    "effectiveDateTime": "2021-05-16T08:49:21+02:00",
+    "valueCodeableConcept": {
+        "coding":  [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "10828004",
+                "display": "Positive (qualifier value)"
+            }
+        ]
+    },
+     "specimen": {
+        "reference": "Specimen/ExampleHiGHmedInfectionControlSpecimen"
+    },
+        "component": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "6584-7"
+                    }
+                ]
+            },
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "840533007"
+                    }
+                ]
+            }
+        }
+    ]
+}
