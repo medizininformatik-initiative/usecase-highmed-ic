@@ -54,11 +54,10 @@
       </patternCoding>
       <mustSupport value="true" />
     </element>
-    <element id="Observation.value[x]">
+    <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
-      <type>
-        <code value="CodeableConcept" />
-      </type>
+      <sliceName value="valueQuantity" />
+      <max value="0" />
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
       <path value="Observation.valueCodeableConcept" />
