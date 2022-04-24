@@ -1,9 +1,21 @@
 {
   "resourceType": "ValueSet",
+  "id": "VS-HiGHmed-Mikrobiologische-Erreger-Viren-Explizit-SNOMEDCT",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
   "url": "http://highmed.org/fhir/ValueSet/ic/mikrobiologische-viren-snomedct-explizit",
-  "title": "HiGHmed-Viren",
-  "status": "draft",
- 
+  "version": "1.0.0",
+  "name": "VS_HiGHmed_Mikrobiologische_Erreger_Viren_Explizit_SNOMEDCT",
+  "title": "VS HiGHmed Mikrobiologische Erreger Viren Explizit [SNOMED CT]",
+  "status": "active",
+  "experimental": false,
+  "publisher": "http://highmed.org",
+  "description": "A set of codes representing viruses (organism) which may be detected by a microbiology laboratory test.",
+  "immutable": false,
+  "copyright": "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.",
   "compose": {
     "include": [
       {
@@ -109,15 +121,8 @@
             "code": "840533007",
             "display": "Severe acute respiratory syndrome coronavirus 2 (organism);"
           }
-          
-          
         ]
       }
     ]
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed -Viren</h2><tt>http://highmed.org/fhir/ValueSet/ic/mikrobiologische-viren-snomedct-explizit</tt></div>"
-  },
-  "name": "HiGHmed-Viren"
+  }
 }
