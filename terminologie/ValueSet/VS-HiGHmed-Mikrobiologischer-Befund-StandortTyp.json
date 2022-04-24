@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "VS-HiGHmed-Mikrobiologischer-Befund-StandortTyp",
+  "id": "VS-HiGHmed-Mikrobiologischer-Befund-StandortTyp-HL7",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
