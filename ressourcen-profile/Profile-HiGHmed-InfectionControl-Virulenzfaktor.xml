@@ -57,7 +57,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://medizininformatikinitiative.de/fhir/ext/modul-mikrobio/ValueSet/vs-mii-mikrobio-virulenzfaktor-loinc" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/virulenzfaktor" />
       </binding>
     </element>
     <element id="Observation.code.text">

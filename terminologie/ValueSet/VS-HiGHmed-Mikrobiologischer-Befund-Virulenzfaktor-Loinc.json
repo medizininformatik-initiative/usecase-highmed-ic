@@ -1,18 +1,18 @@
 {
     "resourceType": "ValueSet",
-    "id": "vs-mii-mikrobio-virulenzfaktor-loinc",
+    "id": "VS-HiGHmed-Mikrobiologischer-Befund-Virulenzfaktor-Loinc",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
       ]
     },
-    "url": "http://medizininformatikinitiative.de/fhir/ext/modul-mikrobio/ValueSet/vs-mii-mikrobio-virulenzfaktor-loinc",
+    "url": "http://highmed.org/fhir/ValueSet/ic/virulenzfaktor",
     "version": "1.0",
-    "name": "VS_MII_Mikrobio_Virulenzfaktor_LOINC",
-    "title": "VS MII Mikrobio Virulenzfaktor [LOINC]",
+    "name": "VS_HiGHmed_Mikrobiologischer_Befund_Virulenzfaktor_Loinc",
+    "title": "VS HiGHmed Mikrobiologischer Befund Virulenzfaktor [LOINC]",
     "status": "active",
     "experimental": false,
-    "publisher": "http://medizininformatikinitiative.de",
+    "publisher": "http://highmed.org",
     "description": "A set of codes representing tests concerning bacterial virulence",
     "immutable": false,
     "copyright": "This content LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use",
