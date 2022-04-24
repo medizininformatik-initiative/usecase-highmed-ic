@@ -1,14 +1,20 @@
 {
   "resourceType": "ValueSet",
+  "id": "VS-HiGHmed-Mikrobiologischer-Befund-Befundtyp-Spezialisierung-LOINC",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
   "url": "http://highmed.org/fhir/ValueSet/ic/MicrobiologySpecializationDiagnosticReport",
-  "version": "1.0",
-  "title": "HiGHmed IC Microbiology DiagnosticReport",
+  "version": "1.0.0",
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_Befundtyp_Spezialisierung_LOINC",
+  "title": "VS HiGHmed Mikrobiologischer_Befund_Befundtyp_Spezialisierung [LOINC]",
   "status": "active",
+  "experimental": false,
+  "publisher": "http://highmed.org",
+  "description": "Sepzalisierte Kodierung von mikrobiologischen Befunden",
+  "immutable": false,
   "compose": {
     "include": [
       {
@@ -46,10 +52,5 @@
         "system": "http://loinc.org"
       }
     ]
-  },
-  "date": "2021-04-19T00:00:00.000Z",
-  "publisher": "HiGHmed",
-  "name": "HiGHmed_IC_Microbiology_DiagnosticReport",
-  "experimental": false,
-  "description": "Kodierung von mikrobiologischen Befunden"
+  }
 }
