@@ -1,10 +1,20 @@
 {
   "resourceType": "ValueSet",
-  "id": "ValueSet-HiGHmed-IC-LocationPhysicalType",
+  "id": "VS-HiGHmed-Mikrobiologischer-Befund-StandortTyp",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
   "url": "http://highmed.org/fhir/ValueSet/ic/LocationPhysicalType",
   "version": "1.0.0",
-  "title": "ValueSet - HiGHmed - IC - LocationPhysicalType",
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_StandortTyp-HL7",
+  "title": "VS HiGHmed Mikrobiologischer Befund Standort Typ [HL7]",
   "status": "active",
+  "experimental": false,
+  "publisher": "http://highmed.org",
+  "description": "A set of codes representing different types of physical locations.",
+  "immutable": false,
   "compose": {
     "include": [
       {
@@ -37,7 +47,5 @@
         ]
       }
     ]
-  },
-  "publisher": "HiGHmed",
-  "name": "ValueSet_HiGHmed_IC_LocationPhysicalType"
+  }
 }
