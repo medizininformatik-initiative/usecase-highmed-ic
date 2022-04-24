@@ -1,9 +1,21 @@
 {
   "resourceType": "ValueSet",
+  "id": "VS-HiGHmed-Mikrobiologische-Erreger-Bakterien-Explizit-SNOMEDCT",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
   "url": "http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-snomedct-explizit",
-  "title": "HiGHmed-Bakterien",
-  "status": "draft",
- 
+  "version": "1.0.0",
+  "name": "VS_HiGHmed_Mikrobiologische_Erreger_Bakterien_Explizit_SNOMEDCT",
+  "title": "VS HiGHmed Mikrobiologische Erreger Bakterien Explizit [SNOMED CT]",
+  "status": "active",
+  "experimental": false,
+  "publisher": "http://highmed.org",
+  "description": "A set of codes representing bacteria (organism) which may be detected by a microbiology laboratory test.",
+  "immutable": false,
+  "copyright": "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.",
   "compose": {
     "include": [
       {
@@ -2308,10 +2320,5 @@
         ]
       }
     ]
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HiGHmed- Bakterien</h2><tt>http://highmed.org/fhir/ValueSet/ic/mikrobiologische-erreger-bakterien-snomedct-explizit</tt></div>"
-  },
-  "name": "HiGHmed-Bakterien"
+  }
 }
