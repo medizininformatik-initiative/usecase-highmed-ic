@@ -37,9 +37,6 @@
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
       <type>
-        <code value="CodeableConcept" />
-      </type>
-      <type>
         <code value="Quantity" />
       </type>
     </element>
