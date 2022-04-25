@@ -39,14 +39,14 @@
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.code.coding:virusnachweistest-allgemein">
+    <element id="Observation.code.coding:molekularediagnostik-allgemein">
       <path value="Observation.code.coding" />
-      <sliceName value="virusnachweistest-allgemein" />
+      <sliceName value="molekularediagnostik-allgemein" />
       <min value="1" />
       <max value="1" />
       <patternCoding>
         <system value="http://snomed.info/sct" />
-        <code value="439923006" />
+        <code value="396927009" />
       </patternCoding>
       <mustSupport value="true" />
     </element>
