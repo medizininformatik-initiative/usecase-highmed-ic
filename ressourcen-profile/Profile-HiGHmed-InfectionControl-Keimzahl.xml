@@ -53,10 +53,10 @@
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
-      <patternQuantity>
-        <system value="http://unitsofmeasure.org" />
-        <code value="{CFU}/mL" />
-      </patternQuantity>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/KeimzahlEinheit" />
+      </binding>
     </element>
     <element id="Observation.value[x]:valueCodeableConcept">
       <path value="Observation.value[x]" />
