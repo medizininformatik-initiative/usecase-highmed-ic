@@ -109,8 +109,8 @@
       <min value="1" />
       <patternCodeableConcept>
         <coding>
-          <system value="http://loinc.org" />
-          <code value="6463-4" />
+          <system value="http://snomed.info/sct" />
+          <code value="118146008" />
         </coding>
       </patternCodeableConcept>
       <mustSupport value="true" />
@@ -147,8 +147,8 @@
       <min value="1" />
       <patternCodeableConcept>
         <coding>
-          <system value="http://loinc.org" />
-          <code value="42805-2" />
+          <system value="http://snomed.info/sct" />
+          <code value="118148009" />
         </coding>
       </patternCodeableConcept>
       <mustSupport value="true" />
@@ -185,8 +185,8 @@
       <min value="1" />
       <patternCodeableConcept>
         <coding>
-          <system value="http://loinc.org" />
-          <code value="6584-7" />
+          <system value="http://snomed.info/sct" />
+          <code value="118147004" />
         </coding>
       </patternCodeableConcept>
       <mustSupport value="true" />
