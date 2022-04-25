@@ -1,15 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "id": "VS-HiGHmed-Mikrobiologischer-Befund-MRE-Klasse-LOKAL",
+  "id": "VS-HiGHmed-Mikrobiologischer-Befund-MRE-Klasse",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
-  "url": "http://highmed.org/fhir/ValueSet/ic/mre-klassen-lokal",
+  "url": "http://highmed.org/fhir/ValueSet/ic/mre-klassen",
   "version": "1.0.0",
-  "name": "VS_HiGHmed_Mikrobiologischer_Befund_MRE_Klasse_LOKAL",
-  "title": "VS HiGHmed Mikrobiologischer Befund MRE Klasse [LOKAL]",
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_MRE_Klasse-LOINC-SNOMEDCT",
+  "title": "VS HiGHmed Mikrobiologischer Befund MRE Klasse [LOINC, SNOMED CT]",
   "status": "active",
   "experimental": false,
   "publisher": "http://highmed.org",
@@ -18,7 +18,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://highmed.org/fhir/CodeSystem/ic/mre-klassen-lokal",
+        "system": "http://snomed.info/sct",
         "concept": [
           {
             "code": "115329001",
@@ -35,7 +35,12 @@
           {
             "code": "838510005",
             "display": "LRE"
-          },
+          }
+        ]
+      },
+      {
+        "system": "http://www.loinc.org",
+        "concept": [
           {
             "code": "LA33214-0",
             "display": "2MRGN"
