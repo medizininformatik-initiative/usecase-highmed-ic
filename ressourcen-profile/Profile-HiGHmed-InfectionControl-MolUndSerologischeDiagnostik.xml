@@ -251,19 +251,16 @@
     </element>
     <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.value">
       <path value="Observation.component.value[x].value" />
-      <sliceName value="valueQuantity" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.system">
       <path value="Observation.component.value[x].system" />
-      <sliceName value="valueQuantity" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.code">
       <path value="Observation.component.value[x].code" />
-      <sliceName value="valueQuantity" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
