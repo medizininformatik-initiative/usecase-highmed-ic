@@ -215,7 +215,6 @@
     <element id="Observation.component:NucleicAcidAssay">
       <path value="Observation.component" />
       <sliceName value="NucleicAcidAssay" />
-      <min value="1" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
@@ -248,6 +247,57 @@
         <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/NucleicAcidAssayEinheit" />
       </binding>
+    </element>
+    <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.value">
+      <path value="Observation.component.value[x].value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.system">
+      <path value="Observation.component.value[x].system" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.code">
+      <path value="Observation.component.value[x].code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:PCR-CycleThreashold">
+      <path value="Observation.component" />
+      <sliceName value="PCR-CycleThreashold" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:PCR-CycleThreashold.code">
+      <path value="Observation.component.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <code value="9718006" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:PCR-CycleThreashold.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="Quantity" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+        <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueQuantity" />
+      <min value="1" />
+      <type>
+        <code value="Quantity" />
+      </type>
+      <patternQuantity>
+        <system value="http://unitsofmeasure.org" />
+        <code value="{Ct_value}" />
+      </patternQuantity>
+      <mustSupport value="true" />
     </element>
     <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.value">
       <path value="Observation.component.value[x].value" />
