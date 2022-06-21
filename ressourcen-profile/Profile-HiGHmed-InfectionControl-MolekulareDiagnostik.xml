@@ -96,6 +96,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <max value="3" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.component:NachweisBakterien">
