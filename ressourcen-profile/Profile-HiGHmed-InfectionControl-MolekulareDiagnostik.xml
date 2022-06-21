@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Profile-HiGHmed-InfectionControl-MolUndSerologischeDiagnostik" />
+  <id value="Profile-HiGHmed-InfectionControl-MolekulareDiagnostik" />
   <url value="http://highmed.org/fhir/StructureDefinition/ic/MolekulareDiagnostik" />
   <version value="1.0.0" />
   <name value="Profile_HiGHmed_InfectionControl_MolekulareDiagnostik" />
-  <title value="HiGHmed - Infection Control - MolekulareDiagnostik" />
+  <title value="HiGHmed - Infection Control - Molekulare Diagnostik" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
@@ -17,14 +17,14 @@
       <path value="Observation.category.coding" />
       <min value="3" />
     </element>
-    <element id="Observation.category.coding:snomedct-subcategory">
+    <element id="Observation.category.coding:loinc-microbiology-studies">
       <path value="Observation.category.coding" />
-      <sliceName value="snomedct-subcategory" />
+      <sliceName value="loinc-microbiology-studies" />
       <min value="1" />
       <max value="1" />
       <patternCoding>
-        <system value="http://snomed.info/sct" />
-        <code value="122442008" />
+        <system value="http://loinc.org" />
+        <code value="18725-2" />
       </patternCoding>
     </element>
     <element id="Observation.code.coding">
@@ -50,14 +50,14 @@
       </patternCoding>
       <mustSupport value="true" />
     </element>
-    <element id="Observation.code.coding:virusnachweistests-loinc">
+    <element id="Observation.code.coding:molekulare-nachweistests-spezialisierung-loinc">
       <path value="Observation.code.coding" />
-      <sliceName value="virusnachweistests-loinc" />
+      <sliceName value="molekulare-nachweistests-spezialisierung-loinc" />
       <max value="1" />
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://highmed.org/ValueSet/ic/highmedvirusnachweistests-loinc" />
+        <valueSet value="http://highmed.org/ValueSet/ic/molekulare-nachweistests-spezialisierung-loinc" />
       </binding>
     </element>
     <element id="Observation.value[x]">
