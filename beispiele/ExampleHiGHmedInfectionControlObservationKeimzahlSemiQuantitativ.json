@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "ExampleHiGHmedInfectionControlObservationKeimzahlQuantitativ",
+    "id": "ExampleHiGHmedInfectionControlObservationKeimzahlSemiQuantitativ",
     "meta": {
         "profile": [
             "http://highmed.org/fhir/StructureDefinition/ic/Keimzahl"
@@ -57,14 +57,10 @@
         "reference": "Patient/ExampleHiGHmedInfectionControlPatient"
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
-    "valueCodeableConcept": {
-        "coding": [
-            {
-                "sytem": "http://snomed.info/sct",
-                "code": "260347006",
-                "display": "Present + out of ++++ (qualifier value)"
-            }
-        ]
+    "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 0.1,
+        "code": "{CFU}/mL"
     },
     "specimen": {
         "reference": "Specimen/ExampleHiGHmedInfectionControlSpecimen"
