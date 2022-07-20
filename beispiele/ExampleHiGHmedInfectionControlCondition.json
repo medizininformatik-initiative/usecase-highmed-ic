@@ -19,7 +19,8 @@
             {
                 "system": "http://fhir.de/CodeSystem/dimdi/icd-10-gm",
                 "version": "2022",
-                "code": "B34.9"
+                "code": "B34.9",
+                "display": "Virusinfektion, nicht näher bezeichnet"
             }
         ]
     },
