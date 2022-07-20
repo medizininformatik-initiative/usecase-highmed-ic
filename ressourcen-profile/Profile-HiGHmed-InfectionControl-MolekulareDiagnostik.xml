@@ -45,8 +45,9 @@
       <min value="1" />
       <max value="1" />
       <patternCoding>
-        <system value="http://snomed.info/sct" />
-        <code value="396927009" />
+        <system value="http://loinc.org" />
+        <code value="92253-4" />
+        <display value="Microorganism identified in Isolate or Specimen by Molecular genetics method" />
       </patternCoding>
       <mustSupport value="true" />
     </element>
@@ -107,7 +108,6 @@
     </element>
     <element id="Observation.component:NachweisBakterien.code">
       <path value="Observation.component.code" />
-      <min value="1" />
       <patternCodeableConcept>
         <coding>
           <system value="http://snomed.info/sct" />
@@ -118,6 +118,13 @@
     </element>
     <element id="Observation.component:NachweisBakterien.value[x]">
       <path value="Observation.component.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <min value="1" />
       <type>
         <code value="CodeableConcept" />
@@ -145,7 +152,6 @@
     </element>
     <element id="Observation.component:NachweisPilze.code">
       <path value="Observation.component.code" />
-      <min value="1" />
       <patternCodeableConcept>
         <coding>
           <system value="http://snomed.info/sct" />
@@ -156,6 +162,13 @@
     </element>
     <element id="Observation.component:NachweisPilze.value[x]">
       <path value="Observation.component.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <min value="1" />
       <type>
         <code value="CodeableConcept" />
@@ -183,7 +196,6 @@
     </element>
     <element id="Observation.component:NachweisVirus.code">
       <path value="Observation.component.code" />
-      <min value="1" />
       <patternCodeableConcept>
         <coding>
           <system value="http://snomed.info/sct" />
@@ -194,6 +206,13 @@
     </element>
     <element id="Observation.component:NachweisVirus.value[x]">
       <path value="Observation.component.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <min value="1" />
       <type>
         <code value="CodeableConcept" />
@@ -231,6 +250,13 @@
     </element>
     <element id="Observation.component:NucleicAcidAssay.value[x]">
       <path value="Observation.component.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <type>
         <code value="Quantity" />
       </type>
@@ -282,12 +308,19 @@
     </element>
     <element id="Observation.component:PCR-CycleThreashold.value[x]">
       <path value="Observation.component.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <type>
         <code value="Quantity" />
       </type>
       <mustSupport value="true" />
     </element>
-        <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity">
+    <element id="Observation.component:PCR-CycleThreashold.value[x]:valueQuantity">
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
       <min value="1" />
@@ -300,17 +333,17 @@
       </patternQuantity>
       <mustSupport value="true" />
     </element>
-    <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.value">
+    <element id="Observation.component:PCR-CycleThreashold.value[x]:valueQuantity.value">
       <path value="Observation.component.value[x].value" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.system">
+    <element id="Observation.component:PCR-CycleThreashold.value[x]:valueQuantity.system">
       <path value="Observation.component.value[x].system" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
-    <element id="Observation.component:NucleicAcidAssay.value[x]:valueQuantity.code">
+    <element id="Observation.component:PCR-CycleThreashold.value[x]:valueQuantity.code">
       <path value="Observation.component.value[x].code" />
       <min value="1" />
       <mustSupport value="true" />
