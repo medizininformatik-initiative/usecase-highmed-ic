@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Profile-HiGHmed-InfectionControl-ErregerNachweis" />
-  <url value="http://highmed.org/fhir/StructureDefinition/ic/ErregerNachweis" />
+  <id value="Profile-HiGHmed-InfectionControl-Kulturdiagnostik" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/Kulturdiagnostik" />
   <version value="1.0.0" />
-  <name value="Profile_HiGHmed_InfectionControl_KulturDiagnostik" />
-  <title value="Profile - HiGHmed - Infection Control - Erreger Nachweis" />
+  <name value="Profile_HiGHmed_InfectionControl_Kulturdiagnostik" />
+  <title value="Profile - HiGHmed - Infection Control - Kulturdiagnostik" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />

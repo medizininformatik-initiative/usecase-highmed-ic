@@ -3,7 +3,7 @@
     "id": "ExampleHiGHmedInfectionControlObservationErregerNachweis",
     "meta": {
         "profile": [
-            "http://highmed.org/fhir/StructureDefinition/ic/ErregerNachweis"
+            "http://highmed.org/fhir/StructureDefinition/ic/Kulturdiagnostik"
         ]
     },
     "identifier": [
