@@ -80,34 +80,5 @@
         <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
       </type>
     </element>
-    <element id="Observation.component.code">
-      <path value="Observation.component.code" />
-      <short value="Microorganism gene tested for [Identifier] by Molecular method" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://loinc.org" />
-          <code value="92249-2" />
-          <display value="Microorganism gene tested for [Identifier] by Molecular method" />
-        </coding>
-      </fixedCodeableConcept>
-    </element>
-    <element id="Observation.component.code.coding.system">
-      <path value="Observation.component.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.component.code.coding.code">
-      <path value="Observation.component.code.coding.code" />
-      <fixedCode value="92249-2" />
-    </element>
-    <element id="Observation.component.value[x]">
-      <path value="Observation.component.value[x]" />
-      <short value="Name des Gens. Wenn möglich  Codes aus https://www.ncbi.nlm.nih.gov/pathogens/refgene/" />
-      <type>
-        <code value="CodeableConcept" />
-      </type>
-      <type>
-        <code value="string" />
-      </type>
-    </element>
   </differential>
 </StructureDefinition>
