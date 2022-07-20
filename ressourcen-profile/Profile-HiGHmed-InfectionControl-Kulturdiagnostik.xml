@@ -73,20 +73,6 @@
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/detected-not-detected-inconclusive" />
       </binding>
     </element>
-    <element id="Observation.method">
-      <path value="Observation.method" />
-      <fixedCodeableConcept>
-        <coding>
-          <system value="http://snomed.info/sct" />
-          <code value="61594008" />
-          <display value="Microbial culture (procedure)" />
-        </coding>
-      </fixedCodeableConcept>
-    </element>
-    <element id="Observation.method.coding.code">
-      <path value="Observation.method.coding.code" />
-      <patternCode value="61594008" />
-    </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <min value="1" />
