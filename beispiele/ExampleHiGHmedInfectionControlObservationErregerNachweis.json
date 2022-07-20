@@ -71,7 +71,8 @@
                 "coding": [
                     {
                         "system": "http://loinc.org",
-                        "code": "6584-7"
+                        "code": "6584-7",
+                        "display": "Virus identified in Specimen by Culture"
                     }
                 ]
             },
@@ -79,7 +80,8 @@
                 "coding": [
                     {
                         "system": "http://snomed.info/sct",
-                        "code": "840533007"
+                        "code": "840533007",
+                        "display": "Severe acute respiratory syndrome coronavirus 2 (organism)"
                     }
                 ]
             }
