@@ -24,7 +24,13 @@
                         "code": "ug/mL"
                     },
                     {
+                        "code": "mg/L"
+                    },
+                    {
                         "code": "[arb'U]/mL"
+                    },
+                    {
+                        "code": "{CFU}/mL"
                     },
                     {
                         "code": "mm"
