@@ -17,7 +17,8 @@
         "coding": [
             {
                 "system": "http://snomed.info/sct",
-                "code": "257261003"
+                "code": "257261003",
+                "display": "Swab (specimen)"
             }
         ]
     },
@@ -30,7 +31,8 @@
             "coding": [
                 {
                     "system": "http://snomed.info/sct",
-                    "code": "53505006"
+                    "code": "53505006",
+                    "display": "Anal structure (body structure)"
                 }
             ]
         }
