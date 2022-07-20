@@ -46,7 +46,8 @@
         "coding": [
             {
                 "system": "http://snomed.info/sct",
-                "code": "250475009"
+                "code": "250475009",
+                "display": "Virulence, microbiological test (procedure)"
             }
         ]
     },

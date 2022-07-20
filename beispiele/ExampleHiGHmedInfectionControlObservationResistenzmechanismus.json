@@ -38,7 +38,7 @@
                 {
                     "system": "http://loinc.org",
                     "code": "18725-2",
-                    "display": "Microbiology studies"
+                    "display": "Microbiology studies (set)"
                 }
             ]
         }
@@ -54,7 +54,8 @@
         "coding": [
             {
                 "system": "http://snomed.info/sct",
-                "code": "260373001"
+                "code": "260373001",
+                "display": "Detected (qualifier value)"
             }
         ],
         "text": "Gene XYZ detektiert"
