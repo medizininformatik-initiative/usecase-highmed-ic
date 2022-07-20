@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "VS-HiGHmed-Mikrobiologischer-Befund-probenentnahmestelle",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-anatomische-lokalisation-snomedct",
+  "version": "1.0.0",
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_Probenentnahmestelle_Anatomische_Lokalisation_Snomedct",
+  "title": "VS HiGHmed Mikrobiologischer Befund Probenentnahmestelle Anatomische Lokalisation [Snomedct]",
+  "status": "active",
+  "experimental": false,
+  "publisher": "http://highmed.org",
+  "description": "Defines codes for specimen body sites for HiGHmed Use Case Infection Control.",
+  "immutable": false,
+  "copyright": "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "53505006",
+            "display": "Anal structure (body structure)"
+          },
+          {
+            "code": "45206002",
+            "display": "Nasal structure (body structure)"
+          },
+          {
+            "code": "400112001",
+            "display": "Nose and nasopharynx structure (body structure)"
+          },
+          {
+            "code": "54066008",
+            "display": "Pharyngeal structure (body structure)"
+          },
+          {
+            "code": "34402009",
+            "display": "Rectum structure (body structure)"
+          },
+          {
+            "code": "51114001",
+            "display": "Arterial structure (body structure)"
+          }
+        ]
+      }
+    ]
+  }
+}
