@@ -38,7 +38,7 @@
                 {
                     "system": "http://loinc.org",
                     "code": "18725-2",
-                    "display": "Microbiology studies"
+                    "display": "Microbiology studies (set)"
                 }
             ]
         }
@@ -47,7 +47,8 @@
         "coding": [
             {
                 "system": "http://loinc.org",
-                "code": "29576-6"
+                "code": "29576-6",
+                "display": "Bacterial susceptibility panel"
             }
         ]
     },
