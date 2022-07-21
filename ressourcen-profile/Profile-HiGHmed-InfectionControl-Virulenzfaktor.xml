@@ -28,6 +28,7 @@
       </patternCoding>
     </element>
     <element id="Observation.code">
+      <path value="Observation.code" />
       <constraint>
         <key value="obs-ic-virulenzfaktor-1" />
         <severity value="error" />
