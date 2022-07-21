@@ -48,6 +48,11 @@
                 "system": "http://snomed.info/sct",
                 "code": "250475009",
                 "display": "Virulence, microbiological test (procedure)"
+            },
+            {
+                "system": "http://loinc.org",
+                "code": "79387-7",
+                "display": "Escherichia coli Stx2 toxin stx2 gene [Presence] in Stool by NAA with probe detection"
             }
         ]
     },
