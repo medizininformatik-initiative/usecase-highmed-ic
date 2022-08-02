@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="mre-klasse" />
-    <url value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast " />
+    <url value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast" />
     <version value="0.1" />
     <name value="SIR -EUCAST susceptibility testing categories" />
     <title value="SIR -EUCAST susceptibility testing categories" />
@@ -23,7 +23,5 @@
     <concept>
         <code value="R" />
         <display value="Resistant" />
-        </concept>
-       
-    
+    </concept>
 </CodeSystem>
