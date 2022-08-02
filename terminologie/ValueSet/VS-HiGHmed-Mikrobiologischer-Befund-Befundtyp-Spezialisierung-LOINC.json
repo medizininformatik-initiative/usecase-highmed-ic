@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "VS-HiGHmed-Mikrobiologischer-Befund-Befundtyp-Spezialisierung-LOINC",
+  "id": "VS-HiGHmed-Mikrobiologischer-Befund-Befundtyp-Spezial-LOINC",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
