@@ -18,47 +18,47 @@
         "system": "http://unitsofmeasure.org",
         "concept": [
           {
-            "code": "1",
+            "code": "10*6{viral equivalents}/mL",
             "display": "10*6{viral equivalents}/mL"
           },
           {
-            "code": "2",
-            "display": " [arb'U]/mL"
+            "code": "[arb'U]/mL",
+            "display": "[arb'U]/mL"
           },
           {
-            "code": "3",
-            "display": " [IU]/mL"
+            "code": "[IU]/mL",
+            "display": "[IU]/mL"
           },
           {
-            "code": "4",
-            "display": " pg/mL"
+            "code": "pg/mL",
+            "display": "pg/mL"
           },
           {
-            "code": " 5",
+            "code": "{#}/mL",
             "display": "{#}/mL"
           },
           {
-            "code": " 6",
+            "code": "{copies}/10*6{cells}",
             "display": "{copies}/10*6{cells}"
           },
           {
-            "code": "7",
+            "code": "{copies}/mL",
             "display": "{copies}/mL"
           },
           {
-            "code": "8",
-            "display": " {Log_cells}/mL"
+            "code": "{Log_cells}/mL",
+            "display": "{Log_cells}/mL"
           },
           {
-            "code": "9",
-            "display": " {Log_copies}/10*6{cells}"
+            "code": "{Log_copies}/10*6{cells}",
+            "display": "{Log_copies}/10*6{cells}"
           },
           {
-            "code": "10",
-            "display": " {Log_copies}/mL"
+            "code": "{Log_copies}/mL",
+            "display": "{Log_copies}/mL"
           },
           {
-            "code": "11",
+            "code": "{Log_IU}/mL",
             "display": "{Log_IU}/mL"
           }
         ]
