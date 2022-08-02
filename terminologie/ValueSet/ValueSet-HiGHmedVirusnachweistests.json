@@ -4567,7 +4567,8 @@
             "display": "SARS-related coronavirus+MERS coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
           },
           {
-            "code": "43588-3Varicella zoster virus IgM Ab [Presence] in Serum by Immunofluorescence"
+            "code": "43588-3",
+            "display": "Varicella zoster virus IgM Ab [Presence] in Serum by Immunofluorescence"
           },
           {
             "code": "29662-4Varicella zoster virus IgM Ab [Presence] in Serum by Immunoassay"
