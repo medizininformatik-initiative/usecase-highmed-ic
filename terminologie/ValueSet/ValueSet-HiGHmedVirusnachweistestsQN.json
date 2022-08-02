@@ -19,10 +19,6 @@
         "system": "http://loinc.org",
         "concept": [
           {
-            "code": "LOINC",
-            "display": "LongName"
-          },
-          {
             "code": "31217-3",
             "display": "Adenovirus Ab [Units/volume] in Body fluid"
           },
