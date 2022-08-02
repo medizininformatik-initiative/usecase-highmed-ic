@@ -18,10 +18,6 @@
         "system": "http://loinc.org",
         "concept": [
           {
-            "code": "LOINC_NUM",
-            "display": "LONG_COMMON_NAME"
-          },
-          {
             "code": "85770-6",
             "display": "Acinetobacter baumannii DNA [Presence] by NAA with non-probe detection in Positive blood culture"
           },
