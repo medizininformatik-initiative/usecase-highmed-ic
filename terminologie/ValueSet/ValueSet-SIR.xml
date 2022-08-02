@@ -14,19 +14,18 @@
     <compose>
         <include>
             <system value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast"/>
-          <concept>
+            <concept>
                 <code value="S"/>
-                <display value=" Susceptible, standard dosing regimen"/>
+                <display value="Susceptible, standard dosing regimen"/>
             </concept>
             <concept>
                 <code value="I"/>
-                <display value=" Susceptible, increased exposure"/>
+                <display value="Susceptible, increased exposure"/>
             </concept>
-           <concept>
+            <concept>
                 <code value="R"/>
-                <display value=" Resistant"/>
+                <display value="Resistant"/>
             </concept>
-                        
-                    </include>
+        </include>
     </compose>
 </ValueSet>
