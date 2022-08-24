@@ -3,15 +3,7 @@
   "url": "http://highmed.org/ValueSet/ic/immunologie-nachweistests-spezialisierung-loinc",
   "title": "Immunologische und Serologische Diagnostik",
   "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+
   "compose": {
     "include": [
       {

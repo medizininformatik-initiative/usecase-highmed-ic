@@ -3,15 +3,7 @@
   "url": "http://highmed.org/ValueSet/ic/molekulare-nachweistests-spezialisierung-loinc",
   "title": "Molekular Diagnostik",
   "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+ 
   "compose": {
     "include": [
       {

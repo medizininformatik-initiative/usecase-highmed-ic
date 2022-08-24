@@ -3,15 +3,7 @@
   "url": "http://highmed.org/fhir/ValueSet/ic/AntigenAssayEinheit",
   "title": "Antigen Assay Einheiten",
   "status": "draft",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email"
-        }
-      ]
-    }
-  ],
+
   "compose": {
     "include": [
       {
