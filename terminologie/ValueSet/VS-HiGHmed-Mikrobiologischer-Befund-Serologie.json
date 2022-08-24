@@ -16297,5 +16297,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Serologie</h2><tt>http://highmed.org/ValueSet/ic/immunologie-nachweistests-spezialisierung-loinc </tt></div>"
   },
-  "name": "Immunologische und Serologische Diagnostik"
+  "name": "http://highmed.org/ValueSet/ic/immunologie-nachweistests-spezialisierung-loinc"
 }

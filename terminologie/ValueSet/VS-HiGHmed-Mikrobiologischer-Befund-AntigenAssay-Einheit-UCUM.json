@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://highmed.org/fhir/ValueSet/ic/AntigenAssayEinheit",
-  "title": "http://highmed.org/fhir/ValueSet/ic/AntigenAssayEinheit",
+  "title": "Antigen Assay Einheit",
   "status": "draft",
 
   "compose": {
@@ -41,5 +41,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>antigenQn</h2><tt>http://highmed.org/fhir/ValueSet/ic/AntigenAssayEinheit</tt></div>"
   },
-  "name": "Antigen Assay Einheiten"
+  "name": "http://highmed.org/fhir/ValueSet/ic/AntigenAssayEinheit"
 }

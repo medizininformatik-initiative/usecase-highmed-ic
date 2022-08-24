@@ -8517,5 +8517,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Molekular Diagnostik</h2><tt>http://highmed.org/ValueSet/ic/molekulare-nachweistests-spezialisierung-loinc </tt></div>"
   },
-  "name": "Molekular Diagnostik"
+  "name": "http://highmed.org/ValueSet/ic/molekulare-nachweistests-spezialisierung-loinc"
 }
