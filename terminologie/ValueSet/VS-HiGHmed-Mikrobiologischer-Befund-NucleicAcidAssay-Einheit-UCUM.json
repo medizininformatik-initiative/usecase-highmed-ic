@@ -24,13 +24,21 @@
                         "code": "[arb'U]/mL"
                     },
                     {
-                        "code": "{count}/g"
+                        "code": "copies / mL"
                     },
                     {
-                        "code": "pg/mL"
+                        "code": "iU / mL"
                     },
                     {
-                        "code": "ng/mL"
+                        "code": "{#} / g"
+                    },
+                    {
+                        "code": "pg /mL"
+                    },
+                    {
+                        "code": "ng / mL"
+                    }, {
+                        "code": "%" 
                     }
                 ]
             }

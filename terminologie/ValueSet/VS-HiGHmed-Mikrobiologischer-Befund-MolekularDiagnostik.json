@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://highmed.org/ValueSet/ic/molekulare-nachweistests-spezialisierung-loinc",
-  "title": "Molekular Diagnostik",
+  "title": "VS HiGHmed Mikrobiologischer Befund MolkularDiagnostik nachweistests spezialisierung loinc",
   "status": "draft",
  
   "compose": {
@@ -8517,5 +8517,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Molekular Diagnostik</h2><tt>http://highmed.org/ValueSet/ic/molekulare-nachweistests-spezialisierung-loinc </tt></div>"
   },
-  "name": "http://highmed.org/ValueSet/ic/molekulare-nachweistests-spezialisierung-loinc"
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_MolkularDiagnostik_nachweistests_spezialisierung_loinc"
 }

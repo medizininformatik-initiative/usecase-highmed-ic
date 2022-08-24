@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://highmed.org/fhir/ValueSet/ic/AntibodyMeasurementEinheit",
-  "title": "Antibody Measurement Einheiten",
+  "title": "VS HiGHmed Mikrobiologischer Befund Serologie Einheit UCUM",
   "status": "draft",
   
   "compose": {
@@ -47,5 +47,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AbQn</h2><tt>http://highmed.org/fhir/ValueSet/ic/AntibodyMeasurementEinheit</tt></div>"
   },
-  "name": "http://highmed.org/fhir/ValueSet/ic/AntibodyMeasurementEinheit"
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_Serologie_Einheit_UCUM"
 }

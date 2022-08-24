@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://highmed.org/ValueSet/ic/immunologie-nachweistests-spezialisierung-loinc",
-  "title": "Immunologische und Serologische Diagnostik",
+  "title": "VS HiGHmed Mikrobiologischer Befund Immunologie nachweistests spezialisierung loinc",
   "status": "draft",
 
   "compose": {
@@ -16297,5 +16297,5 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Serologie</h2><tt>http://highmed.org/ValueSet/ic/immunologie-nachweistests-spezialisierung-loinc </tt></div>"
   },
-  "name": "http://highmed.org/ValueSet/ic/immunologie-nachweistests-spezialisierung-loinc"
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_Immunologie_nachweistests_spezialisierung_loinc"
 }
