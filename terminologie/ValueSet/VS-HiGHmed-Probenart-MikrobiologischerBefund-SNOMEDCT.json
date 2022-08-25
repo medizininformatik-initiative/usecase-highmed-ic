@@ -36,23 +36,6 @@
           {
             "code": "878861003",
             "display": "Blood specimen in blood culture bottle"
-          },
-          
-          {
-            "code": "119334006",
-            "display": "Sputum specimen"
-          },
-          {
-            "code": "119342007",
-            "display": "Saliva specimen"
-          },
-          {
-            "code": "410580001",
-            "display": "Respiratory fluid specimen"
-          },
-          {
-            "code": "258607008",
-            "display": "Bronchoalveolar lavage fluid sample"
           }
         ]
       }
