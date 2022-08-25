@@ -1,9 +1,9 @@
 {
     "resourceType": "Observation",
-    "id": "ExampleHiGHmedInfectionControlObservationMolekulareUndSerologischeDiagnostik",
+    "id": "ExampleHiGHmedInfectionControlObservationSerologischeDiagnostik",
     "meta": {
         "profile":  [
-            "http://highmed.org/fhir/StructureDefinition/MolekulareUndSerologischeDiagnostik"
+            "http://highmed.org/fhir/StructureDefinition/ic/SerologischeDiagnostik"
         ]
     },
     "identifier":  [
@@ -46,11 +46,16 @@
     "code": {
         "coding":  [
             {
-                "system": "http://snomed.info/sct",
-                "code": "439923006"
+                  "system": "http://snomed.info/sct",
+                  "code": "252318005"
+            },
+            {
+                  "system": "http://loinc.org",
+                  "code": "44074-3"
             }
         ],
-        "text": "Interpretation of test for detection of virus (observable entity)"
+        
+        "text": "Respiratory syncytial virus Ab [Presence] in Serum"
     },
     "subject": {
         "reference": "Patient/ExampleHiGHmedInfectionControlPatient"
@@ -74,15 +79,15 @@
                 "coding":  [
                     {
                         "system": "http://snomed.info/sct",
-                        "code": "391400001"
+                        "code": "121276004"
                     }
                 ]
             },
-            "valueCodeableConcept": {
+            "code": {
                 "coding":  [
                     {
                         "system": "http://snomed.info/sct",
-                        "code": "840533007"
+                        "code": "3527003"
                     }
                 ]
             }
