@@ -154,7 +154,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
-        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-anatomische-lokalisation-snomedct" />
+        <valueSet value="http://highmed.org/fhir/ValueSet/ic/probenentnahmestelle-mikrobiologischer-befund-snomedct" />
       </binding>
       <mapping>
         <identity value="v2" />
