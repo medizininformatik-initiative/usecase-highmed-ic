@@ -86,6 +86,7 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
+        <targetProfile value="http://highmed.org/fhir/StructureDefinition/ic/Specimen2" />
       </type>
     </element>
     <element id="Observation.component">

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Profile-HiGHmed-InfectionControl-Specimen" />
-  <url value="http://highmed.org/fhir/StructureDefinition/ic/Specimen" />
+  <url value="http://highmed.org/fhir/StructureDefinition/ic/Specimen2" />
   <version value="1.0.0" />
   <name value="Profile_HiGHmed_InfectionControl_Specimen_Virologischer_Befund" />
-  <title value="Profile - HiGHmed - Infection Control - Specimen" />
+  <title value="Profile - HiGHmed - Infection Control - Specimen-Virologischer_Befund" />
   <status value="active" />
   <description value="Dieses Profil beschreibt die Probe für einen Virologischen Befund in HiGHmed Projekt, Infection Control Use Case" />
   <fhirVersion value="4.0.1" />
