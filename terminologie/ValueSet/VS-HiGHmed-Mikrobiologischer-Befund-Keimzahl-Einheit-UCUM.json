@@ -21,7 +21,7 @@
                 "system": "http://unitsofmeasure.org",
                 "concept": [
                     {
-                        "code": "{CFU}/mL"
+                        "code": "[CFU]/mL"
                     },
                     {
                         "code": "[arb'U]/mL"
@@ -33,7 +33,7 @@
                         "code": "/mL"
                     },
                     {
-                        "code": "{count}"
+                        "code": "{#}"
                     }
                 ]
             }
