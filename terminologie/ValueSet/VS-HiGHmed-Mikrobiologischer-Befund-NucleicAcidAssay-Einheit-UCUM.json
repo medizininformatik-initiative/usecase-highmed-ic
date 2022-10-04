@@ -24,19 +24,19 @@
                         "code": "[arb'U]/mL"
                     },
                     {
-                        "code": "copies / mL"
+                        "code": "{copies}/mL"
                     },
                     {
-                        "code": "iU / mL"
+                        "code": "[IU]/mL"
                     },
                     {
-                        "code": "{#} / g"
+                        "code": "{#}/g"
                     },
                     {
-                        "code": "pg /mL"
+                        "code": "pg/mL"
                     },
                     {
-                        "code": "ng / mL"
+                        "code": "ng/mL"
                     }, {
                         "code": "%" 
                     }
