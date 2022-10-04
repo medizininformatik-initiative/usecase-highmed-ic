@@ -13,28 +13,28 @@
             "code": "%"
           },
           {
-            "code": "IU / mL"
+            "code": "[IU]/mL"
           },
           {
-            "code": "[arb'U] / L"
+            "code": "[arb'U]/L"
           },
           {
-            "code": "[arb'U] / mL"
+            "code": "[arb'U]/mL"
           },
           {
-            "code": "mg / L"
+            "code": "mg/L"
           },
           {
-            "code": "mg / mL"
+            "code": "mg/mL"
           },
           {
-            "code": "#"
+            "code": "{#}"
           },
           {
-            "code": "ug / mL"
+            "code": "ug/mL"
           },
           {
-            "code": "ng / mL"
+            "code": "ng/mL"
           },
           {
             "code": "{titer}"
