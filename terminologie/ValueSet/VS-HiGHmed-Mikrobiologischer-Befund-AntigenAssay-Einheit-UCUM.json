@@ -10,10 +10,10 @@
         "system": "http://unitsofmeasure.org",
         "concept": [
           {
-            "code": "ng / mL"
+            "code": "ng/mL"
           },
           {
-            "code": "[arb'U] / mL"
+            "code": "[arb'U]/mL"
           },
           {
             "code": "{titer}"
@@ -22,13 +22,13 @@
             "code": "%"
           },
           {
-            "code": "/ 10*5{PMN}"
+            "code": "/10*5{PMN}"
           },
           {
-            "code": "/ {slide}"
+            "code": "/{slide}"
           },
           {
-            "code": "[IU] / L"
+            "code": "[IU]/L"
           },
           {
             "code": "[arb'U]"
