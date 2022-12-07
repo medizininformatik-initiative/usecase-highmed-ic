@@ -8,7 +8,7 @@
     <date value="2020-04-27" />
     <description value="The CodeSystem contains the EUCAST susceptibility testing categories." />
     <caseSensitive value="false" />
-    <valueSet value="http://highmed.org/ValueSet/resistenzklassen-antiinfektiva-eucast" />
+    <valueSet value="http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast" />
     <hierarchyMeaning value="is-a" />
     <content value="complete" />
     <count value="3" />
