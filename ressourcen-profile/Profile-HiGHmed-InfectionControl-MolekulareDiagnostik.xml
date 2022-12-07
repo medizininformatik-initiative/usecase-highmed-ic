@@ -47,7 +47,6 @@
       <patternCoding>
         <system value="http://loinc.org" />
         <code value="92253-4" />
-        <display value="Microorganism identified in Isolate or Specimen by Molecular genetics method" />
       </patternCoding>
       <mustSupport value="true" />
     </element>
