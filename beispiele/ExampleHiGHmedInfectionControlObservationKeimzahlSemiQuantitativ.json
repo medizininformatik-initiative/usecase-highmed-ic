@@ -60,7 +60,7 @@
     "valueQuantity": {
         "system": "http://unitsofmeasure.org",
         "value": 0.1,
-        "code": "{CFU}/mL"
+        "code": "[CFU]/mL"
     },
     "specimen": {
         "reference": "Specimen/ExampleHiGHmedInfectionControlSpecimen"
