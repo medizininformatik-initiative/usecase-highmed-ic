@@ -2,8 +2,8 @@
     <id value="mre-klasse" />
     <url value="http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast" />
     <version value="0.1" />
-    <name value="SIR -EUCAST susceptibility testing categories" />
-    <title value="SIR -EUCAST susceptibility testing categories" />
+    <name value="SIR_EUCAST_Susceptibility_Testing_Categories" />
+    <title value="SIR-EUCAST susceptibility testing categories" />
     <status value="draft" />
     <date value="2020-04-27" />
     <description value="The CodeSystem contains the EUCAST susceptibility testing categories." />
