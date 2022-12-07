@@ -8,7 +8,7 @@
     },
     "url": "http://highmed.org/fhir/ValueSet/ic/positive-weaklypositive-negative-inconclusive-snomed",
     "version": "1.0",
-    "name": "ValueSet-Positive-Weaklypositive-Negative-Inconclusive",
+    "name": "ValueSet_Positive_WeaklyPositive_Negative_Inconclusive",
     "title": "ValueSet - ValueSet-Positive Weakly positive Negative Inconclusive",
     "status": "active",
     "experimental": false,

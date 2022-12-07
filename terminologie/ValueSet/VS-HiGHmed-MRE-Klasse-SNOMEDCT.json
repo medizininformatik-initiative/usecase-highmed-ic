@@ -8,7 +8,7 @@
   },
   "url": "http://highmed.org/fhir/ValueSet/ic/mre-klassen",
   "version": "1.0.0",
-  "name": "VS_HiGHmed_Mikrobiologischer_Befund_MRE_Klasse-LOINC-SNOMEDCT",
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_MRE_Klasse_LOINC_SNOMEDCT",
   "title": "VS HiGHmed Mikrobiologischer Befund MRE Klasse [LOINC, SNOMED CT]",
   "status": "active",
   "experimental": false,

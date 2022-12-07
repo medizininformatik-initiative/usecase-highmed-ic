@@ -4,8 +4,8 @@
     </meta>
     <url value="http://highmed.org/fhir/ValueSet/ic/resistenzklassen-antibiogramm-eucast" />
     <version value="0.9" />
-    <name value="HiGHmed Resistenzklassen Antibiogramm nach EUCAST" />
-    <title value="HighmedResistenzklassenAntibiogrammEucast"/>
+    <name value="HighmedResistenzklassenAntibiogrammEucast" />
+    <title value="HiGHmed Resistenzklassen Antibiogramm nach EUCAST"/>
     <status value="active" />
     <experimental value="true" />
     <date value="2020-03-20" />

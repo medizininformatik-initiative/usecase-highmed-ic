@@ -8,7 +8,7 @@
   },
   "url": "http://highmed.org/fhir/ValueSet/ic/LocationPhysicalType",
   "version": "1.0.0",
-  "name": "VS_HiGHmed_Mikrobiologischer_Befund_StandortTyp-HL7",
+  "name": "VS_HiGHmed_Mikrobiologischer_Befund_StandortTyp_HL7",
   "title": "VS HiGHmed Mikrobiologischer Befund Standort Typ [HL7]",
   "status": "active",
   "experimental": false,
