@@ -3,7 +3,7 @@
     "id": "ExampleHiGHmedInfectionControlObservationMreKlasse",
     "meta": {
         "profile": [
-            "http://highmed.org/StructureDefinition/MREKlasse"
+            "http://highmed.org/fhir/StructureDefinition/ic/MREKlasse"
         ]
     },
     "identifier": [
@@ -38,7 +38,7 @@
                 {
                     "system": "http://loinc.org",
                     "code": "18725-2",
-                    "display": "Microbiology Studies"
+                    "display": "Microbiology studies (set)"
                 }
             ]
         }

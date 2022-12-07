@@ -49,7 +49,7 @@
                 {
                     "system": "http://loinc.org",
                     "code": "96397-5",
-                    "display": "Microbiology - mycobacteriology studies"
+                    "display": "Microbiology - mycobacteriology studies Document"
                 }
             ]
         }
@@ -68,9 +68,9 @@
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
     "issued": "2021-05-16T08:49:21+02:00",
-    "specimen": {
+    "specimen": [{
         "reference": "Specimen/ExampleHiGHmedInfectionControlSpecimen"
-    },
+    }],
     "result": [
         {
             "reference": "Observation/ExampleHiGHmedInfectionControlObservationErregerNachweis"

@@ -38,7 +38,7 @@
                 {
                     "system": "http://loinc.org",
                     "code": "18725-2",
-                    "display": "Microbiology Studies"
+                    "display": "Microbiology studies (set)"
                 }
             ]
         }
@@ -58,16 +58,17 @@
     "valueQuantity": {
         "system": "http://unitsofmeasure.org",
         "code": "ug/mL",
+        "unit": "ug/mL",
         "value": 0.25
     },
-    "interpretation": {
+    "interpretation": [{
         "coding": [
             {
                 "system": "http://highmed.org/fhir/CodeSystem/ic/resistenzklassen-antibiogramm-eucast",
                 "code": "S"
             }
         ]
-    },
+    }],
     "specimen": {
         "reference": "Specimen/ExampleHiGHmedInfectionControlSpecimen"
     }

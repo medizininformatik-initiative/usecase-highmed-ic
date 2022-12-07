@@ -23,9 +23,9 @@
             }
         }
     ],
-    "basedOn": {
+    "basedOn": [{
         "reference": "SerivceRequest/ExampleHiGHmedInfectionControlServiceRequest"
-    },
+    }],
     "status": "final",
     "category": [
         {
@@ -61,10 +61,10 @@
     },
     "effectiveDateTime": "2021-05-16T08:49:21+02:00",
     "issued": "2021-05-16T08:49:21+02:00",
-    "specimen": {
+    "specimen": [{
         "reference": "Specimen/ExampleHiGHmedInfectionControlSpecimen"
-    },
-    "result": {
+    }],
+    "result": [{
         "reference": "Observation/ExampleHiGHmedInfectionControlObservationSerologischeDiagnostik"
-    }
+    }]
 }
