@@ -46,7 +46,7 @@
         <key value="dia-ic-highmed-1" />
         <severity value="error" />
         <human value="Microbiology LOINC Spezialisierungen dürfen nur ausgewählt werden, falls der Report als Microbiology studies kodiert wurde" />
-        <expression value="%resource.category.where(coding.code = '18725-2').exists()" />
+        <expression value="%resource.category.where(coding.where(code = '18725-2' and system = 'http://loinc.org').exists()).exists()" />
         <source value="http://highmed.org/fhir/StructureDefinition/ic/DiagnosticReportLab" />
       </constraint>
       <binding>
