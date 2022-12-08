@@ -28,6 +28,10 @@
                     {
                         "code": "29577-4",
                         "display": "Fungal susceptibility panel"
+                    },
+                    {
+                        "code": "29578-2",
+                        "display": "Viral susceptibility panel"
                     }
                 ]
             }

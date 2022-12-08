@@ -46,7 +46,7 @@
       <max value="1" />
       <mustSupport value="true" />
       <binding>
-        <strength value="preferred" />
+        <strength value="required" />
         <valueSet value="http://highmed.org/fhir/ValueSet/ic/susceptibilitypanels" />
       </binding>
     </element>
